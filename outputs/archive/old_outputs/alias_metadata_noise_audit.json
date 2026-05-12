@@ -1,0 +1,1428 @@
+{
+  "metadata_path": "data\\metadata\\document_metadata.xlsx",
+  "metadata_columns": [
+    "doc_id",
+    "title",
+    "author",
+    "publishedYear",
+    "source",
+    "referenceUrl",
+    "docType",
+    "file_path",
+    "related_taxon",
+    "related_disease",
+    "related_location",
+    "production_mode",
+    "keywords",
+    "language",
+    "note"
+  ],
+  "metadata_audit": {
+    "disease": {
+      "column": "related_disease",
+      "distinct_raw": 39,
+      "distinct_normalized": 39,
+      "top_raw": [
+        {
+          "value": "environmental impact",
+          "count": 6,
+          "is_topic_like": true
+        },
+        {
+          "value": "health management",
+          "count": 5,
+          "is_topic_like": true
+        },
+        {
+          "value": "disease risk",
+          "count": 5,
+          "is_topic_like": true
+        },
+        {
+          "value": "climate change",
+          "count": 4,
+          "is_topic_like": true
+        },
+        {
+          "value": "AHPND",
+          "count": 3,
+          "is_topic_like": false
+        },
+        {
+          "value": "fish diseases",
+          "count": 3,
+          "is_topic_like": true
+        },
+        {
+          "value": "acute hepatopancreatic necrosis disease",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "biosecurity",
+          "count": 2,
+          "is_topic_like": true
+        },
+        {
+          "value": "disease control",
+          "count": 2,
+          "is_topic_like": true
+        },
+        {
+          "value": "pathogens",
+          "count": 2,
+          "is_topic_like": true
+        },
+        {
+          "value": "animal diseases",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "aquatic animal diseases",
+          "count": 1,
+          "is_topic_like": true
+        },
+        {
+          "value": "disease prevention",
+          "count": 1,
+          "is_topic_like": true
+        },
+        {
+          "value": "vibriosis",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "infectious myonecrosis",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "IMN",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "viral disease",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "viroses",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "pathogen introduction",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "disease surveillance",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "health",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "environmental hazards",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "pathogen spread",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "ecosystem effects",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "pollution",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "ecosystem management",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "environmental risk",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "adaptation",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "antimicrobial resistance",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "AMR",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "IMNV",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "infectious myonecrosis virus",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "animal health",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "production risk",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "socio-economic impact",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "water quality",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "mangroves",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "sustainable aquaculture",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "sustainability",
+          "count": 1,
+          "is_topic_like": false
+        }
+      ],
+      "top_normalized": [
+        {
+          "normalized": "environmental impact",
+          "count": 6,
+          "examples": [
+            "environmental impact",
+            "environmental impact",
+            "environmental impact",
+            "environmental impact",
+            "environmental impact"
+          ]
+        },
+        {
+          "normalized": "health management",
+          "count": 5,
+          "examples": [
+            "health management",
+            "health management",
+            "health management",
+            "health management",
+            "health management"
+          ]
+        },
+        {
+          "normalized": "disease risk",
+          "count": 5,
+          "examples": [
+            "disease risk",
+            "disease risk",
+            "disease risk",
+            "disease risk",
+            "disease risk"
+          ]
+        },
+        {
+          "normalized": "climate change",
+          "count": 4,
+          "examples": [
+            "climate change",
+            "climate change",
+            "climate change",
+            "climate change"
+          ]
+        },
+        {
+          "normalized": "ahpnd",
+          "count": 3,
+          "examples": [
+            "AHPND",
+            "AHPND",
+            "AHPND"
+          ]
+        },
+        {
+          "normalized": "fish diseases",
+          "count": 3,
+          "examples": [
+            "fish diseases",
+            "fish diseases",
+            "fish diseases"
+          ]
+        },
+        {
+          "normalized": "acute hepatopancreatic necrosis disease",
+          "count": 2,
+          "examples": [
+            "acute hepatopancreatic necrosis disease",
+            "acute hepatopancreatic necrosis disease"
+          ]
+        },
+        {
+          "normalized": "biosecurity",
+          "count": 2,
+          "examples": [
+            "biosecurity",
+            "biosecurity"
+          ]
+        },
+        {
+          "normalized": "disease control",
+          "count": 2,
+          "examples": [
+            "disease control",
+            "disease control"
+          ]
+        },
+        {
+          "normalized": "pathogens",
+          "count": 2,
+          "examples": [
+            "pathogens",
+            "pathogens"
+          ]
+        },
+        {
+          "normalized": "animal diseases",
+          "count": 2,
+          "examples": [
+            "animal diseases",
+            "animal diseases"
+          ]
+        },
+        {
+          "normalized": "aquatic animal diseases",
+          "count": 1,
+          "examples": [
+            "aquatic animal diseases"
+          ]
+        },
+        {
+          "normalized": "disease prevention",
+          "count": 1,
+          "examples": [
+            "disease prevention"
+          ]
+        },
+        {
+          "normalized": "vibriosis",
+          "count": 1,
+          "examples": [
+            "vibriosis"
+          ]
+        },
+        {
+          "normalized": "infectious myonecrosis",
+          "count": 1,
+          "examples": [
+            "infectious myonecrosis"
+          ]
+        },
+        {
+          "normalized": "imn",
+          "count": 1,
+          "examples": [
+            "IMN"
+          ]
+        },
+        {
+          "normalized": "viral disease",
+          "count": 1,
+          "examples": [
+            "viral disease"
+          ]
+        },
+        {
+          "normalized": "viroses",
+          "count": 1,
+          "examples": [
+            "viroses"
+          ]
+        },
+        {
+          "normalized": "pathogen introduction",
+          "count": 1,
+          "examples": [
+            "pathogen introduction"
+          ]
+        },
+        {
+          "normalized": "disease surveillance",
+          "count": 1,
+          "examples": [
+            "disease surveillance"
+          ]
+        },
+        {
+          "normalized": "health",
+          "count": 1,
+          "examples": [
+            "health"
+          ]
+        },
+        {
+          "normalized": "environmental hazards",
+          "count": 1,
+          "examples": [
+            "environmental hazards"
+          ]
+        },
+        {
+          "normalized": "pathogen spread",
+          "count": 1,
+          "examples": [
+            "pathogen spread"
+          ]
+        },
+        {
+          "normalized": "ecosystem effects",
+          "count": 1,
+          "examples": [
+            "ecosystem effects"
+          ]
+        },
+        {
+          "normalized": "pollution",
+          "count": 1,
+          "examples": [
+            "pollution"
+          ]
+        },
+        {
+          "normalized": "ecosystem management",
+          "count": 1,
+          "examples": [
+            "ecosystem management"
+          ]
+        },
+        {
+          "normalized": "environmental risk",
+          "count": 1,
+          "examples": [
+            "environmental risk"
+          ]
+        },
+        {
+          "normalized": "adaptation",
+          "count": 1,
+          "examples": [
+            "adaptation"
+          ]
+        },
+        {
+          "normalized": "antimicrobial resistance",
+          "count": 1,
+          "examples": [
+            "antimicrobial resistance"
+          ]
+        },
+        {
+          "normalized": "amr",
+          "count": 1,
+          "examples": [
+            "AMR"
+          ]
+        },
+        {
+          "normalized": "imnv",
+          "count": 1,
+          "examples": [
+            "IMNV"
+          ]
+        },
+        {
+          "normalized": "infectious myonecrosis virus",
+          "count": 1,
+          "examples": [
+            "infectious myonecrosis virus"
+          ]
+        },
+        {
+          "normalized": "animal health",
+          "count": 1,
+          "examples": [
+            "animal health"
+          ]
+        },
+        {
+          "normalized": "production risk",
+          "count": 1,
+          "examples": [
+            "production risk"
+          ]
+        },
+        {
+          "normalized": "socio-economic impact",
+          "count": 1,
+          "examples": [
+            "socio-economic impact"
+          ]
+        },
+        {
+          "normalized": "water quality",
+          "count": 1,
+          "examples": [
+            "water quality"
+          ]
+        },
+        {
+          "normalized": "mangroves",
+          "count": 1,
+          "examples": [
+            "mangroves"
+          ]
+        },
+        {
+          "normalized": "sustainable aquaculture",
+          "count": 1,
+          "examples": [
+            "sustainable aquaculture"
+          ]
+        },
+        {
+          "normalized": "sustainability",
+          "count": 1,
+          "examples": [
+            "sustainability"
+          ]
+        }
+      ]
+    },
+    "species": {
+      "column": "related_taxon",
+      "distinct_raw": 22,
+      "distinct_normalized": 22,
+      "top_raw": [
+        {
+          "value": "fish",
+          "count": 24,
+          "is_topic_like": false
+        },
+        {
+          "value": "shrimp",
+          "count": 22,
+          "is_topic_like": false
+        },
+        {
+          "value": "aquatic animals",
+          "count": 13,
+          "is_topic_like": false
+        },
+        {
+          "value": "aquatic species",
+          "count": 10,
+          "is_topic_like": false
+        },
+        {
+          "value": "Penaeus vannamei",
+          "count": 6,
+          "is_topic_like": false
+        },
+        {
+          "value": "Penaeus monodon",
+          "count": 4,
+          "is_topic_like": false
+        },
+        {
+          "value": "prawns",
+          "count": 4,
+          "is_topic_like": false
+        },
+        {
+          "value": "aquatic environment",
+          "count": 4,
+          "is_topic_like": false
+        },
+        {
+          "value": "fisheries",
+          "count": 3,
+          "is_topic_like": false
+        },
+        {
+          "value": "crustaceans",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "shellfish",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "cultured shrimp",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Litopenaeus vannamei",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "white shrimp",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "brackishwater species",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Penaeus stylirostris",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "lobster",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "lobsters",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Decapoda",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "seaweed",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "aquaculture species",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "coastal species",
+          "count": 1,
+          "is_topic_like": false
+        }
+      ],
+      "top_normalized": [
+        {
+          "normalized": "fish",
+          "count": 24,
+          "examples": [
+            "fish",
+            "fish",
+            "fish",
+            "fish",
+            "fish"
+          ]
+        },
+        {
+          "normalized": "shrimp",
+          "count": 22,
+          "examples": [
+            "shrimp",
+            "shrimp",
+            "shrimp",
+            "shrimp",
+            "shrimp"
+          ]
+        },
+        {
+          "normalized": "aquatic animals",
+          "count": 13,
+          "examples": [
+            "aquatic animals",
+            "aquatic animals",
+            "aquatic animals",
+            "aquatic animals",
+            "aquatic animals"
+          ]
+        },
+        {
+          "normalized": "aquatic species",
+          "count": 10,
+          "examples": [
+            "aquatic species",
+            "aquatic species",
+            "aquatic species",
+            "aquatic species",
+            "aquatic species"
+          ]
+        },
+        {
+          "normalized": "penaeus vannamei",
+          "count": 6,
+          "examples": [
+            "Penaeus vannamei",
+            "Penaeus vannamei",
+            "Penaeus vannamei",
+            "Penaeus vannamei",
+            "Penaeus vannamei"
+          ]
+        },
+        {
+          "normalized": "penaeus monodon",
+          "count": 4,
+          "examples": [
+            "Penaeus monodon",
+            "Penaeus monodon",
+            "Penaeus monodon",
+            "Penaeus monodon"
+          ]
+        },
+        {
+          "normalized": "prawns",
+          "count": 4,
+          "examples": [
+            "prawns",
+            "prawns",
+            "prawns",
+            "prawns"
+          ]
+        },
+        {
+          "normalized": "aquatic environment",
+          "count": 4,
+          "examples": [
+            "aquatic environment",
+            "aquatic environment",
+            "aquatic environment",
+            "aquatic environment"
+          ]
+        },
+        {
+          "normalized": "fisheries",
+          "count": 3,
+          "examples": [
+            "fisheries",
+            "fisheries",
+            "fisheries"
+          ]
+        },
+        {
+          "normalized": "crustaceans",
+          "count": 2,
+          "examples": [
+            "crustaceans",
+            "crustaceans"
+          ]
+        },
+        {
+          "normalized": "shellfish",
+          "count": 2,
+          "examples": [
+            "shellfish",
+            "shellfish"
+          ]
+        },
+        {
+          "normalized": "cultured shrimp",
+          "count": 1,
+          "examples": [
+            "cultured shrimp"
+          ]
+        },
+        {
+          "normalized": "litopenaeus vannamei",
+          "count": 1,
+          "examples": [
+            "Litopenaeus vannamei"
+          ]
+        },
+        {
+          "normalized": "white shrimp",
+          "count": 1,
+          "examples": [
+            "white shrimp"
+          ]
+        },
+        {
+          "normalized": "brackishwater species",
+          "count": 1,
+          "examples": [
+            "brackishwater species"
+          ]
+        },
+        {
+          "normalized": "penaeus stylirostris",
+          "count": 1,
+          "examples": [
+            "Penaeus stylirostris"
+          ]
+        },
+        {
+          "normalized": "lobster",
+          "count": 1,
+          "examples": [
+            "lobster"
+          ]
+        },
+        {
+          "normalized": "lobsters",
+          "count": 1,
+          "examples": [
+            "lobsters"
+          ]
+        },
+        {
+          "normalized": "decapoda",
+          "count": 1,
+          "examples": [
+            "Decapoda"
+          ]
+        },
+        {
+          "normalized": "seaweed",
+          "count": 1,
+          "examples": [
+            "seaweed"
+          ]
+        },
+        {
+          "normalized": "aquaculture species",
+          "count": 1,
+          "examples": [
+            "aquaculture species"
+          ]
+        },
+        {
+          "normalized": "coastal species",
+          "count": 1,
+          "examples": [
+            "coastal species"
+          ]
+        }
+      ]
+    },
+    "location": {
+      "column": "related_location",
+      "distinct_raw": 34,
+      "distinct_normalized": 33,
+      "top_raw": [
+        {
+          "value": "Global",
+          "count": 22,
+          "is_topic_like": false
+        },
+        {
+          "value": "Asia",
+          "count": 4,
+          "is_topic_like": false
+        },
+        {
+          "value": "Bangladesh",
+          "count": 3,
+          "is_topic_like": false
+        },
+        {
+          "value": "India",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "Latin America",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "Thailand",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "Bangkok",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "Pacific",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "Vietnam",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Caribbean",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Central Asia",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Caucasus",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Kazakhstan",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Khulna",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Satkhira",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Canada",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "China",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "inland waters",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Hungary",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "global",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Europe",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "coastal areas",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "marine environment",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Uganda",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Africa",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Indian Ocean",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Southern Africa",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Azerbaijan",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Bosnia and Herzegovina",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Viet Nam",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Mekong Delta",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Bac Lieu",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Ben Tre",
+          "count": 1,
+          "is_topic_like": false
+        },
+        {
+          "value": "Ca Mau",
+          "count": 1,
+          "is_topic_like": false
+        }
+      ],
+      "top_normalized": [
+        {
+          "normalized": "global",
+          "count": 23,
+          "examples": [
+            "Global",
+            "Global",
+            "Global",
+            "Global",
+            "Global"
+          ]
+        },
+        {
+          "normalized": "asia",
+          "count": 4,
+          "examples": [
+            "Asia",
+            "Asia",
+            "Asia",
+            "Asia"
+          ]
+        },
+        {
+          "normalized": "bangladesh",
+          "count": 3,
+          "examples": [
+            "Bangladesh",
+            "Bangladesh",
+            "Bangladesh"
+          ]
+        },
+        {
+          "normalized": "india",
+          "count": 2,
+          "examples": [
+            "India",
+            "India"
+          ]
+        },
+        {
+          "normalized": "latin america",
+          "count": 2,
+          "examples": [
+            "Latin America",
+            "Latin America"
+          ]
+        },
+        {
+          "normalized": "thailand",
+          "count": 2,
+          "examples": [
+            "Thailand",
+            "Thailand"
+          ]
+        },
+        {
+          "normalized": "bangkok",
+          "count": 2,
+          "examples": [
+            "Bangkok",
+            "Bangkok"
+          ]
+        },
+        {
+          "normalized": "pacific",
+          "count": 2,
+          "examples": [
+            "Pacific",
+            "Pacific"
+          ]
+        },
+        {
+          "normalized": "vietnam",
+          "count": 1,
+          "examples": [
+            "Vietnam"
+          ]
+        },
+        {
+          "normalized": "caribbean",
+          "count": 1,
+          "examples": [
+            "Caribbean"
+          ]
+        },
+        {
+          "normalized": "central asia",
+          "count": 1,
+          "examples": [
+            "Central Asia"
+          ]
+        },
+        {
+          "normalized": "caucasus",
+          "count": 1,
+          "examples": [
+            "Caucasus"
+          ]
+        },
+        {
+          "normalized": "kazakhstan",
+          "count": 1,
+          "examples": [
+            "Kazakhstan"
+          ]
+        },
+        {
+          "normalized": "khulna",
+          "count": 1,
+          "examples": [
+            "Khulna"
+          ]
+        },
+        {
+          "normalized": "satkhira",
+          "count": 1,
+          "examples": [
+            "Satkhira"
+          ]
+        },
+        {
+          "normalized": "canada",
+          "count": 1,
+          "examples": [
+            "Canada"
+          ]
+        },
+        {
+          "normalized": "china",
+          "count": 1,
+          "examples": [
+            "China"
+          ]
+        },
+        {
+          "normalized": "inland waters",
+          "count": 1,
+          "examples": [
+            "inland waters"
+          ]
+        },
+        {
+          "normalized": "hungary",
+          "count": 1,
+          "examples": [
+            "Hungary"
+          ]
+        },
+        {
+          "normalized": "europe",
+          "count": 1,
+          "examples": [
+            "Europe"
+          ]
+        },
+        {
+          "normalized": "coastal areas",
+          "count": 1,
+          "examples": [
+            "coastal areas"
+          ]
+        },
+        {
+          "normalized": "marine environment",
+          "count": 1,
+          "examples": [
+            "marine environment"
+          ]
+        },
+        {
+          "normalized": "uganda",
+          "count": 1,
+          "examples": [
+            "Uganda"
+          ]
+        },
+        {
+          "normalized": "africa",
+          "count": 1,
+          "examples": [
+            "Africa"
+          ]
+        },
+        {
+          "normalized": "indian ocean",
+          "count": 1,
+          "examples": [
+            "Indian Ocean"
+          ]
+        },
+        {
+          "normalized": "southern africa",
+          "count": 1,
+          "examples": [
+            "Southern Africa"
+          ]
+        },
+        {
+          "normalized": "azerbaijan",
+          "count": 1,
+          "examples": [
+            "Azerbaijan"
+          ]
+        },
+        {
+          "normalized": "bosnia and herzegovina",
+          "count": 1,
+          "examples": [
+            "Bosnia and Herzegovina"
+          ]
+        },
+        {
+          "normalized": "viet nam",
+          "count": 1,
+          "examples": [
+            "Viet Nam"
+          ]
+        },
+        {
+          "normalized": "mekong delta",
+          "count": 1,
+          "examples": [
+            "Mekong Delta"
+          ]
+        },
+        {
+          "normalized": "bac lieu",
+          "count": 1,
+          "examples": [
+            "Bac Lieu"
+          ]
+        },
+        {
+          "normalized": "ben tre",
+          "count": 1,
+          "examples": [
+            "Ben Tre"
+          ]
+        },
+        {
+          "normalized": "ca mau",
+          "count": 1,
+          "examples": [
+            "Ca Mau"
+          ]
+        }
+      ]
+    },
+    "mode": {
+      "column": "production_mode",
+      "distinct_raw": 7,
+      "distinct_normalized": 7,
+      "top_raw": [
+        {
+          "value": "aquaculture",
+          "count": 27,
+          "is_topic_like": false
+        },
+        {
+          "value": "shrimp aquaculture",
+          "count": 8,
+          "is_topic_like": false
+        },
+        {
+          "value": "inland fisheries",
+          "count": 5,
+          "is_topic_like": false
+        },
+        {
+          "value": "fisheries",
+          "count": 4,
+          "is_topic_like": false
+        },
+        {
+          "value": "hatchery aquaculture",
+          "count": 3,
+          "is_topic_like": false
+        },
+        {
+          "value": "capture fisheries",
+          "count": 2,
+          "is_topic_like": false
+        },
+        {
+          "value": "coastal aquaculture",
+          "count": 1,
+          "is_topic_like": false
+        }
+      ],
+      "top_normalized": [
+        {
+          "normalized": "aquaculture",
+          "count": 27,
+          "examples": [
+            "aquaculture",
+            "aquaculture",
+            "aquaculture",
+            "aquaculture",
+            "aquaculture"
+          ]
+        },
+        {
+          "normalized": "shrimp aquaculture",
+          "count": 8,
+          "examples": [
+            "shrimp aquaculture",
+            "shrimp aquaculture",
+            "shrimp aquaculture",
+            "shrimp aquaculture",
+            "shrimp aquaculture"
+          ]
+        },
+        {
+          "normalized": "inland fisheries",
+          "count": 5,
+          "examples": [
+            "inland fisheries",
+            "inland fisheries",
+            "inland fisheries",
+            "inland fisheries",
+            "inland fisheries"
+          ]
+        },
+        {
+          "normalized": "fisheries",
+          "count": 4,
+          "examples": [
+            "fisheries",
+            "fisheries",
+            "fisheries",
+            "fisheries"
+          ]
+        },
+        {
+          "normalized": "hatchery aquaculture",
+          "count": 3,
+          "examples": [
+            "hatchery aquaculture",
+            "hatchery aquaculture",
+            "hatchery aquaculture"
+          ]
+        },
+        {
+          "normalized": "capture fisheries",
+          "count": 2,
+          "examples": [
+            "capture fisheries",
+            "capture fisheries"
+          ]
+        },
+        {
+          "normalized": "coastal aquaculture",
+          "count": 1,
+          "examples": [
+            "coastal aquaculture"
+          ]
+        }
+      ]
+    }
+  },
+  "manual_alias_audit": {
+    "disease": {
+      "alias_count_norm": 14,
+      "ambiguous_aliases": [],
+      "generic_or_topic_aliases": [
+        {
+          "alias_norm": "fish diseases",
+          "canonicals": [
+            "fish diseases"
+          ]
+        },
+        {
+          "alias_norm": "health management",
+          "canonicals": [
+            "health management"
+          ]
+        },
+        {
+          "alias_norm": "biosecurity",
+          "canonicals": [
+            "biosecurity"
+          ]
+        },
+        {
+          "alias_norm": "disease prevention",
+          "canonicals": [
+            "disease prevention"
+          ]
+        }
+      ]
+    },
+    "species": {
+      "alias_count_norm": 11,
+      "ambiguous_aliases": [],
+      "generic_or_topic_aliases": [
+        {
+          "alias_norm": "shrimp",
+          "canonicals": [
+            "shrimp"
+          ]
+        },
+        {
+          "alias_norm": "fish",
+          "canonicals": [
+            "fish"
+          ]
+        }
+      ]
+    },
+    "location": {
+      "alias_count_norm": 10,
+      "ambiguous_aliases": [],
+      "generic_or_topic_aliases": []
+    },
+    "mode": {
+      "alias_count_norm": 7,
+      "ambiguous_aliases": [],
+      "generic_or_topic_aliases": []
+    }
+  },
+  "kg_alias_ambiguity_audit": {
+    "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+    "ambiguous_aliases": {}
+  }
+}

@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:untitled-ontology-3="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ca_bop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+    <skos:altLabel xml:lang="en">Cobia</skos:altLabel>
+    <skos:altLabel xml:lang="la">Rachycentron canadum</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Cá bớp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_017">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Shrimp shape resistance trait against vibriosis by memorizing the colonization resistance of intestinal microbiota</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_017_PMC11223889.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+    <skos:altLabel xml:lang="en">Anorexia</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bỏ ăn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Immune signaling of Litopenaeus vannamei c-type lysozyme and its role during microsporidian Enterocytozoon hepatopenaei (EHP) infection</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_022_PMC11081493.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_005">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Ecytonucleospora hepatopenaei causes lipid droplet depletion and imbalanced lipid metabolism in Penaeus vannamei</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_005_PMC12552485.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibrio_parahaemolyticus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria"/>
+    <skos:altLabel xml:lang="en">Vibrio parahaemolyticus</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Vi khuẩn Vibrio parahaemolyticus</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_038">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Risk management practices of small intensive shrimp farmers in the Mekong Delta of Viet Nam</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_038_ca6702en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Vietnam"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_032">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Isolation, characterization, and pathogenicity of a Vibrio parahaemolyticus strain causing translucent post-larvae disease in Penaeus vannamei outside China</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_032_PMC12435696.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_030">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Microbial signature profiles of Penaeus vannamei larvae in low-survival hatchery tanks affected by vibriosis</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_030_PMC10476614.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Shrimp infectious myonecrosis strategy manual</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_010_ca6052en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+    <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_004_cc6858en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</untitled-ontology-3:publishedYear>
+    <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/cc6858en</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+    <untitled-ontology-3:title>The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application</untitled-ontology-3:title>
+    <skos:altLabel xml:lang="en">The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Lộ trình quản lý tiến bộ về an toàn sinh học trong nuôi trồng thủy sản: Hướng dẫn áp dụng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_033">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Delineating virulence of Vibrio campbellii: a predominant luminescent bacterial pathogen in Indian shrimp hatcheries</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_033_PMC8339124.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#isFoundIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_010">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>A Review of the Functional Annotations of Important Genes in the AHPND-Causing pVA1 Plasmid</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_010_PMC7409025.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+    <skos:altLabel xml:lang="en">Improve aeration</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Tăng sục khí</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_033">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>FAO Reference Centres for Antimicrobial Resistance and Aquaculture Biosecurity. Combating AMR together: ensuring healthy and safe aquatic foods</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_033_cc6625en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_039">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_039_ad893e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_002">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Shrimp farm biosecurity in Saudi Arabia: A journey from past practices to future vision</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/NACA_002_1749824700.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_025">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Occurrence of viral pathogens in Penaeus monodon post-larvae from aquaculture hatcheries</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_025_PMC4510448.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Report of the Ninth Session of the Central Asian and Caucasus Regional Fisheries and Aquaculture Commission, Almaty, Kazakhstan, 25–26 November 2025</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_007_cd8164en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BIOLOGY_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Characterization and Expression Analysis of the C-Type Lectin Ladderlectin in Litopenaeus vannamei Post-WSSV Infection</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/BIOLOGY_001_biology13100758.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Surveillance and zoning for aquatic animal diseases</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_013_y5325e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasSymptom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bivalve">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:author>Tang, K.F.J.; Bondad-Reantaso, M.G.; Arthur, J.R.; Mohan, B.; Hao, B.; Alday-Sanz, V.; Liang, Y.; Dong, X.</untitled-ontology-3:author>
+    <untitled-ontology-3:docType>Manual / Guide</untitled-ontology-3:docType>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_001_cb2119en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</untitled-ontology-3:publishedYear>
+    <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/cb2119en</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+    <untitled-ontology-3:title>Shrimp acute hepatopancreatic necrosis disease strategy manual</untitled-ontology-3:title>
+    <skos:altLabel xml:lang="en">Shrimp acute hepatopancreatic necrosis disease strategy manual</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Sổ tay chiến lược phòng chống bệnh hoại tử gan tụy cấp trên tôm</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_028">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Climate Change Adaptation in Fisheries and Aquaculture. Compilation of initial examples</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_028_i3569e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_013">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Innovative use of squid (Loligo spp.) ink powder as a potent immunostimulant for vannamei shrimp (Litopenaeus vannamei) in the treatment of infectious myonecrosis</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_013_PMC12825151.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_044">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Report of the FAO/MARD Technical Workshop on Early Mortality Syndrome (EMS) or Acute Hepatopancreatic Necrosis Syndrome (AHPNS) of Cultured Shrimp</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_044_i2734e03i.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Vietnam"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Enterocytozoon hepatopenaei Infection in Shrimp: Diagnosis, Interventions, and Food Safety Guidelines</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_001_PMC10820212.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>FAO Second International Technical Seminar/Workshop on Acute hepatopancreatic necrosis disease (AHPND), Bangkok, Thailand 23–25 June 2016</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_006_bt131e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Survey and evaluation of water qualities. A field guide for managers of inland fisheries and fish farms</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_017_ca7588en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_031">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Translating the Guidelines for Sustainable Aquaculture into action. Policy brief</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_031_cd8563en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_i3720e">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>The State of World Fisheries and Aquaculture 2024 – Blue Transformation in action</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_042_i3720e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ViralDisease"/>
+    <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature"/>
+    <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality"/>
+    <untitled-ontology-3:causedBy rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WSSV"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpot"/>
+    <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity"/>
+    <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed"/>
+    <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration"/>
+    <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange"/>
+    <untitled-ontology-3:description>Mô tả bệnh đốm trắng</untitled-ontology-3:description>
+    <untitled-ontology-3:diseaseCode>WSSV</untitled-ontology-3:diseaseCode>
+    <untitled-ontology-3:referenceUrl>Sổ tay bệnh tôm – 2020</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:severityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-3:severityLevel>
+    <skos:altLabel xml:lang="en">WSD</skos:altLabel>
+    <skos:altLabel>White spot disease</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh đốm trắng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+    <skos:altLabel xml:lang="en">Water exchange</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Thay nước</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_026">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Las bolitas Syndrome in Penaeus vannamei Hatcheries in Latin America</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_026_PMC11205452.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_035">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Advanced Pathogen Monitoring in Penaeus vannamei from Three Latin American Regions: Passive Surveillance Part 2</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_035_PMC11861540.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#affectsTaxon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasDisease"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Impacts of climate change on fisheries and aquaculture. Synthesis of current knowledge, adaptation and mitigation options</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_029_i9705en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+    <skos:altLabel xml:lang="en">Poor water quality</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Chất lượng nước kém</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_008">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Investigation of the Protective Effect of Probiotic Lactobacillus plantarum Ep-M17 on the Hepatopancreas of Penaeus vannamei</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_008_PMC11611405.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Acute hepatopancreatic necrosis disease (AHPND)) and hepatopancreatic microsporidiosis (HPM)): Two threats to sustainable shrimp aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_001_DharAK2021.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bệnh_Perkinsus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PerkinsusDisease"/>
+    <skos:altLabel xml:lang="en">Perkinsosis</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh Perkinsus</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease"/>
+    <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature"/>
+    <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality"/>
+    <untitled-ontology-3:causedBy rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibrio_parahaemolyticus"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#GanTuyBatThuong"/>
+    <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy"/>
+    <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity"/>
+    <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed"/>
+    <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration"/>
+    <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange"/>
+    <untitled-ontology-3:description>Mô tả bệnh hoại tử gan tụy cấp</untitled-ontology-3:description>
+    <untitled-ontology-3:diseaseCode>AHPND</untitled-ontology-3:diseaseCode>
+    <untitled-ontology-3:referenceUrl>Sổ tay bệnh tôm – 2020</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:severityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-3:severityLevel>
+    <skos:altLabel xml:lang="en">AHPND</skos:altLabel>
+    <skos:altLabel xml:lang="en">Acute Hepatopancreatic Necrosis Disease</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh hoại tử gan tụy cấp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:author>FAO Fisheries and Aquaculture Management Division</untitled-ontology-3:author>
+    <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_002_a1152e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</untitled-ontology-3:publishedYear>
+    <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/a1152e</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+    <untitled-ontology-3:title>Improving Penaeus monodon hatchery practices. Manual based on experience in India.</untitled-ontology-3:title>
+    <skos:altLabel xml:lang="en">Improving Penaeus monodon hatchery practices. Manual based on experience in India.</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Hướng dẫn cải thiện thực hành trại giống tôm sú dựa trên kinh nghiệm tại Ấn Độ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_012">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Diagnosis and potential treatments for acute hepatopancreatic necrosis disease (AHPND): a review</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_012_PMC7223513.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Status, technological innovations, and industry development needs of mud crab (Scylla spp.) aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/NACA_001_1737869839.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_019">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Isolation and Characterization of Specific Phages to Prepare a Cocktail Preventing Vibrio sp. Va-F3 Infections in Shrimp (Litopenaeus vannamei)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_019_PMC6797625.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Environmental management and environmental impact assessment in aquaculture: Training Workshop for aquaculture managers. Entebbe, Uganda</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_025_a0366e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_014">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Immune response, gene expression, and intestinal microbial composition of Pacific white shrimp fed with multispecies synbiotic for the prevention of coinfected disease</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_014_PMC9531857.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Report of the fifteenth meeting of the Asia Regional Advisory Group on Aquatic Animal Health, 21-23 November 2016</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/NACA_003_1494554353.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Vietnam"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_024">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Immunostimulants for shrimp aquaculture: paving pathway towards shrimp sustainability</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_024_PMC9139878.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+    <skos:altLabel xml:lang="en">Lethargy</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Lờ đờ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+    <skos:altLabel xml:lang="en">Pacific white shrimp</skos:altLabel>
+    <skos:altLabel xml:lang="en">Penaeus vannamei</skos:altLabel>
+    <skos:altLabel xml:lang="en">Litopenaeus vannamei</skos:altLabel>
+    <skos:altLabel xml:lang="en">white shrimp</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Tôm thẻ chân trắng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vung_bien_mien_Trung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Central Coast Sea of Vietnam</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Vùng biển miền Trung</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_043">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Boosting biosecurity in Peru’s shrimp farming industry for sustainable livelihoods</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_043_boosting_biosecurity_peru.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_006">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Microbial community characterization of shrimp survivors to AHPND challenge test treated with an effective shrimp probiotic (Vibrio diabolicus)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_006_PMC8042889.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_007">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Draft genome sequence of Vibrio parahaemolyticus strain PH1339, which causes acute hepatopancreatic necrosis disease in shrimp in the Philippines</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_007_Penir2019.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#severityLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aqua-kg#India">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">India</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ấn Độ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Oc_huong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Gastropod"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FootRotDisease"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+    <skos:altLabel xml:lang="la">Babylonia areolata</skos:altLabel>
+    <skos:altLabel xml:lang="en">Spotted babylon</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ốc hương</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#causedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCTS_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Các bệnh thường gặp trên tôm nước lợ và biện pháp phòng chống hiệu quả</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/TCTS_001_024286.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Vietnam"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Asia diagnostic guide to aquatic animal diseases</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_009_y1679e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+    <skos:altLabel xml:lang="en">High temperature</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Nhiệt độ cao</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ViralDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FootRotDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease"/>
+    <skos:altLabel xml:lang="en">Foot rot disease</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh thối chân</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_036">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Microbiome of Penaeus vannamei Larvae and Potential Biomarkers Associated With High and Low Survival in Shrimp Hatchery Tanks Affected by Acute Hepatopancreatic Necrosis Disease</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_036_PMC9125206.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_015">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Kiam wood, Cotylelobium lanceotatum, extract as a natural antimicrobial agent: protecting Pacific white shrimp, Penaeus vannamei, against vibriosis</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_015_PMC12006376.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_006">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_006_Apostol2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Environmental impact assessment and monitoring in aquaculture. Requirements, practices, effectiveness and improvements</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_023_i0970e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Phu Yen coastal waters</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ven biển Phú Yên</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#IJMS_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Integrin β Regulates the Hepatopancreas Antiviral Innate Immune System by Affecting the Expression of Antimicrobial Peptides in Penaeus vannamei</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/IJMS_001_ijms26178478.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutTaxon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_031">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Vibrios Associated with Litopenaeus vannamei Larvae, Postlarvae, Broodstock, and Hatchery Probiotics</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_031_PMC91383.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_009">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Characterization of Microbiome Diversity in the Digestive Tract of Penaeus vannamei Fed with Probiotics and Challenged with Vibrio parahaemolyticus Acute Hepatopancreatic Necrosis Disease</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_009_PMC12030750.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Ninh Thuan coastal waters</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ven biển Ninh Thuận</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WSSV">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus"/>
+    <skos:altLabel xml:lang="en">WSSV</skos:altLabel>
+    <skos:altLabel xml:lang="en">White Spot Syndrome Virus</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Virus đốm trắng (WSSV)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#LifeStage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_016">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Passive Immune-Protection of Litopenaeus vannamei against Vibrio harveyi and Vibrio parahaemolyticus Infections with Anti-Vibrio Egg Yolk (IgY)-Encapsulated Feed</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_016_PMC4815145.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_008">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Current status and impact of early mortality syndrome (EMS)/acute hepatopancreatic necrosis disease (AHPND) and hepatopancreatic microsporidiosis (HPM) outbreaks on Thailand’s shrimp farming</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_008_Putth2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_003">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Important diseases and practical control measures in shrimp culture in Japan</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_003_Yuasa2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Water quality and fish health</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_018_t1623e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Risk Analysis for Movements of Live Aquatic Animals. An introductory training course</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_020_i2571e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_014">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>GLOBEFISH Quarterly Lobster Analysis - February 2026</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_014_cd8658en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aqua-kg#Latin_America">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Latin America</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Mỹ Latin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_biosecurity_philippines">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Biosecurity in Aquaculture: Philippines</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_042_biosecurity_philippines.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_021">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>The emerging pathogen Enterocytozoon hepatopenaei drives a degenerative cyclic pattern in the hepatopancreas microbiome of the shrimp (Penaeus vannamei)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_021_PMC9427843.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_032">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Future pathways for aquaculture and fisheries development in Azerbaijan</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_032_cd8633en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Aquaculture Environmental Impact Assessment</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_026_br813e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4acf29cdda63466788f915b885c2f4d7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nee20c8d0c60144249cb46dafc500e1ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_011">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Current status of acute hepatopancreatic necrosis disease (AHPND) of farmed shrimp in Malaysia</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_011_Kua2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_028">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Microbiome of Pacific Whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_028_PMC5603525.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Quantification of Enterocytozoon hepatopenaei (EHP) in Penaeid Shrimps from Southeast Asia and Latin America Using TaqMan Probe-Based Quantitative PCR</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_002_PMC6963587.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aqua-kg#Global">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Global</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Toàn cầu</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Brackishwater Shrimp Culture Demonstration in Bangladesh - BOBP/REP/35</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_011_ad824e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Gastropod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#referenceUrl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_034">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>A survey of national emergency preparedness and response (EPR) systems. FAO Project TCP/INT/3501: Strengthening biosecurity governance and capacities for dealing with the serious shrimp infectious myonecrosis virus (IMNV) disease</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_034_ca2705en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Strengthening aquaculture health management in Bosnia and Herzegovina</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_036_i1137e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>A review on molecular detection techniques of white spot syndrome virus: Perspectives of problems and solutions in shrimp farming</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_023_PMC10229113.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_034">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Genome Characterization and Infectivity Potential of Vibriophage-φLV6 with Lytic Activity against Luminescent Vibrios of Penaeus vannamei Shrimp Aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_034_PMC10141217.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:hasProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vung_bien_mien_Trung"/>
+    <skos:altLabel xml:lang="en">Black Tiger Prawn</skos:altLabel>
+    <skos:altLabel xml:lang="la">Penaeus monodon</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Tôm sú</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+    <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_005_y5040e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</untitled-ontology-3:publishedYear>
+    <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/y5040e</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+    <untitled-ontology-3:title>Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America</untitled-ontology-3:title>
+    <skos:altLabel xml:lang="en">Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Quản lý sức khỏe và duy trì an toàn sinh học trong trại giống tôm thẻ chân trắng (Penaeus vannamei) ở Mỹ Latinh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_018">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Transcriptomic insights into the resistance mechanism of Penaeus vannamei against highly lethal Vibrio parahaemolyticus</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_018_PMC12008197.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_004">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Advocating preventive measures that inhibit early mortality syndrome in shrimps</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_004_sp15-3.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_010">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Latest research on acute hepatopancreatic necrosis disease (AHPND) of penaeid shrimps</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_010_Hirono2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Guidelines for Sustainable Aquaculture: Communications handbook and toolkit</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_021_cd8667en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_003">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Ecytonucleospora hepatopenaei (EHP) disease prevalence and mortality in Litopenaeus vannamei: a comparative study from Eastern India shrimp farms</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_003_PMC11657822.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_009">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Current status of acute hepatopancreatic necrosis disease (AHPND) and other transboundary diseases of farmed shrimps in Indonesia</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_009_Hastuti2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+    <skos:altLabel xml:lang="en">White spot</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Đốm trắng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#diseaseCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_029">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Selection of Lactic Acid Bacteria (LAB) Antagonizing Vibrio parahaemolyticus: The Pathogen of Acute Hepatopancreatic Necrosis Disease (AHPND) in Whiteleg Shrimp (Penaeus vannamei)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_029_PMC6955853.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Vietnam"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+    <untitled-ontology-3:docType>Technical book</untitled-ontology-3:docType>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_003_ca2976en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</untitled-ontology-3:publishedYear>
+    <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/ca2976en</untitled-ontology-3:referenceUrl>
+    <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+    <untitled-ontology-3:title>Special Publication on Acute Hepatopancreatic Necrosis Disease (AHPND)</untitled-ontology-3:title>
+    <skos:altLabel xml:lang="en">Special Publication on Acute Hepatopancreatic Necrosis Disease (AHPND)</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ấn phẩm chuyên đề về bệnh hoại tử gan tụy cấp (AHPND)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>An assessment of impacts from shrimp aquaculture in Bangladesh and prospects for improvement</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_040_i8064en.pdf</untitled-ontology-3:filePath>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_011">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Structural Insights into the Cytotoxic Mechanism of Vibrio parahaemolyticus PirAvp and PirBvp Toxins</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_011_PMC5742833.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>FAO species catalogue. Vol.13. Marine lobsters of the world. An annotated and illustrated catalogue of marine lobsters known to date</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_015_t0411e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bien_Dong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">East Sea</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Biển Đông</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Lobster"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#MilkyDisease"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+    <skos:altLabel xml:lang="en">Ornate spiny lobster</skos:altLabel>
+    <skos:altLabel xml:lang="la">Panulirus ornatus</skos:altLabel>
+    <skos:altLabel xml:lang="en">lobster</skos:altLabel>
+    <skos:altLabel xml:lang="en">tom hum</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Tôm hùm bông</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentalParameter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#scientificName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_020">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Dynamic Interplay of Metabolic and Transcriptional Responses in Shrimp during Early and Late Infection Stages of Enterocytozoon hepatopenaei (EHP)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_020_PMC10701378.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#mentions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Coastal area</skos:altLabel>
+    <skos:altLabel xml:lang="en">coastal areas</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ven biển</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_002">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Status of transboundary diseases of penaeid shrimps in Singapore</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_002_Wong2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Strengthening Capacity for Dealing with Shrimp Infectious Myonecrosis Virus Disease - TCP/INT/3501</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_045_ca6163en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Health management in Asian aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_035_w3594e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aqua-kg#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/TCKHTS_001.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_007">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Effects of Feed Mixed with Lactic Acid Bacteria and Carbon, Nitrogen, Phosphorus Supplied to the Water on the Growth and Survival Rate of White Leg Shrimp (Penaeus vannamei) Infected with Acute Hepatopancreatic Necrosis Disease Caused by Vibrio parahaemolyticus</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_007_PMC8067269.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_041">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Guidelines for Sustainable Aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_041_cd3785en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasProductionMode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+    <skos:altLabel xml:lang="en">Use SPF seed</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Giống sạch bệnh (SPF)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#externalId">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aqua-kg#Vietnam">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Vietnam</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">VIệt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Hau_Thai_Binh_Duong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bivalve"/>
+    <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bệnh_Perkinsus"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+    <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+    <skos:altLabel xml:lang="la">Crassostrea gigas</skos:altLabel>
+    <skos:altLabel xml:lang="en">Pacific oyster</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Hàu Thái Bình Dương</skos:prefLabel>
+    <skos:prefLabel xml:lang="vi">Hàu sữa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee20c8d0c60144249cb46dafc500e1ab">
+    <rdf:first rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria"/>
+    <rdf:rest rdf:nodeID="N322aeff308f048c8b3ac7f178e5679b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Aquaculture development. 4. Ecosystem approach to aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_022_i1750e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_005">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Status of shrimp health management in Myanmar</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/SEAFDEC_005_WahSLP2016.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#docType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N929f762b0dee4576adfc142c2e21f921">
+    <rdf:first rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Parasite"/>
+    <rdf:rest rdf:nodeID="Nc995b378e8ca418cb8d91a942e49e2c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#publishedYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <skos:altLabel xml:lang="en">Khanh Hoa coastal waters</skos:altLabel>
+    <skos:altLabel xml:lang="en">khanh hoa</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Ven biển Khánh Hòa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Aquaculture Adaptation Framework for Climate Change (Aqua-Adapt)</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_027_cd6476en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Emergence of decapod hepanhamaparvovirus genotype V and its co-infection with Enterocytozoon hepatopenaei in cultured Penaeus vannamei in Thailand: Evidence from epidemiological, pathogenicity, and microbiome analyses</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_027_PMC12745081.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#GanTuyBatThuong">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+    <skos:prefLabel xml:lang="vi">Gan tụy bất thường</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_004">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Differential regulation of the eicosanoid biosynthesis pathway in response to Enterocytozoon hepatopenaei infection in Litopenaeus vannamei</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PMC_004_PMC12128546.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Preventing and managing aquatic animal disease risks in aquaculture through a progressive management pathway</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_037_na265en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PLOS_001">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>PmVRP15, a Novel Viral Responsive Protein from the Black Tiger Shrimp, Penaeus monodon, Promoted White Spot Syndrome Virus Replication</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/PLOS_001_pone.0091930.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+    <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#MilkyDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease"/>
+    <skos:altLabel xml:lang="en">Milky disease</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh sữa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Aquaculture development. 13. Guidelines for ex situ in vitro gene banking of aquatic genetic resources</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_016_cd7559en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_024">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Reducing environmental impacts of coastal aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_024_u3100e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PerkinsusDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedTreatment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease"/>
+    <skos:altLabel xml:lang="en">Vibriosis</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">Bệnh vi khuẩn Vibrio</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+    <skos:altLabel xml:lang="en">Biosecurity</skos:altLabel>
+    <skos:prefLabel xml:lang="vi">An toàn sinh học</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc995b378e8ca418cb8d91a942e49e2c7">
+    <rdf:first rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Lobster">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_012">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Introductions and movement of Penaeus vannamei and Penaeus stylirostris in Asia and the Pacific</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_012_ad505e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Understanding and applying risk analysis in aquaculture</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_019_i0490e.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+    <skos:altLabel>Aquaculture</skos:altLabel>
+    <skos:altLabel xml:lang="en">shrimp aquaculture</skos:altLabel>
+    <skos:altLabel xml:lang="en">hatchery aquaculture</skos:altLabel>
+    <skos:prefLabel>Nuôi trồng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WildCapture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+    <skos:altLabel>Wild capture</skos:altLabel>
+    <skos:prefLabel>Khai thác</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#documentProductionMode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#regionCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#filePath">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedPrevention">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#associatedWithFactor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutLocation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N322aeff308f048c8b3ac7f178e5679b4">
+    <rdf:first rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fungus"/>
+    <rdf:rest rdf:nodeID="N929f762b0dee4576adfc142c2e21f921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fungus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008">
+    <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    <untitled-ontology-3:title>Low water exchange shrimp farming: improvements in Thailand</untitled-ontology-3:title>
+    <untitled-ontology-3:filePath>data/raw_docs/FAO_008_cb8926en.pdf</untitled-ontology-3:filePath>
+    <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Parasite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ScientificPaper">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+  </rdf:Description>
+</rdf:RDF>

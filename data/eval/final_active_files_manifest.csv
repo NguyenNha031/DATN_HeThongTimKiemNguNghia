@@ -1,0 +1,38 @@
+category,path,role,supervisor_handoff,notes
+query,data/eval/final_query_set_core.csv,source_of_truth,yes,28 query core; SoT cho evaluation core
+query,data/eval/final_query_set.csv,archive_optional,no,Bản rộng/legacy; không dùng cho metric core đã chốt
+query,data/eval/final_query_set_extended.csv,archive_optional,no,Mở rộng ngoài core
+query,data/eval/final_query_set_notes.md,documentation,optional,Ghi chú định nghĩa query set
+judgment,data/eval/relevance_judgments_core.csv,source_of_truth,yes,SoT nhãn relevance cho core
+judgment,data/eval/relevance_guidelines_core.md,documentation,optional,Hướng dẫn chấm
+judgment,data/eval/relevance_judgments_core_summary.md,documentation,optional,Tóm tắt judgments
+retrieval,data/eval/results/baseline_lexical_core.csv,source_of_truth,yes,Output BM25 core; 280 rows
+retrieval,data/eval/results/baseline_vector_core.csv,source_of_truth,yes,Output vector core
+retrieval,data/eval/results/baseline_vector_metadata_core.csv,source_of_truth,yes,Output vector+metadata core
+retrieval,data/eval/results/baseline_ontology_sparql_core.csv,source_of_truth,yes,Output KG/SPARQL core
+retrieval,data/eval/results/baseline_hybrid_core.csv,source_of_truth,yes,Output hybrid core (post final iteration)
+retrieval,data/eval/results/results_generation_notes.md,documentation,yes,Mô tả pipeline bước 3
+metrics,data/eval/metrics/baseline_metrics_summary.csv,derived,yes,Macro metrics; num_queries=28
+metrics,data/eval/metrics/baseline_metrics_per_query.csv,derived,yes,Per-query metrics
+metrics,data/eval/metrics/baseline_metrics_by_group.csv,derived,optional,Theo nhóm query
+metrics,data/eval/metrics/metrics_notes.md,documentation,yes,SoT quy ước metric + latency
+metrics,data/eval/metrics/compute_core_metrics.py,script,yes,Script tính metric từ CSV trên
+timing,data/eval/metrics/baseline_latency_summary.csv,derived,yes,Tóm tắt độ trễ theo baseline
+timing,data/eval/metrics/baseline_latency_per_query.csv,derived,yes,Độ trễ theo query
+timing,measure_core_baseline_latency.py,script,yes,Project root; đo wall-clock bước 7
+analysis,data/eval/analysis/final_technical_iteration_report.md,documentation,yes,Báo cáo vòng kỹ thuật cuối (hybrid)
+analysis,data/eval/analysis/error_analysis_and_final_improvement_plan.md,documentation,optional,Phân tích bổ trợ
+analysis,data/eval/analysis/query_failure_buckets.csv,supporting_data,optional,Phân loại lỗi
+analysis,data/eval/analysis/baseline_strengths_by_group.csv,supporting_data,optional,So sánh theo nhóm
+freeze,data/eval/final_freeze_report.md,documentation,yes,Báo cáo chốt freeze bước 9
+freeze,data/eval/final_active_files_manifest.csv,documentation,yes,Danh mục file active (file này)
+ontology_metadata,data/ontology/taxon_enriched_facts_v2.owl,source_of_truth,yes,Ontology runtime (verify load)
+ontology_metadata,data/metadata/document_metadata_cleaned.xlsx,source_of_truth,yes,Metadata pipeline eval
+ontology_metadata,data/ontology/mapping_report.csv,supporting_data,optional,Chi tiết map field→KG
+runtime,outputs/kg_runtime_verification.json,derived,yes,Tái tạo bằng verify_kg_runtime.py
+script,run_core_baselines.py,script,yes,Regen baseline_*_core.csv
+script,hybrid_search.py,script,yes,Hybrid + entity pipeline
+script,vector_search.py,script,yes,Vector index load/search
+script,kg_runtime.py,script,yes,KG load/index/score
+script,verify_kg_runtime.py,script,yes,Verify + JSON report
+index,vector_store/,supporting_data,yes,Cần để reproduce retrieval (FAISS + BM25 meta)

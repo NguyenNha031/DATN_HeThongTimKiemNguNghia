@@ -1,0 +1,91 @@
+﻿field_type,raw_value,normalized_value,occurrence_count,currently_mapped,suggested_target_entity_uri,suggested_target_label,confidence,evidence_source
+species,fish,fish,24,False,,,low,mapping_report
+species,shrimp,shrimp,22,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang,Tôm thẻ chân trắng,high,mapping_report
+species,aquatic animals,aquatic animals,13,False,,,low,mapping_report
+species,aquatic species,aquatic species,10,False,,,low,mapping_report
+mode,shrimp aquaculture,shrimp aquaculture,8,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture,Nuôi trồng,high,mapping_report
+species,Penaeus vannamei,penaeus vannamei,6,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang,Tôm thẻ chân trắng,high,mapping_report
+disease,environmental impact,environmental impact,6,False,,,low,mapping_report
+disease,disease risk,disease risk,5,False,,,low,mapping_report
+disease,health management,health management,5,False,,,low,mapping_report
+mode,inland fisheries,inland fisheries,5,False,,,low,mapping_report
+disease,climate change,climate change,4,False,,,low,mapping_report
+location,Asia,asia,4,False,,,low,mapping_report
+mode,fisheries,fisheries,4,False,,,low,mapping_report
+species,aquatic environment,aquatic environment,4,False,,,low,mapping_report
+species,prawns,prawns,4,False,,,low,mapping_report
+mode,hatchery aquaculture,hatchery aquaculture,3,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture,Nuôi trồng,high,mapping_report
+disease,fish diseases,fish diseases,3,False,,,low,mapping_report
+location,Bangladesh,bangladesh,3,False,,,low,mapping_report
+species,fisheries,fisheries,3,False,,,low,mapping_report
+location,khanh hoa,khanh hoa,2,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa,Ven biển Khánh Hòa,high,verification
+disease,animal diseases,animal diseases,2,False,,,low,mapping_report
+disease,biosecurity,biosecurity,2,False,,,low,mapping_report
+disease,disease control,disease control,2,False,,,low,mapping_report
+disease,pathogens,pathogens,2,False,,,low,mapping_report
+location,Bangkok,bangkok,2,False,,,low,mapping_report
+location,Pacific,pacific,2,False,,,low,mapping_report
+location,Thailand,thailand,2,False,,,low,mapping_report
+mode,capture fisheries,capture fisheries,2,False,,,low,mapping_report
+species,crustaceans,crustaceans,2,False,,,low,mapping_report
+species,shellfish,shellfish,2,False,,,low,mapping_report
+location,coastal areas,coastal areas,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien,Ven biển,high,mapping_report
+species,Litopenaeus vannamei,litopenaeus vannamei,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang,Tôm thẻ chân trắng,high,mapping_report
+species,lobster,lobster,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong,Tôm hùm bông,high,mapping_report
+species,tom,tom,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su,Tôm sú,high,verification
+species,tom hum,tom hum,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong,Tôm hùm bông,high,verification
+species,white shrimp,white shrimp,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang,Tôm thẻ chân trắng,high,mapping_report
+mode,coastal aquaculture,coastal aquaculture,1,False,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture,Nuôi trồng,medium,mapping_report
+disease,adaptation,adaptation,1,False,,,low,mapping_report
+disease,AMR,amr,1,False,,,low,mapping_report
+disease,animal health,animal health,1,False,,,low,mapping_report
+disease,antimicrobial resistance,antimicrobial resistance,1,False,,,low,mapping_report
+disease,aquatic animal diseases,aquatic animal diseases,1,False,,,low,mapping_report
+disease,disease prevention,disease prevention,1,False,,,low,mapping_report
+disease,disease surveillance,disease surveillance,1,False,,,low,mapping_report
+disease,ecosystem effects,ecosystem effects,1,False,,,low,mapping_report
+disease,ecosystem management,ecosystem management,1,False,,,low,mapping_report
+disease,environmental hazards,environmental hazards,1,False,,,low,mapping_report
+disease,environmental risk,environmental risk,1,False,,,low,mapping_report
+disease,health,health,1,False,,,low,mapping_report
+disease,IMN,imn,1,False,,,low,mapping_report
+disease,IMNV,imnv,1,False,,,low,mapping_report
+disease,infectious myonecrosis,infectious myonecrosis,1,False,,,low,mapping_report
+disease,infectious myonecrosis virus,infectious myonecrosis virus,1,False,,,low,mapping_report
+disease,mangroves,mangroves,1,False,,,low,mapping_report
+disease,pathogen introduction,pathogen introduction,1,False,,,low,mapping_report
+disease,pathogen spread,pathogen spread,1,False,,,low,mapping_report
+disease,pollution,pollution,1,False,,,low,mapping_report
+disease,production risk,production risk,1,False,,,low,mapping_report
+location,Africa,africa,1,False,,,low,mapping_report
+location,Azerbaijan,azerbaijan,1,False,,,low,mapping_report
+location,Bac Lieu,bac lieu,1,False,,,low,mapping_report
+location,Ben Tre,ben tre,1,False,,,low,mapping_report
+location,Bosnia and Herzegovina,bosnia and herzegovina,1,False,,,low,mapping_report
+location,Ca Mau,ca mau,1,False,,,low,mapping_report
+location,Canada,canada,1,False,,,low,mapping_report
+location,Caribbean,caribbean,1,False,,,low,mapping_report
+location,Caucasus,caucasus,1,False,,,low,mapping_report
+location,Central Asia,central asia,1,False,,,low,mapping_report
+location,China,china,1,False,,,low,mapping_report
+location,Europe,europe,1,False,,,low,mapping_report
+location,Hungary,hungary,1,False,,,low,mapping_report
+location,Indian Ocean,indian ocean,1,False,http://example.org/aqua-kg#India,Ấn Độ,low,mapping_report
+location,inland waters,inland waters,1,False,,,low,mapping_report
+location,Kazakhstan,kazakhstan,1,False,,,low,mapping_report
+location,Khulna,khulna,1,False,,,low,mapping_report
+location,marine environment,marine environment,1,False,,,low,mapping_report
+location,Mekong Delta,mekong delta,1,False,,,low,mapping_report
+location,Satkhira,satkhira,1,False,,,low,mapping_report
+location,Southern Africa,southern africa,1,False,,,low,mapping_report
+location,Uganda,uganda,1,False,,,low,mapping_report
+mode,hatchery,hatchery,1,False,,,low,verification
+mode,trai giong,trai giong,1,False,,,low,verification
+species,aquaculture species,aquaculture species,1,False,,,low,mapping_report
+species,brackishwater species,brackishwater species,1,False,,,low,mapping_report
+species,coastal species,coastal species,1,False,,,low,mapping_report
+species,cultured shrimp,cultured shrimp,1,False,,,low,mapping_report
+species,Decapoda,decapoda,1,False,,,low,mapping_report
+species,lobsters,lobsters,1,False,,,low,mapping_report
+species,Penaeus stylirostris,penaeus stylirostris,1,False,,,low,mapping_report
+species,seaweed,seaweed,1,False,,,low,mapping_report

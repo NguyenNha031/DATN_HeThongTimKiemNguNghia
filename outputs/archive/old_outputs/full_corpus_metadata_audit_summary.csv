@@ -1,0 +1,2 @@
+total_pdf_files_in_raw_docs,total_metadata_rows,total_distinct_doc_id,dup_doc_id_count,dup_file_path_count,pdf_without_metadata_count,metadata_without_pdf_count,metadata_rows_missing_pdf,top_noise_disease_terms,top_generic_taxon_terms,top_generic_mode_terms
+100,100,99,1,0,0,0,0,,shrimp(72); fish(24); aquatic animals(14); aquatic species(10); prawns(4),aquaculture(29); fisheries(4)

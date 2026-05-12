@@ -1,0 +1,1692 @@
+{
+  "metadata_file": "data\\metadata\\document_metadata_cleaned.xlsx",
+  "backup": "data\\metadata\\document_metadata_cleaned.xlsx.bak_20260401_201203",
+  "changed_items": 84,
+  "changes_sample": [
+    {
+      "type": "doc_id_fix",
+      "row_index": 40,
+      "old_doc_id": "FAO_042",
+      "new_doc_id": "FAO_042_i3720e",
+      "file_path": "data/raw_docs/FAO_042_i3720e.pdf",
+      "reason": "duplicate doc_id resolved by basename-derived id"
+    },
+    {
+      "type": "doc_id_fix",
+      "row_index": 59,
+      "old_doc_id": "FAO_042",
+      "new_doc_id": "FAO_042_biosecurity_philippines",
+      "file_path": "data/raw_docs/FAO_042_biosecurity_philippines.pdf",
+      "reason": "duplicate doc_id resolved by basename-derived id"
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 1,
+      "doc_id": "FAO_002",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "Penaeus monodon; shrimp",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "Penaeus monodon; shrimp hatchery; hatchery productivity; health management; biosecurity; aquaculture; India"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "Penaeus monodon; shrimp",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "Penaeus monodon; shrimp hatchery; hatchery productivity; health management; biosecurity; aquaculture; India"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 3,
+      "doc_id": "FAO_004",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; pathogens; health hazards; risk analysis; risk management; biosecurity; surveillance systems; disease outbreaks; disease prevention; disease eradication; guidelines; aquatic animal diseases"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; pathogens; health hazards; risk analysis; risk management; biosecurity; surveillance systems; disease outbreaks; disease prevention; disease eradication; guidelines; aquatic animal diseases"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 4,
+      "doc_id": "FAO_005",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "Latin America; Caribbean",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "Penaeus vannamei; biosecurity; shrimp fisheries; Latin America; Caribbean; hatchery; health management"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "Latin America; Caribbean",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "Penaeus vannamei; biosecurity; shrimp fisheries; Latin America; Caribbean; hatchery; health management"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 6,
+      "doc_id": "FAO_007",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish; aquatic species",
+        "related_location": "Central Asia; Caucasus; Kazakhstan",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "sustainable fisheries; aquaculture development; fishery data; data collection; safety at work; occupational health; regional planning; CACFish"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish; aquatic species",
+        "related_location": "Central Asia; Caucasus; Kazakhstan",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "sustainable fisheries; aquaculture development; fishery data; data collection; safety at work; occupational health; regional planning; CACFish"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 7,
+      "doc_id": "FAO_008",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp; crustaceans",
+        "related_location": "Thailand; Bangkok",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "crustacean culture; water circulation; pond culture; disease control; good practices; Thailand; pathogens"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp; crustaceans",
+        "related_location": "Thailand; Bangkok",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "crustacean culture; water circulation; pond culture; disease control; good practices; Thailand; pathogens"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 8,
+      "doc_id": "FAO_009",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; crustaceans",
+        "related_location": "Asia",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "animal diseases; animal health; aquaculture; aquatic animals; Asia; diagnosis; fish diseases"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; crustaceans",
+        "related_location": "Asia",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "animal diseases; animal health; aquaculture; aquatic animals; Asia; diagnosis; fish diseases"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 10,
+      "doc_id": "FAO_011",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp",
+        "related_location": "Bangladesh; Khulna; Satkhira",
+        "production_mode": "aquaculture",
+        "keywords": "artisanal fisheries; Asia; Bangladesh; fish culture; fisheries; health management; brackishwater species"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp",
+        "related_location": "Bangladesh; Khulna; Satkhira",
+        "production_mode": "aquaculture",
+        "keywords": "artisanal fisheries; Asia; Bangladesh; fish culture; fisheries; health management; brackishwater species"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 11,
+      "doc_id": "FAO_012",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "Penaeus vannamei; Penaeus stylirostris; shrimp",
+        "related_location": "Asia; Pacific",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "crustacean culture; animal introduction; Penaeus stylirostris; biodiversity; viroses; fishery production; Penaeus monodon; fish diseases; trade; statistical data; Asia and the Pacific; imports; Penaeus vannamei; prawns and shrimps; disease risk; pathogen introduction"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "Penaeus vannamei; Penaeus stylirostris; shrimp",
+        "related_location": "Asia; Pacific",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "crustacean culture; animal introduction; Penaeus stylirostris; biodiversity; viroses; fishery production; Penaeus monodon; fish diseases; trade; statistical data; Asia and the Pacific; imports; Penaeus vannamei; prawns and shrimps; disease risk; pathogen introduction"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 12,
+      "doc_id": "FAO_013",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish",
+        "related_location": "Global",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "animal health; aquaculture; disease surveillance; risk assessment; animal diseases"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish",
+        "related_location": "Global",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "animal health; aquaculture; disease surveillance; risk assessment; animal diseases"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 13,
+      "doc_id": "FAO_014",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "lobster",
+        "related_location": "Canada; China; Global",
+        "production_mode": "capture fisheries",
+        "keywords": "lobster; trade analysis; exports; market trends; fisheries economics; Canada; China; international trade"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "lobster",
+        "related_location": "Canada; China; Global",
+        "production_mode": "capture fisheries",
+        "keywords": "lobster; trade analysis; exports; market trends; fisheries economics; Canada; China; international trade"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 14,
+      "doc_id": "FAO_015",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "lobster",
+        "related_location": "Global",
+        "production_mode": "capture fisheries",
+        "keywords": "lobsters; Decapoda; fisheries biology; habitats; identification; geographical distribution; nomenclature; species; taxonomy"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "lobster",
+        "related_location": "Global",
+        "production_mode": "capture fisheries",
+        "keywords": "lobsters; Decapoda; fisheries biology; habitats; identification; geographical distribution; nomenclature; species; taxonomy"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 15,
+      "doc_id": "FAO_016",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish; shellfish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture development; aquatic genetic resources; ex situ conservation; in vitro culture; gene banks; biosecurity; cryopreservation; protocols; seaweed"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish; shellfish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture development; aquatic genetic resources; ex situ conservation; in vitro culture; gene banks; biosecurity; cryopreservation; protocols; seaweed"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 16,
+      "doc_id": "FAO_017",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish; aquatic animals",
+        "related_location": "inland waters; Hungary; Global",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "inland fisheries; fish farms; inland waters; water quality; chemicophysical properties; abiotic factors; biotic factors; meteorology; impact assessment; fish culture; evaluation; surveys"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish; aquatic animals",
+        "related_location": "inland waters; Hungary; Global",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "inland fisheries; fish farms; inland waters; water quality; chemicophysical properties; abiotic factors; biotic factors; meteorology; impact assessment; fish culture; evaluation; surveys"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 17,
+      "doc_id": "FAO_018",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish; aquatic animals",
+        "related_location": "Europe",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "water quality; fish health; aquatic environment; toxicology; water pollution; disease risk; environmental stress; fish culture; fish diseases; health"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish; aquatic animals",
+        "related_location": "Europe",
+        "production_mode": "inland fisheries; aquaculture",
+        "keywords": "water quality; fish health; aquatic environment; toxicology; water pollution; disease risk; environmental stress; fish culture; fish diseases; health"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 18,
+      "doc_id": "FAO_019",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; risk analysis; risk factors; environmental impact; pathogens; invasive species; genetic impacts; food safety; sustainability; decision making; disease risk; environmental hazards"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; risk analysis; risk factors; environmental impact; pathogens; invasive species; genetic impacts; food safety; sustainability; decision making; disease risk; environmental hazards"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 19,
+      "doc_id": "FAO_020",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; risk analysis; biosecurity; disease transmission; pathogen risk; import risk analysis; risk assessment; risk management; risk communication; disease risk; pathogen spread"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; risk analysis; biosecurity; disease transmission; pathogen risk; import risk analysis; risk assessment; risk management; risk communication; disease risk; pathogen spread"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 20,
+      "doc_id": "FAO_021",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "sustainable aquaculture; guidelines; communication; stakeholders; digital technology; food security; livelihoods; ecosystem restoration; climate resilience; governance"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "sustainable aquaculture; guidelines; communication; stakeholders; digital technology; food security; livelihoods; ecosystem restoration; climate resilience; governance"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 21,
+      "doc_id": "FAO_022",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; ecosystem approach; environmental management; sustainability; ecosystem integration; governance; management; policy; sustainable development"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; ecosystem approach; environmental management; sustainability; ecosystem integration; governance; management; policy; sustainable development"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 22,
+      "doc_id": "FAO_023",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental impact assessment; monitoring; aquatic environment; sustainability; risk analysis; ecosystem management; environmental policy; impact assessment; environmental impact; ecosystem effects; aquaculture species"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental impact assessment; monitoring; aquatic environment; sustainability; risk analysis; ecosystem management; environmental policy; impact assessment; environmental impact; ecosystem effects; aquaculture species"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 23,
+      "doc_id": "FAO_024",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "nan",
+        "related_location": "coastal areas; marine environment",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental protection; coastal aquaculture; pollution; ecosystem impact; sustainability; environmental management; mitigation; environmental impact; aquatic environment; coastal species"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "",
+        "related_location": "coastal areas; marine environment",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental protection; coastal aquaculture; pollution; ecosystem impact; sustainability; environmental management; mitigation; environmental impact; aquatic environment; coastal species"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 24,
+      "doc_id": "FAO_025",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish",
+        "related_location": "Uganda; Africa",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental management; environmental impact assessment; EIA; training; sustainability; ecosystem management; policy implementation; environmental impact; aquatic environment"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish",
+        "related_location": "Uganda; Africa",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental management; environmental impact assessment; EIA; training; sustainability; ecosystem management; policy implementation; environmental impact; aquatic environment"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 25,
+      "doc_id": "FAO_026",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish",
+        "related_location": "Indian Ocean; Southern Africa",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental impact assessment; EIA; environmental monitoring; fishery production; food security; fisheries management; action plans; environmental impact; aquatic environment"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish",
+        "related_location": "Indian Ocean; Southern Africa",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; environmental impact assessment; EIA; environmental monitoring; fishery production; food security; fisheries management; action plans; environmental impact; aquatic environment"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 26,
+      "doc_id": "FAO_027",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish; shellfish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; climate change adaptation; resilience; risk reduction; vulnerability assessment; adaptation strategies; climate resilience; cost-benefit analysis; monitoring; climate change; environmental risk"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish; shellfish",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; climate change adaptation; resilience; risk reduction; vulnerability assessment; adaptation strategies; climate resilience; cost-benefit analysis; monitoring; climate change; environmental risk"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 27,
+      "doc_id": "FAO_028",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture; fisheries",
+        "keywords": "aquaculture; fisheries; climate change adaptation; resilience; case studies; mitigation strategies; coastal management; capacity building; climate change; adaptation"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture; fisheries",
+        "keywords": "aquaculture; fisheries; climate change adaptation; resilience; case studies; mitigation strategies; coastal management; capacity building; climate change; adaptation"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 28,
+      "doc_id": "FAO_029",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture; fisheries",
+        "keywords": "aquaculture; fisheries; climate change; environmental factors; adaptation; mitigation; climate change adaptation; risk; sustainability; food security; environmental impact"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Global",
+        "production_mode": "aquaculture; fisheries",
+        "keywords": "aquaculture; fisheries; climate change; environmental factors; adaptation; mitigation; climate change adaptation; risk; sustainability; food security; environmental impact"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 29,
+      "doc_id": "FAO_031",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture production; sustainable development; economic development; guidelines; best practices; innovation adoption; knowledge sharing; policy implementation"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture production; sustainable development; economic development; guidelines; best practices; innovation adoption; knowledge sharing; policy implementation"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 30,
+      "doc_id": "FAO_032",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Azerbaijan",
+        "production_mode": "fisheries; aquaculture",
+        "keywords": "aquaculture development; fisheries development; governance; economic diversification; rural livelihoods; food security; sustainable development; policy planning; fisheries"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish",
+        "related_location": "Azerbaijan",
+        "production_mode": "fisheries; aquaculture",
+        "keywords": "aquaculture development; fisheries development; governance; economic diversification; rural livelihoods; food security; sustainable development; policy planning; fisheries"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 31,
+      "doc_id": "FAO_033",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; antimicrobial resistance; AMR; biosecurity; disease control; research institutions; food safety; aquatic health"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; antimicrobial resistance; AMR; biosecurity; disease control; research institutions; food safety; aquatic health"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 33,
+      "doc_id": "FAO_035",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Asia; Pacific",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; animal health; disease control; fish diseases; quarantine; diagnosis; training; regulations; aquaculture techniques; environmental impact; health management"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Asia; Pacific",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; animal health; disease control; fish diseases; quarantine; diagnosis; training; regulations; aquaculture techniques; environmental impact; health management"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 34,
+      "doc_id": "FAO_036",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish",
+        "related_location": "Bosnia and Herzegovina",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; health management; disease control; surveillance; policy implementation; food safety; aquaculture development; governance; animal health"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish",
+        "related_location": "Bosnia and Herzegovina",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; health management; disease control; surveillance; policy implementation; food safety; aquaculture development; governance; animal health"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 35,
+      "doc_id": "FAO_037",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; disease risk management; biosecurity; progressive management pathway; disease prevention; policy discussion; risk analysis; governance; disease risk; pathogens"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic animals; fish; shrimp",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "aquaculture; disease risk management; biosecurity; progressive management pathway; disease prevention; policy discussion; risk analysis; governance; disease risk; pathogens"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 36,
+      "doc_id": "FAO_038",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "Vietnam; Mekong Delta; Bac Lieu; Ben Tre; Ca Mau",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "aquaculture; shrimp farming; risk management; small-scale farming; intensive farming; economic risk; sustainable development; rural livelihoods; production practices; production risk; disease risk"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "Vietnam; Mekong Delta; Bac Lieu; Ben Tre; Ca Mau",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "aquaculture; shrimp farming; risk management; small-scale farming; intensive farming; economic risk; sustainable development; rural livelihoods; production practices; production risk; disease risk"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 37,
+      "doc_id": "FAO_039",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp; prawns",
+        "related_location": "India; Bangladesh",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "small-scale aquaculture; hatcheries; shrimp culture; prawn culture; technology transfer; training; production; fisheries; Asia; health management"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp; prawns",
+        "related_location": "India; Bangladesh",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "small-scale aquaculture; hatcheries; shrimp culture; prawn culture; technology transfer; training; production; fisheries; Asia; health management"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 38,
+      "doc_id": "FAO_040",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp; prawns",
+        "related_location": "Bangladesh",
+        "production_mode": "coastal aquaculture",
+        "keywords": "aquaculture; coastal fisheries; fish culture; fisheries development; shrimp production; environmental impact; mangroves; fishery management; socio-economic environment; socio-economic impact; water quality"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp; prawns",
+        "related_location": "Bangladesh",
+        "production_mode": "coastal aquaculture",
+        "keywords": "aquaculture; coastal fisheries; fish culture; fisheries development; shrimp production; environmental impact; mangroves; fishery management; socio-economic environment; socio-economic impact; water quality"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 39,
+      "doc_id": "FAO_041",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "aquatic species",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "sustainable aquaculture; governance; legal frameworks; planning; ecosystem management; biodiversity conservation; genetic resources; biosecurity; social protection; gender equality; value chains; market access; trade; capacity development; monitoring; data collection; data analysis"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "aquatic species",
+        "related_location": "Global",
+        "production_mode": "aquaculture",
+        "keywords": "sustainable aquaculture; governance; legal frameworks; planning; ecosystem management; biodiversity conservation; genetic resources; biosecurity; social protection; gender equality; value chains; market access; trade; capacity development; monitoring; data collection; data analysis"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 40,
+      "doc_id": "FAO_042_i3720e",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "fish; aquatic species",
+        "related_location": "Global",
+        "production_mode": "fisheries; aquaculture",
+        "keywords": "fishery production; aquaculture production; fishery resources; fish trade; sustainable fisheries; fishery management; value chains; climate change; blue transformation; sustainability"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "fish; aquatic species",
+        "related_location": "Global",
+        "production_mode": "fisheries; aquaculture",
+        "keywords": "fishery production; aquaculture production; fishery resources; fish trade; sustainable fisheries; fishery management; value chains; climate change; blue transformation; sustainability"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 41,
+      "doc_id": "NACA_001",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "mud crab; Scylla spp.",
+        "related_location": "Singapore; Global",
+        "production_mode": "aquaculture",
+        "keywords": "mud crab; Scylla spp.; aquaculture; crab farming; hatchery; seedstock; farming systems; value chain; marketing; industry development"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "mud crab; Scylla spp.",
+        "related_location": "Singapore; Global",
+        "production_mode": "aquaculture",
+        "keywords": "mud crab; Scylla spp.; aquaculture; crab farming; hatchery; seedstock; farming systems; value chain; marketing; industry development"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 42,
+      "doc_id": "NACA_002",
+      "before": {
+        "related_disease": "white spot syndrome",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "Saudi Arabia",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; biosecurity; Saudi Arabia; shrimp aquaculture; disease monitoring; hatchery; white spot syndrome; broodstock; marine shrimp production"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "Saudi Arabia",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; biosecurity; Saudi Arabia; shrimp aquaculture; disease monitoring; hatchery; white spot syndrome; broodstock; marine shrimp production"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 43,
+      "doc_id": "NACA_003",
+      "before": {
+        "related_disease": "white spot syndrome virus; yellow head virus; infectious myonecrosis virus; acute hepatopancreatic necrosis disease",
+        "related_taxon": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+        "related_location": "Australia; China; India; Indonesia; Malaysia; Philippines; Thailand; Viet Nam",
+        "production_mode": "aquaculture",
+        "keywords": "aquatic animal health; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs; disease reporting; biosecurity; AHPND; WSSV"
+      },
+      "after": {
+        "related_disease": "WSSV; yellow head virus; IMN; AHPND",
+        "related_taxon": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+        "related_location": "Australia; China; India; Indonesia; Malaysia; Philippines; Thailand; Vietnam",
+        "production_mode": "aquaculture",
+        "keywords": "aquatic animal health; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs; disease reporting; biosecurity; AHPND; WSSV"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 44,
+      "doc_id": "TCTS_001",
+      "before": {
+        "related_disease": "white spot disease; WSD; WSSV",
+        "related_taxon": "shrimp; Penaeus monodon; Litopenaeus vannamei",
+        "related_location": "Viet Nam",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp disease; white spot disease; WSD; WSSV; Penaeus monodon; Litopenaeus vannamei; disease prevention; biosecurity; shrimp aquaculture; Viet Nam"
+      },
+      "after": {
+        "related_disease": "WSSV; WSD",
+        "related_taxon": "shrimp; Penaeus monodon; Penaeus vannamei",
+        "related_location": "Vietnam",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp disease; white spot disease; WSD; WSSV; Penaeus monodon; Litopenaeus vannamei; disease prevention; biosecurity; shrimp aquaculture; Viet Nam"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 45,
+      "doc_id": "IJMS_001",
+      "before": {
+        "related_disease": "WSSV; white spot syndrome virus",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; WSSV; white spot syndrome virus; innate immunity; integrin beta; antimicrobial peptides; hepatopancreas; viral infection; shrimp disease"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; WSSV; white spot syndrome virus; innate immunity; integrin beta; antimicrobial peptides; hepatopancreas; viral infection; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 46,
+      "doc_id": "BIOLOGY_001",
+      "before": {
+        "related_disease": "WSSV; white spot syndrome virus",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Litopenaeus vannamei; shrimp; WSSV; white spot syndrome virus; C-type lectin; ladderlectin; innate immunity; viral infection; RNAi; shrimp disease"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Litopenaeus vannamei; shrimp; WSSV; white spot syndrome virus; C-type lectin; ladderlectin; innate immunity; viral infection; RNAi; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 47,
+      "doc_id": "PLOS_001",
+      "before": {
+        "related_disease": "WSSV; white spot syndrome virus",
+        "related_taxon": "Penaeus monodon; black tiger shrimp; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Penaeus monodon; black tiger shrimp; shrimp; WSSV; white spot syndrome virus; viral replication; antiviral response; immune response; hemocytes; shrimp disease"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "Penaeus monodon; black tiger shrimp; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Penaeus monodon; black tiger shrimp; shrimp; WSSV; white spot syndrome virus; viral replication; antiviral response; immune response; hemocytes; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 48,
+      "doc_id": "SEAFDEC_001",
+      "before": {
+        "related_disease": "AHPND; HPM; EHP",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; acute hepatopancreatic necrosis disease; HPM; hepatopancreatic microsporidiosis; EHP; shrimp disease; Vibrio; shrimp aquaculture; disease management"
+      },
+      "after": {
+        "related_disease": "AHPND; HPM; EHP",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; acute hepatopancreatic necrosis disease; HPM; hepatopancreatic microsporidiosis; EHP; shrimp disease; Vibrio; shrimp aquaculture; disease management"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 54,
+      "doc_id": "SEAFDEC_007",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "Philippines",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Penaeus vannamei; shrimp; AHPND; Vibrio parahaemolyticus; genome sequence; bacterial toxin; PirA; PirB; shrimp disease; Philippines"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "Philippines",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "Penaeus vannamei; shrimp; AHPND; Vibrio parahaemolyticus; genome sequence; bacterial toxin; PirA; PirB; shrimp disease; Philippines"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 57,
+      "doc_id": "SEAFDEC_010",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "penaeid shrimp; Penaeus vannamei",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; penaeid shrimp; PirA; PirB; toxin; shrimp disease; pathogen; aquaculture"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "penaeid shrimp; Penaeus vannamei",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; penaeid shrimp; PirA; PirB; toxin; shrimp disease; pathogen; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 59,
+      "doc_id": "FAO_042_biosecurity_philippines",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp",
+        "related_location": "Philippines",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; biosecurity; aquaculture; disease prevention; shrimp farming; pathogen control; hatchery; risk management; Philippines; aquatic health"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp",
+        "related_location": "Philippines",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; biosecurity; aquaculture; disease prevention; shrimp farming; pathogen control; hatchery; risk management; Philippines; aquatic health"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 60,
+      "doc_id": "FAO_043",
+      "before": {
+        "related_disease": "nan",
+        "related_taxon": "shrimp",
+        "related_location": "Peru",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; biosecurity; aquaculture; Peru; shrimp farming; disease prevention; sustainable livelihoods; FAO; aquaculture health; risk management"
+      },
+      "after": {
+        "related_disease": "",
+        "related_taxon": "shrimp",
+        "related_location": "Peru",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; biosecurity; aquaculture; Peru; shrimp farming; disease prevention; sustainable livelihoods; FAO; aquaculture health; risk management"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 61,
+      "doc_id": "TCKHTS_001",
+      "before": {
+        "related_disease": "WSSV; AHPND; EHP; bacterial spore",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; WSSV; AHPND; EHP; bacterial spore; on-sand farming; Hà Tĩnh; water environment; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "WSSV; AHPND; EHP; bacterial spore",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; WSSV; AHPND; EHP; bacterial spore; on-sand farming; Hà Tĩnh; water environment; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 62,
+      "doc_id": "FAO_044",
+      "before": {
+        "related_disease": "EMS; AHPNS; AHPND",
+        "related_taxon": "cultured shrimp; shrimp",
+        "related_location": "Hà Nội; Việt Nam",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; EMS; AHPNS; AHPND; cultured shrimp; technical workshop; disease management; biosecurity; Viet Nam; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "EMS; AHPNS; AHPND",
+        "related_taxon": "shrimp",
+        "related_location": "Hà Nội; Vietnam",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; EMS; AHPNS; AHPND; cultured shrimp; technical workshop; disease management; biosecurity; Viet Nam; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 63,
+      "doc_id": "FAO_045",
+      "before": {
+        "related_disease": "IMNV; infectious myonecrosis virus disease",
+        "related_taxon": "prawns and shrimps; shrimp",
+        "related_location": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; IMNV; infectious myonecrosis virus disease; biosecurity; animal disease; disease control; capacity building; shrimp aquaculture; emergency preparedness; surveillance"
+      },
+      "after": {
+        "related_disease": "IMN",
+        "related_taxon": "prawns and shrimps; shrimp",
+        "related_location": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; IMNV; infectious myonecrosis virus disease; biosecurity; animal disease; disease control; capacity building; shrimp aquaculture; emergency preparedness; surveillance"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 64,
+      "doc_id": "PMC_001",
+      "before": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei; HPM",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; EHP; Enterocytozoon hepatopenaei; HPM; diagnosis; interventions; food safety; biosecurity; shrimp disease; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei; HPM",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; EHP; Enterocytozoon hepatopenaei; HPM; diagnosis; interventions; food safety; biosecurity; shrimp disease; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 66,
+      "doc_id": "PMC_003",
+      "before": {
+        "related_disease": "EHP; Ecytonucleospora hepatopenaei",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "India",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Ecytonucleospora hepatopenaei; mortality; prevalence; gut bacteria; pathogen detection; shrimp disease; India"
+      },
+      "after": {
+        "related_disease": "EHP; Ecytonucleospora hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "India",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Ecytonucleospora hepatopenaei; mortality; prevalence; gut bacteria; pathogen detection; shrimp disease; India"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 67,
+      "doc_id": "PMC_004",
+      "before": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; eicosanoid biosynthesis; host response; pathogen interaction; shrimp disease; PLOS ONE; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; eicosanoid biosynthesis; host response; pathogen interaction; shrimp disease; PLOS ONE; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 68,
+      "doc_id": "PMC_005",
+      "before": {
+        "related_disease": "EHP; Ecytonucleospora hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; EHP; Ecytonucleospora hepatopenaei; lipid metabolism; lipid droplet; growth retardation; shrimp disease; host-pathogen interaction; Scientific Reports"
+      },
+      "after": {
+        "related_disease": "EHP; Ecytonucleospora hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; EHP; Ecytonucleospora hepatopenaei; lipid metabolism; lipid droplet; growth retardation; shrimp disease; host-pathogen interaction; Scientific Reports"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 69,
+      "doc_id": "PMC_006",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; probiotic; Vibrio diabolicus; microbiome; gut microbiota; shrimp disease; pathogen control; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; probiotic; Vibrio diabolicus; microbiome; gut microbiota; shrimp disease; pathogen control; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 70,
+      "doc_id": "PMC_007",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; white leg shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; white leg shrimp; AHPND; Vibrio parahaemolyticus; lactic acid bacteria; probiotic; growth; survival; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei; white leg shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; white leg shrimp; AHPND; Vibrio parahaemolyticus; lactic acid bacteria; probiotic; growth; survival; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 71,
+      "doc_id": "PMC_008",
+      "before": {
+        "related_disease": "Vibrio parahaemolyticus; AHPND",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Vibrio parahaemolyticus; AHPND; probiotic; Lactobacillus plantarum; hepatopancreas; immune response; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "vibriosis; AHPND",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Vibrio parahaemolyticus; AHPND; probiotic; Lactobacillus plantarum; hepatopancreas; immune response; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 72,
+      "doc_id": "PMC_009",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; AHPND; Vibrio parahaemolyticus; probiotics; microbiome; digestive tract; pathogen challenge; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; AHPND; Vibrio parahaemolyticus; probiotics; microbiome; digestive tract; pathogen challenge; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 73,
+      "doc_id": "PMC_010",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; pVA1 plasmid; PirA; PirB; virulence genes; plasmid; pathogen; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; pVA1 plasmid; PirA; PirB; virulence genes; plasmid; pathogen; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 74,
+      "doc_id": "PMC_011",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; AHPND; Vibrio parahaemolyticus; PirAvp; PirBvp; toxin; cytotoxic mechanism; virulence; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; AHPND; Vibrio parahaemolyticus; PirAvp; PirBvp; toxin; cytotoxic mechanism; virulence; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 75,
+      "doc_id": "PMC_012",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; diagnosis; treatment; review; PirA; PirB; shrimp disease; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; AHPND; Vibrio parahaemolyticus; diagnosis; treatment; review; PirA; PirB; shrimp disease; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 76,
+      "doc_id": "PMC_013",
+      "before": {
+        "related_disease": "IMNV; infectious myonecrosis",
+        "related_taxon": "Litopenaeus vannamei; vannamei shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; IMNV; infectious myonecrosis; immunostimulant; squid ink; Loligo spp.; treatment; shrimp disease; shrimp aquaculture"
+      },
+      "after": {
+        "related_disease": "IMN",
+        "related_taxon": "Penaeus vannamei; vannamei shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; IMNV; infectious myonecrosis; immunostimulant; squid ink; Loligo spp.; treatment; shrimp disease; shrimp aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 77,
+      "doc_id": "PMC_014",
+      "before": {
+        "related_disease": "IMNV; Vibrio parahaemolyticus",
+        "related_taxon": "Pacific white shrimp; Litopenaeus vannamei",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; Pacific white shrimp; IMNV; Vibrio parahaemolyticus; synbiotic; immune response; gene expression; intestinal microbiota; shrimp disease"
+      },
+      "after": {
+        "related_disease": "IMN; vibriosis",
+        "related_taxon": "Pacific white shrimp; Penaeus vannamei",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; Pacific white shrimp; IMNV; Vibrio parahaemolyticus; synbiotic; immune response; gene expression; intestinal microbiota; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 78,
+      "doc_id": "PMC_015",
+      "before": {
+        "related_disease": "vibriosis; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; Pacific white shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Pacific white shrimp; vibriosis; Vibrio parahaemolyticus; antimicrobial; plant extract; immune response; survival; shrimp disease"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; Pacific white shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Pacific white shrimp; vibriosis; Vibrio parahaemolyticus; antimicrobial; plant extract; immune response; survival; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 79,
+      "doc_id": "PMC_016",
+      "before": {
+        "related_disease": "Vibrio harveyi; Vibrio parahaemolyticus; vibriosis",
+        "related_taxon": "Litopenaeus vannamei; white shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; white shrimp; Vibrio harveyi; Vibrio parahaemolyticus; vibriosis; passive immunization; IgY; antimicrobial feed; shrimp disease"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; white shrimp; Vibrio harveyi; Vibrio parahaemolyticus; vibriosis; passive immunization; IgY; antimicrobial feed; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 80,
+      "doc_id": "PMC_017",
+      "before": {
+        "related_disease": "vibriosis; Vibrio parahaemolyticus",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; vibriosis; Vibrio parahaemolyticus; intestinal microbiota; colonization resistance; disease resistance; host-microbiome interaction; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; vibriosis; Vibrio parahaemolyticus; intestinal microbiota; colonization resistance; disease resistance; host-microbiome interaction; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 81,
+      "doc_id": "PMC_018",
+      "before": {
+        "related_disease": "highly lethal Vibrio parahaemolyticus; vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Vibrio parahaemolyticus; vibriosis; transcriptome; disease resistance; immune response; pathogen invasion; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; Vibrio parahaemolyticus; vibriosis; transcriptome; disease resistance; immune response; pathogen invasion; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 82,
+      "doc_id": "PMC_019",
+      "before": {
+        "related_disease": "vibriosis; Vibrio sp. Va-F3",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; vibriosis; Vibrio; phage therapy; bacteriophage cocktail; pathogen control; shrimp disease; aquaculture; Frontiers in Microbiology"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; vibriosis; Vibrio; phage therapy; bacteriophage cocktail; pathogen control; shrimp disease; aquaculture; Frontiers in Microbiology"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 83,
+      "doc_id": "PMC_020",
+      "before": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; transcriptomics; metabolism; host-pathogen interaction; infection stage; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; transcriptomics; metabolism; host-pathogen interaction; infection stage; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 84,
+      "doc_id": "PMC_021",
+      "before": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; EHP; Enterocytozoon hepatopenaei; hepatopancreas; microbiome; gut microbiota; pathogen interaction; shrimp disease; aquaculture"
+      },
+      "after": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; EHP; Enterocytozoon hepatopenaei; hepatopancreas; microbiome; gut microbiota; pathogen interaction; shrimp disease; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 85,
+      "doc_id": "PMC_022",
+      "before": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Litopenaeus vannamei; shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; c-type lysozyme; immune signaling; antifungal activity; spore germination; shrimp disease; PLOS Pathogens"
+      },
+      "after": {
+        "related_disease": "EHP; Enterocytozoon hepatopenaei",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; EHP; Enterocytozoon hepatopenaei; c-type lysozyme; immune signaling; antifungal activity; spore germination; shrimp disease; PLOS Pathogens"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 86,
+      "doc_id": "PMC_023",
+      "before": {
+        "related_disease": "WSSV; white spot syndrome virus",
+        "related_taxon": "shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; WSSV; white spot syndrome virus; molecular detection; diagnosis; transmission; biosecurity; shrimp disease; pathogen detection; aquaculture"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; WSSV; white spot syndrome virus; molecular detection; diagnosis; transmission; biosecurity; shrimp disease; pathogen detection; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 87,
+      "doc_id": "PMC_024",
+      "before": {
+        "related_disease": "WSSV",
+        "related_taxon": "shrimp; Penaeus monodon; Macrobrachium rosenbergii",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; immunostimulants; shrimp aquaculture; WSSV; white spot disease; disease prevention; immune response; shrimp health; sustainability; aquaculture"
+      },
+      "after": {
+        "related_disease": "WSSV",
+        "related_taxon": "shrimp; Penaeus monodon; Macrobrachium rosenbergii",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; immunostimulants; shrimp aquaculture; WSSV; white spot disease; disease prevention; immune response; shrimp health; sustainability; aquaculture"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 91,
+      "doc_id": "PMC_028",
+      "before": {
+        "related_disease": "AHPND; EMS",
+        "related_taxon": "Litopenaeus vannamei; Pacific whiteleg shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; Pacific whiteleg shrimp; AHPND; EMS; microbiome; bacterial community; outbreak; hepatopancreas; intestine; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; EMS",
+        "related_taxon": "Penaeus vannamei; Pacific whiteleg shrimp",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; Pacific whiteleg shrimp; AHPND; EMS; microbiome; bacterial community; outbreak; hepatopancreas; intestine; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 92,
+      "doc_id": "PMC_029",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; whiteleg shrimp",
+        "related_location": "nan",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; whiteleg shrimp; AHPND; Vibrio parahaemolyticus; lactic acid bacteria; LAB; probiotic; pathogen antagonism; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei",
+        "related_location": "",
+        "production_mode": "shrimp aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; whiteleg shrimp; AHPND; Vibrio parahaemolyticus; lactic acid bacteria; LAB; probiotic; pathogen antagonism; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 93,
+      "doc_id": "PMC_030",
+      "before": {
+        "related_disease": "vibriosis; AHPND; zoea 2 syndrome",
+        "related_taxon": "Penaeus vannamei; larvae; shrimp",
+        "related_location": "nan",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; larvae; hatchery; vibriosis; AHPND; zoea 2 syndrome; microbiome; low survival; shrimp disease"
+      },
+      "after": {
+        "related_disease": "vibriosis; AHPND; zoea 2 syndrome",
+        "related_taxon": "Penaeus vannamei; larvae; shrimp",
+        "related_location": "",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; larvae; hatchery; vibriosis; AHPND; zoea 2 syndrome; microbiome; low survival; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 94,
+      "doc_id": "PMC_031",
+      "before": {
+        "related_disease": "vibriosis; Vibrio harveyi; Vibrio alginolyticus; Vibrio parahaemolyticus",
+        "related_taxon": "Litopenaeus vannamei; larvae; postlarvae; broodstock; shrimp",
+        "related_location": "Ecuador; Mexico",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; larvae; postlarvae; broodstock; hatchery; vibriosis; Vibrio harveyi; Vibrio alginolyticus; Vibrio parahaemolyticus; probiotics"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; larvae; postlarvae; broodstock; shrimp",
+        "related_location": "Ecuador; Mexico",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Litopenaeus vannamei; larvae; postlarvae; broodstock; hatchery; vibriosis; Vibrio harveyi; Vibrio alginolyticus; Vibrio parahaemolyticus; probiotics"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 95,
+      "doc_id": "PMC_032",
+      "before": {
+        "related_disease": "translucent post-larvae disease; TPD; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; post-larvae; shrimp",
+        "related_location": "nan",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; post-larvae; TPD; translucent post-larvae disease; Vibrio parahaemolyticus; pathogenicity; hatchery; shrimp disease; biosecurity"
+      },
+      "after": {
+        "related_disease": "translucent post-larvae disease; TPD; vibriosis",
+        "related_taxon": "Penaeus vannamei; post-larvae; shrimp",
+        "related_location": "",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; post-larvae; TPD; translucent post-larvae disease; Vibrio parahaemolyticus; pathogenicity; hatchery; shrimp disease; biosecurity"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 96,
+      "doc_id": "PMC_033",
+      "before": {
+        "related_disease": "vibriosis; Vibrio campbellii",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; hatchery; vibriosis; Vibrio campbellii; luminescent bacteria; virulence; larvae; shrimp disease; India"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "shrimp; Penaeus vannamei",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; hatchery; vibriosis; Vibrio campbellii; luminescent bacteria; virulence; larvae; shrimp disease; India"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 97,
+      "doc_id": "PMC_034",
+      "before": {
+        "related_disease": "luminous vibriosis; Vibrio harveyi",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; luminous vibriosis; Vibrio harveyi; bacteriophage; phage therapy; hatchery; post-larvae; antimicrobial resistance; shrimp disease"
+      },
+      "after": {
+        "related_disease": "vibriosis",
+        "related_taxon": "Penaeus vannamei; shrimp",
+        "related_location": "India",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; luminous vibriosis; Vibrio harveyi; bacteriophage; phage therapy; hatchery; post-larvae; antimicrobial resistance; shrimp disease"
+      },
+      "moved_to_keywords": []
+    },
+    {
+      "type": "row_cleanup",
+      "row_index": 99,
+      "doc_id": "PMC_036",
+      "before": {
+        "related_disease": "AHPND; Vibrio parahaemolyticus",
+        "related_taxon": "Penaeus vannamei; larvae; shrimp",
+        "related_location": "nan",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; larvae; hatchery; AHPND; Vibrio parahaemolyticus; microbiome; biomarkers; survival; shrimp disease"
+      },
+      "after": {
+        "related_disease": "AHPND; vibriosis",
+        "related_taxon": "Penaeus vannamei; larvae; shrimp",
+        "related_location": "",
+        "production_mode": "hatchery aquaculture",
+        "keywords": "shrimp; Penaeus vannamei; larvae; hatchery; AHPND; Vibrio parahaemolyticus; microbiome; biomarkers; survival; shrimp disease"
+      },
+      "moved_to_keywords": []
+    }
+  ],
+  "moved_disease_terms": {},
+  "moved_taxon_terms": {},
+  "canonicalized_sample": {
+    "disease::Vibrio parahaemolyticus=>vibriosis": 17,
+    "taxon::Litopenaeus vannamei=>Penaeus vannamei": 14,
+    "disease::white spot syndrome virus=>WSSV": 5,
+    "disease::IMNV=>IMN": 3,
+    "disease::Vibrio harveyi=>vibriosis": 3,
+    "location::Viet Nam=>Vietnam": 2,
+    "disease::white spot syndrome=>WSSV": 1,
+    "disease::infectious myonecrosis virus=>IMN": 1,
+    "disease::acute hepatopancreatic necrosis disease=>AHPND": 1,
+    "disease::white spot disease=>WSSV": 1,
+    "taxon::cultured shrimp=>shrimp": 1,
+    "location::Việt Nam=>Vietnam": 1,
+    "disease::infectious myonecrosis virus disease=>IMN": 1,
+    "disease::infectious myonecrosis=>IMN": 1,
+    "taxon::white shrimp=>Penaeus vannamei": 1,
+    "disease::highly lethal Vibrio parahaemolyticus=>vibriosis": 1,
+    "disease::Vibrio sp. Va-F3=>vibriosis": 1,
+    "taxon::whiteleg shrimp=>Penaeus vannamei": 1,
+    "disease::Vibrio alginolyticus=>vibriosis": 1,
+    "disease::Vibrio campbellii=>vibriosis": 1,
+    "disease::luminous vibriosis=>vibriosis": 1
+  },
+  "notes": [
+    "Generic taxon terms (shrimp/fish/aquatic animals/aquatic species) are kept; runtime downweights them as weak signals.",
+    "Topic-like disease terms are moved from related_disease to keywords (conservative, no information loss)."
+  ]
+}

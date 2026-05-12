@@ -1,0 +1,8 @@
+query_id,query_group,primary_failure_bucket,secondary_tags,example_evidence
+BI_003,biosecurity-management,ontology_sparsity_for_management_intent; unjudged_pool_mismatch,surveillance tokens vs disease-heavy KG,Ontology top: FAO_001 (judged 0); vector/hybrid top FAO_013 (judged 2)
+BI_006,biosecurity-management,kg_metadata_weak_signal_for_broad_topic,risk analysis vs EIA docs,Hybrid ~ vector_metadata; small delta
+DS_010,disease-specific,vector_wrong_location_prior; kg_location_fix,Philippines vs generic AHPND manual,Vector rank1 FAO_001 (1); hybrid rank1 SEAFDEC_006 (2)
+HM_010,hatchery-production-mode,candidate_pool_dominance; kg_contribution_sparse,broodstock+probiotic narrow,Hybrid gains vs vector on nDCG; KG sometimes 0 in top per runtime logs
+LO_007,local,vector_better_rr; hybrid_rank_regression,TCTS vs TB extension,Per-query: vector RR > hybrid — metadata/KG không cứu thứ hạng
+SL_004,species-location,metadata_or_intent_mismatch,Thailand low-water vs wrong geography/mode,Hybrid nDCG < vector (per-query delta âm)
+HM_001,hatchery-production-mode,same_as_vector_top; small_hybrid_loss,vannamei hatchery,Hybrid slightly below vector on nDCG@10

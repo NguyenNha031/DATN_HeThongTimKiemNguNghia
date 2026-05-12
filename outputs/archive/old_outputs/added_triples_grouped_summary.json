@@ -1,0 +1,170 @@
+{
+  "by_predicate": {
+    "aboutTaxon": 50,
+    "documentProductionMode": 3
+  },
+  "top_groups": [
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "count": 7
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "count": 7
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "aquatic species; fish; fisheries",
+      "count": 3
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic species; fish; fisheries",
+      "count": 3
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "fish; aquatic species",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic animals; fish",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "fish; aquatic species",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic environment; fish",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "fish; aquatic animals",
+      "count": 2
+    },
+    {
+      "predicate": "documentProductionMode",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_CaptureFisheries",
+      "raw_metadata_value": "capture fisheries",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "shrimp; prawns",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "count": 2
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Crustacean",
+      "raw_metadata_value": "shrimp; crustaceans",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "aquatic species",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish; seaweed",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Crustacean",
+      "raw_metadata_value": "aquatic animals; fish; crustaceans",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic animals; fish; crustaceans",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic species; fish; shellfish; seaweed",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic environment; fish; aquaculture species",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "shrimp; brackishwater species",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "shrimp; aquatic animals",
+      "count": 1
+    },
+    {
+      "predicate": "aboutTaxon",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "raw_metadata_value": "shrimp; crustaceans",
+      "count": 1
+    },
+    {
+      "predicate": "documentProductionMode",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_CoastalAquaculture",
+      "raw_metadata_value": "coastal aquaculture",
+      "count": 1
+    }
+  ]
+}

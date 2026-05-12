@@ -1,0 +1,691 @@
+{
+  "metadata_path_expected": "data/metadata/document_metadata_cleaned.xlsx",
+  "ontology_runtime_expected_preference": [
+    "data/ontology/taxon_enriched_facts_v2.owl",
+    "data/ontology/taxon_enriched_facts.owl",
+    "data/ontology/taxon_enriched_aliases.owl",
+    "data/ontology/taxon_enriched.owl",
+    "data/ontology/taxon.owl"
+  ],
+  "audit": {
+    "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx",
+    "raw_docs_dir": "data\\raw_docs",
+    "total_pdf_files_in_raw_docs": 100,
+    "total_metadata_rows": 100,
+    "total_distinct_doc_id": 99,
+    "dup_doc_id_count": 1,
+    "dup_doc_ids": [
+      "FAO_042"
+    ],
+    "dup_file_path_count": 0,
+    "dup_file_paths_norm": [],
+    "metadata_rows_with_existing_pdf": 100,
+    "metadata_rows_missing_pdf": 0,
+    "missing_pdf_rows_sample": [],
+    "pdf_without_metadata_count": 0,
+    "pdf_without_metadata_sample": [],
+    "metadata_without_pdf_count": 0,
+    "metadata_without_pdf_sample": [],
+    "top_disease_terms": [
+      {
+        "value": "AHPND",
+        "count": 26,
+        "flagged": false
+      },
+      {
+        "value": "Vibrio parahaemolyticus",
+        "count": 17,
+        "flagged": false
+      },
+      {
+        "value": "WSSV",
+        "count": 13,
+        "flagged": false
+      },
+      {
+        "value": "EHP",
+        "count": 13,
+        "flagged": false
+      },
+      {
+        "value": "vibriosis",
+        "count": 10,
+        "flagged": false
+      },
+      {
+        "value": "Enterocytozoon hepatopenaei",
+        "count": 7,
+        "flagged": false
+      },
+      {
+        "value": "white spot syndrome virus",
+        "count": 5,
+        "flagged": false
+      },
+      {
+        "value": "EMS",
+        "count": 5,
+        "flagged": false
+      },
+      {
+        "value": "IMN",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "HPM",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "IHHNV",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "IMNV",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "Vibrio harveyi",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "Ecytonucleospora hepatopenaei",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "white spot syndrome",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "yellow head virus",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "infectious myonecrosis virus",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "acute hepatopancreatic necrosis disease",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "white spot disease",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "WSD",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "TSV",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "YHV",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "bacterial spore",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "AHPNS",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "infectious myonecrosis virus disease",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "infectious myonecrosis",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "highly lethal Vibrio parahaemolyticus",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Vibrio sp. Va-F3",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "HPV",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "MBV",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Las bolitas syndrome",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "decapod hepanhamaparvovirus genotype V",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "zoea 2 syndrome",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Vibrio alginolyticus",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "translucent post-larvae disease",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "TPD",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Vibrio campbellii",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "luminous vibriosis",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "WzSV8",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "DHPV",
+        "count": 1,
+        "flagged": false
+      }
+    ],
+    "top_taxon_terms": [
+      {
+        "value": "shrimp",
+        "count": 72,
+        "flagged": true
+      },
+      {
+        "value": "Penaeus vannamei",
+        "count": 33,
+        "flagged": false
+      },
+      {
+        "value": "fish",
+        "count": 24,
+        "flagged": true
+      },
+      {
+        "value": "aquatic animals",
+        "count": 14,
+        "flagged": true
+      },
+      {
+        "value": "Litopenaeus vannamei",
+        "count": 14,
+        "flagged": false
+      },
+      {
+        "value": "Penaeus monodon",
+        "count": 12,
+        "flagged": false
+      },
+      {
+        "value": "aquatic species",
+        "count": 10,
+        "flagged": true
+      },
+      {
+        "value": "prawns",
+        "count": 4,
+        "flagged": true
+      },
+      {
+        "value": "penaeid shrimp",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "larvae",
+        "count": 3,
+        "flagged": false
+      },
+      {
+        "value": "crustaceans",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "lobster",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "shellfish",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "Pacific white shrimp",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "Penaeus stylirostris",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "mud crab",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Scylla spp.",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "crabs and lobsters",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "freshwater prawns",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "marine finfish",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "molluscs",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "black tiger shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Marsupenaeus japonicus",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "cultured shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "prawns and shrimps",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "white leg shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "vannamei shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "white shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Macrobrachium rosenbergii",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "Pacific whiteleg shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "whiteleg shrimp",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "postlarvae",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "broodstock",
+        "count": 1,
+        "flagged": false
+      },
+      {
+        "value": "post-larvae",
+        "count": 1,
+        "flagged": false
+      }
+    ],
+    "top_location_terms": [
+      {
+        "value": "Global",
+        "count": 24
+      },
+      {
+        "value": "India",
+        "count": 7
+      },
+      {
+        "value": "Thailand",
+        "count": 6
+      },
+      {
+        "value": "Latin America",
+        "count": 5
+      },
+      {
+        "value": "Asia",
+        "count": 4
+      },
+      {
+        "value": "Philippines",
+        "count": 4
+      },
+      {
+        "value": "Bangladesh",
+        "count": 3
+      },
+      {
+        "value": "China",
+        "count": 3
+      },
+      {
+        "value": "Indonesia",
+        "count": 3
+      },
+      {
+        "value": "Vietnam",
+        "count": 2
+      },
+      {
+        "value": "Bangkok",
+        "count": 2
+      },
+      {
+        "value": "Pacific",
+        "count": 2
+      },
+      {
+        "value": "Singapore",
+        "count": 2
+      },
+      {
+        "value": "Malaysia",
+        "count": 2
+      },
+      {
+        "value": "Viet Nam",
+        "count": 2
+      },
+      {
+        "value": "Southeast Asia",
+        "count": 2
+      },
+      {
+        "value": "Ecuador",
+        "count": 2
+      },
+      {
+        "value": "Mexico",
+        "count": 2
+      },
+      {
+        "value": "Caribbean",
+        "count": 1
+      },
+      {
+        "value": "Central Asia",
+        "count": 1
+      },
+      {
+        "value": "Caucasus",
+        "count": 1
+      },
+      {
+        "value": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "value": "Khulna",
+        "count": 1
+      },
+      {
+        "value": "Satkhira",
+        "count": 1
+      },
+      {
+        "value": "Canada",
+        "count": 1
+      },
+      {
+        "value": "inland waters",
+        "count": 1
+      },
+      {
+        "value": "Hungary",
+        "count": 1
+      },
+      {
+        "value": "Europe",
+        "count": 1
+      },
+      {
+        "value": "coastal areas",
+        "count": 1
+      },
+      {
+        "value": "marine environment",
+        "count": 1
+      },
+      {
+        "value": "Uganda",
+        "count": 1
+      },
+      {
+        "value": "Africa",
+        "count": 1
+      },
+      {
+        "value": "Indian Ocean",
+        "count": 1
+      },
+      {
+        "value": "Southern Africa",
+        "count": 1
+      },
+      {
+        "value": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "value": "Bosnia and Herzegovina",
+        "count": 1
+      },
+      {
+        "value": "Mekong Delta",
+        "count": 1
+      },
+      {
+        "value": "Bac Lieu",
+        "count": 1
+      },
+      {
+        "value": "Ben Tre",
+        "count": 1
+      },
+      {
+        "value": "Ca Mau",
+        "count": 1
+      }
+    ],
+    "top_mode_terms": [
+      {
+        "value": "shrimp aquaculture",
+        "count": 57,
+        "flagged": false
+      },
+      {
+        "value": "aquaculture",
+        "count": 29,
+        "flagged": true
+      },
+      {
+        "value": "hatchery aquaculture",
+        "count": 11,
+        "flagged": false
+      },
+      {
+        "value": "inland fisheries",
+        "count": 5,
+        "flagged": false
+      },
+      {
+        "value": "fisheries",
+        "count": 4,
+        "flagged": true
+      },
+      {
+        "value": "capture fisheries",
+        "count": 2,
+        "flagged": false
+      },
+      {
+        "value": "coastal aquaculture",
+        "count": 1,
+        "flagged": false
+      }
+    ],
+    "noise_disease_terms_present": [],
+    "generic_taxon_terms_present": [
+      {
+        "term": "shrimp",
+        "count": 72
+      },
+      {
+        "term": "fish",
+        "count": 24
+      },
+      {
+        "term": "aquatic animals",
+        "count": 14
+      },
+      {
+        "term": "aquatic species",
+        "count": 10
+      },
+      {
+        "term": "prawns",
+        "count": 4
+      }
+    ],
+    "generic_mode_terms_present": [
+      {
+        "term": "aquaculture",
+        "count": 29
+      },
+      {
+        "term": "fisheries",
+        "count": 4
+      }
+    ],
+    "location_normalization_variants": [
+      {
+        "normalized": "viet nam",
+        "variants": [
+          "Viet Nam",
+          "Việt Nam"
+        ],
+        "variant_count": 2
+      }
+    ]
+  },
+  "cleanup_effect": {
+    "metadata_file": "data\\metadata\\document_metadata_cleaned.xlsx",
+    "backup": "data\\metadata\\document_metadata_cleaned.xlsx.bak_20260401_201203",
+    "changed_rows_or_fixes": 84,
+    "duplicate_doc_id_fixes": 2,
+    "moved_disease_terms_total": 0,
+    "moved_taxon_terms_total": 0,
+    "top_moved_disease_terms": {},
+    "top_moved_taxon_terms": {}
+  },
+  "kg_runtime_verification": {
+    "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+    "total_document_nodes_in_kg": 41,
+    "total_metadata_docs": 100,
+    "mapped_doc_count": 40,
+    "unmapped_doc_count": 60,
+    "mapping_report_summary": {
+      "disease_unmapped": 54,
+      "species_unmapped": 152,
+      "location_unmapped": 71,
+      "mode_unmapped": 12
+    }
+  },
+  "query_verification_file": "outputs\\full_corpus_query_verification.json",
+  "file_timestamps": {
+    "metadata_cleaned_xlsx": "1775049123140788300",
+    "vector_chunks_index": "1775049946266269300",
+    "vector_chunks_meta": "1775049946334920100",
+    "vector_config": "1775049946344301400",
+    "taxon_enriched_owl": "1775050086165439000",
+    "mapping_report_csv": "1775050086187124100",
+    "kg_runtime_verification_json": "1775050106589009900",
+    "hybrid_comparison_csv": "1775050154536943400",
+    "hybrid_results_txt": "1775050146892702100"
+  },
+  "notes": [
+    "Vector index rebuild is required whenever new PDFs are added; this run rebuilt vector_store using cleaned metadata.",
+    "KG runtime mapping coverage depends on Document nodes present in the currently loaded ontology file (often taxon_enriched_facts_v2.owl).",
+    "Unmapped counts in mapping_report reflect metadata-to-ontology entity mapping gaps (alias/coverage), not vector indexing."
+  ],
+  "query_verification_overview": {
+    "metadata_path_used": "data\\metadata\\document_metadata_cleaned.xlsx",
+    "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+    "query_count": 14
+  }
+}

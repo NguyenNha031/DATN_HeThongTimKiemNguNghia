@@ -1,0 +1,350 @@
+{
+  "queries": [
+    {
+      "query": "bệnh AHPND trên tôm",
+      "query_profile": "disease_priority",
+      "detected_entities_raw": {
+        "disease": [
+          "AHPND"
+        ],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [
+          "AHPND"
+        ],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [
+          "Bệnh hoại tử gan tụy cấp"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.63,
+      "top1_explanation": "metadata: match disease query=ahpnd with doc_term=AHPND (+0.45); match species query=shrimp with doc_term=shrimp (+0.10); disease-species synergy (+0.08); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+      "top1_vector": {
+        "doc_id": "FAO_001",
+        "score": 0.6444176435470581,
+        "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual",
+        "file_path": "data/raw_docs/FAO_001_cb2119en.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "FAO_001",
+        "final_score": 1.704417643547058,
+        "vector_score": 0.6444176435470581,
+        "metadata_delta": 0.63,
+        "kg_score": 0.43,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+        "profile": "disease_priority",
+        "match_disease": true,
+        "match_species": true,
+        "match_location": false,
+        "match_mode": false,
+        "explanation": "metadata: match disease query=ahpnd with doc_term=AHPND (+0.45); match species query=shrimp with doc_term=shrimp (+0.10); disease-species synergy (+0.08); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+        "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    },
+    {
+      "query": "bệnh đốm trắng ở tôm thẻ chân trắng",
+      "query_profile": "disease_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "Penaeus vannamei"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [
+          "WSSV"
+        ],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [
+          "Bệnh đốm trắng"
+        ],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.45,
+      "top1_explanation": "metadata: match disease query=WSSV with doc_term=WSSV (+0.45); KG: KG direct match: document aboutDisease=Bệnh đốm trắng; KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)",
+      "top1_vector": {
+        "doc_id": "TCKHTS_001",
+        "score": 0.6752896308898926,
+        "title": "Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh",
+        "file_path": "data/raw_docs/TCKHTS_001.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "TCKHTS_001",
+        "final_score": 1.7552896308898926,
+        "vector_score": 0.6752896308898926,
+        "metadata_delta": 0.45,
+        "kg_score": 0.63,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001",
+        "profile": "disease_priority",
+        "match_disease": true,
+        "match_species": false,
+        "match_location": false,
+        "match_mode": false,
+        "explanation": "metadata: match disease query=WSSV with doc_term=WSSV (+0.45); KG: KG direct match: document aboutDisease=Bệnh đốm trắng; KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)",
+        "kg_explanation": "KG direct match: document aboutDisease=Bệnh đốm trắng; KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    },
+    {
+      "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "Penaeus vannamei"
+        ],
+        "location": [],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.08,
+      "top1_explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+      "top1_vector": {
+        "doc_id": "FAO_002",
+        "score": 0.6336508989334106,
+        "title": "Improving Penaeus monodon hatchery practices. Manual based on experience in India.",
+        "file_path": "data/raw_docs/FAO_002_a1152e.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "FAO_001",
+        "final_score": 0.9412658977508545,
+        "vector_score": 0.6112658977508545,
+        "metadata_delta": 0.08,
+        "kg_score": 0.25,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+        "profile": "species_priority",
+        "match_disease": false,
+        "match_species": false,
+        "match_location": false,
+        "match_mode": true,
+        "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+        "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    },
+    {
+      "query": "tài liệu về trại giống tôm sú ở Ấn Độ",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "Penaeus monodon"
+        ],
+        "location": [
+          "India"
+        ],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "Tôm sú"
+        ],
+        "location": [
+          "Ấn Độ"
+        ],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm sú"
+        ],
+        "location": [
+          "Ấn Độ"
+        ],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.08,
+      "top1_explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm sú; KG direct match: document aboutLocation=Ấn Độ",
+      "top1_vector": {
+        "doc_id": "FAO_039",
+        "score": 0.6838715076446533,
+        "title": "Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66",
+        "file_path": "data/raw_docs/FAO_039_ad893e.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "FAO_002",
+        "final_score": 1.0058049011230468,
+        "vector_score": 0.6258049011230469,
+        "metadata_delta": 0.08,
+        "kg_score": 0.30000000000000004,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002",
+        "profile": "species_priority",
+        "match_disease": false,
+        "match_species": false,
+        "match_location": false,
+        "match_mode": true,
+        "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm sú; KG direct match: document aboutLocation=Ấn Độ",
+        "kg_explanation": "KG direct match: document aboutTaxon=Tôm sú; KG direct match: document aboutLocation=Ấn Độ"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    },
+    {
+      "query": "infectious myonecrosis",
+      "query_profile": "disease_priority",
+      "detected_entities_raw": {
+        "disease": [
+          "IMN"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [
+          "IMN"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [
+          "Infectious myonecrosis"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.45,
+      "top1_explanation": "metadata: match disease query=imn with doc_term=IMN (+0.45); KG: KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus",
+      "top1_vector": {
+        "doc_id": "FAO_010",
+        "score": 0.617688000202179,
+        "title": "Shrimp infectious myonecrosis strategy manual",
+        "file_path": "data/raw_docs/FAO_010_ca6052en.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "FAO_010",
+        "final_score": 1.4976880002021788,
+        "vector_score": 0.617688000202179,
+        "metadata_delta": 0.45,
+        "kg_score": 0.43,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+        "profile": "disease_priority",
+        "match_disease": true,
+        "match_species": false,
+        "match_location": false,
+        "match_mode": false,
+        "explanation": "metadata: match disease query=imn with doc_term=IMN (+0.45); KG: KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus",
+        "kg_explanation": "KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    },
+    {
+      "query": "nuôi tôm hùm ở Khánh Hòa",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "lobster"
+        ],
+        "location": [
+          "Khanh Hoa"
+        ],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "lobster"
+        ],
+        "location": [
+          "Khanh Hoa"
+        ],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm hùm bông"
+        ],
+        "location": [
+          "Ven biển Khánh Hòa"
+        ],
+        "mode": []
+      },
+      "top1_metadata_delta": 0.22,
+      "top1_explanation": "metadata: match species query=lobster with doc_term=lobster (+0.22); KG: KG direct match: document aboutTaxon=Tôm hùm bông; KG relation match: Tôm hùm bông isFoundIn Ven biển Khánh Hòa, query location matches species range",
+      "top1_vector": {
+        "doc_id": "SEAFDEC_008",
+        "score": 0.6983915567398071,
+        "title": "Current status and impact of early mortality syndrome (EMS)/acute hepatopancreatic necrosis disease (AHPND) and hepatopancreatic microsporidiosis (HPM) outbreaks on Thailand’s shrimp farming",
+        "file_path": "data/raw_docs/SEAFDEC_008_Putth2016.pdf"
+      },
+      "top1_hybrid": {
+        "doc_id": "FAO_014",
+        "final_score": 1.1636575841903687,
+        "vector_score": 0.6236575841903687,
+        "metadata_delta": 0.22,
+        "kg_score": 0.32,
+        "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_014",
+        "profile": "species_priority",
+        "match_disease": false,
+        "match_species": true,
+        "match_location": false,
+        "match_mode": false,
+        "explanation": "metadata: match species query=lobster with doc_term=lobster (+0.22); KG: KG direct match: document aboutTaxon=Tôm hùm bông; KG relation match: Tôm hùm bông isFoundIn Ven biển Khánh Hòa, query location matches species range",
+        "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông; KG relation match: Tôm hùm bông isFoundIn Ven biển Khánh Hòa, query location matches species range"
+      },
+      "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "metadata_path": "data\\metadata\\document_metadata_cleaned.xlsx"
+    }
+  ]
+}

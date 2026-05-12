@@ -1,0 +1,166 @@
+[
+  {
+    "query": "bệnh AHPND trên tôm",
+    "detected": {
+      "disease": [
+        "AHPND"
+      ],
+      "species": [
+        "shrimp"
+      ],
+      "location": [],
+      "mode": []
+    },
+    "profile": "disease_priority",
+    "top1_vector": {
+      "doc_id": "FAO_001",
+      "score": 0.6444,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_001",
+      "vector_score": 0.6444,
+      "metadata_delta": 0.55,
+      "kg_score": 0.43,
+      "final_score": 1.6244,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual"
+    }
+  },
+  {
+    "query": "bệnh đốm trắng ở tôm thẻ chân trắng",
+    "detected": {
+      "disease": [
+        "Bệnh đốm trắng"
+      ],
+      "species": [
+        "Tôm thẻ chân trắng"
+      ],
+      "location": [],
+      "mode": []
+    },
+    "profile": "species_priority",
+    "top1_vector": {
+      "doc_id": "TCKHTS_001",
+      "score": 0.6753,
+      "title": "Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh"
+    },
+    "top1_hybrid": {
+      "doc_id": "TCKHTS_001",
+      "vector_score": 0.6753,
+      "metadata_delta": 0.0,
+      "kg_score": 0.63,
+      "final_score": 1.3053,
+      "title": "Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh"
+    }
+  },
+  {
+    "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+    "detected": {
+      "disease": [
+        "biosecurity"
+      ],
+      "species": [
+        "Tôm thẻ chân trắng"
+      ],
+      "location": [],
+      "mode": [
+        "hatchery aquaculture"
+      ]
+    },
+    "profile": "species_priority",
+    "top1_vector": {
+      "doc_id": "FAO_002",
+      "score": 0.6337,
+      "title": "Improving Penaeus monodon hatchery practices. Manual based on experience in India."
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_001",
+      "vector_score": 0.6113,
+      "metadata_delta": 0.08,
+      "kg_score": 0.25,
+      "final_score": 0.9413,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual"
+    }
+  },
+  {
+    "query": "tài liệu về trại giống tôm sú ở Ấn Độ",
+    "detected": {
+      "disease": [],
+      "species": [
+        "Tôm sú"
+      ],
+      "location": [
+        "Ấn Độ"
+      ],
+      "mode": [
+        "hatchery aquaculture"
+      ]
+    },
+    "profile": "species_priority",
+    "top1_vector": {
+      "doc_id": "FAO_039",
+      "score": 0.6839,
+      "title": "Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_039",
+      "vector_score": 0.6839,
+      "metadata_delta": 0.08,
+      "kg_score": 0.1,
+      "final_score": 0.8639,
+      "title": "Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66"
+    }
+  },
+  {
+    "query": "infectious myonecrosis",
+    "detected": {
+      "disease": [
+        "IMN"
+      ],
+      "species": [],
+      "location": [],
+      "mode": []
+    },
+    "profile": "disease_priority",
+    "top1_vector": {
+      "doc_id": "FAO_010",
+      "score": 0.6177,
+      "title": "Shrimp infectious myonecrosis strategy manual"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_010",
+      "vector_score": 0.6177,
+      "metadata_delta": 0.35,
+      "kg_score": 0.43,
+      "final_score": 1.3977,
+      "title": "Shrimp infectious myonecrosis strategy manual"
+    }
+  },
+  {
+    "query": "nuôi tôm hùm ở Khánh Hòa",
+    "detected": {
+      "disease": [],
+      "species": [
+        "lobster"
+      ],
+      "location": [
+        "Khanh Hoa"
+      ],
+      "mode": []
+    },
+    "profile": "species_priority",
+    "top1_vector": {
+      "doc_id": "SEAFDEC_008",
+      "score": 0.6984,
+      "title": "Current status and impact of early mortality syndrome (EMS)/acute hepatopancreatic necrosis disease (AHPND) and hepatopa"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_015",
+      "vector_score": 0.7818,
+      "metadata_delta": 0.22,
+      "kg_score": 0.23,
+      "final_score": 1.2318,
+      "title": "FAO species catalogue. Vol.13. Marine lobsters of the world. An annotated and illustrated catalogue of marine lobsters k"
+    }
+  }
+]

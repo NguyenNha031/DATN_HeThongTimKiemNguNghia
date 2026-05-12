@@ -1,0 +1,73 @@
+{
+  "profile": "disease_priority",
+  "detected_raw": {
+    "disease": [],
+    "species": [
+      "tôm thẻ chân trắng"
+    ],
+    "location": [],
+    "mode": [],
+    "topic": [],
+    "management": [],
+    "prevention": []
+  },
+  "kg_linked_disease": [
+    "Bệnh đốm trắng"
+  ],
+  "merged_disease": [
+    {
+      "canonical": "Bệnh đốm trắng",
+      "kg_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"
+    }
+  ],
+  "match_info": {
+    "disease": {
+      "matched": false,
+      "query_canonical": null,
+      "query_detected": "Bệnh đốm trắng",
+      "used_parent": null,
+      "doc_term": null
+    },
+    "species": {
+      "matched": true,
+      "query_canonical": "Tôm thẻ chân trắng",
+      "query_detected": "Tôm thẻ chân trắng",
+      "used_parent": null,
+      "doc_term": "tôm thẻ chân trắng"
+    },
+    "location": {
+      "matched": false,
+      "query_canonical": null,
+      "query_detected": null,
+      "used_parent": null,
+      "doc_term": null
+    },
+    "mode": {
+      "matched": false,
+      "query_canonical": null,
+      "query_detected": null,
+      "used_parent": null,
+      "doc_term": null
+    }
+  },
+  "delta_info": {
+    "profile": "disease_priority",
+    "kg_delta": -0.06,
+    "bonus_breakdown": "match species query=Tôm thẻ chân trắng with doc_term=tôm thẻ chân trắng (+0.12)",
+    "penalty_breakdown": "miss disease (-0.18)",
+    "explanation": "miss disease (-0.18); match species query=Tôm thẻ chân trắng with doc_term=tôm thẻ chân trắng (+0.12)",
+    "match_flags": {
+      "disease": false,
+      "species": true,
+      "location": false,
+      "mode": false
+    },
+    "matched_entities": {
+      "disease": null,
+      "species": "Tôm thẻ chân trắng",
+      "location": null,
+      "mode": null
+    }
+  },
+  "doc_related_disease": "WSSV"
+}

@@ -1,0 +1,6 @@
+query_group,num_queries,best_baseline_by_ndcg_at_10,ndcg_at_10_value,second_best_baseline,second_ndcg_at_10,notes
+biosecurity-management,6,hybrid,0.718864,vector,0.712196,Ontology/lexical yếu; lexical ~0
+disease-specific,6,ontology_sparql,0.66292,hybrid,0.616328,Structured disease + KG scoring
+hatchery-production-mode,4,hybrid,0.62703,vector_metadata,0.611917,Vector_metadata gần hybrid; lexical 0
+local,7,lexical,0.745602,vector,0.672823,Hybrid 0.698694 — local tiếng Việt/địa danh khớp BM25 tốt trong macro này
+species-location,5,vector_metadata,0.707123,hybrid,0.702162,Chênh nhỏ; hybrid gần VM

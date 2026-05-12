@@ -1,0 +1,199 @@
+{
+  "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "queries": [
+    {
+      "query": "bệnh AHPND trên tôm",
+      "query_profile": "species_priority",
+      "detected_metadata_disease": [
+        "AHPND"
+      ],
+      "detected_kg_disease": [
+        "Bệnh hoại tử gan tụy cấp"
+      ],
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 1.294417643547058,
+          "vector_score": 0.6444176435470581,
+          "metadata_delta": 0.22,
+          "kg_score": 0.43,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_006",
+          "final_score": 1.289456033706665,
+          "vector_score": 0.639456033706665,
+          "metadata_delta": 0.22,
+          "kg_score": 0.43,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_037",
+          "final_score": 0.7395248556137085,
+          "vector_score": 0.5995248556137085,
+          "metadata_delta": 0.22,
+          "kg_score": -0.08,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG penalty: query has disease but document has no direct/relation disease evidence",
+          "kg_explanation": "KG penalty: query has disease but document has no direct/relation disease evidence",
+          "kg_penalty_breakdown": "query has disease but document not aligned (-0.08)"
+        }
+      ]
+    },
+    {
+      "query": "infectious myonecrosis",
+      "query_profile": "disease_priority",
+      "detected_metadata_disease": [
+        "infectious myonecrosis"
+      ],
+      "detected_kg_disease": [],
+      "top3": [
+        {
+          "doc_id": "FAO_010",
+          "final_score": 0.9676880002021789,
+          "vector_score": 0.617688000202179,
+          "metadata_delta": 0.35,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+          "profile": "disease_priority",
+          "match_disease": true,
+          "match_species": false,
+          "explanation": "match disease query=infectious myonecrosis with doc_term=infectious myonecrosis (+0.35)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_009",
+          "final_score": 0.34297067642211915,
+          "vector_score": 0.5229706764221191,
+          "metadata_delta": -0.18,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+          "profile": "disease_priority",
+          "match_disease": false,
+          "match_species": false,
+          "explanation": "miss disease (-0.18)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        }
+      ]
+    },
+    {
+      "query": "shrimp disease",
+      "query_profile": "species_priority",
+      "detected_metadata_disease": [],
+      "detected_kg_disease": [],
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 1.045445532798767,
+          "vector_score": 0.8254455327987671,
+          "metadata_delta": 0.22,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_006",
+          "final_score": 1.0261138987541198,
+          "vector_score": 0.8061138987541199,
+          "metadata_delta": 0.22,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_036",
+          "final_score": 0.7992676496505737,
+          "vector_score": 0.7992676496505737,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        }
+      ]
+    },
+    {
+      "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+      "query_profile": "species_priority",
+      "detected_metadata_disease": [
+        "biosecurity"
+      ],
+      "detected_kg_disease": [],
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 0.9412658977508545,
+          "vector_score": 0.6112658977508545,
+          "metadata_delta": 0.08,
+          "kg_score": 0.25,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_005",
+          "final_score": 0.8924789714813233,
+          "vector_score": 0.6124789714813232,
+          "metadata_delta": 0.08,
+          "kg_score": 0.2,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+          "profile": "species_priority",
+          "match_disease": true,
+          "match_species": false,
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng",
+          "kg_penalty_breakdown": ""
+        },
+        {
+          "doc_id": "FAO_002",
+          "final_score": 0.7136508989334106,
+          "vector_score": 0.6336508989334106,
+          "metadata_delta": 0.08,
+          "kg_score": 0.0,
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002",
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "explanation": "match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)",
+          "kg_explanation": "",
+          "kg_penalty_breakdown": ""
+        }
+      ]
+    }
+  ]
+}

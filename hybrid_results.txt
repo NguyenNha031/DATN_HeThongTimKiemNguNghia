@@ -1,0 +1,1280 @@
+[STEP] Loading vector index...
+[STEP] Loading metadata...
+[STEP] Building entity dictionary...
+
+====================================================================================================
+QUERY 1: bệnh AHPND trên tôm
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.6510
+Doc ID   : TB_005
+Title    : Sự hiện diện của bệnh đốm trắng, hoại tử gan tụy cấp và vi bào tử trùng trên tôm giống và tôm nuôi thương phẩm tại một số tỉnh khu vực ĐBSCL từ năm 2022-2024
+Chunk ID : TB_005_chunk_1
+File     : data/raw_docs/TB_005_su_hien_dien_cua_benh_dom_trang_va_EHP_va_AHPND_tai_DBSCL_2022_2024.pdf
+Text:
+atic Ncrsis Disas – AHPND) đợc xm là các bệnh ng hiểm nhất đối với tôm nôi tại kh vực Đồng bằng sông Cử Lng (ĐBSCL). Chính vì thếviệc khả sát diễn biến tỷlệnhiễm các bệnh nghiêm trọng trên tôm là điề cần thiết. Thông qa các dữliệ khả sát tại Trng tâm Qan trắc môi trờng và Bệnh thủ sản Nam Bộ– Viện NCNTTS II có thểcng cấp thông tin diễn biến nhiễm bệnh th các năm giúp ch việc nhận định tình hình dịch bệnh trên tôm giống và tôm nôi đợc chính xác. Th kết qảkhả sát mầm 
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.6444
+Doc ID   : FAO_001
+Title    : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID : FAO_001_chunk_130
+File     : data/raw_docs/FAO_001_cb2119en.pdf
+Text:
+urrence of the disease. In Malaysia, AHPND was first reported in mid–2010, in the peninsular states of Pahang and Johor, on the country’s east coast. The disease spread to the states of Perak, Pahang, Penang and Kedah in 2011 (NACA, 2012; Kua et al., 2018). Later, samples from the states of Sabah and Sarawak (2012), Terengganu (2013) and Melaka and Johor (2014) were also found positive for AHPND by histopathology. The annual prevalence rates of AHPND have been declining and were 50, 26, 34, 13 a
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.6422
+Doc ID   : PMC_012
+Title    : Diagnosis and potential treatments for acute hepatopancreatic necrosis disease (AHPND): a review
+Chunk ID : PMC_012_chunk_54
+File     : data/raw_docs/PMC_012_PMC7223513.pdf
+Text:
+to ensure the safety of its people and prevent the spread of infectious substances to the environment related to AHPND. Considering AHPND as a recent emerging disease, biosurveillance, treatment, diagnostics, and manage- ment of this disease are great dilemmas faced by many. Funding information This study was financially supported by the Research Center for Animal Biologics, from The Featured Areas Research Center Program within the framework of the Higher Education Sprout Project by the Ministr
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.6410
+Doc ID   : SEAFDEC_006
+Title    : Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines
+Chunk ID : SEAFDEC_006_chunk_6
+File     : data/raw_docs/SEAFDEC_006_Apostol2016.pdf
+Text:
+nce of AHPND in the country. It is a 66 Addressing acute hepatopancreatic necrosis disease (AHPND) and other transboundary diseases for improved aquatic animal health in Southeast Asia regular and continuing program of BFAR that was officially launched in 1998 and formally introduced to the industry in 2000. It was well supported by the private sector and other associated government agencies. It aims to increase and expand production and exports through intensification of shrimp health managemen
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.6395
+Doc ID   : FAO_006
+Title    : FAO Second International Technical Seminar/Workshop on Acute hepatopancreatic necrosis disease (AHPND), Bangkok, Thailand 23–25 June 2016
+Chunk ID : FAO_006_chunk_12
+File     : data/raw_docs/FAO_006_bt131e.pdf
+Text:
+its February 2014 meeting since AHPND did not meet all the criteria for disease listing. However, in March 2015, the AAHSC endorsed the listing of AHPND and a final decision to this effect was made during the OIE General Session held in May 2015. Reporting of AHPND to OIE commenced in January 2016. Current state of knowledge about AHPND The causative agent was discovered in 2013 as unique isolates of Vibrio parahaemolyticus (VPAHPND) that carry a plasmid (pAP1) of approximately 69 kbp. This plas
+
+[KG] Loaded ontology: data\ontology\taxon_enriched_facts_v2.owl
+[KG] KG applied in top 5: nonzero_kg=5/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: ['AHPND']
+- species: ['tôm']
+- location: []
+- mode: []
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.6510
+KG bonus     : 0.3500
+Final score  : 1.4310
+Doc ID       : TB_005
+Title        : Sự hiện diện của bệnh đốm trắng, hoại tử gan tụy cấp và vi bào tử trùng trên tôm giống và tôm nuôi thương phẩm tại một số tỉnh khu vực ĐBSCL từ năm 2022-2024
+Chunk ID     : TB_005_chunk_1
+Explanation  : metadata: match disease query=AHPND with doc_term=AHPND (+0.35); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus
+Text:
+atic Ncrsis Disas – AHPND) đợc xm là các bệnh ng hiểm nhất đối với tôm nôi tại kh vực Đồng bằng sông Cử Lng (ĐBSCL). Chính vì thếviệc khả sát diễn biến tỷlệnhiễm các bệnh nghiêm trọng trên tôm là điề cần thiết. Thông qa các dữliệ khả sát tại Trng tâm Qan trắc môi trờng và Bệnh thủ sản Nam Bộ– Viện NCNTTS II có thểcng cấp thông tin diễn biến nhiễm bệnh th các năm giúp ch việc nhận định tình hình dịch bệnh trên tôm giống và tôm nôi đợc chính xác. Th kết qảkhả sát mầm 
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.6444
+KG bonus     : 0.3500
+Final score  : 1.4244
+Doc ID       : FAO_001
+Title        : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID     : FAO_001_chunk_130
+Explanation  : metadata: match disease query=AHPND with doc_term=AHPND (+0.35); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus
+Text:
+urrence of the disease. In Malaysia, AHPND was first reported in mid–2010, in the peninsular states of Pahang and Johor, on the country’s east coast. The disease spread to the states of Perak, Pahang, Penang and Kedah in 2011 (NACA, 2012; Kua et al., 2018). Later, samples from the states of Sabah and Sarawak (2012), Terengganu (2013) and Melaka and Johor (2014) were also found positive for AHPND by histopathology. The annual prevalence rates of AHPND have been declining and were 50, 26, 34, 13 a
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.6410
+KG bonus     : 0.3500
+Final score  : 1.4210
+Doc ID       : SEAFDEC_006
+Title        : Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines
+Chunk ID     : SEAFDEC_006_chunk_6
+Explanation  : metadata: match disease query=AHPND with doc_term=AHPND (+0.35); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus
+Text:
+nce of AHPND in the country. It is a 66 Addressing acute hepatopancreatic necrosis disease (AHPND) and other transboundary diseases for improved aquatic animal health in Southeast Asia regular and continuing program of BFAR that was officially launched in 1998 and formally introduced to the industry in 2000. It was well supported by the private sector and other associated government agencies. It aims to increase and expand production and exports through intensification of shrimp health managemen
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.6395
+KG bonus     : 0.3500
+Final score  : 1.4195
+Doc ID       : FAO_006
+Title        : FAO Second International Technical Seminar/Workshop on Acute hepatopancreatic necrosis disease (AHPND), Bangkok, Thailand 23–25 June 2016
+Chunk ID     : FAO_006_chunk_12
+Explanation  : metadata: match disease query=AHPND with doc_term=AHPND (+0.35); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus
+Text:
+its February 2014 meeting since AHPND did not meet all the criteria for disease listing. However, in March 2015, the AAHSC endorsed the listing of AHPND and a final decision to this effect was made during the OIE General Session held in May 2015. Reporting of AHPND to OIE commenced in January 2016. Current state of knowledge about AHPND The causative agent was discovered in 2013 as unique isolates of Vibrio parahaemolyticus (VPAHPND) that carry a plasmid (pAP1) of approximately 69 kbp. This plas
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.6422
+KG bonus     : 0.3500
+Final score  : 1.3222
+Doc ID       : PMC_012
+Title        : Diagnosis and potential treatments for acute hepatopancreatic necrosis disease (AHPND): a review
+Chunk ID     : PMC_012_chunk_54
+Explanation  : metadata: match disease query=AHPND with doc_term=AHPND (+0.35); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus
+Text:
+to ensure the safety of its people and prevent the spread of infectious substances to the environment related to AHPND. Considering AHPND as a recent emerging disease, biosurveillance, treatment, diagnostics, and manage- ment of this disease are great dilemmas faced by many. Funding information This study was financially supported by the Research Center for Animal Biologics, from The Featured Areas Research Center Program within the framework of the Higher Education Sprout Project by the Ministr
+
+
+====================================================================================================
+QUERY 2: bệnh đốm trắng ở tôm thẻ chân trắng
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.6753
+Doc ID   : TCKHTS_001
+Title    : Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh
+Chunk ID : TCKHTS_001_chunk_2
+File     : data/raw_docs/TCKHTS_001.pdf
+Text:
+biến ở tôm thẻ chân trắng bao gồm bệnh do vi rút đốm trắng (WSSV), bệnh hoại tử gan tụy cấp (AHPND) và bệnh vi bào tử trùng (EHP) cho thấy: bệnh EHP bắt gặp nhiều nhất ở tôm chân trắng nuôi tại Nghi Xuân, Thạch Hà và Cẩm Xuyên ở cả 03 tháng nghiên cứu từ tháng 8 đến tháng 10, tiếp đến là bệnh AHPND xuất hiện vào tháng 9-10. Trong khi đó bệnh WSSV chỉ xuất hiện vào tháng 9 tại Nghi Xuân với tỷ lệ nhiễm thấp (5,5%). Từ khóa: tôm nuôi trên cát, môi trường, bệnh, Thạch Hà, Cẩm Xuyên, Nghi Xuân ABSTR
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.6316
+Doc ID   : TB_007
+Title    : Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng
+Chunk ID : TB_007_chunk_0
+File     : data/raw_docs/TB_007_benh_dom_trang_o_tom_nuoi_va_cong_nghe_nuoi_tom_nham_phong_benh_dom_trang.pdf
+Text:
+Bệnh thủy sản Bệnh do Virus Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng b Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng Cập nhật: 08/12/2017 8,042 lượt xem Nhóm: Tôm - cua Giới thiệu Bệnh đốm trắng được chia làm 2 dạng: dạng 1 là bệnh cấp tính thường làm cho tôm nuôi - nhất là các loài tôm thuộc giống tôm he (Penaeus) - bị chết hàng loạt với tỷ lệ cao trong vòng vài tuần; dạng 2 là bệnh tiềm ẩn, tồn tại độc lập trong các loài thuộc giống tôm càng xanh (
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.5909
+Doc ID   : TB_007
+Title    : Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng
+Chunk ID : TB_007_chunk_6
+File     : data/raw_docs/TB_007_benh_dom_trang_o_tom_nuoi_va_cong_nghe_nuoi_tom_nham_phong_benh_dom_trang.pdf
+Text:
+hoặc tế bào biểu mô trương to, xuất hiện thể ẩn virus trong mẫu. 22:00 18/4/26 Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng - Bệnh thủy sản - Tepbac https://tepbac.com/disease/full/50/benh-dom-trang-o-tom-nuoi-va-cong-nghe-nuoi-tom-nham-phong-benh-dom-trang 4/20 Ngoài ra đốm trắng có thể xuất hiện do sự vôi hóa trong nước có độ kiềm cao hoặc do sự phân giải vỏ của vi khuẩn. Nếu do các nguyên nhân này, tôm sẽ không xuất hiện các dấu hiệu cấp tính. Có thể phân biệt sự 
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.5852
+Doc ID   : SEAFDEC_006
+Title    : Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines
+Chunk ID : SEAFDEC_006_chunk_7
+File     : data/raw_docs/SEAFDEC_006_Apostol2016.pdf
+Text:
+diseases included in the program were white spot disease (WSD), Taura syndrome (TS), yellowhead disease (YHD)/gill-associated disease (GAD), infectious hypodermal haematopoietic necrosis (IHHN), infectious myonecrosis (IMN), white tail disease (MrNv), necrotising hepatopancreatitis (NHP), P. vannamei nodavirus (PvNV) infection, monodon baculovirus (MBV), and luminescent vibriosis. The inclusion of AHPND in the NSHMP started in December 2013 when shrimp productions were rapidly declining in neigh
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.5828
+Doc ID   : TCKHTS_001
+Title    : Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh
+Chunk ID : TCKHTS_001_chunk_30
+File     : data/raw_docs/TCKHTS_001.pdf
+Text:
+uan đến bệnh vi bào tử trùng (EHP) trong nuôi tôm thẻ chân trắng thâm canh tại một số tỉnh trọng điểm Đồng Bằng Sông Cửu Long và đề xuất giải pháp kiểm soát ô nhiễm môi trường, hạn chế phát sinh bệnh trong thời gian tới; 3. Nguyễn Thanh Long, Võ Thành Toàn. Đánh giá mức độ tích lũy đạm, lân trong mô hình nuôi tôm sú (Penaeus monodon) thâm canh. Tạp chí Khoa học Đại học Cần Thơ 2008 (1): 44-52. 4. Nguyễn Văn Hảo (2004). Một số bệnh thường gặp trên tôm Sú, Các Phương Pháp Chẩn Đoán và Phòng Trị. N
+
+[KG] KG applied in top 5: nonzero_kg=4/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: ['Bệnh đốm trắng']
+- species: ['Tôm thẻ chân trắng']
+- location: []
+- mode: []
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.6316
+KG bonus     : 0.2200
+Final score  : 1.5816
+Doc ID       : TB_007
+Title        : Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng
+Chunk ID     : TB_007_chunk_0
+Explanation  : metadata: match species query=Tôm thẻ chân trắng with doc_term=tôm thẻ chân trắng (+0.22); KG: KG direct match: document aboutDisease=Bệnh đốm trắng; KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)
+Text:
+Bệnh thủy sản Bệnh do Virus Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng b Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng Cập nhật: 08/12/2017 8,042 lượt xem Nhóm: Tôm - cua Giới thiệu Bệnh đốm trắng được chia làm 2 dạng: dạng 1 là bệnh cấp tính thường làm cho tôm nuôi - nhất là các loài tôm thuộc giống tôm he (Penaeus) - bị chết hàng loạt với tỷ lệ cao trong vòng vài tuần; dạng 2 là bệnh tiềm ẩn, tồn tại độc lập trong các loài thuộc giống tôm càng xanh (
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.6753
+KG bonus     : 0.0000
+Final score  : 1.3053
+Doc ID       : TCKHTS_001
+Title        : Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh
+Chunk ID     : TCKHTS_001_chunk_2
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document aboutDisease=Bệnh đốm trắng; KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)
+Text:
+biến ở tôm thẻ chân trắng bao gồm bệnh do vi rút đốm trắng (WSSV), bệnh hoại tử gan tụy cấp (AHPND) và bệnh vi bào tử trùng (EHP) cho thấy: bệnh EHP bắt gặp nhiều nhất ở tôm chân trắng nuôi tại Nghi Xuân, Thạch Hà và Cẩm Xuyên ở cả 03 tháng nghiên cứu từ tháng 8 đến tháng 10, tiếp đến là bệnh AHPND xuất hiện vào tháng 9-10. Trong khi đó bệnh WSSV chỉ xuất hiện vào tháng 9 tại Nghi Xuân với tỷ lệ nhiễm thấp (5,5%). Từ khóa: tôm nuôi trên cát, môi trường, bệnh, Thạch Hà, Cẩm Xuyên, Nghi Xuân ABSTR
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.5852
+KG bonus     : 0.0000
+Final score  : 0.9852
+Doc ID       : SEAFDEC_006
+Title        : Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines
+Chunk ID     : SEAFDEC_006_chunk_7
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Bệnh đốm trắng affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh đốm trắng affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng
+Text:
+diseases included in the program were white spot disease (WSD), Taura syndrome (TS), yellowhead disease (YHD)/gill-associated disease (GAD), infectious hypodermal haematopoietic necrosis (IHHN), infectious myonecrosis (IMN), white tail disease (MrNv), necrotising hepatopancreatitis (NHP), P. vannamei nodavirus (PvNV) infection, monodon baculovirus (MBV), and luminescent vibriosis. The inclusion of AHPND in the NSHMP started in December 2013 when shrimp productions were rapidly declining in neigh
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.5781
+KG bonus     : 0.0000
+Final score  : 0.9081
+Doc ID       : PMC_023
+Title        : A review on molecular detection techniques of white spot syndrome virus: Perspectives of problems and solutions in shrimp farming
+Chunk ID     : PMC_023_chunk_157
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document aboutDisease=Bệnh đốm trắng; KG relation match: Bệnh đốm trắng causedBy Virus đốm trắng (WSSV), and document has pathogen=Virus đốm trắng (WSSV)
+Text:
+rimp genera Marsupenaeus ISLAM ET AL. 797 and Palaemon. Journal of Fish Diseases, 28, 565–569. https://doi.org/10. 1111/j.1365-2761.2005.00659.x Leu, J.-H., Tsai, J.-M., & Lo, C. F. (2008). White Spot Syndrome Virus. In Encyclopedia of Virology (pp. 450–459) Elsevier. Leu, J.-H., Tsai, J.-M., Wang, H.-C., Wang, A., Wang, C.-H., Kou, G.-H., & Lo, C. F. (2005). The unique stacked rings in the nucleocapsid of the white spot syndrome virus virion are formed by the major structural protein VP664, the
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.5808
+KG bonus     : 0.0000
+Final score  : 0.4008
+Doc ID       : FAO_009
+Title        : Asia diagnostic guide to aquatic animal diseases
+Chunk ID     : FAO_009_chunk_696
+Explanation  : metadata: no KG match (delta=0); KG: KG penalty: query has specific disease but document has no disease direct/relation evidence
+Text:
+6(2): 149- 154. C.3 Infectious Hypodermal And Haematopoietic Necrosis (IHHN) 178 C.4.1 Background Information C.4.1.1 Causative Agent The causative agent of white spot disease (WSD) is the white spot syndrome virus (WSSV) or white spot virus (WSV), a double stranded DNA (dsDNA) virus. In initial reports, WSV was described as a non-occluded baculovirus but subsequent analysis of WSV-DNA sequences does not support this contention. The viruses in this complex have recently been shown to comprise a 
+
+
+====================================================================================================
+QUERY 3: nuôi tôm hùm ở Khánh Hòa
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.8357
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_154
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+ắt rải rác từ tháng 3 đến tháng 8 hàng năm. Tại Malaysia tôm hùm được nuôi trong lồng bè nổi ở vịnh Darvel và Kinarut. Các đối tượng nuôi chủ yếu là tôm hùm bông, tôm hùm đỏ và tôm hùm sỏi (P. ornatus, P. longipes, P. versicolor). Lồng nuôi tôm hùm được đặt ở độ sâu từ 10 – 20 m nước; cá tạp là nguồn thức ăn chính và được cho ăn 2 lần/ngày. Tôm hùm được nuôi trong lồng bè tại Nhật Bản, Singapore và Indonesia nhưng quy mô nuôi không lớn, vài lồng nuôi/ hộ gia đình và số lượng người tham gia nuôi 
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.8287
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_315
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+ục vụ gia công thức ăn tươi nuôi tôm hùm tại các vùng nuôi tập trung. u tiên cho các vùng có sản lượng cá tạp khai thác tự nhiên cao phù hợp nuôi tôm hùm. Hiện tại Bình Thuận là địa phương có nguồn lợi cá tạp lớn có thể cung cấp thức ăn tươi cho nuôi tôm hùm thương phẩm tại tỉnh Phú Yên, Khánh Hòa. 98 Phát triển sản xuất thức ăn tươi bổ sung cho nguồn thức ăn tươi hiện có từ hoạt động khai thác. Tổ chức sản xuất thức ăn tươi sống tại địa phương cung cấp cho vùng nuôi tôm hùm tập trung. Như vậy s
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.8092
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_106
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+tỉnh Quảng Trị và Thừa Thiên Huế không có vị trí nào thích hợp cho nuôi tôm hùm lồng. 2.1.5.3. Thành ph Đà Nẵng Tổng hợp bộ chi tiêu đánh giá mức độ thích hợp cho nuôi tôm hùm bằng lồng ở từng vùng cho TP Đà Nẵng chỉ ra ở bảng 5. Ở vùng ven bờ Đà Nẵng có hai vị trí thích hợp cho nuôi tôm hùm. Vịnh Kim Liên - Liên Chiểu có nước sạnh, mặt bằng tốt, thuận lợi cho nuôi theo công nghệ mới (nuôi 25 bờ). Mũi Đà Nẳng - Mũi Rạn (Nam Sơn Trà) được che chắn tốt, thích hợp cho nuôi tôm hùm. Bãi Bụt là vị tr
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.8089
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_156
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+phẩm tôm hùm ở Việt Nam Nghề nuôi tôm hùm bắt đầu từ thập niên 90 và cho đến nay tập trung tại vùng Nam Trung bộ rải rác từ tỉnh Quảng Ngãi đến Bình Thuận. Trong đó đối tượng nuôi chủ yếu là tôm hùm bông. Tổng sản lượng tôm hùm nuôi ở các địa phương là khác nhau và biến động theo các năm tùy thuộc giá cả, nguồn giống và tình hình dịch bệnh. 3.3.1.1. Đ i tượng nuôi Đối tượng nuôi chủ yếu hiện nay của nước ta gồm 04 loài: Tôm hùm bông (Panulirus ornatus), tôm hùm xanh/đá (P. homarus), tôm hùm tre 
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.7828
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_170
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+, nguồn giống tôm hùm phục vụ nuôi thương phẩm ở miền Trung Việt Nam phụ thuộc vào tôm tự nhiên (do sản xuất giống tôm hùm chưa được thương mại). Cơ cấu giống gồm có nguồn giống khai thác tại chỗ tại các tỉnh ven biển miền Trung của Việt Nam và nhập từ nước ngoài như Philippines, Malaysia, Indonesia. Kết quả điều tra năm 2015 tại các vùng nuôi trọng điểm ở các địa phương từ Bình Định đến Bình Thuận cho thấy tỉ lệ hộ nuôi tôm hùm gặp khó khăn về con giống biến động 51 khỏang 40-90%. Lượng tôm nhậ
+
+[KG] KG applied in top 5: nonzero_kg=2/5; mapped_docs=4/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: []
+- species: ['lobster']
+- location: ['Khanh Hoa']
+- mode: []
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.8357
+KG bonus     : 0.3500
+Final score  : 1.6057
+Doc ID       : RIA3_001
+Title        : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID     : RIA3_001_chunk_154
+Explanation  : metadata: match species query=lobster with doc_term=lobster (+0.22); match location query=Khanh Hoa with doc_term=Khánh Hòa (+0.08); species-location synergy (+0.05); KG: KG direct match: document aboutTaxon=Tôm hùm bông; KG direct match: document aboutLocation=Ven biển Khánh Hòa; KG relation match: Tôm hùm bông isFoundIn Ven biển Khánh Hòa, query location matches species range
+Text:
+ắt rải rác từ tháng 3 đến tháng 8 hàng năm. Tại Malaysia tôm hùm được nuôi trong lồng bè nổi ở vịnh Darvel và Kinarut. Các đối tượng nuôi chủ yếu là tôm hùm bông, tôm hùm đỏ và tôm hùm sỏi (P. ornatus, P. longipes, P. versicolor). Lồng nuôi tôm hùm được đặt ở độ sâu từ 10 – 20 m nước; cá tạp là nguồn thức ăn chính và được cho ăn 2 lần/ngày. Tôm hùm được nuôi trong lồng bè tại Nhật Bản, Singapore và Indonesia nhưng quy mô nuôi không lớn, vài lồng nuôi/ hộ gia đình và số lượng người tham gia nuôi 
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.7818
+KG bonus     : 0.2200
+Final score  : 1.1118
+Doc ID       : FAO_015
+Title        : FAO species catalogue. Vol.13. Marine lobsters of the world. An annotated and illustrated catalogue of marine lobsters known to date
+Chunk ID     : FAO_015_chunk_5
+Explanation  : metadata: match species query=lobster with doc_term=lobster (+0.22); KG: KG direct match: document aboutTaxon=Tôm hùm bông; KG relation match: Tôm hùm bông isFoundIn Ven biển Khánh Hòa, query location matches species range; KG penalty: query expresses aquaculture (nuoi) in a regional site; document production mode is capture/market fisheries (Generic_CaptureFisheries); intent penalty: local aquaculture query vs capture/market doc (-0.12)
+Text:
+Rome Holthuis, L.B. FAO species catalogue. Vol. 13. Marine lobsters of the world. An annotated and illustrated catalogue of species of interest to fisheries known to date. FAO Fisheries Synopsis. No. 125, Vol. 13. Rome, FAO. 1991. 292 p. ABSTRACT This is the thirteenth issue in the FAO series of world-wide annotated and illustrated catalogues of major groups of organisms that enter marine fisheries. The present volume on marine lobsters includes 149 species in 3 infraorders, 10 families and 33 g
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.6790
+KG bonus     : 0.0000
+Final score  : 0.6790
+Doc ID       : NACA_001
+Title        : Status, technological innovations, and industry development needs of mud crab (Scylla spp.) aquaculture
+Chunk ID     : NACA_001_chunk_220
+Explanation  : no KG match (delta=0)
+Text:
+ud crabs [Scylla spp.] and swimming crabs [Portunus pelagicus] from the territory of the Republic of Indonesia. KKP. 2020. Peraturan Menteri Kelautan Dan Perikanan Republik Indonesia Nomor 56 Tahun 2016 Tentang Pengelolaan Lobster (Panulirus spp.), Kepiting (Scylla spp.) dan Rajungan (Portunus pelagicus) dari Wilayah Republik Indonesia. (Regulation of the Minister of Marine Affairs and Fisheries of the Republic of Indonesia Number 56 of 2016 concerning the management of lobsters [Panulirus spp.]
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.6838
+KG bonus     : 0.0000
+Final score  : 0.5638
+Doc ID       : FAO_029
+Title        : Impacts of climate change on fisheries and aquaculture. Synthesis of current knowledge, adaptation and mitigation options
+Chunk ID     : FAO_029_chunk_1039
+Explanation  : no KG match (delta=0); intent penalty: local aquaculture query vs capture/market doc (-0.12)
+Text:
+thal to juvenile Caribbean spiny lobsters is likely dispersed via pelagic larval stages, demonstrating how any climate-induced changes in the hydrology of the Caribbean Sea could significantly affect the spread of the disease (Kough et al., 2015). As OA increases, affecting the concentration of ions (especially H+) in seawater, calcifying organisms will find it increasingly difficult to build calcareous skeletons and shells, although the impact on the region’s important shellfish species (queen 
+
+
+====================================================================================================
+QUERY 4: infectious myonecrosis
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.6177
+Doc ID   : FAO_010
+Title    : Shrimp infectious myonecrosis strategy manual
+Chunk ID : FAO_010_chunk_31
+File     : data/raw_docs/FAO_010_ca6052en.pdf
+Text:
+........................ 5 Figure 5. Gross signs of infectious myonecrosis. (A) Farmed Penaeus vannamei from an outbreak in Brazil, exhibiting various degrees of skeletal muscle necrosis visible as an opaque, whitish discolouration in the abdomen; (B) farmed P. vannamei from an outbreak in Indonesia, showing reddened necrotic tails ............ 6 Figure 6. Histopathological characterization of infectious myonecrosis virus (IMNV) infected Penaeus vannamei, H&E stained. (A) Coagulative necrosis of
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.6146
+Doc ID   : FAO_045
+Title    : Strengthening Capacity for Dealing with Shrimp Infectious Myonecrosis Virus Disease - TCP/INT/3501
+Chunk ID : FAO_045_chunk_0
+File     : data/raw_docs/FAO_045_ca6163en.pdf
+Text:
+Infectious myonecrosis virus (IMNV) is an emerging disease of Pacific white leg shrimp (Penaeus vannamei), and is one of only a few internationally important diseases of crustaceans listed by the World Organisation for Animal Health (OIE), owing to its high pathogenicity; its potential for significant economic, social and/or biological impacts on countries that have not as yet been affected by the disease; and the difficulty or impossibility to treat, control or eradicate it once it has been int
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.5959
+Doc ID   : FAO_010
+Title    : Shrimp infectious myonecrosis strategy manual
+Chunk ID : FAO_010_chunk_11
+File     : data/raw_docs/FAO_010_ca6052en.pdf
+Text:
+with regard to outbreaks of infectious myonecrosis (IMN), a viral disease of farmed marine penaeid shrimp that is listed by the World Organisation for Animal Health (OIE). IMN is a viral disease, discovered in 2002, that has caused substantial mortalities in populations of cultured Pacific whiteleg shrimp (Penaeus vannamei) initially reported in Brazil (2002) and Indonesia (2006) and recently in India (2016) and Malaysia (2018). This virus infects, and causes focal to extensive white, opaque nec
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.5493
+Doc ID   : PMC_014
+Title    : Immune response, gene expression, and intestinal microbial composition of Pacific white shrimp fed with multispecies synbiotic for the prevention of coinfected disease
+Chunk ID : PMC_014_chunk_5
+File     : data/raw_docs/PMC_014_PMC9531857.pdf
+Text:
+ture. Infectious myonecrosis virus (IMNV) is one of the viral diseases that can cause huge mortality and huge economic losses in shrimp culture. The target organ attacked by this virus is a skeletal muscle and can attack a variety of shrimp stadia. Pacific white shrimp infected with IMNV show clinical signs of necrosis, especially on the distal abdominal. IMNV was first reported in Brazil in 2002 and spread in Indonesia in 2006 (Senapin et al. 2007). In addition to viral infections, Pacific whit
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.5474
+Doc ID   : FAO_010
+Title    : Shrimp infectious myonecrosis strategy manual
+Chunk ID : FAO_010_chunk_184
+File     : data/raw_docs/FAO_010_ca6052en.pdf
+Text:
+h the infectious myonecrosis virus (IMNV). R. Bras. Zootec., 44: 165–173. Nibert, M.L. 2007. ‘2A-like’ and ‘shifty heptamer’ motifs in penaeid shrimp infectious myonecrosis virus, a monosegmented double-stranded RNA virus. J. Gen. Virol., 88: 1315– 1318. Nunes, A.J.P., Gesteira, T.C.V. & Goddard, S. 1997. Food ingestion and assimilation by the southern brown shrimp Penaeus subtilis under semi-intensive culture in NE Brazil. Aquaculture, 149: 121–136. Nunes, A.J.P., Cunha-Martins, P. & Vasconselo
+
+[KG] KG applied in top 5: nonzero_kg=5/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: ['IMN']
+- species: []
+- location: []
+- mode: []
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.6177
+KG bonus     : 0.3500
+Final score  : 1.3977
+Doc ID       : FAO_010
+Title        : Shrimp infectious myonecrosis strategy manual
+Chunk ID     : FAO_010_chunk_31
+Explanation  : metadata: match disease query=IMN with doc_term=IMN (+0.35); KG: KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus
+Text:
+........................ 5 Figure 5. Gross signs of infectious myonecrosis. (A) Farmed Penaeus vannamei from an outbreak in Brazil, exhibiting various degrees of skeletal muscle necrosis visible as an opaque, whitish discolouration in the abdomen; (B) farmed P. vannamei from an outbreak in Indonesia, showing reddened necrotic tails ............ 6 Figure 6. Histopathological characterization of infectious myonecrosis virus (IMNV) infected Penaeus vannamei, H&E stained. (A) Coagulative necrosis of
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.5493
+KG bonus     : 0.3500
+Final score  : 1.3293
+Doc ID       : PMC_014
+Title        : Immune response, gene expression, and intestinal microbial composition of Pacific white shrimp fed with multispecies synbiotic for the prevention of coinfected disease
+Chunk ID     : PMC_014_chunk_5
+Explanation  : metadata: match disease query=IMN with doc_term=IMN (+0.35); KG: KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus
+Text:
+ture. Infectious myonecrosis virus (IMNV) is one of the viral diseases that can cause huge mortality and huge economic losses in shrimp culture. The target organ attacked by this virus is a skeletal muscle and can attack a variety of shrimp stadia. Pacific white shrimp infected with IMNV show clinical signs of necrosis, especially on the distal abdominal. IMNV was first reported in Brazil in 2002 and spread in Indonesia in 2006 (Senapin et al. 2007). In addition to viral infections, Pacific whit
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.6146
+KG bonus     : 0.3500
+Final score  : 1.2946
+Doc ID       : FAO_045
+Title        : Strengthening Capacity for Dealing with Shrimp Infectious Myonecrosis Virus Disease - TCP/INT/3501
+Chunk ID     : FAO_045_chunk_0
+Explanation  : metadata: match disease query=IMN with doc_term=IMN (+0.35); KG: KG direct match: document aboutDisease=Infectious myonecrosis; KG relation match: Infectious myonecrosis causedBy Infectious myonecrosis virus, and document has pathogen=Infectious myonecrosis virus
+Text:
+Infectious myonecrosis virus (IMNV) is an emerging disease of Pacific white leg shrimp (Penaeus vannamei), and is one of only a few internationally important diseases of crustaceans listed by the World Organisation for Animal Health (OIE), owing to its high pathogenicity; its potential for significant economic, social and/or biological impacts on countries that have not as yet been affected by the disease; and the difficulty or impossibility to treat, control or eradicate it once it has been int
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.5176
+KG bonus     : -0.1800
+Final score  : 0.5376
+Doc ID       : TCTS_001
+Title        : Các bệnh thường gặp trên tôm nước lợ và biện pháp phòng chống hiệu quả
+Chunk ID     : TCTS_001_chunk_8
+Explanation  : metadata: miss disease (-0.18); KG: KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng; KG relation match: Infectious myonecrosis affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú
+Text:
+u mô (IHHN) Bệnh hoại tử cơ quan tạo máu và cơ quan biểu mô (Infectious Hypodermal and Haematopoietic Necrosis-IHHN). Bệnh do Infectious Hypodermal and Haematopoietic Necrosis Virus (IHHNV), thuộc họ Parvoviridae. Đây là virus DNA sợi đơn, kích thước siêu nhỏ và không có màng bao lipid nên rất bền vững trong môi trường nước và bùn đáy. Virus này có khả năng chèn đoạn mã di truyền vào bộ gen tôm, gây khó khăn cho việc chẩn đoán vì dễ tạo kết quả dương tính giả. Hai loài tôm bị ảnh hưởng chính là 
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.5198
+KG bonus     : -0.1800
+Final score  : 0.4398
+Doc ID       : PMC_032
+Title        : Isolation, characterization, and pathogenicity of a Vibrio parahaemolyticus strain causing translucent post-larvae disease in Penaeus vannamei outside China
+Chunk ID     : PMC_032_chunk_4
+Explanation  : metadata: miss disease (-0.18); KG: KG relation match: Infectious myonecrosis affectsTaxon Tôm thẻ chân trắng, and document aboutTaxon=Tôm thẻ chân trắng
+Text:
+topancreas, including tubular necrosis, epithelial cell sloughing, and bacterial invasion, consistent with previously reported TPD pathology. Additionally, hemocytic enteritis, a characteristic histopathological feature associated with infection with VpTPD AG1 strain, was marked by mucosal epithelium loss, intense inflammation, and a thick hemocyte layer in the intestine. Antibiotic susceptibility testing of VpTPD AG1 strain revealed resistance to β-lactams but sensitivity to multiple other anti
+
+
+====================================================================================================
+QUERY 5: bệnh thường gặp trên cá bớp
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.8149
+Doc ID   : NACA_003
+Title    : Report of the fifteenth meeting of the Asia Regional Advisory Group on Aquatic Animal Health, 21-23 November 2016
+Chunk ID : NACA_003_chunk_72
+File     : data/raw_docs/NACA_003_1494554353.pdf
+Text:
+roplasma. 3.2. UPDATES ON FINFISH DISEASES IN ASIA Dr. Diana Chee presented current disease concerns for finfishes in the region. There continue to be reports of traditional production diseases such as Viral nervous necrosis (VNN) and Red sea bream iridoviral disease (RSIVD) in 2016. Infections with Ranaviruses, which were fittingly described by Chinchar & Waltzek (2014) as being ‘promiscuous pathogens of cold-blooded vertebrates’, may exist in the background with the last report of Epizootic ha
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.7655
+Doc ID   : FAO_018
+Title    : Water quality and fish health
+Chunk ID : FAO_018_chunk_266
+File     : data/raw_docs/FAO_018_t1623e.pdf
+Text:
+nducing flexibacteriosis in the gills of salmonids, by damaging the delicate gill respiratory epithelium. 6.3 Fungal diseases A direct relationship between branchiomycosis and organic pollution of water is well known in fish culture practice. Usually, the disease is endemic in ponds and reservoirs; cyprinid fish species, whitefish, pike, but also wels and rainbow trout can be affected. The outbreak and duration of the disease depend on ambient environmental factors, the most important of which i
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.7641
+Doc ID   : FAO_029
+Title    : Impacts of climate change on fisheries and aquaculture. Synthesis of current knowledge, adaptation and mitigation options
+Chunk ID : FAO_029_chunk_2841
+File     : data/raw_docs/FAO_029_i9705en.pdf
+Text:
+occurs in rivers/ canals, the disease can spread downstream as well as upstream where susceptible fish species exist. EUS is one of the most serious aquatic diseases affecting finfish. Indirect long-term effects may include threats to the environment and aquatic biodiversity through, for example, declining fish biomass and irreversible ecological disruption. High losses to fish farmers and fishers through mortalities, market rejection and public health concerns because of the presence of ugly le
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.7498
+Doc ID   : FAO_009
+Title    : Asia diagnostic guide to aquatic animal diseases
+Chunk ID : FAO_009_chunk_290
+File     : data/raw_docs/FAO_009_y1679e.pdf
+Text:
+each 11-17 °C. Poor physical condition of overwintering fish appears to be a significant contributing factor. Mortalities range from 30-70%. Viral multiplication in the endothelial cells of blood capillaries, haematopoietic tissue and nephron cells, results in oedema and haemorrhage and impairs tissue osmoregulation. Kidney, spleen, gill and brain are the organs in which SVCV is most abundant during overt infection. Survivors demonstrate a strong protective immunity, associated with circulating 
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.7432
+Doc ID   : FAO_009
+Title    : Asia diagnostic guide to aquatic animal diseases
+Chunk ID : FAO_009_chunk_319
+File     : data/raw_docs/FAO_009_y1679e.pdf
+Text:
+lls may also occur singly. Although the infection is rarely associated with overt disease, mortalities can occur under cul- ture conditions, possibly due to impaired gill, swimming or feeding capability with mechanically intrusive lesions. The primary effect, however, is economical, as fish with such grossly visible le- sions are difficult to market. F.9.3 Screening Methods Currently there are no detection techniques that are sensitive enough to detect or isolate this group of iridoviruses from 
+
+[KG] No KG contribution in top 5 (kg_score=0); used=taxon_enriched_facts_v2.owl; mapped_docs=5/5
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: []
+- species: ['Cá bớp']
+- location: []
+- mode: []
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.8149
+KG bonus     : 0.0000
+Final score  : 0.8149
+Doc ID       : NACA_003
+Title        : Report of the fifteenth meeting of the Asia Regional Advisory Group on Aquatic Animal Health, 21-23 November 2016
+Chunk ID     : NACA_003_chunk_72
+Explanation  : no KG match (delta=0)
+Text:
+roplasma. 3.2. UPDATES ON FINFISH DISEASES IN ASIA Dr. Diana Chee presented current disease concerns for finfishes in the region. There continue to be reports of traditional production diseases such as Viral nervous necrosis (VNN) and Red sea bream iridoviral disease (RSIVD) in 2016. Infections with Ranaviruses, which were fittingly described by Chinchar & Waltzek (2014) as being ‘promiscuous pathogens of cold-blooded vertebrates’, may exist in the background with the last report of Epizootic ha
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.7655
+KG bonus     : 0.0000
+Final score  : 0.7655
+Doc ID       : FAO_018
+Title        : Water quality and fish health
+Chunk ID     : FAO_018_chunk_266
+Explanation  : no KG match (delta=0)
+Text:
+nducing flexibacteriosis in the gills of salmonids, by damaging the delicate gill respiratory epithelium. 6.3 Fungal diseases A direct relationship between branchiomycosis and organic pollution of water is well known in fish culture practice. Usually, the disease is endemic in ponds and reservoirs; cyprinid fish species, whitefish, pike, but also wels and rainbow trout can be affected. The outbreak and duration of the disease depend on ambient environmental factors, the most important of which i
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.7641
+KG bonus     : 0.0000
+Final score  : 0.7641
+Doc ID       : FAO_029
+Title        : Impacts of climate change on fisheries and aquaculture. Synthesis of current knowledge, adaptation and mitigation options
+Chunk ID     : FAO_029_chunk_2841
+Explanation  : no KG match (delta=0)
+Text:
+occurs in rivers/ canals, the disease can spread downstream as well as upstream where susceptible fish species exist. EUS is one of the most serious aquatic diseases affecting finfish. Indirect long-term effects may include threats to the environment and aquatic biodiversity through, for example, declining fish biomass and irreversible ecological disruption. High losses to fish farmers and fishers through mortalities, market rejection and public health concerns because of the presence of ugly le
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.7498
+KG bonus     : 0.0000
+Final score  : 0.7498
+Doc ID       : FAO_009
+Title        : Asia diagnostic guide to aquatic animal diseases
+Chunk ID     : FAO_009_chunk_290
+Explanation  : no KG match (delta=0)
+Text:
+each 11-17 °C. Poor physical condition of overwintering fish appears to be a significant contributing factor. Mortalities range from 30-70%. Viral multiplication in the endothelial cells of blood capillaries, haematopoietic tissue and nephron cells, results in oedema and haemorrhage and impairs tissue osmoregulation. Kidney, spleen, gill and brain are the organs in which SVCV is most abundant during overt infection. Survivors demonstrate a strong protective immunity, associated with circulating 
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.7388
+KG bonus     : 0.0000
+Final score  : 0.7388
+Doc ID       : FAO_036
+Title        : Strengthening aquaculture health management in Bosnia and Herzegovina
+Chunk ID     : FAO_036_chunk_100
+Explanation  : no KG match (delta=0)
+Text:
+(Silurus glanis), tench (Tinca tinca) Viral hemorrhagic septicemia (VHS) Herring (Clupea spp.), whitefish (Coregonus sp.), pike (Esox lucius), haddock (Gadus aeglefinus), Pacific cod (G. macrocephalus), Atlantic cod (G. morhua), Pacific salmon (Oncorhynchus spp.) rainbow trout (O. mykiss), rockling (Onos mustelus), brown trout (Salmo trutta), turbot (Scophthalmus maximus), sprat (Sprattus sprattus), grayling (Thymallus thymallus) Infectious hematopoietic necrosis (IHN) Chum salmon (O. keta), coh
+
+
+====================================================================================================
+QUERY 6: production mode trại giống tôm thẻ chân trắng
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.5018
+Doc ID   : FAO_005
+Title    : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID : FAO_005_chunk_7
+File     : data/raw_docs/FAO_005_y5040e.pdf
+Text:
+atchery production of P. vannamei postlarvae. This document is expected to facilitate the efforts of hatchery operators and managers to produce quality, disease-free, healthy P. vannamei postlarvae, thus improving overall production and the sustainability of white shrimp aquaculture. v Preface The Food and Agriculture Organization of the United Nations (FAO) is pleased to present this document entitled “Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries i
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.4863
+Doc ID   : RIA3_001
+Title    : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID : RIA3_001_chunk_314
+File     : data/raw_docs/RIA3_001_quy_hoach_nuoi_tom_hum_2030.pdf
+Text:
+y sản cung cấp Sản xuất và gia công thức ăn từ các sản phẩm nuôi trồng Phú Yên/ Khánh Hòa Thức ăn gia công từ sản phẩm thủy sản (ốc bưu, hàu) 9900 Các nhà máy chế biến, cơ sở nuôi trồng thủy sản đầu tư Gia công thức ăn từ sản phẩm khai thác Bình Thuận Thức ăn gia công từ sản phẩm khai thác 23100 Do các nhà máy chế biến thủy sản đầu tư Quan điểm nâng cấp, đầu tư bổ sung các cơ sở sản xuất, cung ứng thức ăn thủy sản để phục vụ sản xuất thức ăn công nghiệp nuôi tôm hùm. Nâng cấp các cơ sở sản xuất 
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.4784
+Doc ID   : FAO_011
+Title    : Brackishwater Shrimp Culture Demonstration in Bangladesh - BOBP/REP/35
+Chunk ID : FAO_011_chunk_79
+File     : data/raw_docs/FAO_011_ad824e.pdf
+Text:
+ddle to economize on webbing bamboo screens and other related materials. Another reason for locating the nursery pens in the corners was to include in the pen grassy berms providing attachment substrata and shelter for the P. monodon post-larvae and also to facilitate feeding, watching and growth sampling from the shore without getting into water. Bundles of grass, twigs and straw were also planted in the pond bottom to provide additional substrata and shelter. 5.20 In the AAF, following paddy c
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.4617
+Doc ID   : PMC_007
+Title    : Effects of Feed Mixed with Lactic Acid Bacteria and Carbon, Nitrogen, Phosphorus Supplied to the Water on the Growth and Survival Rate of White Leg Shrimp (Penaeus vannamei) Infected with Acute Hepatopancreatic Necrosis Disease Caused by Vibrio parahaemolyticus
+Chunk ID : PMC_007_chunk_82
+File     : data/raw_docs/PMC_007_PMC8067269.pdf
+Text:
+php/ 108399/mod_resource/content/1/Cap%203a%20Brock.pdf (accessed on 14 October 2020). 42. Van Phuong, T.; Van Ba, N.; Van Hoa, N. The effects of hydrolyzed and supplemented rice ﬂour method to cultural yield of white leg shrimp. Can Tho Univ. J. Sci. 2014, 44–53.
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.4558
+Doc ID   : FAO_023
+Title    : Environmental impact assessment and monitoring in aquaculture. Requirements, practices, effectiveness and improvements
+Chunk ID : FAO_023_chunk_2898
+File     : data/raw_docs/FAO_023_i0970e.pdf
+Text:
+g programmes for clusters of small-scale cage farmers Presentation by Patrick White Mr White presented a summary of work conducted in Bolinao Bay in the Philippines strengthening capacity for environmental management of small-scale cage culture activities (see Part 1). There are currently 9 500 cages generating 120 000 tonnes of fish with little planning and management. The project involved a range of activities including GIS and assessment of carrying capacity, zoning and development of zone co
+
+[KG] KG applied in top 5: nonzero_kg=2/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: []
+- species: ['Tôm thẻ chân trắng']
+- location: []
+- mode: ['hatchery aquaculture']
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.5018
+KG bonus     : 0.0800
+Final score  : 0.7818
+Doc ID       : FAO_005
+Title        : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID     : FAO_005_chunk_7
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng
+Text:
+atchery production of P. vannamei postlarvae. This document is expected to facilitate the efforts of hatchery operators and managers to produce quality, disease-free, healthy P. vannamei postlarvae, thus improving overall production and the sustainability of white shrimp aquaculture. v Preface The Food and Agriculture Organization of the United Nations (FAO) is pleased to present this document entitled “Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries i
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.4617
+KG bonus     : 0.0800
+Final score  : 0.7417
+Doc ID       : PMC_007
+Title        : Effects of Feed Mixed with Lactic Acid Bacteria and Carbon, Nitrogen, Phosphorus Supplied to the Water on the Growth and Survival Rate of White Leg Shrimp (Penaeus vannamei) Infected with Acute Hepatopancreatic Necrosis Disease Caused by Vibrio parahaemolyticus
+Chunk ID     : PMC_007_chunk_82
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng
+Text:
+php/ 108399/mod_resource/content/1/Cap%203a%20Brock.pdf (accessed on 14 October 2020). 42. Van Phuong, T.; Van Ba, N.; Van Hoa, N. The effects of hydrolyzed and supplemented rice ﬂour method to cultural yield of white leg shrimp. Can Tho Univ. J. Sci. 2014, 44–53.
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.4863
+KG bonus     : 0.0800
+Final score  : 0.5663
+Doc ID       : RIA3_001
+Title        : Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030
+Chunk ID     : RIA3_001_chunk_314
+Explanation  : match mode query=hatchery aquaculture with doc_term=marine aquaculture (+0.08)
+Text:
+y sản cung cấp Sản xuất và gia công thức ăn từ các sản phẩm nuôi trồng Phú Yên/ Khánh Hòa Thức ăn gia công từ sản phẩm thủy sản (ốc bưu, hàu) 9900 Các nhà máy chế biến, cơ sở nuôi trồng thủy sản đầu tư Gia công thức ăn từ sản phẩm khai thác Bình Thuận Thức ăn gia công từ sản phẩm khai thác 23100 Do các nhà máy chế biến thủy sản đầu tư Quan điểm nâng cấp, đầu tư bổ sung các cơ sở sản xuất, cung ứng thức ăn thủy sản để phục vụ sản xuất thức ăn công nghiệp nuôi tôm hùm. Nâng cấp các cơ sở sản xuất 
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.4459
+KG bonus     : 0.0800
+Final score  : 0.5259
+Doc ID       : FAO_039
+Title        : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID     : FAO_039_chunk_55
+Explanation  : match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)
+Text:
+ater prawn farming in areas adjacent to the hatcheries. Nursery rearing of freshwater prawn fry could also be encouraged through the increased availability of hatchery-produced prawn fry. Of the eight Indian trainees sent to Malaysia, only one has constructed a hatchery. The design and scale will serve as an appropriate model for the small-scale sector. Another of the trainees is presently working in a hatchery. However, the impact in the private sector was less than hoped for. Although candidat
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.4435
+KG bonus     : 0.0800
+Final score  : 0.5235
+Doc ID       : FAO_002
+Title        : Improving Penaeus monodon hatchery practices. Manual based on experience in India.
+Chunk ID     : FAO_002_chunk_142
+Explanation  : match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)
+Text:
+14.5 5 4–7 2-4 8 Source: Broodstock fishery questionnaires, 2004 Broodstock-holding container and aerator on a Sona Trawler Small-mesh nets are used by most Sona trawlers to catch broodstock Pre-spawning procedures 25 filled with oxygen, sealed and placed on ice within insulated foam boxes to maintain a temperature of <29 oC . The use of bioreactor technology and/or anaesthetics to reduce metabolic activity during the holding and transportation of broodstock should be investigated. The literatur
+
+
+====================================================================================================
+QUERY 7: tài liệu về trại giống tôm sú ở Ấn Độ
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.6839
+Doc ID   : FAO_039
+Title    : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID : FAO_039_chunk_80
+File     : data/raw_docs/FAO_039_ad893e.pdf
+Text:
+A. Angell. (Madras, 1992.) 52. Feeds for Artisanal Shrimp Culture in India - Their development and evaluation. J F Wood et al. (Madras, 1992.) 53. A Radio Programme for Fisherfolk in Sri Lanka. R N Roy. (Madras, 1992.) 54. Developing and Introducing a Beachlanding Craft on the East Coast of India. V L C Pietersz. (Madras, 1993.) 55. A Shri Lanka Credit Project to Provide Banking Services to Fisherfolk. C. Fernando, D. Attanayake. (Madras, 1992.) 56. A Study on Dolphin Catches in Shri Lanka. L Jo
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.6829
+Doc ID   : FAO_039
+Title    : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID : FAO_039_chunk_13
+File     : data/raw_docs/FAO_039_ad893e.pdf
+Text:
+an 55 N.A. USA 50 N.A. Mauritius 45 N.A. Shrimp and prawn farming in India and Bangladesh are based on wild fry and will probably continue to be so for the foreseeable future. However, increasingly common fry shortages and high prices are stimulating the expansion of the hatchery industry, particularly in India. Until the late 1980s, Indian hatcheries were experimental and confined to the government sector. In 1990, the Marine Products Export Development Authority (MPEDA) of the Ministry of Comm
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.6682
+Doc ID   : FAO_042_i3720e
+Title    : The State of World Fisheries and Aquaculture 2024 – Blue Transformation in action
+Chunk ID : FAO_042_i3720e_chunk_0
+File     : data/raw_docs/FAO_042_i3720e.pdf
+Text:
+2014 The State of World Fisheries and Aquaculture Opportunities and challenges 2014 ISSN 1020-5489 Cover and sidebar photograph: Harvest of Indian major and exotic (silver, grass and common) carps from a semi-intensive polyculture pond, Rajshahi, Bangladesh (FAO/M.R. Hasan). 2014 The State of World Fisheries and Aquaculture Opportunities and challenges FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS Rome, 2014 The designations employed and the presentation of material in this information
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.6641
+Doc ID   : FAO_039
+Title    : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID : FAO_039_chunk_89
+File     : data/raw_docs/FAO_039_ad893e.pdf
+Text:
+the Coromandel Coast. G. Pajot, C. R. Prabhakaradu. (Madras, 1993.) 85. The Processing and Marketing of Anchovy in the Kanniyakumari District of South India: Scope for development. T. W. Bostock, M. H. Kalavathy, R. Vijaynidhi. (Madras, 1992.) 86. Nursery Rearing of Tiger Shrimp Post-larvae in West Bengal, India. H Nielsen, R Hall. (Madras, 1993.) 87. Market Study of Tiger Shrimp Fry in West Bengal, India. M M Raj, R Hall. (Madras, 1993.) 88. The Shrimp Fry By-catch in West Bengal. B K Banerjee,
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.6485
+Doc ID   : FAO_039
+Title    : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID : FAO_039_chunk_0
+File     : data/raw_docs/FAO_039_ad893e.pdf
+Text:
+BAY OF BENGAL PROGRAMME BOBP/REP/66 Small-scale Fisherfolk Communities GCP/RAS/118/MUL Promotion of small-scale shrimp and prawn hatcheries in India and Bangladesh Charles L. Angell SK Aquaculturist BAY OF BENGAL PROGRAMME Madras, India 1994 The shrimp and prawn culture industries in India and Bangladesh still depend on wild fry. However, expanding production and the trend towards intensification, especially in India, will require the development of hatchery industries in these countries. Since 
+
+[KG] KG applied in top 5: nonzero_kg=2/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: []
+- species: ['Tôm sú']
+- location: ['Ấn Độ']
+- mode: ['hatchery aquaculture']
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.6839
+KG bonus     : 0.0800
+Final score  : 0.8639
+Doc ID       : FAO_039
+Title        : Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66
+Chunk ID     : FAO_039_chunk_80
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutLocation=Ấn Độ
+Text:
+A. Angell. (Madras, 1992.) 52. Feeds for Artisanal Shrimp Culture in India - Their development and evaluation. J F Wood et al. (Madras, 1992.) 53. A Radio Programme for Fisherfolk in Sri Lanka. R N Roy. (Madras, 1992.) 54. Developing and Introducing a Beachlanding Craft on the East Coast of India. V L C Pietersz. (Madras, 1993.) 55. A Shri Lanka Credit Project to Provide Banking Services to Fisherfolk. C. Fernando, D. Attanayake. (Madras, 1992.) 56. A Study on Dolphin Catches in Shri Lanka. L Jo
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.6449
+KG bonus     : 0.0800
+Final score  : 0.8249
+Doc ID       : PMC_034
+Title        : Genome Characterization and Infectivity Potential of Vibriophage-φLV6 with Lytic Activity against Luminescent Vibrios of Penaeus vannamei Shrimp Aquaculture
+Chunk ID     : PMC_034_chunk_107
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutLocation=Ấn Độ
+Text:
+ssRef] [PubMed] 57. Joseph, T.C.; Rao, B.M.; Chandrarao, P.; Bibindas, K.S.; Lakshmi, T.R.; Joshy, C.G.; El Tholth, M.; Murray, F.C. Prophylactic health products use in Penaeus vannamei farms in Andhra Pradesh: Perception of shrimp farmers of north, central and south coastal regions. Indian J. Fish 2021, 68, 143–147. [CrossRef] 58. Bate, S.T.; Clark, R.A. Stanford SC Using InVivoStat to perform the statistical analysis of experiments. J. Psychopharmacol. 2017, 31, 644–652. [CrossRef] [PubMed] 59
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.6422
+KG bonus     : 0.0800
+Final score  : 0.7222
+Doc ID       : FAO_040
+Title        : An assessment of impacts from shrimp aquaculture in Bangladesh and prospects for improvement
+Chunk ID     : FAO_040_chunk_379
+Explanation  : match mode query=hatchery aquaculture with doc_term=coastal aquaculture (+0.08)
+Text:
+hrimp Farming in Bangladesh. ARDMCS, Dhaka, Bangladesh. 24 pp. Hussain, M.G. & Hoq, M.E., eds. 2010. Sustainable Management of Fisheries Resources of the Bay of Bengal- Compilation of national and regional workshop reports. Support to Sustainable Management of the BOBLME Project, Bangladesh Fisheries Research Institute. SBOBLMEP Pub./Rep. 2. 122 pp. IEA. 2009. Bangladesh: Electricity and Heat for 2009, Statistical data. (available at http:// www.iea.org/statistics/statisticssearch/report/?countr
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.6682
+KG bonus     : 0.0000
+Final score  : 0.6682
+Doc ID       : FAO_042_i3720e
+Title        : The State of World Fisheries and Aquaculture 2024 – Blue Transformation in action
+Chunk ID     : FAO_042_i3720e_chunk_0
+Explanation  : no KG match (delta=0)
+Text:
+2014 The State of World Fisheries and Aquaculture Opportunities and challenges 2014 ISSN 1020-5489 Cover and sidebar photograph: Harvest of Indian major and exotic (silver, grass and common) carps from a semi-intensive polyculture pond, Rajshahi, Bangladesh (FAO/M.R. Hasan). 2014 The State of World Fisheries and Aquaculture Opportunities and challenges FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS Rome, 2014 The designations employed and the presentation of material in this information
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.6328
+KG bonus     : 0.0000
+Final score  : 0.6328
+Doc ID       : FAO_016
+Title        : Aquaculture development. 13. Guidelines for ex situ in vitro gene banking of aquatic genetic resources
+Chunk ID     : FAO_016_chunk_799
+Explanation  : no KG match (delta=0)
+Text:
+earch. [Cited 28 May 2025]. www.researchgate.net/publication/365449731_Achievements_in_ Fisheries_and_Aquaculture_in_Independent_India#fullTextFileContent Lakra, W.S., Mohindra, V. & Lal, K.K. 2007. Fish genetics and conservation research in India: status and perspectives. Fish Physiology Biochemistry, 33: 475–487. https://doi.org/10.1007/s10695-007-9168-z Murali, S.K., Basdeo, K., Akhilesh, K.M., Ravindra, K. & Lal, K.K. 2020. National repository of fish cell lines: accelerating fish cell line 
+
+
+====================================================================================================
+QUERY 8: biosecurity trong hatchery tôm thẻ chân trắng
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.6337
+Doc ID   : FAO_002
+Title    : Improving Penaeus monodon hatchery practices. Manual based on experience in India.
+Chunk ID : FAO_002_chunk_94
+File     : data/raw_docs/FAO_002_a1152e.pdf
+Text:
+a biosecurity programme include the physical, chemical and biological methods necessary to protect the hatchery from the consequences of all diseases that represent a high risk. Effective biosecurity requires attention to a range of factors, some disease specific, some not, ranging from purely technical factors to aspects of management and economics. The SOPs presented in this manual are designed to enhance biosecurity. Various levels and strategies for biosecurity may be employed depending on t
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.6125
+Doc ID   : FAO_005
+Title    : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID : FAO_005_chunk_54
+File     : data/raw_docs/FAO_005_y5040e.pdf
+Text:
+for biosecurity may be employed depending on the hatchery facility, the diseases of concern and the level of perceived risk. The appropriate level of biosecurity to be applied will generally be a function of ease of implementation and cost, relative to the impact of the disease on the production operations (Fegan and Clifford 2001). Responsible hatchery operation must also consider the potential risk of disease introduction into the natural environment, and its effects on neighbouring aquacultur
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.6113
+Doc ID   : FAO_001
+Title    : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID : FAO_001_chunk_239
+File     : data/raw_docs/FAO_001_cb2119en.pdf
+Text:
+to implement strict management protocols in order to maintain this status. This will entail stocking the facility with SPF shrimp and ensuring high levels of biosecurity. In general, a biosecurity programme includes: o establishing physical structures and barriers, such as fences and gates, and ensuring that all buildings are secured to prevent unauthorized entrance; o having procedures in place to control visitors’ activities (e.g. requiring sign in/out, wearing protective clothes, disinfection
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.5694
+Doc ID   : FAO_004
+Title    : The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application
+Chunk ID : FAO_004_chunk_186
+File     : data/raw_docs/FAO_004_cc6858en.pdf
+Text:
+aculture biosecurity strategy Obtain evidence of public commitment to safeguarding progress through financial, infrastructural & human resources Conduct active surveillance to allow for early detection of listed exotic or emerging diseases, and identify the potential source of introduction Trace movements of live aquatic organisms, gametes & germplasm, and their products Conduct research studies to develop more effective control measures for mitigating the introduction and spread of listed patho
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.5590
+Doc ID   : FAO_037
+Title    : Preventing and managing aquatic animal disease risks in aquaculture through a progressive management pathway
+Chunk ID : FAO_037_chunk_5
+File     : data/raw_docs/FAO_037_na265en.pdf
+Text:
+, donor and financial institutions to design and implement mandated biosecurity measures; (iii) expanding understanding of aquaculture health economics (burden and investments); (iv) enhancing emergency preparedness (early warning and forecasting tools, early detection, early response) at all levels; and (v) actively supporting pillars 1-4 with several cross-cutting issues (e.g capacity and competence development, disease intelligence and risk communication, education and extension, targeted res
+
+[KG] KG applied in top 5: nonzero_kg=4/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: ['biosecurity']
+- species: ['Tôm thẻ chân trắng']
+- location: []
+- mode: ['hatchery aquaculture']
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.6113
+KG bonus     : 0.0800
+Final score  : 0.9413
+Doc ID       : FAO_001
+Title        : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID     : FAO_001_chunk_239
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học
+Text:
+to implement strict management protocols in order to maintain this status. This will entail stocking the facility with SPF shrimp and ensuring high levels of biosecurity. In general, a biosecurity programme includes: o establishing physical structures and barriers, such as fences and gates, and ensuring that all buildings are secured to prevent unauthorized entrance; o having procedures in place to control visitors’ activities (e.g. requiring sign in/out, wearing protective clothes, disinfection
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.6125
+KG bonus     : 0.0800
+Final score  : 0.8925
+Doc ID       : FAO_005
+Title        : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID     : FAO_005_chunk_54
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng
+Text:
+for biosecurity may be employed depending on the hatchery facility, the diseases of concern and the level of perceived risk. The appropriate level of biosecurity to be applied will generally be a function of ease of implementation and cost, relative to the impact of the disease on the production operations (Fegan and Clifford 2001). Responsible hatchery operation must also consider the potential risk of disease introduction into the natural environment, and its effects on neighbouring aquacultur
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.5395
+KG bonus     : 0.0800
+Final score  : 0.8695
+Doc ID       : TCTS_001
+Title        : Các bệnh thường gặp trên tôm nước lợ và biện pháp phòng chống hiệu quả
+Chunk ID     : TCTS_001_chunk_1
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học
+Text:
+trên tôm nước lợ; các tổ chức, cá nhân tham gia hoạt động sản xuất giống và nuôi tôm nước lợ; các đơn vị nghiên cứu; tổ chức, cá nhân làm công tác xét nghiệm, chẩn đoán bệnh thủy sản, dịch vụ thú y thủy sản tham gia công tác giám sát, chẩn đoán và hỗ trợ phòng, chống dịch bệnh. Bệnh đốm trắng (WSD) Bệnh đốm trắng (White Spot Disease - WSD) do White Spot Syndrome Virus (WSSV), thuộc chi Whispovirus, họ Nimaviridae. Đây là loại virus có cấu trúc DNA sợi đôi, có màng bao lipid nên nhạy cảm với các 
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.5317
+KG bonus     : 0.0800
+Final score  : 0.8617
+Doc ID       : PMC_035
+Title        : Advanced Pathogen Monitoring in Penaeus vannamei from Three Latin American Regions: Passive Surveillance Part 2
+Chunk ID     : PMC_035_chunk_93
+Explanation  : metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học
+Text:
+rom commercial hatcheries, and no live animal experimentation was performed. The study complied with all relevant ethical guidelines for the handling of fixed biological specimens. Data Availability Statement: The datasets generated and analyzed during the current study are available from the corresponding author upon reasonable request. Due to the sensitive nature of location-specific data, access may be restricted to ensure compliance with ethical, privacy, or commercial considerations. Acknow
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.6337
+KG bonus     : 0.0800
+Final score  : 0.7137
+Doc ID       : FAO_002
+Title        : Improving Penaeus monodon hatchery practices. Manual based on experience in India.
+Chunk ID     : FAO_002_chunk_94
+Explanation  : match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)
+Text:
+a biosecurity programme include the physical, chemical and biological methods necessary to protect the hatchery from the consequences of all diseases that represent a high risk. Effective biosecurity requires attention to a range of factors, some disease specific, some not, ranging from purely technical factors to aspects of management and economics. The SOPs presented in this manual are designed to enhance biosecurity. Various levels and strategies for biosecurity may be employed depending on t
+
+
+====================================================================================================
+QUERY 9: aquaculture disease prevention
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.7943
+Doc ID   : FAO_004
+Title    : The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application
+Chunk ID : FAO_004_chunk_63
+File     : data/raw_docs/FAO_004_cc6858en.pdf
+Text:
+nce that diseases that pose the greatest threats to the aquaculture sector are prevented or controlled, and pathogen freedom for disease control/certification purposes is ensured and documented. The enabling environment is strengthened and capacity to engage in safe trade is enhanced through a legislative framework. Preparedness to detect and respond rapidly to emergencies is ensured through development of field, laboratory and research capacity. Public, private and international stakeholders de
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.7866
+Doc ID   : FAO_010
+Title    : Shrimp infectious myonecrosis strategy manual
+Chunk ID : FAO_010_chunk_40
+File     : data/raw_docs/FAO_010_ca6052en.pdf
+Text:
+). Responses of the aquaculture industry to the threats of aquatic diseases include the development of country- specific contingency plans for specific diseases (Arthur et al., 2005). Among these OIE-notifiable diseases is infectious myonecrosis (IMN), which is caused by the infectious myonecrosis virus (IMNV). IMNV infects penaeid shrimp, including the most commonly farmed species, the whiteleg shrimp (Penaeus vannamei) and the giant tiger prawn (P. monodon). This disease is important, as the m
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.7857
+Doc ID   : FAO_013
+Title    : Surveillance and zoning for aquatic animal diseases
+Chunk ID : FAO_013_chunk_54
+File     : data/raw_docs/FAO_013_y5325e.pdf
+Text:
+ntrolling aquatic animal diseases, since these do not readily respond to disease control measures used for isolation and containment in land-based facilities or for terrestrial animals. 1 INTRODUCTION Aquaculture contributes significantly to affordable, high-quality, animal protein and other essential nutrients, especially for poorer segments of the world. However, disease is a serious constraint to the sustainable culture of many species, impeding socio-economic progress in many countries. As a
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.7696
+Doc ID   : FAO_007
+Title    : Report of the Ninth Session of the Central Asian and Caucasus Regional Fisheries and Aquaculture Commission, Almaty, Kazakhstan, 25–26 November 2025
+Chunk ID : FAO_007_chunk_187
+File     : data/raw_docs/FAO_007_cd8164en.pdf
+Text:
+. In: U.S. Centers for Disease Control and Prevention (CDC). [Cited 26 March 2025]. https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html Ngajilo, D. & Jeebhay, M.F. 2019. Occupational injuries and diseases in aquaculture. Aquaculture. 507:40–55. doi:10.1016/j.aquaculture.2019.03.053 Ngajilo, D., Adams, S., Baatjies, R., Jeebhay, M.F. 2025. Seaweed farming in Tanzania: A study of working practices and geospatial analysis of occupational hazards and adverse health outcomes. J Agromedic
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.7656
+Doc ID   : FAO_004
+Title    : The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application
+Chunk ID : FAO_004_chunk_376
+File     : data/raw_docs/FAO_004_cc6858en.pdf
+Text:
+your country. Still these pathogens may cause disease and/or serious losses to national aquaculture, and thus countries may have aquaculture biosecurity programmes in place for farms, facilities, service providers, or enterprises along an aquaculture sector’s value chain (e.g. via biosecurity action plans (BAP), better management practices (BMPs), good aquaculture practices (GAPs) and/or standard operating procedures (SOPs)) that include measures to prevent the occurrence and spread of these pat
+
+[KG] KG applied in top 5: nonzero_kg=5/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: ['disease prevention']
+- species: []
+- location: []
+- mode: ['Nuôi trồng']
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.7943
+KG bonus     : 0.0000
+Final score  : 0.8943
+Doc ID       : FAO_004
+Title        : The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application
+Chunk ID     : FAO_004_chunk_63
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng
+Text:
+nce that diseases that pose the greatest threats to the aquaculture sector are prevented or controlled, and pathogen freedom for disease control/certification purposes is ensured and documented. The enabling environment is strengthened and capacity to engage in safe trade is enhanced through a legislative framework. Preparedness to detect and respond rapidly to emergencies is ensured through development of field, laboratory and research capacity. Public, private and international stakeholders de
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.7866
+KG bonus     : 0.0000
+Final score  : 0.8866
+Doc ID       : FAO_010
+Title        : Shrimp infectious myonecrosis strategy manual
+Chunk ID     : FAO_010_chunk_40
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng
+Text:
+). Responses of the aquaculture industry to the threats of aquatic diseases include the development of country- specific contingency plans for specific diseases (Arthur et al., 2005). Among these OIE-notifiable diseases is infectious myonecrosis (IMN), which is caused by the infectious myonecrosis virus (IMNV). IMNV infects penaeid shrimp, including the most commonly farmed species, the whiteleg shrimp (Penaeus vannamei) and the giant tiger prawn (P. monodon). This disease is important, as the m
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.7857
+KG bonus     : 0.0000
+Final score  : 0.8857
+Doc ID       : FAO_013
+Title        : Surveillance and zoning for aquatic animal diseases
+Chunk ID     : FAO_013_chunk_54
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng
+Text:
+ntrolling aquatic animal diseases, since these do not readily respond to disease control measures used for isolation and containment in land-based facilities or for terrestrial animals. 1 INTRODUCTION Aquaculture contributes significantly to affordable, high-quality, animal protein and other essential nutrients, especially for poorer segments of the world. However, disease is a serious constraint to the sustainable culture of many species, impeding socio-economic progress in many countries. As a
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.7696
+KG bonus     : 0.0000
+Final score  : 0.8696
+Doc ID       : FAO_007
+Title        : Report of the Ninth Session of the Central Asian and Caucasus Regional Fisheries and Aquaculture Commission, Almaty, Kazakhstan, 25–26 November 2025
+Chunk ID     : FAO_007_chunk_187
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng
+Text:
+. In: U.S. Centers for Disease Control and Prevention (CDC). [Cited 26 March 2025]. https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html Ngajilo, D. & Jeebhay, M.F. 2019. Occupational injuries and diseases in aquaculture. Aquaculture. 507:40–55. doi:10.1016/j.aquaculture.2019.03.053 Ngajilo, D., Adams, S., Baatjies, R., Jeebhay, M.F. 2025. Seaweed farming in Tanzania: A study of working practices and geospatial analysis of occupational hazards and adverse health outcomes. J Agromedic
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.7636
+KG bonus     : 0.0000
+Final score  : 0.8636
+Doc ID       : FAO_037
+Title        : Preventing and managing aquatic animal disease risks in aquaculture through a progressive management pathway
+Chunk ID     : FAO_037_chunk_49
+Explanation  : metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng
+Text:
+etics and nutrition is needed for a maturing aquaculture industry. 42. This global programme component on aquaculture biosecurity consists of five major pillars, namely:  strengthening disease prevention at farm level through responsible fish farming (including reducing AMR in aquaculture and the application of suitable alternatives to antimicrobials) and other science-based and technology-proven measures; 18 On the basis of previous requests and endorsement by Members, efforts have been under 
+
+
+====================================================================================================
+QUERY 10: shrimp hatchery latin america
+====================================================================================================
+
+====================================================================================================
+VECTOR-ONLY RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Score    : 0.7253
+Doc ID   : FAO_012
+Title    : Introductions and movement of Penaeus vannamei and Penaeus stylirostris in Asia and the Pacific
+Chunk ID : FAO_012_chunk_46
+File     : data/raw_docs/FAO_012_ad505e.pdf
+Text:
+earch into shrimp farming. Early Penaeid culture efforts in the Americas during this period concentrated on indigenous species including P. setiferus in Panama, P. aztecus and P. occidentalis in Honduras and P. aztecus and P. duorarum in southern USA, P. schmitti and P. brasiliensis in Brazil, and then P. stylirostris in Panama. However, initial work with P. vannamei in 1972 gave much better production than the other species. When Brazilian authorities initially banned the import of P. vannamei,
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Score    : 0.7109
+Doc ID   : FAO_023
+Title    : Environmental impact assessment and monitoring in aquaculture. Requirements, practices, effectiveness and improvements
+Chunk ID : FAO_023_chunk_2336
+File     : data/raw_docs/FAO_023_i0970e.pdf
+Text:
+ient. De la Lanza-Espino, G y J.L Arredondo-Figueroa. Instituto de Biología. Universidad Nacional Autónoma de México. México 3–3 pp. Griffith, D. & Schwarz, L. 1999. Shrimp Farming in Ecuador. Aquaculture Magazine, (January/February): 46–50. INEGI–SEMARNAP.1999. Estadísticas del Medio Ambiente Mexico, Tomo1. (www.inegi.gob.mx/prod_serv/contenidos/espanol/bvinegi/productos/integracion/ sociodemografico/medioambnal/1999/amb1999.html México). Instituto Nacional de Pesca del Ecuador (www.inp.gov.ec)
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Score    : 0.7096
+Doc ID   : FAO_005
+Title    : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID : FAO_005_chunk_254
+File     : data/raw_docs/FAO_005_y5040e.pdf
+Text:
+is publication provides technical guidance for the effective and responsible operation of shrimp hatcheries in Latin America. The document was compiled through an extensive consultative process undertaken from 2001 to 2003 that involved inputs from government-designated national coordinators, regional and international experts, representatives from several intergovernmental organizations, private sector representatives and FAO. This process was made possible through the FAO Regional Te T chnical
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Score    : 0.7039
+Doc ID   : FAO_005
+Title    : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID : FAO_005_chunk_2
+File     : data/raw_docs/FAO_005_y5040e.pdf
+Text:
+MMB 3PNF *UBMZ PSCZFNBJMUP DPQZSJHIU!GBPPSH ¥'"0 Cover photograph: Courtesy of Granja Pescis and Ana Bertha Montero Rocha, Mexico iii PREPARATION OF THIS DOCUMENT This document, Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America, presents technical guidance for the effective and responsible operation of shrimp hatcheries in Latin America. This document was compiled through an extensive consultative process undertaken
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Score    : 0.6992
+Doc ID   : FAO_001
+Title    : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID : FAO_001_chunk_46
+File     : data/raw_docs/FAO_001_cb2119en.pdf
+Text:
+ties in farmed populations of whiteleg shrimp (Figure 1) and giant tiger prawn. Outbreaks of this disease have led to severe losses to shrimp producers in Southeast Asia and Latin America. The disease first appeared in shrimp farms in the People’s Republic of China and Viet Nam in 2010 and was later found in several other countries in Asia. In the western hemisphere, AHPND was first reported in Mexico in 2013; and it subsequently spread to other Latin American countries and the United States of 
+
+[KG] KG applied in top 5: nonzero_kg=5/5; mapped_docs=5/5; used=taxon_enriched_facts_v2.owl
+
+[THỰC THỂ NHẬN DIỆN]
+- disease: []
+- species: ['shrimp']
+- location: ['Mỹ Latin']
+- mode: ['hatchery aquaculture']
+
+====================================================================================================
+HYBRID RESULTS
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Top 1
+Vector score : 0.7096
+KG bonus     : 0.3000
+Final score  : 1.1696
+Doc ID       : FAO_005
+Title        : Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America
+Chunk ID     : FAO_005_chunk_254
+Explanation  : metadata: match species query=shrimp with doc_term=shrimp (+0.22); match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match (generic): document aboutTaxon=shrimp; KG direct match: document aboutLocation=Mỹ Latin
+Text:
+is publication provides technical guidance for the effective and responsible operation of shrimp hatcheries in Latin America. The document was compiled through an extensive consultative process undertaken from 2001 to 2003 that involved inputs from government-designated national coordinators, regional and international experts, representatives from several intergovernmental organizations, private sector representatives and FAO. This process was made possible through the FAO Regional Te T chnical
+
+----------------------------------------------------------------------------------------------------
+Top 2
+Vector score : 0.7253
+KG bonus     : 0.3000
+Final score  : 1.0853
+Doc ID       : FAO_012
+Title        : Introductions and movement of Penaeus vannamei and Penaeus stylirostris in Asia and the Pacific
+Chunk ID     : FAO_012_chunk_46
+Explanation  : metadata: match species query=shrimp with doc_term=shrimp (+0.22); match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match (generic): document aboutTaxon=shrimp
+Text:
+earch into shrimp farming. Early Penaeid culture efforts in the Americas during this period concentrated on indigenous species including P. setiferus in Panama, P. aztecus and P. occidentalis in Honduras and P. aztecus and P. duorarum in southern USA, P. schmitti and P. brasiliensis in Brazil, and then P. stylirostris in Panama. However, initial work with P. vannamei in 1972 gave much better production than the other species. When Brazilian authorities initially banned the import of P. vannamei,
+
+----------------------------------------------------------------------------------------------------
+Top 3
+Vector score : 0.6992
+KG bonus     : 0.3000
+Final score  : 1.0592
+Doc ID       : FAO_001
+Title        : Shrimp acute hepatopancreatic necrosis disease strategy manual
+Chunk ID     : FAO_001_chunk_46
+Explanation  : metadata: match species query=shrimp with doc_term=shrimp (+0.22); match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match (generic): document aboutTaxon=shrimp
+Text:
+ties in farmed populations of whiteleg shrimp (Figure 1) and giant tiger prawn. Outbreaks of this disease have led to severe losses to shrimp producers in Southeast Asia and Latin America. The disease first appeared in shrimp farms in the People’s Republic of China and Viet Nam in 2010 and was later found in several other countries in Asia. In the western hemisphere, AHPND was first reported in Mexico in 2013; and it subsequently spread to other Latin American countries and the United States of 
+
+----------------------------------------------------------------------------------------------------
+Top 4
+Vector score : 0.6967
+KG bonus     : 0.3000
+Final score  : 1.0567
+Doc ID       : FAO_040
+Title        : An assessment of impacts from shrimp aquaculture in Bangladesh and prospects for improvement
+Chunk ID     : FAO_040_chunk_46
+Explanation  : metadata: match species query=shrimp with doc_term=shrimp (+0.22); match mode query=hatchery aquaculture with doc_term=coastal aquaculture (+0.08); KG: KG direct match (generic): document aboutTaxon=shrimp
+Text:
+en tiger prawn P. semisulcatus and banana prawn F. merguiensis and giant river prawns (locally called golda) Macrobrachium rosenbergii. From the late seventies and early eighties, the shrimp culture system expanded steadily. In addition to trapping of natural shrimp seeds, farmers began selective stocking of shrimp post-larvae (PL) caught from the wild. This created a new work opportunity for poorer coastal people who began to collect PL from coastal waters. From the mid-eighties, the Government
+
+----------------------------------------------------------------------------------------------------
+Top 5
+Vector score : 0.6909
+KG bonus     : 0.3000
+Final score  : 1.0509
+Doc ID       : PMC_031
+Title        : Vibrios Associated with Litopenaeus vannamei Larvae, Postlarvae, Broodstock, and Hatchery Probiotics
+Chunk ID     : PMC_031_chunk_4
+Explanation  : metadata: match species query=shrimp with doc_term=shrimp (+0.22); match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match (generic): document aboutTaxon=shrimp
+Text:
+r and Mexico, aquaculture of white shrimp, Lito- penaeus vannamei, has become an important economic activity. Most of the Ecuadorian larvae are hatchery reared, and bac- teriosis has become a source of major economic losses (8, 9, 11). Bacterial diseases of penaeid shrimp have been described by Lightner (9) and others, although it is not always clear whether the bacteria involved are the causal agents. Vibrios, which occur in the dominant ﬂora during larval developmental stages (6), have been de
+

@@ -1,0 +1,586 @@
+{
+  "verdict": "NEEDS_TIGHTENING",
+  "suspicious_cases": [
+    {
+      "doc_id": "FAO_004",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_007",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_008",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Crustacean",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_009",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Crustacean",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_011",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_013",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_016",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_017",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_018",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_019",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_020",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_021",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_022",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_023",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_025",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_026",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_027",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_028",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_029",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_031",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_032",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_033",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_034",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_035",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_036",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_037",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_039",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_040",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_041",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "doc_id": "FAO_042",
+      "issue": "aboutTaxon filled only with generic entities",
+      "mapped_entity_uris": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish"
+      ],
+      "risk": "medium",
+      "suggested_tightening": "Consider requiring at least one specific Taxon when available; keep generic only as fallback."
+    },
+    {
+      "issue": "generic token mapped via ADD_EXACT_ALIAS",
+      "examples": [
+        {
+          "doc_id": "FAO_004",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_004",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_007",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_007",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+          "token": "aquatic species",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "aquatic species",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_008",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_009",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_011",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_013",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_016",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+          "token": "aquatic species",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "aquatic species",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_016",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_017",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_018",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_019",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+          "token": "aquatic species",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "aquatic species",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_019",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_019",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_020",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_020",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_021",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_021",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021",
+          "token": "shrimp",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "shrimp",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        },
+        {
+          "doc_id": "FAO_022",
+          "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+          "token": "fish",
+          "source_field": "related_taxon",
+          "candidate_property": "aboutTaxon",
+          "normalized_label": "fish",
+          "candidate_class": NaN,
+          "candidate_property_suggested": "aboutTaxon",
+          "target_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+          "decision": "ADD_EXACT_ALIAS",
+          "reason": "exact ontology alias match for expected entity type",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "suggested_tightening": "Ensure generic tokens do not map to specific species individuals; use Generic_* nodes instead."
+    }
+  ],
+  "notes": [
+    "This review focuses on generic entities and generic-to-specific mapping risks.",
+    "No scoring changes were made; any retrieval changes come from ontology facts only."
+  ]
+}

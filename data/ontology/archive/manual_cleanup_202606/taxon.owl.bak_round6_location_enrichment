@@ -1,0 +1,1144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://example.org/aqua-kg#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutDisease">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#aboutTaxon">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#affectsTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#affectsTaxon">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasDisease"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#associatedWithFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#associatedWithFactor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#causedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#causedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#documentProductionMode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#documentProductionMode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasDisease">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasProductionMode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasProductionMode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#hasSymptom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#isFoundIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#isFoundIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#mentions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#mentions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedPrevention -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedPrevention">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#recommendedTreatment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#author -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#author">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#description">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#diseaseCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#diseaseCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#docType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#docType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#externalId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#externalId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#filePath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#filePath">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#publishedYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#publishedYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#referenceUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#referenceUrl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#regionCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#regionCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#scientificName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#scientificName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#severityLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#severityLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#source -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#source">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#title">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bivalve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bivalve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentalParameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentalParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fungus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fungus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Gastropod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Gastropod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#LifeStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#LifeStage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Lobster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Lobster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Mollusk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Parasite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Parasite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PerkinsusDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PerkinsusDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ScientificPaper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ScientificPaper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ViralDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ViralDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#InfectiousDisease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/aqua-kg#Global -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/aqua-kg#Global">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Global</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Toàn cầu</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/aqua-kg#India -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/aqua-kg#India">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">India</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ấn Độ</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/aqua-kg#Latin_America -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/aqua-kg#Latin_America">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Latin America</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Mỹ Latin</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/aqua-kg#Vietnam -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/aqua-kg#Vietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Vietnam</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">VIệt Nam</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease"/>
+        <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature"/>
+        <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality"/>
+        <untitled-ontology-3:causedBy rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibrio_parahaemolyticus"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#GanTuyBatThuong"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy"/>
+        <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity"/>
+        <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed"/>
+        <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration"/>
+        <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange"/>
+        <untitled-ontology-3:description>Mô tả bệnh hoại tử gan tụy cấp</untitled-ontology-3:description>
+        <untitled-ontology-3:diseaseCode>AHPND</untitled-ontology-3:diseaseCode>
+        <untitled-ontology-3:referenceUrl>Sổ tay bệnh tôm – 2020</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:severityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-3:severityLevel>
+        <skos:altLabel xml:lang="en">AHPND</skos:altLabel>
+        <skos:altLabel xml:lang="en">Acute Hepatopancreatic Necrosis Disease</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh hoại tử gan tụy cấp</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+        <skos:altLabel xml:lang="en">Anorexia</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bỏ ăn</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+        <skos:altLabel>Aquaculture</skos:altLabel>
+        <skos:prefLabel>Nuôi trồng</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bien_Dong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bien_Dong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">East Sea</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Biển Đông</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+        <skos:altLabel xml:lang="en">Biosecurity</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">An toàn sinh học</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bệnh_Perkinsus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bệnh_Perkinsus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PerkinsusDisease"/>
+        <skos:altLabel xml:lang="en">Perkinsosis</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh Perkinsus</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ca_bop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ca_bop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+        <skos:altLabel xml:lang="en">Cobia</skos:altLabel>
+        <skos:altLabel xml:lang="la">Rachycentron canadum</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Cá bớp</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+        <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+        <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+        <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+        <untitled-ontology-3:author>Tang, K.F.J.; Bondad-Reantaso, M.G.; Arthur, J.R.; Mohan, B.; Hao, B.; Alday-Sanz, V.; Liang, Y.; Dong, X.</untitled-ontology-3:author>
+        <untitled-ontology-3:docType>Manual / Guide</untitled-ontology-3:docType>
+        <untitled-ontology-3:filePath>data/raw_docs/FAO_001_cb2119en.pdf</untitled-ontology-3:filePath>
+        <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</untitled-ontology-3:publishedYear>
+        <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/cb2119en</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+        <untitled-ontology-3:title>Shrimp acute hepatopancreatic necrosis disease strategy manual</untitled-ontology-3:title>
+        <skos:altLabel xml:lang="en">Shrimp acute hepatopancreatic necrosis disease strategy manual</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Sổ tay chiến lược phòng chống bệnh hoại tử gan tụy cấp trên tôm</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+        <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#India"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:author>FAO Fisheries and Aquaculture Management Division</untitled-ontology-3:author>
+        <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+        <untitled-ontology-3:filePath>data/raw_docs/FAO_002_a1152e.pdf</untitled-ontology-3:filePath>
+        <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</untitled-ontology-3:publishedYear>
+        <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/a1152e</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+        <untitled-ontology-3:title>Improving Penaeus monodon hatchery practices. Manual based on experience in India.</untitled-ontology-3:title>
+        <skos:altLabel xml:lang="en">Improving Penaeus monodon hatchery practices. Manual based on experience in India.</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Hướng dẫn cải thiện thực hành trại giống tôm sú dựa trên kinh nghiệm tại Ấn Độ</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+        <untitled-ontology-3:aboutDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+        <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+        <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+        <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+        <untitled-ontology-3:docType>Technical book</untitled-ontology-3:docType>
+        <untitled-ontology-3:filePath>data/raw_docs/FAO_003_ca2976en.pdf</untitled-ontology-3:filePath>
+        <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</untitled-ontology-3:publishedYear>
+        <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/ca2976en</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+        <untitled-ontology-3:title>Special Publication on Acute Hepatopancreatic Necrosis Disease (AHPND)</untitled-ontology-3:title>
+        <skos:altLabel xml:lang="en">Special Publication on Acute Hepatopancreatic Necrosis Disease (AHPND)</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ấn phẩm chuyên đề về bệnh hoại tử gan tụy cấp (AHPND)</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+        <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Global"/>
+        <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+        <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+        <untitled-ontology-3:filePath>data/raw_docs/FAO_004_cc6858en.pdf</untitled-ontology-3:filePath>
+        <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</untitled-ontology-3:publishedYear>
+        <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/cc6858en</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+        <untitled-ontology-3:title>The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application</untitled-ontology-3:title>
+        <skos:altLabel xml:lang="en">The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Lộ trình quản lý tiến bộ về an toàn sinh học trong nuôi trồng thủy sản: Hướng dẫn áp dụng</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TechnicalReport"/>
+        <untitled-ontology-3:aboutLocation rdf:resource="http://example.org/aqua-kg#Latin_America"/>
+        <untitled-ontology-3:aboutTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+        <untitled-ontology-3:documentProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:mentions rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+        <untitled-ontology-3:author>FAO</untitled-ontology-3:author>
+        <untitled-ontology-3:docType>Technical study</untitled-ontology-3:docType>
+        <untitled-ontology-3:filePath>data/raw_docs/FAO_005_y5040e.pdf</untitled-ontology-3:filePath>
+        <untitled-ontology-3:publishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</untitled-ontology-3:publishedYear>
+        <untitled-ontology-3:referenceUrl>https://openknowledge.fao.org/handle/20.500.14283/y5040e</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:source>FAO Open Knowledge Repository</untitled-ontology-3:source>
+        <untitled-ontology-3:title>Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America</untitled-ontology-3:title>
+        <skos:altLabel xml:lang="en">Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Quản lý sức khỏe và duy trì an toàn sinh học trong trại giống tôm thẻ chân trắng (Penaeus vannamei) ở Mỹ Latinh</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FootRotDisease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FootRotDisease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease"/>
+        <skos:altLabel xml:lang="en">Foot rot disease</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh thối chân</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#GanTuyBatThuong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#GanTuyBatThuong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+        <skos:prefLabel xml:lang="vi">Gan tụy bất thường</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Hau_Thai_Binh_Duong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Hau_Thai_Binh_Duong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bivalve"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bệnh_Perkinsus"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+        <skos:altLabel xml:lang="la">Crassostrea gigas</skos:altLabel>
+        <skos:altLabel xml:lang="en">Pacific oyster</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Hàu Thái Bình Dương</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Hàu sữa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+        <skos:altLabel xml:lang="en">High temperature</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Nhiệt độ cao</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+        <skos:altLabel xml:lang="en">Improve aeration</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Tăng sục khí</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+        <skos:altLabel xml:lang="en">Lethargy</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Lờ đờ</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#MilkyDisease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#MilkyDisease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NonInfectiousDisease"/>
+        <skos:altLabel xml:lang="en">Milky disease</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh sữa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Oc_huong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Oc_huong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Gastropod"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FootRotDisease"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+        <skos:altLabel xml:lang="la">Babylonia areolata</skos:altLabel>
+        <skos:altLabel xml:lang="en">Spotted babylon</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ốc hương</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#EnvironmentFactor"/>
+        <skos:altLabel xml:lang="en">Poor water quality</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Chất lượng nước kém</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Lobster"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#MilkyDisease"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen"/>
+        <skos:altLabel xml:lang="en">Ornate spiny lobster</skos:altLabel>
+        <skos:altLabel xml:lang="la">Panulirus ornatus</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Tôm hùm bông</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+        <untitled-ontology-3:hasProductionMode rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vung_bien_mien_Trung"/>
+        <skos:altLabel xml:lang="en">Black Tiger Prawn</skos:altLabel>
+        <skos:altLabel xml:lang="la">Penaeus monodon</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Tôm sú</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp"/>
+        <untitled-ontology-3:hasDisease rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa"/>
+        <untitled-ontology-3:isFoundIn rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan"/>
+        <skos:altLabel xml:lang="en">Pacific white shrimp</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Tôm thẻ chân trắng</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Prevention"/>
+        <skos:altLabel xml:lang="en">Use SPF seed</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Giống sạch bệnh (SPF)</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Coastal area</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ven biển</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Khanh Hoa coastal waters</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ven biển Khánh Hòa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Ninh_Thuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Ninh Thuan coastal waters</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ven biển Ninh Thuận</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Phu_Yen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Phu Yen coastal waters</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Ven biển Phú Yên</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibrio_parahaemolyticus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibrio_parahaemolyticus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria"/>
+        <skos:altLabel xml:lang="en">Vibrio parahaemolyticus</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Vi khuẩn Vibrio parahaemolyticus</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vibriosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#BacterialDisease"/>
+        <skos:altLabel xml:lang="en">Vibriosis</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh vi khuẩn Vibrio</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vung_bien_mien_Trung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Vung_bien_mien_Trung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Location"/>
+        <skos:altLabel xml:lang="en">Central Coast Sea of Vietnam</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Vùng biển miền Trung</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WSSV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WSSV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus"/>
+        <skos:altLabel xml:lang="en">WSSV</skos:altLabel>
+        <skos:altLabel xml:lang="en">White Spot Syndrome Virus</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Virus đốm trắng (WSSV)</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Treatment"/>
+        <skos:altLabel xml:lang="en">Water exchange</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Thay nước</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Symptom"/>
+        <skos:altLabel xml:lang="en">White spot</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Đốm trắng</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpotDisease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ViralDisease"/>
+        <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su"/>
+        <untitled-ontology-3:affectsTaxon rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang"/>
+        <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#HighTemperature"/>
+        <untitled-ontology-3:associatedWithFactor rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PoorWaterQuality"/>
+        <untitled-ontology-3:causedBy rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WSSV"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Anorexia"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Letargy"/>
+        <untitled-ontology-3:hasSymptom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WhiteSpot"/>
+        <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity"/>
+        <untitled-ontology-3:recommendedPrevention rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#UseSPFSeed"/>
+        <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ImproveAeration"/>
+        <untitled-ontology-3:recommendedTreatment rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WaterExchange"/>
+        <untitled-ontology-3:description>Mô tả bệnh đốm trắng</untitled-ontology-3:description>
+        <untitled-ontology-3:diseaseCode>WSSV</untitled-ontology-3:diseaseCode>
+        <untitled-ontology-3:referenceUrl>Sổ tay bệnh tôm – 2020</untitled-ontology-3:referenceUrl>
+        <untitled-ontology-3:severityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-3:severityLevel>
+        <skos:altLabel xml:lang="en">WSD</skos:altLabel>
+        <skos:altLabel>White spot disease</skos:altLabel>
+        <skos:prefLabel xml:lang="vi">Bệnh đốm trắng</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WildCapture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#WildCapture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode"/>
+        <skos:altLabel>Wild capture</skos:altLabel>
+        <skos:prefLabel>Khai thác</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Bacteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fungus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Parasite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Virus"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

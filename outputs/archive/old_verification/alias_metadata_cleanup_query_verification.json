@@ -1,0 +1,480 @@
+{
+  "metadata_path_used": "data\\metadata\\document_metadata_cleaned.xlsx",
+  "ontology_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "queries": [
+    {
+      "query": "bệnh AHPND trên tôm",
+      "query_profile": "disease_priority",
+      "detected_entities_raw": {
+        "disease": [
+          "AHPND"
+        ],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [
+          "AHPND"
+        ],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [
+          "Bệnh hoại tử gan tụy cấp"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 1.704417643547058,
+          "vector_score": 0.6444176435470581,
+          "metadata_delta": 0.63,
+          "kg_score": 0.43,
+          "profile": "disease_priority",
+          "match_disease": true,
+          "match_species": true,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: match disease query=AHPND with doc_term=AHPND (+0.45); match species query=shrimp with doc_term=shrimp (+0.10); disease-species synergy (+0.08); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+        },
+        {
+          "doc_id": "FAO_006",
+          "final_score": 1.6994560337066649,
+          "vector_score": 0.639456033706665,
+          "metadata_delta": 0.63,
+          "kg_score": 0.43,
+          "profile": "disease_priority",
+          "match_disease": true,
+          "match_species": true,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: match disease query=AHPND with doc_term=AHPND (+0.45); match species query=shrimp with doc_term=shrimp (+0.10); disease-species synergy (+0.08); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+        },
+        {
+          "doc_id": "FAO_037",
+          "final_score": 0.059524855613708516,
+          "vector_score": 0.5995248556137085,
+          "metadata_delta": -0.36,
+          "kg_score": -0.18,
+          "profile": "disease_priority",
+          "match_disease": false,
+          "match_species": true,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "miss disease (-0.28); species match but missing disease (-0.10)",
+          "kg_penalty_breakdown": "missing disease evidence (-0.18)",
+          "explanation": "metadata: miss disease (-0.28); species match but missing disease (-0.10); match species query=shrimp with doc_term=shrimp (+0.02 (downweighted; missing disease)); KG: KG penalty: query has specific disease but document has no disease direct/relation evidence",
+          "kg_explanation": "KG penalty: query has specific disease but document has no disease direct/relation evidence"
+        }
+      ]
+    },
+    {
+      "query": "infectious myonecrosis",
+      "query_profile": "disease_priority",
+      "detected_entities_raw": {
+        "disease": [
+          "IMN"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [
+          "IMN"
+        ],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_010",
+          "final_score": 1.067688000202179,
+          "vector_score": 0.617688000202179,
+          "metadata_delta": 0.45,
+          "kg_score": 0.0,
+          "profile": "disease_priority",
+          "match_disease": true,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "match disease query=IMN with doc_term=IMN (+0.45)",
+          "kg_explanation": ""
+        },
+        {
+          "doc_id": "FAO_009",
+          "final_score": 0.24297067642211911,
+          "vector_score": 0.5229706764221191,
+          "metadata_delta": -0.28,
+          "kg_score": 0.0,
+          "profile": "disease_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "miss disease (-0.28)",
+          "kg_penalty_breakdown": "",
+          "explanation": "miss disease (-0.28)",
+          "kg_explanation": ""
+        }
+      ]
+    },
+    {
+      "query": "shrimp disease",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 0.9454455327987671,
+          "vector_score": 0.8254455327987671,
+          "metadata_delta": 0.12,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "match species query=shrimp with doc_term=shrimp (+0.12 (generic))",
+          "kg_explanation": ""
+        },
+        {
+          "doc_id": "FAO_006",
+          "final_score": 0.9261138987541199,
+          "vector_score": 0.8061138987541199,
+          "metadata_delta": 0.12,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": true,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "match species query=shrimp with doc_term=shrimp (+0.12 (generic))",
+          "kg_explanation": ""
+        },
+        {
+          "doc_id": "FAO_036",
+          "final_score": 0.7992676496505737,
+          "vector_score": 0.7992676496505737,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ]
+    },
+    {
+      "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "Penaeus vannamei"
+        ],
+        "location": [],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm thẻ chân trắng"
+        ],
+        "location": [],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_001",
+          "final_score": 0.9412658977508545,
+          "vector_score": 0.6112658977508545,
+          "metadata_delta": 0.08,
+          "kg_score": 0.25,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": true,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học"
+        },
+        {
+          "doc_id": "FAO_005",
+          "final_score": 0.8924789714813233,
+          "vector_score": 0.6124789714813232,
+          "metadata_delta": 0.08,
+          "kg_score": 0.2,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": true,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng"
+        },
+        {
+          "doc_id": "FAO_002",
+          "final_score": 0.7136508989334106,
+          "vector_score": 0.6336508989334106,
+          "metadata_delta": 0.08,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": true,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)",
+          "kg_explanation": ""
+        }
+      ]
+    },
+    {
+      "query": "nuôi tôm hùm ở Khánh Hòa",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "lobster"
+        ],
+        "location": [
+          "Khanh Hoa"
+        ],
+        "mode": []
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "Tôm hùm bông"
+        ],
+        "location": [
+          "Ven biển Khánh Hòa"
+        ],
+        "mode": []
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm hùm bông"
+        ],
+        "location": [
+          "Ven biển Khánh Hòa"
+        ],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_014",
+          "final_score": 0.8236575841903686,
+          "vector_score": 0.6236575841903687,
+          "metadata_delta": 0.0,
+          "kg_score": 0.2,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+        },
+        {
+          "doc_id": "FAO_015",
+          "final_score": 0.7908724665641784,
+          "vector_score": 0.5908724665641785,
+          "metadata_delta": 0.0,
+          "kg_score": 0.2,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+        },
+        {
+          "doc_id": "FAO_019",
+          "final_score": 0.6199709177017212,
+          "vector_score": 0.6199709177017212,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ]
+    },
+    {
+      "query": "tài liệu về trại giống tôm sú ở Ấn Độ",
+      "query_profile": "species_priority",
+      "detected_entities_raw": {
+        "disease": [],
+        "species": [
+          "Penaeus monodon"
+        ],
+        "location": [
+          "India"
+        ],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "detected_entities_merged": {
+        "disease": [],
+        "species": [
+          "Tôm sú"
+        ],
+        "location": [
+          "Ấn Độ"
+        ],
+        "mode": [
+          "hatchery aquaculture"
+        ]
+      },
+      "kg_linked_entities": {
+        "disease": [],
+        "species": [
+          "Tôm sú"
+        ],
+        "location": [
+          "Ấn Độ"
+        ],
+        "mode": []
+      },
+      "top3": [
+        {
+          "doc_id": "FAO_039",
+          "final_score": 0.8638715076446533,
+          "vector_score": 0.6838715076446533,
+          "metadata_delta": 0.08,
+          "kg_score": 0.1,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": true,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutLocation=Ấn Độ",
+          "kg_explanation": "KG direct match: document aboutLocation=Ấn Độ"
+        },
+        {
+          "doc_id": "FAO_040",
+          "final_score": 0.7221883106231689,
+          "vector_score": 0.642188310623169,
+          "metadata_delta": 0.08,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": true,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "match mode query=hatchery aquaculture with doc_term=coastal aquaculture (+0.08)",
+          "kg_explanation": ""
+        },
+        {
+          "doc_id": "FAO_042",
+          "final_score": 0.6682249307632446,
+          "vector_score": 0.6682249307632446,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "profile": "species_priority",
+          "match_disease": false,
+          "match_species": false,
+          "match_location": false,
+          "match_mode": false,
+          "penalty_breakdown": "",
+          "kg_penalty_breakdown": "",
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ]
+    }
+  ]
+}

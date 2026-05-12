@@ -1,0 +1,103 @@
+entity_type,column,raw_value,count,is_topic_like
+disease,related_disease,environmental impact,6,True
+disease,related_disease,health management,5,True
+disease,related_disease,disease risk,5,True
+disease,related_disease,climate change,4,True
+disease,related_disease,AHPND,3,False
+disease,related_disease,fish diseases,3,True
+disease,related_disease,acute hepatopancreatic necrosis disease,2,False
+disease,related_disease,biosecurity,2,True
+disease,related_disease,disease control,2,True
+disease,related_disease,pathogens,2,True
+disease,related_disease,animal diseases,2,False
+disease,related_disease,aquatic animal diseases,1,True
+disease,related_disease,disease prevention,1,True
+disease,related_disease,vibriosis,1,False
+disease,related_disease,infectious myonecrosis,1,False
+disease,related_disease,IMN,1,False
+disease,related_disease,viral disease,1,False
+disease,related_disease,viroses,1,False
+disease,related_disease,pathogen introduction,1,False
+disease,related_disease,disease surveillance,1,False
+disease,related_disease,health,1,False
+disease,related_disease,environmental hazards,1,False
+disease,related_disease,pathogen spread,1,False
+disease,related_disease,ecosystem effects,1,False
+disease,related_disease,pollution,1,False
+disease,related_disease,ecosystem management,1,False
+disease,related_disease,environmental risk,1,False
+disease,related_disease,adaptation,1,False
+disease,related_disease,antimicrobial resistance,1,False
+disease,related_disease,AMR,1,False
+disease,related_disease,IMNV,1,False
+disease,related_disease,infectious myonecrosis virus,1,False
+disease,related_disease,animal health,1,False
+disease,related_disease,production risk,1,False
+disease,related_disease,socio-economic impact,1,False
+disease,related_disease,water quality,1,False
+disease,related_disease,mangroves,1,False
+disease,related_disease,sustainable aquaculture,1,False
+disease,related_disease,sustainability,1,False
+species,related_taxon,fish,24,False
+species,related_taxon,shrimp,22,False
+species,related_taxon,aquatic animals,13,False
+species,related_taxon,aquatic species,10,False
+species,related_taxon,Penaeus vannamei,6,False
+species,related_taxon,Penaeus monodon,4,False
+species,related_taxon,prawns,4,False
+species,related_taxon,aquatic environment,4,False
+species,related_taxon,fisheries,3,False
+species,related_taxon,crustaceans,2,False
+species,related_taxon,shellfish,2,False
+species,related_taxon,cultured shrimp,1,False
+species,related_taxon,Litopenaeus vannamei,1,False
+species,related_taxon,white shrimp,1,False
+species,related_taxon,brackishwater species,1,False
+species,related_taxon,Penaeus stylirostris,1,False
+species,related_taxon,lobster,1,False
+species,related_taxon,lobsters,1,False
+species,related_taxon,Decapoda,1,False
+species,related_taxon,seaweed,1,False
+species,related_taxon,aquaculture species,1,False
+species,related_taxon,coastal species,1,False
+location,related_location,Global,22,False
+location,related_location,Asia,4,False
+location,related_location,Bangladesh,3,False
+location,related_location,India,2,False
+location,related_location,Latin America,2,False
+location,related_location,Thailand,2,False
+location,related_location,Bangkok,2,False
+location,related_location,Pacific,2,False
+location,related_location,Vietnam,1,False
+location,related_location,Caribbean,1,False
+location,related_location,Central Asia,1,False
+location,related_location,Caucasus,1,False
+location,related_location,Kazakhstan,1,False
+location,related_location,Khulna,1,False
+location,related_location,Satkhira,1,False
+location,related_location,Canada,1,False
+location,related_location,China,1,False
+location,related_location,inland waters,1,False
+location,related_location,Hungary,1,False
+location,related_location,global,1,False
+location,related_location,Europe,1,False
+location,related_location,coastal areas,1,False
+location,related_location,marine environment,1,False
+location,related_location,Uganda,1,False
+location,related_location,Africa,1,False
+location,related_location,Indian Ocean,1,False
+location,related_location,Southern Africa,1,False
+location,related_location,Azerbaijan,1,False
+location,related_location,Bosnia and Herzegovina,1,False
+location,related_location,Viet Nam,1,False
+location,related_location,Mekong Delta,1,False
+location,related_location,Bac Lieu,1,False
+location,related_location,Ben Tre,1,False
+location,related_location,Ca Mau,1,False
+mode,production_mode,aquaculture,27,False
+mode,production_mode,shrimp aquaculture,8,False
+mode,production_mode,inland fisheries,5,False
+mode,production_mode,fisheries,4,False
+mode,production_mode,hatchery aquaculture,3,False
+mode,production_mode,capture fisheries,2,False
+mode,production_mode,coastal aquaculture,1,False

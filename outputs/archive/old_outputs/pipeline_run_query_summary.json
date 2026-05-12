@@ -1,0 +1,98 @@
+[
+  {
+    "query": "bệnh AHPND trên tôm",
+    "query_profile": "disease_priority",
+    "detected": {
+      "disease": "AHPND",
+      "species": "shrimp",
+      "location": NaN,
+      "mode": NaN
+    },
+    "top1_vector": {
+      "doc_id": "FAO_001",
+      "score": 0.6444,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_001",
+      "final_score": 1.7044,
+      "vector_score": 0.6444,
+      "metadata_delta": 0.63,
+      "kg_score": 0.43,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual",
+      "explanation": "metadata: match disease query=AHPND with doc_term=AHPND (+0.45); match species query=shrimp with doc_term=shrimp (+0.10); disease-species synergy (+0.08); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+    }
+  },
+  {
+    "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+    "query_profile": "species_priority",
+    "detected": {
+      "disease": NaN,
+      "species": "Tôm thẻ chân trắng",
+      "location": NaN,
+      "mode": "hatchery aquaculture"
+    },
+    "top1_vector": {
+      "doc_id": "FAO_002",
+      "score": 0.6337,
+      "title": "Improving Penaeus monodon hatchery practices. Manual based on experience in India."
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_001",
+      "final_score": 0.9413,
+      "vector_score": 0.6113,
+      "metadata_delta": 0.08,
+      "kg_score": 0.25,
+      "title": "Shrimp acute hepatopancreatic necrosis disease strategy manual",
+      "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học"
+    }
+  },
+  {
+    "query": "nuôi tôm hùm ở Khánh Hòa",
+    "query_profile": "species_priority",
+    "detected": {
+      "disease": NaN,
+      "species": "Tôm hùm bông",
+      "location": "Ven biển Khánh Hòa",
+      "mode": NaN
+    },
+    "top1_vector": {
+      "doc_id": "FAO_014",
+      "score": 0.6237,
+      "title": "GLOBEFISH Quarterly Lobster Analysis - February 2026"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_014",
+      "final_score": 0.8237,
+      "vector_score": 0.6237,
+      "metadata_delta": 0.0,
+      "kg_score": 0.2,
+      "title": "GLOBEFISH Quarterly Lobster Analysis - February 2026",
+      "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông"
+    }
+  },
+  {
+    "query": "tài liệu về trại giống tôm sú ở Ấn Độ",
+    "query_profile": "species_priority",
+    "detected": {
+      "disease": NaN,
+      "species": "Tôm sú",
+      "location": "Ấn Độ",
+      "mode": "hatchery aquaculture"
+    },
+    "top1_vector": {
+      "doc_id": "FAO_039",
+      "score": 0.6839,
+      "title": "Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66"
+    },
+    "top1_hybrid": {
+      "doc_id": "FAO_039",
+      "final_score": 0.8639,
+      "vector_score": 0.6839,
+      "metadata_delta": 0.08,
+      "kg_score": 0.1,
+      "title": "Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66",
+      "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutLocation=Ấn Độ"
+    }
+  }
+]

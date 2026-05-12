@@ -1,0 +1,80 @@
+{
+  "added_count": 9,
+  "added": [
+    {
+      "raw_value": "shrimp aquaculture",
+      "normalized_value": "shrimp aquaculture",
+      "confidence": "high",
+      "field_type": "mode",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "Penaeus vannamei",
+      "normalized_value": "penaeus vannamei",
+      "confidence": "high",
+      "field_type": "species",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "hatchery aquaculture",
+      "normalized_value": "hatchery aquaculture",
+      "confidence": "high",
+      "field_type": "mode",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Aquaculture",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "coastal areas",
+      "normalized_value": "coastal areas",
+      "confidence": "high",
+      "field_type": "location",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "Litopenaeus vannamei",
+      "normalized_value": "litopenaeus vannamei",
+      "confidence": "high",
+      "field_type": "species",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "lobster",
+      "normalized_value": "lobster",
+      "confidence": "high",
+      "field_type": "species",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "white shrimp",
+      "normalized_value": "white shrimp",
+      "confidence": "high",
+      "field_type": "species",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang",
+      "evidence_source": "mapping_report"
+    },
+    {
+      "raw_value": "khanh hoa",
+      "normalized_value": "khanh hoa",
+      "confidence": "high",
+      "field_type": "location",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa",
+      "evidence_source": "verification"
+    },
+    {
+      "raw_value": "tom hum",
+      "normalized_value": "tom hum",
+      "confidence": "high",
+      "field_type": "species",
+      "suggested_target_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong",
+      "evidence_source": "verification"
+    }
+  ],
+  "base_owl": "data\\ontology\\taxon_enriched.owl",
+  "gap_report_json": "outputs\\ontology_alias_gap_report.json",
+  "output_owl": "data\\ontology\\taxon_enriched_aliases.owl"
+}

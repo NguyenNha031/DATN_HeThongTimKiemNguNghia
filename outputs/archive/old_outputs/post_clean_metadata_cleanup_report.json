@@ -1,0 +1,25 @@
+{
+  "file": "data\\metadata\\document_metadata_cleaned.xlsx",
+  "backup": "data\\metadata\\document_metadata_cleaned.xlsx.bak_20260330_215045",
+  "changed_cells_related_disease": 2,
+  "moved_terms_counts": {
+    "viroses": 1,
+    "viral disease": 1
+  },
+  "examples": [
+    {
+      "row_index": 9,
+      "doc_id": "FAO_010",
+      "moved_terms": [
+        "viral disease"
+      ]
+    },
+    {
+      "row_index": 11,
+      "doc_id": "FAO_012",
+      "moved_terms": [
+        "viroses"
+      ]
+    }
+  ]
+}

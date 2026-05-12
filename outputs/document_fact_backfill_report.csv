@@ -1,0 +1,81 @@
+﻿doc_id,doc_uri,predicate,raw_metadata_value,mapped_entity_uri,confidence,status,reason
+FAO_007,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007,aboutLocation,Central Asia; Caucasus; Kazakhstan,,low,skipped_unmapped_token,unmapped_or_denied token: Central Asia
+FAO_007,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007,aboutLocation,Central Asia; Caucasus; Kazakhstan,,low,skipped_unmapped_token,unmapped_or_denied token: Caucasus
+FAO_007,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007,aboutLocation,Central Asia; Caucasus; Kazakhstan,,low,skipped_unmapped_token,unmapped_or_denied token: Kazakhstan
+FAO_008,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008,aboutLocation,Thailand; Bangkok,,low,skipped_unmapped_token,unmapped_or_denied token: Thailand
+FAO_008,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008,aboutLocation,Thailand; Bangkok,,low,skipped_unmapped_token,unmapped_or_denied token: Bangkok
+FAO_009,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009,aboutLocation,Asia,,low,skipped_unmapped_token,unmapped_or_denied token: Asia
+FAO_011,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011,aboutLocation,Bangladesh; Khulna; Satkhira,,low,skipped_unmapped_token,unmapped_or_denied token: Bangladesh
+FAO_011,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011,aboutLocation,Bangladesh; Khulna; Satkhira,,low,skipped_unmapped_token,unmapped_or_denied token: Khulna
+FAO_011,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011,aboutLocation,Bangladesh; Khulna; Satkhira,,low,skipped_unmapped_token,unmapped_or_denied token: Satkhira
+FAO_012,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_012,aboutLocation,Asia; Pacific,,low,skipped_unmapped_token,unmapped_or_denied token: Asia
+FAO_012,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_012,aboutLocation,Asia; Pacific,,low,skipped_unmapped_token,unmapped_or_denied token: Pacific
+FAO_018,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018,aboutLocation,Europe,,low,skipped_unmapped_token,unmapped_or_denied token: Europe
+FAO_025,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025,aboutLocation,Uganda; Africa,,low,skipped_unmapped_token,unmapped_or_denied token: Uganda
+FAO_025,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025,aboutLocation,Uganda; Africa,,low,skipped_unmapped_token,unmapped_or_denied token: Africa
+FAO_026,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026,aboutLocation,Indian Ocean; Southern Africa,,low,skipped_unmapped_token,unmapped_or_denied token: Indian Ocean
+FAO_026,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026,aboutLocation,Indian Ocean; Southern Africa,,low,skipped_unmapped_token,unmapped_or_denied token: Southern Africa
+FAO_032,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_032,aboutLocation,Azerbaijan,,low,skipped_unmapped_token,unmapped_or_denied token: Azerbaijan
+FAO_035,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035,aboutLocation,Asia; Pacific,,low,skipped_unmapped_token,unmapped_or_denied token: Asia
+FAO_035,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035,aboutLocation,Asia; Pacific,,low,skipped_unmapped_token,unmapped_or_denied token: Pacific
+FAO_036,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036,aboutLocation,Bosnia and Herzegovina,,low,skipped_unmapped_token,unmapped_or_denied token: Bosnia and Herzegovina
+FAO_040,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040,aboutLocation,Bangladesh,,low,skipped_unmapped_token,unmapped_or_denied token: Bangladesh
+FAO_041,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_041,aboutTaxon,aquatic species,,low,skipped_unmapped_token,unmapped_or_denied token: aquatic species
+FAO_042_biosecurity_philippines,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_biosecurity_philippines,aboutLocation,Philippines,,low,skipped_unmapped_token,unmapped_or_denied token: Philippines
+FAO_043,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_043,aboutLocation,Peru,,low,skipped_unmapped_token,unmapped_or_denied token: Peru
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Brazil
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: China
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Ecuador
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Indonesia
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Mexico
+FAO_045,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045,aboutLocation,Brazil; China; Ecuador; Indonesia; Mexico; Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Thailand
+NACA_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_001,aboutTaxon,mud crab; Scylla spp.,,low,skipped_unmapped_token,unmapped_or_denied token: mud crab
+NACA_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_001,aboutTaxon,mud crab; Scylla spp.,,low,skipped_unmapped_token,unmapped_or_denied token: Scylla spp.
+NACA_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_002,aboutLocation,Saudi Arabia,,low,skipped_unmapped_token,unmapped_or_denied token: Saudi Arabia
+PMC_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001,aboutDisease,EHP; Enterocytozoon hepatopenaei; HPM,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001,aboutDisease,EHP; Enterocytozoon hepatopenaei; HPM,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001,aboutDisease,EHP; Enterocytozoon hepatopenaei; HPM,,low,skipped_unmapped_token,unmapped_or_denied token: HPM
+PMC_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_003,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_003,aboutDisease,EHP; Ecytonucleospora hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_003,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_003,aboutDisease,EHP; Ecytonucleospora hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Ecytonucleospora hepatopenaei
+PMC_004,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_004,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_004,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_004,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_005,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_005,aboutDisease,EHP; Ecytonucleospora hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_005,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_005,aboutDisease,EHP; Ecytonucleospora hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Ecytonucleospora hepatopenaei
+PMC_020,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_020,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_020,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_020,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_021,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_021,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_021,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_021,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_022,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_022,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_022,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_022,aboutDisease,EHP; Enterocytozoon hepatopenaei,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_027,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027,aboutDisease,EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V,,low,skipped_unmapped_token,unmapped_or_denied token: EHP
+PMC_027,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027,aboutDisease,EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V,,low,skipped_unmapped_token,unmapped_or_denied token: Enterocytozoon hepatopenaei
+PMC_027,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027,aboutDisease,EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V,,low,skipped_unmapped_token,unmapped_or_denied token: decapod hepanhamaparvovirus genotype V
+PMC_027,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027,aboutLocation,Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Thailand
+PMC_031,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_031,aboutLocation,Ecuador; Mexico,,low,skipped_unmapped_token,unmapped_or_denied token: Ecuador
+PMC_031,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_031,aboutLocation,Ecuador; Mexico,,low,skipped_unmapped_token,unmapped_or_denied token: Mexico
+RIA3_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_001,documentProductionMode,marine aquaculture,,low,skipped_unmapped_token,unmapped_or_denied token: marine aquaculture
+RIA3_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_002,aboutDisease,Vibrio spp.; Rickettsia-like bacteria,,low,skipped_unmapped_token,unmapped_or_denied token: Vibrio spp.
+RIA3_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_002,aboutDisease,Vibrio spp.; Rickettsia-like bacteria,,low,skipped_unmapped_token,unmapped_or_denied token: Rickettsia-like bacteria
+RIA3_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_002,documentProductionMode,marine aquaculture,,low,skipped_unmapped_token,unmapped_or_denied token: marine aquaculture
+RIA3_003,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_003,aboutDisease,Vibrio spp.; Rickettsia-like bacteria,,low,skipped_unmapped_token,unmapped_or_denied token: Vibrio spp.
+RIA3_003,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#RIA3_003,aboutDisease,Vibrio spp.; Rickettsia-like bacteria,,low,skipped_unmapped_token,unmapped_or_denied token: Rickettsia-like bacteria
+SEAFDEC_002,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_002,aboutLocation,Singapore,,low,skipped_unmapped_token,unmapped_or_denied token: Singapore
+SEAFDEC_003,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_003,aboutLocation,Japan,,low,skipped_unmapped_token,unmapped_or_denied token: Japan
+SEAFDEC_004,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_004,aboutLocation,Southeast Asia,,low,skipped_unmapped_token,unmapped_or_denied token: Southeast Asia
+SEAFDEC_005,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_005,aboutLocation,Myanmar,,low,skipped_unmapped_token,unmapped_or_denied token: Myanmar
+SEAFDEC_006,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_006,aboutLocation,Philippines,,low,skipped_unmapped_token,unmapped_or_denied token: Philippines
+SEAFDEC_007,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_007,aboutLocation,Philippines,,low,skipped_unmapped_token,unmapped_or_denied token: Philippines
+SEAFDEC_008,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_008,aboutLocation,Thailand,,low,skipped_unmapped_token,unmapped_or_denied token: Thailand
+SEAFDEC_009,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_009,aboutLocation,Indonesia,,low,skipped_unmapped_token,unmapped_or_denied token: Indonesia
+SEAFDEC_011,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_011,aboutLocation,Malaysia,,low,skipped_unmapped_token,unmapped_or_denied token: Malaysia
+TB_004,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TB_004,aboutDisease,IMNV; hoại tử cơ truyền nhiễm,,low,skipped_unmapped_token,unmapped_or_denied token: IMNV
+TB_004,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TB_004,aboutDisease,IMNV; hoại tử cơ truyền nhiễm,,low,skipped_unmapped_token,unmapped_or_denied token: hoại tử cơ truyền nhiễm
+TB_005,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TB_005,aboutLocation,Đồng bằng sông Cửu Long,,low,skipped_unmapped_token,unmapped_or_denied token: Đồng bằng sông Cửu Long
+TB_006,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TB_006,aboutDisease,IMNV; hoại tử cơ truyền nhiễm,,low,skipped_unmapped_token,unmapped_or_denied token: IMNV
+TB_006,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TB_006,aboutDisease,IMNV; hoại tử cơ truyền nhiễm,,low,skipped_unmapped_token,unmapped_or_denied token: hoại tử cơ truyền nhiễm
+TCKHTS_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001,aboutLocation,Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân,,low,skipped_unmapped_token,unmapped_or_denied token: Hà Tĩnh
+TCKHTS_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001,aboutLocation,Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân,,low,skipped_unmapped_token,unmapped_or_denied token: Thạch Hà
+TCKHTS_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001,aboutLocation,Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân,,low,skipped_unmapped_token,unmapped_or_denied token: Cẩm Xuyên
+TCKHTS_001,http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001,aboutLocation,Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân,,low,skipped_unmapped_token,unmapped_or_denied token: Nghi Xuân

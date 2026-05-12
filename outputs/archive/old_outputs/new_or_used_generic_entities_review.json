@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_AquaticTaxon",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Taxon",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "aquatic species"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 10,
+      "risk_note": "high",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_CaptureFisheries",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "capture fisheries"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 2,
+      "risk_note": "low",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_CoastalAquaculture",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "coastal aquaculture"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 1,
+      "risk_note": "low",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Crustacean",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Crustacean",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "crustaceans"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 2,
+      "risk_note": "low",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Fish",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Fish",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "fish"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 24,
+      "risk_note": "medium",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_InlandFisheries",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#ProductionMode",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "inland fisheries"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 0,
+      "risk_note": "low",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    },
+    {
+      "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Generic_Shrimp",
+      "types": [
+        "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Shrimp",
+        "http://www.w3.org/2002/07/owl#NamedIndividual"
+      ],
+      "labels": [
+        "shrimp"
+      ],
+      "is_new_entity_in_semantic_owl": true,
+      "used_in_backfill_count": 14,
+      "risk_note": "medium",
+      "risk_reason": "generic entity may match broad user queries; ensure it does not dominate KG scoring"
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts.owl",
+  "total_document_nodes_in_kg": 41,
+  "total_metadata_docs": 41,
+  "mapped_doc_count": 41,
+  "unmapped_doc_count": 0,
+  "mapping_report_summary": {
+    "disease_unmapped": 58,
+    "species_unmapped": 91,
+    "location_unmapped": 35,
+    "mode_unmapped": 12
+  },
+  "aggregate": {
+    "global_top5_docs_mapped_to_kg": 17,
+    "global_top5_docs_with_nonzero_kg_score": 7,
+    "global_top5_docs_with_kg_explanation": 8,
+    "any_query_all_zero_kg": false
+  },
+  "per_query_verification_details": [
+    {
+      "query": "bệnh AHPND trên tôm",
+      "detected_metadata_entities": {
+        "disease": [
+          {
+            "canonical": "AHPND",
+            "alias": "ahpnd",
+            "entity_type": "disease",
+            "span": [
+              5,
+              10
+            ],
+            "match_len": 5
+          }
+        ],
+        "species": [
+          {
+            "canonical": "shrimp",
+            "alias": "tom",
+            "entity_type": "species",
+            "span": [
+              16,
+              19
+            ],
+            "match_len": 3
+          }
+        ],
+        "location": [],
+        "mode": []
+      },
+      "detected_kg_linked_entities": {
+        "disease": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#AHPND",
+            "label": "Bệnh hoại tử gan tụy cấp",
+            "entity_type": "disease",
+            "matched_alias": "ahpnd",
+            "span": [
+              5,
+              10
+            ]
+          }
+        ],
+        "species": [],
+        "location": [],
+        "mode": [],
+        "pathogen": [],
+        "symptom": [],
+        "document": [],
+        "prevention": [],
+        "treatment": []
+      },
+      "top5_results": [
+        {
+          "rank": 1,
+          "doc_id": "FAO_001",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+          "vector_score": 0.6444176435470581,
+          "metadata_delta": 0.22,
+          "kg_score": 0.43,
+          "final_score": 1.294417643547058,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+        },
+        {
+          "rank": 2,
+          "doc_id": "FAO_006",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+          "vector_score": 0.639456033706665,
+          "metadata_delta": 0.22,
+          "kg_score": 0.43,
+          "final_score": 1.289456033706665,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus",
+          "kg_explanation": "KG direct match: document aboutDisease=Bệnh hoại tử gan tụy cấp; KG relation match: Bệnh hoại tử gan tụy cấp affectsTaxon Tôm sú, and document aboutTaxon=Tôm sú; KG relation match: Bệnh hoại tử gan tụy cấp causedBy Vi khuẩn Vibrio parahaemolyticus, and document has pathogen=Vi khuẩn Vibrio parahaemolyticus"
+        },
+        {
+          "rank": 3,
+          "doc_id": "FAO_037",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+          "vector_score": 0.5995248556137085,
+          "metadata_delta": 0.22,
+          "kg_score": -0.08,
+          "final_score": 0.7395248556137085,
+          "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG penalty: query has disease but document has no direct/relation disease evidence",
+          "kg_explanation": "KG penalty: query has disease but document has no direct/relation disease evidence"
+        }
+      ],
+      "top5_docs_mapped_to_kg": 3,
+      "top5_docs_with_nonzero_kg_score": 2,
+      "top5_docs_with_kg_explanation": 3
+    },
+    {
+      "query": "nuôi tôm hùm ở Khánh Hòa",
+      "detected_metadata_entities": {
+        "disease": [],
+        "species": [
+          {
+            "canonical": "lobster",
+            "alias": "tom hum",
+            "entity_type": "species",
+            "span": [
+              5,
+              12
+            ],
+            "match_len": 7
+          }
+        ],
+        "location": [
+          {
+            "canonical": "Khanh Hoa",
+            "alias": "khanh hoa",
+            "entity_type": "location",
+            "span": [
+              15,
+              24
+            ],
+            "match_len": 9
+          }
+        ],
+        "mode": []
+      },
+      "detected_kg_linked_entities": {
+        "disease": [],
+        "species": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong",
+            "label": "Tôm hùm bông",
+            "entity_type": "species",
+            "matched_alias": "tom hum",
+            "span": [
+              5,
+              12
+            ]
+          }
+        ],
+        "location": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien_Khanh_Hoa",
+            "label": "Ven biển Khánh Hòa",
+            "entity_type": "location",
+            "matched_alias": "khanh hoa",
+            "span": [
+              15,
+              24
+            ]
+          }
+        ],
+        "mode": [],
+        "pathogen": [],
+        "symptom": [],
+        "document": [],
+        "prevention": [],
+        "treatment": []
+      },
+      "top5_results": [
+        {
+          "rank": 1,
+          "doc_id": "FAO_014",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_014",
+          "vector_score": 0.6236575841903687,
+          "metadata_delta": 0.0,
+          "kg_score": 0.2,
+          "final_score": 0.8236575841903686,
+          "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+        },
+        {
+          "rank": 2,
+          "doc_id": "FAO_015",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015",
+          "vector_score": 0.5908724665641785,
+          "metadata_delta": 0.0,
+          "kg_score": 0.2,
+          "final_score": 0.7908724665641784,
+          "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+        },
+        {
+          "rank": 3,
+          "doc_id": "FAO_019",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+          "vector_score": 0.6199709177017212,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.6199709177017212,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "FAO_042",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+          "vector_score": 0.6165652871131897,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.6165652871131897,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "FAO_040",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+          "vector_score": 0.613876223564148,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.613876223564148,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ],
+      "top5_docs_mapped_to_kg": 5,
+      "top5_docs_with_nonzero_kg_score": 2,
+      "top5_docs_with_kg_explanation": 2
+    },
+    {
+      "query": "tài liệu về trại giống tôm sú ở Ấn Độ",
+      "detected_metadata_entities": {
+        "disease": [],
+        "species": [
+          {
+            "canonical": "Penaeus monodon",
+            "alias": "tom su",
+            "entity_type": "species",
+            "span": [
+              23,
+              29
+            ],
+            "match_len": 6
+          }
+        ],
+        "location": [
+          {
+            "canonical": "India",
+            "alias": "an o",
+            "entity_type": "location",
+            "span": [
+              32,
+              36
+            ],
+            "match_len": 4
+          }
+        ],
+        "mode": [
+          {
+            "canonical": "hatchery aquaculture",
+            "alias": "trai giong",
+            "entity_type": "mode",
+            "span": [
+              12,
+              22
+            ],
+            "match_len": 10
+          }
+        ]
+      },
+      "detected_kg_linked_entities": {
+        "disease": [],
+        "species": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_su",
+            "label": "Tôm sú",
+            "entity_type": "species",
+            "matched_alias": "tom su",
+            "span": [
+              23,
+              29
+            ]
+          }
+        ],
+        "location": [
+          {
+            "uri": "http://example.org/aqua-kg#India",
+            "label": "Ấn Độ",
+            "entity_type": "location",
+            "matched_alias": "an o",
+            "span": [
+              32,
+              36
+            ]
+          }
+        ],
+        "mode": [],
+        "pathogen": [],
+        "symptom": [],
+        "document": [],
+        "prevention": [],
+        "treatment": []
+      },
+      "top5_results": [
+        {
+          "rank": 1,
+          "doc_id": "FAO_039",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_039",
+          "vector_score": 0.6838715076446533,
+          "metadata_delta": 0.08,
+          "kg_score": 0.1,
+          "final_score": 0.8638715076446533,
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutLocation=Ấn Độ",
+          "kg_explanation": "KG direct match: document aboutLocation=Ấn Độ"
+        },
+        {
+          "rank": 2,
+          "doc_id": "FAO_040",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+          "vector_score": 0.642188310623169,
+          "metadata_delta": 0.08,
+          "kg_score": 0.0,
+          "final_score": 0.7221883106231689,
+          "explanation": "match mode query=hatchery aquaculture with doc_term=coastal aquaculture (+0.08)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "FAO_042",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+          "vector_score": 0.6682249307632446,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.6682249307632446,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "FAO_016",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+          "vector_score": 0.6328227519989014,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.6328227519989014,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ],
+      "top5_docs_mapped_to_kg": 4,
+      "top5_docs_with_nonzero_kg_score": 1,
+      "top5_docs_with_kg_explanation": 1
+    },
+    {
+      "query": "biosecurity trong hatchery tôm thẻ chân trắng",
+      "detected_metadata_entities": {
+        "disease": [
+          {
+            "canonical": "biosecurity",
+            "alias": "biosecurity",
+            "entity_type": "disease",
+            "span": [
+              0,
+              11
+            ],
+            "match_len": 11
+          }
+        ],
+        "species": [
+          {
+            "canonical": "Penaeus vannamei",
+            "alias": "tom the chan trang",
+            "entity_type": "species",
+            "span": [
+              27,
+              45
+            ],
+            "match_len": 18
+          }
+        ],
+        "location": [],
+        "mode": [
+          {
+            "canonical": "hatchery aquaculture",
+            "alias": "hatchery",
+            "entity_type": "mode",
+            "span": [
+              18,
+              26
+            ],
+            "match_len": 8
+          }
+        ]
+      },
+      "detected_kg_linked_entities": {
+        "disease": [],
+        "species": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_the_chan_trang",
+            "label": "Tôm thẻ chân trắng",
+            "entity_type": "species",
+            "matched_alias": "tom the chan trang",
+            "span": [
+              27,
+              45
+            ]
+          }
+        ],
+        "location": [],
+        "mode": [],
+        "pathogen": [],
+        "symptom": [],
+        "document": [],
+        "prevention": [
+          {
+            "uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Biosecurity",
+            "label": "An toàn sinh học",
+            "entity_type": "prevention",
+            "matched_alias": "biosecurity",
+            "span": [
+              0,
+              11
+            ]
+          }
+        ],
+        "treatment": []
+      },
+      "top5_results": [
+        {
+          "rank": 1,
+          "doc_id": "FAO_001",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+          "vector_score": 0.6112658977508545,
+          "metadata_delta": 0.08,
+          "kg_score": 0.25,
+          "final_score": 0.9412658977508545,
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=shrimp aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng; KG context match: document recommendedPrevention=An toàn sinh học"
+        },
+        {
+          "rank": 2,
+          "doc_id": "FAO_005",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+          "vector_score": 0.6124789714813232,
+          "metadata_delta": 0.08,
+          "kg_score": 0.2,
+          "final_score": 0.8924789714813233,
+          "explanation": "metadata: match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08); KG: KG direct match: document aboutTaxon=Tôm thẻ chân trắng",
+          "kg_explanation": "KG direct match: document aboutTaxon=Tôm thẻ chân trắng"
+        },
+        {
+          "rank": 3,
+          "doc_id": "FAO_002",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002",
+          "vector_score": 0.6336508989334106,
+          "metadata_delta": 0.08,
+          "kg_score": 0.0,
+          "final_score": 0.7136508989334106,
+          "explanation": "match mode query=hatchery aquaculture with doc_term=hatchery aquaculture (+0.08)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "FAO_004",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+          "vector_score": 0.5694053173065186,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.5694053173065186,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "FAO_037",
+          "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+          "vector_score": 0.5589520931243896,
+          "metadata_delta": 0.0,
+          "kg_score": 0.0,
+          "final_score": 0.5589520931243896,
+          "explanation": "no KG match (delta=0)",
+          "kg_explanation": ""
+        }
+      ],
+      "top5_docs_mapped_to_kg": 5,
+      "top5_docs_with_nonzero_kg_score": 2,
+      "top5_docs_with_kg_explanation": 2
+    }
+  ]
+}

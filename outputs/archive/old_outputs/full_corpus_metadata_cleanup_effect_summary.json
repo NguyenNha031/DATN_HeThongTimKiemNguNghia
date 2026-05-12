@@ -1,0 +1,10 @@
+{
+  "metadata_file": "data\\metadata\\document_metadata_cleaned.xlsx",
+  "backup": "data\\metadata\\document_metadata_cleaned.xlsx.bak_20260401_201203",
+  "changed_rows_or_fixes": 84,
+  "duplicate_doc_id_fixes": 2,
+  "moved_disease_terms_total": 0,
+  "moved_taxon_terms_total": 0,
+  "top_moved_disease_terms": {},
+  "top_moved_taxon_terms": {}
+}

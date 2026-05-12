@@ -1,0 +1,37 @@
+row_index,doc_id,related_disease_before,related_disease_after,related_taxon_before,related_taxon_after,related_location_before,related_location_after,production_mode_before,production_mode_after,moved_to_keywords
+0,FAO_001,AHPND; acute hepatopancreatic necrosis disease,AHPND,shrimp; Penaeus vannamei; Penaeus monodon,shrimp; Penaeus vannamei; Penaeus monodon,Global,Global,shrimp aquaculture,shrimp aquaculture,
+1,FAO_002,health management,,Penaeus monodon; shrimp,Penaeus monodon; shrimp,India,India,hatchery aquaculture,hatchery aquaculture,health management
+2,FAO_003,AHPND,AHPND,shrimp; cultured shrimp; Penaeus monodon; Litopenaeus vannamei,shrimp; Penaeus monodon; Penaeus vannamei,Vietnam; Asia; Latin America,Vietnam; Asia; Latin America,shrimp aquaculture,shrimp aquaculture,
+3,FAO_004,aquatic animal diseases; disease prevention,,aquatic animals; fish; shrimp,aquatic animals; fish; shrimp,Global,Global,aquaculture,aquaculture,aquatic animal diseases; disease prevention
+4,FAO_005,health management; biosecurity,,Penaeus vannamei; white shrimp; shrimp,Penaeus vannamei; shrimp,Latin America; Caribbean,Latin America; Caribbean,hatchery aquaculture,hatchery aquaculture,health management; biosecurity
+5,FAO_006,AHPND; acute hepatopancreatic necrosis disease; vibriosis,AHPND; vibriosis,shrimp; prawns; Penaeus vannamei; Penaeus monodon,shrimp; prawns; Penaeus vannamei; Penaeus monodon,Thailand; Bangkok; Global,Thailand; Bangkok; Global,shrimp aquaculture,shrimp aquaculture,
+7,FAO_008,disease control; pathogens,,shrimp; crustaceans,shrimp; crustaceans,Thailand; Bangkok,Thailand; Bangkok,shrimp aquaculture,shrimp aquaculture,disease control; pathogens
+8,FAO_009,animal diseases; fish diseases,,aquatic animals; fish; crustaceans,aquatic animals; fish; crustaceans,Asia,Asia,inland fisheries; aquaculture,inland fisheries; aquaculture,animal diseases; fish diseases
+9,FAO_010,infectious myonecrosis; IMN; viral disease,IMN; viral disease,shrimp; prawns; Penaeus vannamei,shrimp; prawns; Penaeus vannamei,Global,Global,shrimp aquaculture,shrimp aquaculture,
+10,FAO_011,health management,,shrimp; brackishwater species,shrimp,Bangladesh; Khulna; Satkhira,Bangladesh; Khulna; Satkhira,aquaculture,aquaculture,health management; brackishwater species
+11,FAO_012,viroses; disease risk; pathogen introduction,viroses,Penaeus vannamei; Penaeus stylirostris; shrimp,Penaeus vannamei; Penaeus stylirostris; shrimp,Asia; Pacific,Asia; Pacific,shrimp aquaculture,shrimp aquaculture,disease risk; pathogen introduction
+12,FAO_013,animal diseases; disease surveillance,,aquatic animals; fish,aquatic animals; fish,Global,Global,inland fisheries; aquaculture,inland fisheries; aquaculture,animal diseases; disease surveillance
+14,FAO_015,,,lobsters; Decapoda,lobster,Global,Global,capture fisheries,capture fisheries,Decapoda
+15,FAO_016,,,aquatic species; fish; shellfish; seaweed,aquatic species; fish; shellfish,Global,Global,aquaculture,aquaculture,seaweed
+16,FAO_017,,,fish; aquatic animals,fish; aquatic animals,inland waters; Hungary; global,inland waters; Hungary; Global,inland fisheries; aquaculture,inland fisheries; aquaculture,
+17,FAO_018,fish diseases; health,,fish; aquatic animals,fish; aquatic animals,Europe,Europe,inland fisheries; aquaculture,inland fisheries; aquaculture,fish diseases; health
+18,FAO_019,disease risk; environmental hazards,,aquatic species; fish; shrimp,aquatic species; fish; shrimp,Global,Global,aquaculture,aquaculture,disease risk; environmental hazards
+19,FAO_020,disease risk; pathogen spread,,aquatic animals; fish; shrimp,aquatic animals; fish; shrimp,Global,Global,aquaculture,aquaculture,disease risk; pathogen spread
+22,FAO_023,environmental impact; ecosystem effects,,aquatic environment; fish; aquaculture species,fish,Global,Global,aquaculture,aquaculture,environmental impact; ecosystem effects; aquatic environment; aquaculture species
+23,FAO_024,environmental impact; pollution,,aquatic environment; coastal species,,coastal areas; marine environment,coastal areas; marine environment,aquaculture,aquaculture,environmental impact; pollution; aquatic environment; coastal species
+24,FAO_025,environmental impact; ecosystem management,,aquatic environment; fish,fish,Uganda; Africa,Uganda; Africa,aquaculture,aquaculture,environmental impact; ecosystem management; aquatic environment
+25,FAO_026,environmental impact,,aquatic environment; fish,fish,Indian Ocean; Southern Africa,Indian Ocean; Southern Africa,aquaculture,aquaculture,environmental impact; aquatic environment
+26,FAO_027,climate change; environmental risk,,aquatic species; fish; shellfish,aquatic species; fish; shellfish,Global,Global,aquaculture,aquaculture,climate change; environmental risk
+27,FAO_028,climate change; adaptation,,aquatic species; fish; fisheries,aquatic species; fish,Global,Global,aquaculture; fisheries,aquaculture; fisheries,climate change; adaptation; fisheries
+28,FAO_029,climate change; environmental impact,,aquatic species; fish; fisheries,aquatic species; fish,Global,Global,aquaculture; fisheries,aquaculture; fisheries,climate change; environmental impact; fisheries
+30,FAO_032,,,aquatic species; fish; fisheries,aquatic species; fish,Azerbaijan,Azerbaijan,fisheries; aquaculture,fisheries; aquaculture,fisheries
+31,FAO_033,antimicrobial resistance; AMR,,aquatic species; fish; shrimp,aquatic species; fish; shrimp,Global,Global,aquaculture,aquaculture,antimicrobial resistance; AMR
+32,FAO_034,IMNV; infectious myonecrosis virus,IMN,shrimp; aquatic animals,shrimp; aquatic animals,Global,Global,shrimp aquaculture,shrimp aquaculture,
+33,FAO_035,fish diseases; health management,,aquatic animals; fish; shrimp,aquatic animals; fish; shrimp,Asia; Pacific,Asia; Pacific,aquaculture,aquaculture,fish diseases; health management
+34,FAO_036,animal health; disease control,,aquatic animals; fish,aquatic animals; fish,Bosnia and Herzegovina,Bosnia and Herzegovina,aquaculture,aquaculture,animal health; disease control
+35,FAO_037,disease risk; pathogens,,aquatic animals; fish; shrimp,aquatic animals; fish; shrimp,Global,Global,aquaculture,aquaculture,disease risk; pathogens
+36,FAO_038,production risk; disease risk,,shrimp; Penaeus vannamei,shrimp; Penaeus vannamei,Viet Nam; Mekong Delta; Bac Lieu; Ben Tre; Ca Mau,Vietnam; Mekong Delta; Bac Lieu; Ben Tre; Ca Mau,shrimp aquaculture,shrimp aquaculture,production risk; disease risk
+37,FAO_039,health management,,shrimp; prawns,shrimp; prawns,India; Bangladesh,India; Bangladesh,hatchery aquaculture,hatchery aquaculture,health management
+38,FAO_040,environmental impact; socio-economic impact; water quality; mangroves,,shrimp; prawns,shrimp; prawns,Bangladesh,Bangladesh,coastal aquaculture,coastal aquaculture,environmental impact; socio-economic impact; water quality; mangroves
+39,FAO_041,biosecurity; sustainable aquaculture,,aquatic species,aquatic species,Global,Global,aquaculture,aquaculture,biosecurity; sustainable aquaculture
+40,FAO_042,sustainability; climate change,,fish; aquatic species,fish; aquatic species,Global,Global,fisheries; aquaculture,fisheries; aquaculture,sustainability; climate change

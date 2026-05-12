@@ -1,0 +1,356 @@
+{
+  "ontology_before": "data\\ontology\\taxon_enriched_facts.owl",
+  "ontology_after": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "aggregate_before": {
+    "queries": 15,
+    "total_top5_docs_mapped_to_kg": 65,
+    "total_top5_docs_with_nonzero_kg_score": 20,
+    "total_top5_docs_with_kg_explanation": 20,
+    "queries_with_any_nonzero_kg": 8,
+    "queries_with_zero_kg_top5": 7
+  },
+  "aggregate_after": {
+    "queries": 15,
+    "total_top5_docs_mapped_to_kg": 65,
+    "total_top5_docs_with_nonzero_kg_score": 20,
+    "total_top5_docs_with_kg_explanation": 20,
+    "queries_with_any_nonzero_kg": 8,
+    "queries_with_zero_kg_top5": 7
+  },
+  "per_query_diff": [
+    {
+      "query": "shrimp farming",
+      "nonzero_kg_top5_before": 3,
+      "nonzero_kg_top5_after": 3,
+      "kg_expl_nonempty_before": 3,
+      "kg_expl_nonempty_after": 3,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "fish disease",
+      "nonzero_kg_top5_before": 4,
+      "nonzero_kg_top5_after": 4,
+      "kg_expl_nonempty_before": 4,
+      "kg_expl_nonempty_after": 4,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "fish"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "aquatic animals",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "capture fisheries",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": [
+          "capture fisheries"
+        ]
+      }
+    },
+    {
+      "query": "shrimp disease",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "biosecurity in aquaculture",
+      "nonzero_kg_top5_before": 3,
+      "nonzero_kg_top5_after": 3,
+      "kg_expl_nonempty_before": 3,
+      "kg_expl_nonempty_after": 3,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": [
+          "Nuôi trồng"
+        ]
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": [
+          "Nuôi trồng"
+        ]
+      }
+    },
+    {
+      "query": "health management shrimp",
+      "nonzero_kg_top5_before": 1,
+      "nonzero_kg_top5_after": 1,
+      "kg_expl_nonempty_before": 1,
+      "kg_expl_nonempty_after": 1,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "pathogens in shrimp",
+      "nonzero_kg_top5_before": 1,
+      "nonzero_kg_top5_after": 1,
+      "kg_expl_nonempty_before": 1,
+      "kg_expl_nonempty_after": 1,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "infectious myonecrosis",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "IMN shrimp",
+      "nonzero_kg_top5_before": 2,
+      "nonzero_kg_top5_after": 2,
+      "kg_expl_nonempty_before": 2,
+      "kg_expl_nonempty_after": 2,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "shrimp"
+        ],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "Khánh Hòa lobster",
+      "nonzero_kg_top5_before": 1,
+      "nonzero_kg_top5_after": 1,
+      "kg_expl_nonempty_before": 1,
+      "kg_expl_nonempty_after": 1,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [
+          "Tôm hùm bông"
+        ],
+        "location": [
+          "Ven biển Khánh Hòa"
+        ],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [
+          "Tôm hùm bông"
+        ],
+        "location": [
+          "Ven biển Khánh Hòa"
+        ],
+        "mode": []
+      }
+    },
+    {
+      "query": "nuôi tôm",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "disease risk aquaculture",
+      "nonzero_kg_top5_before": 5,
+      "nonzero_kg_top5_after": 5,
+      "kg_expl_nonempty_before": 5,
+      "kg_expl_nonempty_after": 5,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": [
+          "Nuôi trồng"
+        ]
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": [
+          "Nuôi trồng"
+        ]
+      }
+    },
+    {
+      "query": "shellfish farming",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      }
+    },
+    {
+      "query": "crustacean disease",
+      "nonzero_kg_top5_before": 0,
+      "nonzero_kg_top5_after": 0,
+      "kg_expl_nonempty_before": 0,
+      "kg_expl_nonempty_after": 0,
+      "kg_linked_entities_before": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      },
+      "kg_linked_entities_after": {
+        "disease": [],
+        "species": [],
+        "location": [],
+        "mode": []
+      }
+    }
+  ],
+  "improved_queries": [],
+  "unchanged_queries": [
+    "shrimp farming",
+    "fish disease",
+    "aquatic animals",
+    "capture fisheries",
+    "shrimp disease",
+    "biosecurity in aquaculture",
+    "health management shrimp",
+    "pathogens in shrimp",
+    "infectious myonecrosis",
+    "IMN shrimp",
+    "Khánh Hòa lobster",
+    "nuôi tôm",
+    "disease risk aquaculture",
+    "shellfish farming",
+    "crustacean disease"
+  ],
+  "worse_queries": []
+}

@@ -1,0 +1,2038 @@
+{
+  "before": {
+    "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts.owl",
+    "per_query": [
+      {
+        "query": "shrimp farming",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7774454951286316,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1974454951286315,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_040",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+            "vector_score": 0.7575628757476807,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1775628757476806,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_011",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+            "vector_score": 0.7441036701202393,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1641036701202392,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.7557229995727539,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9757229995727539,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 3,
+        "top5_docs_with_kg_explanation": 3
+      },
+      {
+        "query": "fish disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "fish"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.7850849628448486,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.2050849628448486,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.7449570894241333,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1649570894241332,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_018",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+            "vector_score": 0.7357205152511597,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1557205152511596,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_027",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+            "vector_score": 0.7200922966003418,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1400922966003417,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 4,
+        "top5_docs_with_kg_explanation": 4
+      },
+      {
+        "query": "aquatic animals",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "aquatic animals"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.6745778918266296,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8945778918266296,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.6434179544448853,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8634179544448852,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_013",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+            "vector_score": 0.6344283223152161,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.854428322315216,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_017",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017",
+            "vector_score": 0.6250712871551514,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8450712871551513,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.6614301800727844,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6614301800727844,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "capture fisheries",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "fisheries"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.6755549907684326,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8955549907684326,
+            "explanation": "match species query=fisheries with doc_term=fisheries (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.6860520839691162,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6860520839691162,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_016",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+            "vector_score": 0.6538722515106201,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6538722515106201,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 3,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "shrimp disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.8254455327987671,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.045445532798767,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.8061138987541199,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.0261138987541198,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.7992676496505737,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7992676496505737,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.7603795528411865,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7603795528411865,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.7576054334640503,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7576054334640503,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "biosecurity in aquaculture",
+        "detected_metadata_entities": {
+          "disease": [
+            "biosecurity"
+          ],
+          "species": [],
+          "location": [],
+          "mode": [
+            "aquaculture"
+          ]
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": [
+            "Nuôi trồng"
+          ]
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_037",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+            "vector_score": 0.8184149861335754,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9184149861335754,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_004",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+            "vector_score": 0.7790142297744751,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8790142297744751,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7705785632133484,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8705785632133484,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 3,
+        "top5_docs_with_nonzero_kg_score": 3,
+        "top5_docs_with_kg_explanation": 3
+      },
+      {
+        "query": "health management shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "health management"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7373544573783875,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1573544573783874,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.8083184361457825,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.0283184361457824,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_005",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+            "vector_score": 0.769676148891449,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.989676148891449,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.7684949040412903,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9884949040412903,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_002",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002",
+            "vector_score": 0.7529288530349731,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9729288530349731,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "pathogens in shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "pathogens"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7700482606887817,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1900482606887817,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.7789936065673828,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9989936065673828,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.7772324085235596,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9972324085235595,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.7760096788406372,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9960096788406372,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.7800565958023071,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7800565958023071,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "infectious myonecrosis",
+        "detected_metadata_entities": {
+          "disease": [
+            "infectious myonecrosis"
+          ],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.617688000202179,
+            "metadata_delta": 0.35,
+            "kg_score": 0.0,
+            "final_score": 0.9676880002021789,
+            "explanation": "match disease query=infectious myonecrosis with doc_term=infectious myonecrosis (+0.35)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.5229706764221191,
+            "metadata_delta": -0.18,
+            "kg_score": 0.0,
+            "final_score": 0.34297067642211915,
+            "explanation": "miss disease (-0.18)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 2,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "IMN shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "IMN"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.662044882774353,
+            "metadata_delta": 0.5499999999999999,
+            "kg_score": 0.0,
+            "final_score": 1.2120448827743528,
+            "explanation": "match disease query=IMN with doc_term=IMN (+0.35); match species query=shrimp with doc_term=shrimp (+0.12); disease-species synergy (+0.08)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.6818398237228394,
+            "metadata_delta": -0.06,
+            "kg_score": 0.2,
+            "final_score": 0.8218398237228393,
+            "explanation": "metadata: miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_008",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+            "vector_score": 0.6558151841163635,
+            "metadata_delta": -0.06,
+            "kg_score": 0.2,
+            "final_score": 0.7958151841163634,
+            "explanation": "metadata: miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.6772429347038269,
+            "metadata_delta": -0.06,
+            "kg_score": 0.0,
+            "final_score": 0.6172429347038269,
+            "explanation": "miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.6618534326553345,
+            "metadata_delta": -0.18,
+            "kg_score": 0.0,
+            "final_score": 0.4818534326553345,
+            "explanation": "miss disease (-0.18)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 2,
+        "top5_docs_with_kg_explanation": 2
+      },
+      {
+        "query": "Khánh Hòa lobster",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "lobster"
+          ],
+          "location": [
+            "Khanh Hoa"
+          ],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "Tôm hùm bông"
+          ],
+          "location": [
+            "Ven biển Khánh Hòa"
+          ],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_015",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015",
+            "vector_score": 0.6439380645751953,
+            "metadata_delta": 0.0,
+            "kg_score": 0.2,
+            "final_score": 0.8439380645751953,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+            "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.6272925734519958,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6272925734519958,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.5787616968154907,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5787616968154907,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.5560674667358398,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5560674667358398,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.5479860901832581,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5479860901832581,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "nuôi tôm",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_011",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+            "vector_score": 0.5062107443809509,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.7262107443809509,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_005",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+            "vector_score": 0.4556785523891449,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.6756785523891449,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_040",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+            "vector_score": 0.43541377782821655,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.6554137778282165,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_041",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_041",
+            "vector_score": 0.4518440365791321,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.4518440365791321,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.44344696402549744,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.44344696402549744,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "disease risk aquaculture",
+        "detected_metadata_entities": {
+          "disease": [
+            "disease risk"
+          ],
+          "species": [],
+          "location": [],
+          "mode": [
+            "aquaculture"
+          ]
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": [
+            "Nuôi trồng"
+          ]
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.8374077677726746,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9374077677726745,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_004",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+            "vector_score": 0.8167888522148132,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9167888522148132,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7792477607727051,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8792477607727051,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7772470116615295,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8772470116615295,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_022",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+            "vector_score": 0.770108699798584,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.870108699798584,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 5,
+        "top5_docs_with_kg_explanation": 5
+      },
+      {
+        "query": "shellfish farming",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shellfish"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_016",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+            "vector_score": 0.7312809824943542,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9512809824943542,
+            "explanation": "match species query=shellfish with doc_term=shellfish (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_027",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+            "vector_score": 0.6430871486663818,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8630871486663818,
+            "explanation": "match species query=shellfish with doc_term=shellfish (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_023",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_023",
+            "vector_score": 0.6645838022232056,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6645838022232056,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.641666054725647,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.641666054725647,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.6360610723495483,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6360610723495483,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "crustacean disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.6890995502471924,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6890995502471924,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.677400529384613,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.677400529384613,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.6379132270812988,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6379132270812988,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_013",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+            "vector_score": 0.633650004863739,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.633650004863739,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      }
+    ],
+    "aggregate": {
+      "queries": 15,
+      "total_top5_docs_mapped_to_kg": 65,
+      "total_top5_docs_with_nonzero_kg_score": 20,
+      "total_top5_docs_with_kg_explanation": 20,
+      "queries_with_any_nonzero_kg": 8,
+      "queries_with_zero_kg_top5": 7
+    }
+  },
+  "after": {
+    "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+    "per_query": [
+      {
+        "query": "shrimp farming",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7774454951286316,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1974454951286315,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_040",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+            "vector_score": 0.7575628757476807,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1775628757476806,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_011",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+            "vector_score": 0.7441036701202393,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1641036701202392,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.7557229995727539,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9757229995727539,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 3,
+        "top5_docs_with_kg_explanation": 3
+      },
+      {
+        "query": "fish disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "fish"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "fish"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.7850849628448486,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.2050849628448486,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.7449570894241333,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1649570894241332,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_018",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+            "vector_score": 0.7357205152511597,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1557205152511596,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          },
+          {
+            "doc_id": "FAO_027",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+            "vector_score": 0.7200922966003418,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1400922966003417,
+            "explanation": "metadata: match species query=fish with doc_term=fish (+0.22); KG: KG direct match: document aboutTaxon=fish",
+            "kg_explanation": "KG direct match: document aboutTaxon=fish"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 4,
+        "top5_docs_with_kg_explanation": 4
+      },
+      {
+        "query": "aquatic animals",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "aquatic animals"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.6745778918266296,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8945778918266296,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.6434179544448853,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8634179544448852,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_013",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+            "vector_score": 0.6344283223152161,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.854428322315216,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_017",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017",
+            "vector_score": 0.6250712871551514,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8450712871551513,
+            "explanation": "match species query=aquatic animals with doc_term=aquatic animals (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.6614301800727844,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6614301800727844,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "capture fisheries",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "fisheries"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": [
+            "capture fisheries"
+          ]
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.6755549907684326,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8955549907684326,
+            "explanation": "match species query=fisheries with doc_term=fisheries (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.6860520839691162,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6860520839691162,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_016",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+            "vector_score": 0.6538722515106201,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6538722515106201,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 3,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "shrimp disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.8254455327987671,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.045445532798767,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.8061138987541199,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.0261138987541198,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.7992676496505737,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7992676496505737,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.7603795528411865,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7603795528411865,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.7576054334640503,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7576054334640503,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "biosecurity in aquaculture",
+        "detected_metadata_entities": {
+          "disease": [
+            "biosecurity"
+          ],
+          "species": [],
+          "location": [],
+          "mode": [
+            "aquaculture"
+          ]
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": [
+            "Nuôi trồng"
+          ]
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_037",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+            "vector_score": 0.8184149861335754,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9184149861335754,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_004",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+            "vector_score": 0.7790142297744751,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8790142297744751,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7705785632133484,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8705785632133484,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 3,
+        "top5_docs_with_nonzero_kg_score": 3,
+        "top5_docs_with_kg_explanation": 3
+      },
+      {
+        "query": "health management shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "health management"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7373544573783875,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1573544573783874,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.8083184361457825,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 1.0283184361457824,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_005",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+            "vector_score": 0.769676148891449,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.989676148891449,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.7684949040412903,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9884949040412903,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_002",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_002",
+            "vector_score": 0.7529288530349731,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9729288530349731,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "pathogens in shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "pathogens"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7700482606887817,
+            "metadata_delta": 0.22,
+            "kg_score": 0.2,
+            "final_score": 1.1900482606887817,
+            "explanation": "metadata: match species query=shrimp with doc_term=shrimp (+0.22); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_006",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_006",
+            "vector_score": 0.7789936065673828,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9989936065673828,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.7772324085235596,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9972324085235595,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.7760096788406372,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9960096788406372,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.7800565958023071,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.7800565958023071,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "infectious myonecrosis",
+        "detected_metadata_entities": {
+          "disease": [
+            "infectious myonecrosis"
+          ],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.617688000202179,
+            "metadata_delta": 0.35,
+            "kg_score": 0.0,
+            "final_score": 0.9676880002021789,
+            "explanation": "match disease query=infectious myonecrosis with doc_term=infectious myonecrosis (+0.35)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.5229706764221191,
+            "metadata_delta": -0.18,
+            "kg_score": 0.0,
+            "final_score": 0.34297067642211915,
+            "explanation": "miss disease (-0.18)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 2,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "IMN shrimp",
+        "detected_metadata_entities": {
+          "disease": [
+            "IMN"
+          ],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.662044882774353,
+            "metadata_delta": 0.5499999999999999,
+            "kg_score": 0.0,
+            "final_score": 1.2120448827743528,
+            "explanation": "match disease query=IMN with doc_term=IMN (+0.35); match species query=shrimp with doc_term=shrimp (+0.12); disease-species synergy (+0.08)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.6818398237228394,
+            "metadata_delta": -0.06,
+            "kg_score": 0.2,
+            "final_score": 0.8218398237228393,
+            "explanation": "metadata: miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_008",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+            "vector_score": 0.6558151841163635,
+            "metadata_delta": -0.06,
+            "kg_score": 0.2,
+            "final_score": 0.7958151841163634,
+            "explanation": "metadata: miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12); KG: KG direct match: document aboutTaxon=shrimp",
+            "kg_explanation": "KG direct match: document aboutTaxon=shrimp"
+          },
+          {
+            "doc_id": "FAO_001",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_001",
+            "vector_score": 0.6772429347038269,
+            "metadata_delta": -0.06,
+            "kg_score": 0.0,
+            "final_score": 0.6172429347038269,
+            "explanation": "miss disease (-0.18); match species query=shrimp with doc_term=shrimp (+0.12)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.6618534326553345,
+            "metadata_delta": -0.18,
+            "kg_score": 0.0,
+            "final_score": 0.4818534326553345,
+            "explanation": "miss disease (-0.18)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 2,
+        "top5_docs_with_kg_explanation": 2
+      },
+      {
+        "query": "Khánh Hòa lobster",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "lobster"
+          ],
+          "location": [
+            "Khanh Hoa"
+          ],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [
+            "Tôm hùm bông"
+          ],
+          "location": [
+            "Ven biển Khánh Hòa"
+          ],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_015",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015",
+            "vector_score": 0.6439380645751953,
+            "metadata_delta": 0.0,
+            "kg_score": 0.2,
+            "final_score": 0.8439380645751953,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document aboutTaxon=Tôm hùm bông",
+            "kg_explanation": "KG direct match: document aboutTaxon=Tôm hùm bông"
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.6272925734519958,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6272925734519958,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.5787616968154907,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5787616968154907,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.5560674667358398,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5560674667358398,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.5479860901832581,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.5479860901832581,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 1,
+        "top5_docs_with_kg_explanation": 1
+      },
+      {
+        "query": "nuôi tôm",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shrimp"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_011",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+            "vector_score": 0.5062107443809509,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.7262107443809509,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_005",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_005",
+            "vector_score": 0.4556785523891449,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.6756785523891449,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_040",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+            "vector_score": 0.43541377782821655,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.6554137778282165,
+            "explanation": "match species query=shrimp with doc_term=shrimp (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_041",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_041",
+            "vector_score": 0.4518440365791321,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.4518440365791321,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.44344696402549744,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.44344696402549744,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "disease risk aquaculture",
+        "detected_metadata_entities": {
+          "disease": [
+            "disease risk"
+          ],
+          "species": [],
+          "location": [],
+          "mode": [
+            "aquaculture"
+          ]
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": [
+            "Nuôi trồng"
+          ]
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_010",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+            "vector_score": 0.8374077677726746,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9374077677726745,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_004",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+            "vector_score": 0.8167888522148132,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.9167888522148132,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_019",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+            "vector_score": 0.7792477607727051,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8792477607727051,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.7772470116615295,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.8772470116615295,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          },
+          {
+            "doc_id": "FAO_022",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+            "vector_score": 0.770108699798584,
+            "metadata_delta": 0.0,
+            "kg_score": 0.1,
+            "final_score": 0.870108699798584,
+            "explanation": "metadata: no KG match (delta=0); KG: KG direct match: document documentProductionMode=Nuôi trồng",
+            "kg_explanation": "KG direct match: document documentProductionMode=Nuôi trồng"
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 5,
+        "top5_docs_with_kg_explanation": 5
+      },
+      {
+        "query": "shellfish farming",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [
+            "shellfish"
+          ],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_016",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+            "vector_score": 0.7312809824943542,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.9512809824943542,
+            "explanation": "match species query=shellfish with doc_term=shellfish (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_027",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+            "vector_score": 0.6430871486663818,
+            "metadata_delta": 0.22,
+            "kg_score": 0.0,
+            "final_score": 0.8630871486663818,
+            "explanation": "match species query=shellfish with doc_term=shellfish (+0.22)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_023",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_023",
+            "vector_score": 0.6645838022232056,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6645838022232056,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_036",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+            "vector_score": 0.641666054725647,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.641666054725647,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_042",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042",
+            "vector_score": 0.6360610723495483,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6360610723495483,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 5,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      },
+      {
+        "query": "crustacean disease",
+        "detected_metadata_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "detected_kg_linked_entities": {
+          "disease": [],
+          "species": [],
+          "location": [],
+          "mode": []
+        },
+        "top5_results": [
+          {
+            "doc_id": "FAO_020",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+            "vector_score": 0.6890995502471924,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6890995502471924,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_029",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+            "vector_score": 0.677400529384613,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.677400529384613,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_009",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+            "vector_score": 0.6379132270812988,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.6379132270812988,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          },
+          {
+            "doc_id": "FAO_013",
+            "doc_uri_in_kg": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+            "vector_score": 0.633650004863739,
+            "metadata_delta": 0.0,
+            "kg_score": 0.0,
+            "final_score": 0.633650004863739,
+            "explanation": "no KG match (delta=0)",
+            "kg_explanation": ""
+          }
+        ],
+        "top5_docs_mapped_to_kg": 4,
+        "top5_docs_with_nonzero_kg_score": 0,
+        "top5_docs_with_kg_explanation": 0
+      }
+    ],
+    "aggregate": {
+      "queries": 15,
+      "total_top5_docs_mapped_to_kg": 65,
+      "total_top5_docs_with_nonzero_kg_score": 20,
+      "total_top5_docs_with_kg_explanation": 20,
+      "queries_with_any_nonzero_kg": 8,
+      "queries_with_zero_kg_top5": 7
+    }
+  }
+}

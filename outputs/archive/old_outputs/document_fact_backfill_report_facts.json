@@ -1,0 +1,1689 @@
+{
+  "added_triples": 3,
+  "skipped_docs": 0,
+  "input_ontology": "data\\ontology\\taxon_enriched_aliases.owl",
+  "output_ontology": "data\\ontology\\taxon_enriched_facts.owl",
+  "audit_json": "outputs\\document_fact_coverage_audit_alias.json",
+  "rows": [
+    {
+      "doc_id": "FAO_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_004",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic species",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic species",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Central Asia; Caucasus; Kazakhstan",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Central Asia"
+    },
+    {
+      "doc_id": "FAO_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Central Asia; Caucasus; Kazakhstan",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Caucasus"
+    },
+    {
+      "doc_id": "FAO_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_007",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Central Asia; Caucasus; Kazakhstan",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Kazakhstan"
+    },
+    {
+      "doc_id": "FAO_008",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; crustaceans",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_008",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; crustaceans",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: crustaceans"
+    },
+    {
+      "doc_id": "FAO_008",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Thailand; Bangkok",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Thailand"
+    },
+    {
+      "doc_id": "FAO_008",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_008",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Thailand; Bangkok",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Bangkok"
+    },
+    {
+      "doc_id": "FAO_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; crustaceans",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; crustaceans",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; crustaceans",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: crustaceans"
+    },
+    {
+      "doc_id": "FAO_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_009",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Asia",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Asia"
+    },
+    {
+      "doc_id": "FAO_010",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_010",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "IMN",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: IMN"
+    },
+    {
+      "doc_id": "FAO_011",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_011",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Bangladesh; Khulna; Satkhira",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Bangladesh"
+    },
+    {
+      "doc_id": "FAO_011",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Bangladesh; Khulna; Satkhira",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Khulna"
+    },
+    {
+      "doc_id": "FAO_011",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_011",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Bangladesh; Khulna; Satkhira",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Satkhira"
+    },
+    {
+      "doc_id": "FAO_012",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_012",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Asia; Pacific",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Asia"
+    },
+    {
+      "doc_id": "FAO_012",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_012",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Asia; Pacific",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Pacific"
+    },
+    {
+      "doc_id": "FAO_013",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_013",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_013",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_014",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_014",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "lobster",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong",
+      "confidence": "high",
+      "status": "added",
+      "reason": "exact ontology alias match"
+    },
+    {
+      "doc_id": "FAO_014",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_014",
+      "predicate": "documentProductionMode",
+      "raw_metadata_value": "capture fisheries",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: capture fisheries"
+    },
+    {
+      "doc_id": "FAO_015",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "lobster",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Tom_hum_bong",
+      "confidence": "high",
+      "status": "added",
+      "reason": "exact ontology alias match"
+    },
+    {
+      "doc_id": "FAO_015",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_015",
+      "predicate": "documentProductionMode",
+      "raw_metadata_value": "capture fisheries",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: capture fisheries"
+    },
+    {
+      "doc_id": "FAO_016",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_016",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_016",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_016",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shellfish"
+    },
+    {
+      "doc_id": "FAO_017",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_017",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_017",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_018",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_018",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_018",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_018",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Europe",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Europe"
+    },
+    {
+      "doc_id": "FAO_019",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_019",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_019",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_019",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_020",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_020",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_020",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_020",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_021",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_021",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_021",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_021",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_022",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_022",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_022",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_022",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_023",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_023",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_024",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_024",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "coastal areas; marine environment",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: marine environment"
+    },
+    {
+      "doc_id": "FAO_024",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_024",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "coastal areas; marine environment",
+      "mapped_entity_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#Ven_bien",
+      "confidence": "high",
+      "status": "added",
+      "reason": "exact ontology alias match"
+    },
+    {
+      "doc_id": "FAO_025",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_025",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Uganda; Africa",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Uganda"
+    },
+    {
+      "doc_id": "FAO_025",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_025",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Uganda; Africa",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Africa"
+    },
+    {
+      "doc_id": "FAO_026",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_026",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Indian Ocean; Southern Africa",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Indian Ocean"
+    },
+    {
+      "doc_id": "FAO_026",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_026",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Indian Ocean; Southern Africa",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Southern Africa"
+    },
+    {
+      "doc_id": "FAO_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_027",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shellfish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shellfish"
+    },
+    {
+      "doc_id": "FAO_028",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_028",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_028",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_028",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_029",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_029",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_029",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_031",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_031",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_031",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_031",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_031",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_031",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_032",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_032",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_032",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_032",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_032",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_032",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Azerbaijan",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Azerbaijan"
+    },
+    {
+      "doc_id": "FAO_033",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_033",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_033",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_033",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_033",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_033",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_034",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_034",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_034",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_034",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; aquatic animals",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_034",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_034",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "IMN",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: IMN"
+    },
+    {
+      "doc_id": "FAO_035",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_035",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_035",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_035",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Asia; Pacific",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Asia"
+    },
+    {
+      "doc_id": "FAO_035",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_035",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Asia; Pacific",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Pacific"
+    },
+    {
+      "doc_id": "FAO_036",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_036",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_036",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_036",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Bosnia and Herzegovina",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Bosnia and Herzegovina"
+    },
+    {
+      "doc_id": "FAO_037",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "FAO_037",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_037",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_037",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; fish; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_039",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_039",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; prawns",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_039",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_039",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; prawns",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: prawns"
+    },
+    {
+      "doc_id": "FAO_040",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; prawns",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_040",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp; prawns",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: prawns"
+    },
+    {
+      "doc_id": "FAO_040",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Bangladesh",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Bangladesh"
+    },
+    {
+      "doc_id": "FAO_040",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_040",
+      "predicate": "documentProductionMode",
+      "raw_metadata_value": "coastal aquaculture",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: coastal aquaculture"
+    },
+    {
+      "doc_id": "FAO_041",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_041",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic species",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_042_biosecurity_philippines",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_biosecurity_philippines",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_042_biosecurity_philippines",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_biosecurity_philippines",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Philippines",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Philippines"
+    },
+    {
+      "doc_id": "FAO_042_i3720e",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_i3720e",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic species",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: fish"
+    },
+    {
+      "doc_id": "FAO_042_i3720e",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_042_i3720e",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "fish; aquatic species",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic species"
+    },
+    {
+      "doc_id": "FAO_043",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_043",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_043",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_043",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Peru",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Peru"
+    },
+    {
+      "doc_id": "FAO_044",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_044",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "prawns and shrimps; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: prawns and shrimps"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "prawns and shrimps; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "IMN",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: IMN"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Brazil"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: China"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Ecuador"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Indonesia"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Mexico"
+    },
+    {
+      "doc_id": "FAO_045",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#FAO_045",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Brazil; China; Ecuador; Indonesia; Mexico; Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Thailand"
+    },
+    {
+      "doc_id": "NACA_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_001",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "mud crab; Scylla spp.",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: mud crab"
+    },
+    {
+      "doc_id": "NACA_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_001",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "mud crab; Scylla spp.",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Scylla spp."
+    },
+    {
+      "doc_id": "NACA_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_002",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Saudi Arabia",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Saudi Arabia"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: aquatic animals"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: crabs and lobsters"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: freshwater prawns"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: marine finfish"
+    },
+    {
+      "doc_id": "NACA_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#NACA_003",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "aquatic animals; shrimp; crabs and lobsters; freshwater prawns; marine finfish; molluscs",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: molluscs"
+    },
+    {
+      "doc_id": "PMC_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; HPM",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; HPM",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_001",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; HPM",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: HPM"
+    },
+    {
+      "doc_id": "PMC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "penaeid shrimp; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: penaeid shrimp"
+    },
+    {
+      "doc_id": "PMC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "penaeid shrimp; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_002",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_003",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Ecytonucleospora hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_003",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Ecytonucleospora hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Ecytonucleospora hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_004",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_004",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_005",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_005",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Ecytonucleospora hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_005",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_005",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Ecytonucleospora hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Ecytonucleospora hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_006",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_006",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_010",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_010",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_012",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_012",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_013",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_013",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "IMN",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: IMN"
+    },
+    {
+      "doc_id": "PMC_020",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_020",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_020",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_020",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_021",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_021",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_021",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_021",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_022",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_022",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_022",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_022",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_023",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_023",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "PMC_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: EHP"
+    },
+    {
+      "doc_id": "PMC_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Enterocytozoon hepatopenaei"
+    },
+    {
+      "doc_id": "PMC_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027",
+      "predicate": "aboutDisease",
+      "raw_metadata_value": "EHP; Enterocytozoon hepatopenaei; decapod hepanhamaparvovirus genotype V",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: decapod hepanhamaparvovirus genotype V"
+    },
+    {
+      "doc_id": "PMC_027",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_027",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Thailand"
+    },
+    {
+      "doc_id": "PMC_031",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_031",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Ecuador; Mexico",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Ecuador"
+    },
+    {
+      "doc_id": "PMC_031",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#PMC_031",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Ecuador; Mexico",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Mexico"
+    },
+    {
+      "doc_id": "SEAFDEC_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_001",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "SEAFDEC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_002",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "penaeid shrimp; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: penaeid shrimp"
+    },
+    {
+      "doc_id": "SEAFDEC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_002",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "penaeid shrimp; shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "SEAFDEC_002",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_002",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Singapore",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Singapore"
+    },
+    {
+      "doc_id": "SEAFDEC_003",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_003",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Japan",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Japan"
+    },
+    {
+      "doc_id": "SEAFDEC_004",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_004",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Southeast Asia",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Southeast Asia"
+    },
+    {
+      "doc_id": "SEAFDEC_005",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_005",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Myanmar",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Myanmar"
+    },
+    {
+      "doc_id": "SEAFDEC_006",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_006",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Philippines",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Philippines"
+    },
+    {
+      "doc_id": "SEAFDEC_007",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_007",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Philippines",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Philippines"
+    },
+    {
+      "doc_id": "SEAFDEC_008",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_008",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Thailand",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Thailand"
+    },
+    {
+      "doc_id": "SEAFDEC_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_009",
+      "predicate": "aboutTaxon",
+      "raw_metadata_value": "shrimp",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: shrimp"
+    },
+    {
+      "doc_id": "SEAFDEC_009",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_009",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Indonesia",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Indonesia"
+    },
+    {
+      "doc_id": "SEAFDEC_011",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#SEAFDEC_011",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Malaysia",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Malaysia"
+    },
+    {
+      "doc_id": "TCKHTS_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Hà Tĩnh"
+    },
+    {
+      "doc_id": "TCKHTS_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Thạch Hà"
+    },
+    {
+      "doc_id": "TCKHTS_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Cẩm Xuyên"
+    },
+    {
+      "doc_id": "TCKHTS_001",
+      "doc_uri": "http://www.semanticweb.org/lenovo/ontologies/2026/0/untitled-ontology-3#TCKHTS_001",
+      "predicate": "aboutLocation",
+      "raw_metadata_value": "Hà Tĩnh; Thạch Hà; Cẩm Xuyên; Nghi Xuân",
+      "mapped_entity_uri": "",
+      "confidence": "low",
+      "status": "skipped_unmapped_token",
+      "reason": "unmapped_or_denied token: Nghi Xuân"
+    }
+  ]
+}
