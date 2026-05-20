@@ -10,11 +10,11 @@ Không sử dụng `final_query_set_extended.csv` để tạo nhãn trong vòng 
 
 ## Thang điểm (bắt buộc)
 
-| `relevance_label` | `relevance_label_text` | Ý nghĩa |
-|-------------------|------------------------|---------|
-| 2 | very_relevant | Bám đúng intent chính; khớp các thực thể trọng tâm; không lệch ngữ cảnh. |
-| 1 | partially_relevant | Liên quan nhưng thiếu/không khớp một điều kiện quan trọng (địa lý, loài, mode, trọng tâm bệnh…). |
-| 0 | not_relevant | Sai intent, sai bệnh/loài/địa/mode chính, hoặc chỉ trùng từ khóa bề mặt. |
+| `relevance_label` | `relevance_label_text` | Ý nghĩa                                                                                          |
+| ----------------- | ---------------------- | ------------------------------------------------------------------------------------------------ |
+| 2                 | very_relevant          | Bám đúng intent chính; khớp các thực thể trọng tâm; không lệch ngữ cảnh.                         |
+| 1                 | partially_relevant     | Liên quan nhưng thiếu/không khớp một điều kiện quan trọng (địa lý, loài, mode, trọng tâm bệnh…). |
+| 0                 | not_relevant           | Sai intent, sai bệnh/loài/địa/mode chính, hoặc chỉ trùng từ khóa bề mặt.                         |
 
 Không dùng score retrieval để quyết định nhãn; score chỉ có thể gợi ý **danh sách ứng viên** ở bước sau.
 
@@ -52,14 +52,14 @@ Không dùng score retrieval để quyết định nhãn; score chỉ có thể 
 
 ## Case dễ nhầm (2 vs 1)
 
-| Tình huống | Hướng xử lý |
-|------------|-------------|
-| Đúng topic, **sai location** | Ưu tiên **1** nếu vẫn cùng bệnh/loài; **0** nếu location là điều kiện cốt lõi (ví dụ Philippines vs query không hỏi vùng vẫn có thể 2 cho generic disease). |
-| Đúng disease, **sai species** trong metadata | **1** nếu vẫn penaeid và cùng bệnh; **0** nếu query ép loài (thẻ vs sú) mà doc chỉ monodon. |
-| Đúng species + location, **sai mode** | **1** (ví dụ hatchery query vs tài liệu đánh giá môi trường ao). |
-| **Lobster** catalogue / **capture fisheries** vs nuôi địa phương | Catalogue/thị trường: **1** hoặc **0** tùy mức “nuôi Khánh Hòa” trong query; FAO_015 kiểu taxonomy → thường **1** hoặc **0**, không 2. |
-| Biosecurity **chung** vs **hatchery + species** cụ thể | FAO PMP rộng → **1** so với query chỉ hatchery thẻ nếu không đủ chi tiết trại giống. |
-| Query **pathogen-centered** + ép **tôm thẻ** (ví dụ DS_007) | Manual/review đúng pathogen + AHPND nhưng KG/hybrid thường gắn `aboutTaxon` lệch (ví dụ nhấn Tôm sú) so với thí nghiệm vannamei rõ ràng → có thể **1** (near-miss species emphasis), không tự động 2 chỉ vì title “AHPND strategy”. |
+| Tình huống                                                       | Hướng xử lý                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Đúng topic, **sai location**                                     | Ưu tiên **1** nếu vẫn cùng bệnh/loài; **0** nếu location là điều kiện cốt lõi (ví dụ Philippines vs query không hỏi vùng vẫn có thể 2 cho generic disease).                                                                         |
+| Đúng disease, **sai species** trong metadata                     | **1** nếu vẫn penaeid và cùng bệnh; **0** nếu query ép loài (thẻ vs sú) mà doc chỉ monodon.                                                                                                                                         |
+| Đúng species + location, **sai mode**                            | **1** (ví dụ hatchery query vs tài liệu đánh giá môi trường ao).                                                                                                                                                                    |
+| **Lobster** catalogue / **capture fisheries** vs nuôi địa phương | Catalogue/thị trường: **1** hoặc **0** tùy mức “nuôi Khánh Hòa” trong query; FAO_015 kiểu taxonomy → thường **1** hoặc **0**, không 2.                                                                                              |
+| Biosecurity **chung** vs **hatchery + species** cụ thể           | FAO PMP rộng → **1** so với query chỉ hatchery thẻ nếu không đủ chi tiết trại giống.                                                                                                                                                |
+| Query **pathogen-centered** + ép **tôm thẻ** (ví dụ DS_007)      | Manual/review đúng pathogen + AHPND nhưng KG/hybrid thường gắn `aboutTaxon` lệch (ví dụ nhấn Tôm sú) so với thí nghiệm vannamei rõ ràng → có thể **1** (near-miss species emphasis), không tự động 2 chỉ vì title “AHPND strategy”. |
 
 ## Hard negative và near-miss (phục vụ P@5 / nDCG@5)
 
@@ -76,7 +76,7 @@ Không dùng score retrieval để quyết định nhãn; score chỉ có thể 
 
 ## Query khó / mơ hồ
 
-- Ghi rõ trong `judgment_reason` *vì sao* 1 thay vì 2 (thiếu điều kiện nào).
+- Ghi rõ trong `judgment_reason` _vì sao_ 1 thay vì 2 (thiếu điều kiện nào).
 - Ưu tiên **phân tán** nhãn 0/1/2 trong cùng query để bước sau không chỉ có toàn 2.
 
 ## Trường metadata ưu tiên khi xét

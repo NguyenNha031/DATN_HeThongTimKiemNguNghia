@@ -8,23 +8,24 @@ import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-# THƯ VIỆN ĐỌC FILE 
-# pip install pymupdf python-docx openpyxl sentence-transformers faiss-cpu pandas
-import fitz 
-from docx import Document as DocxDocument
+# LIBRARY FOR FILE READING
+# Install required libraries: pymupdf, python-docx, openpyxl, sentence-transformers, faiss-cpu, pandas
+# Example: pip install pymupdf python-docx openpyxl sentence-transformers faiss-cpu pandas
 
-
-# 1. CẤU HÌNH
+# Configuration
+# Default metadata path
 _DEFAULT_METADATA_PATH = Path("data") / "metadata" / "document_metadata.xlsx"
 _CLEAN_METADATA_PATH = Path("data") / "metadata" / "document_metadata_cleaned.xlsx"
+# Use cleaned metadata if available, otherwise fallback to default
 METADATA_PATH = str(_CLEAN_METADATA_PATH) if _CLEAN_METADATA_PATH.exists() else str(_DEFAULT_METADATA_PATH)
-DOC_BASE_DIR = Path(".")  
+DOC_BASE_DIR = Path(".")
 INDEX_DIR = Path("vector_store")
 INDEX_DIR.mkdir(parents=True, exist_ok=True)
 
+# Embedding model configuration
 EMBED_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-CHUNK_SIZE = 800       # số ký tự mỗi chunk
-CHUNK_OVERLAP = 150    # chồng lấn giữa các chunk
+CHUNK_SIZE = 800  # Number of characters per chunk
+CHUNK_OVERLAP = 150  # Overlap between chunks
 TOP_K = 5
 
 
@@ -137,7 +138,7 @@ def build_chunks_from_metadata(df: pd.DataFrame) -> list[dict]:
                     "text": chunk
                 })
 
-            print(f"[OK] {doc_id}: {len(chunks)} chunks")
+            print(f"[INFO] Document {doc_id}: {len(chunks)} chunks processed.")
 
         except Exception as e:
             print(f"[ERROR] Failed reading {doc_id}: {e}")
@@ -171,7 +172,7 @@ def save_index(index, records, model_name):
         pickle.dump(records, f)
     with open(INDEX_DIR / "config.pkl", "wb") as f:
         pickle.dump({"model_name": model_name}, f)
-    print("[OK] Index saved.")
+    print("[INFO] Vector index saved successfully.")
 
 
 def load_index():
@@ -271,4 +272,3 @@ if __name__ == "__main__":
         interactive_search()
     else:
         raise ValueError("Usage: python vector_search.py [build|search]")
-    

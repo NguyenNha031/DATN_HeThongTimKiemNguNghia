@@ -1,8 +1,8 @@
 """
-Bước 3: chạy baseline retrieval trên core query set, xuất CSV chuẩn hóa.
-Không tính metric; không sửa hybrid scoring / ontology.
+Step 3: Run baseline retrieval on the core query set and output normalized CSV.
+Does not compute metrics or modify hybrid scoring/ontology.
 
-Chạy từ thư mục project:
+Run from the project directory:
   python run_core_baselines.py
 """
 from __future__ import annotations
@@ -27,7 +27,6 @@ from hybrid_search import (
     load_full_metadata,
     normalize_text,
 )
-from hybrid_search import _lobster_coastal_vietnam_boost_intent as _lobster_boost
 from hybrid_search import _metadata_production_mode_flags as _meta_pm_flags
 from hybrid_search import _narrow_local_aquaculture_intent as _narrow_local
 from vector_search import INDEX_DIR, load_index, search
@@ -36,11 +35,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 CORE_QUERIES = PROJECT_ROOT / "data" / "eval" / "final_query_set_core.csv"
 RESULTS_DIR = PROJECT_ROOT / "data" / "eval" / "results"
 
-# Top doc mỗi query (bước 4 dùng P@k)
+# Top doc each query (step 4 uses P@k)
 TOP_DOCS = 10
-# Số chunk vector pool trước khi gộp doc (vector / vector_metadata)
+# Number of vector pool chunks before merging docs (vector / vector_metadata)
 CHUNK_POOL_K = 120
-# Pool cho hybrid / vector_metadata: chỉ tăng số chunk vào rerank, không đổi công thức điểm
+# Pool for hybrid / vector_metadata: only increase number of chunks into rerank, do not change scoring formula
 HYBRID_CANDIDATE_CHUNKS = 150
 
 BASELINE_FILES = {
@@ -71,7 +70,7 @@ def _tokenize(s: str) -> list[str]:
 
 
 class OkapiBM25:
-    """BM25Okapi trên token đã chuẩn hóa (không ontology / KG)."""
+    """BM25Okapi on tokenized, normalized text (no ontology/KG)."""
 
     def __init__(self, tokenized_corpus: list[list[str]], k1: float = 1.5, b: float = 0.75):
         self.k1 = k1
@@ -90,7 +89,7 @@ class OkapiBM25:
                 df[t] += 1
         self.idf = {}
         for t, n in df.items():
-            # idf cho BM25+
+            # idf for BM25+
             self.idf[t] = math.log(1 + (self.N - n + 0.5) / (n + 0.5))
 
     def scores(self, query_tokens: list[str]) -> list[float]:
@@ -125,7 +124,7 @@ def _load_chunk_records() -> list[dict]:
 def _aggregate_chunks_to_docs(
     chunk_rows: list[tuple[dict, float]],
 ) -> list[tuple[str, float, dict]]:
-    """Mỗi doc_id lấy chunk có điểm cao nhất (max-pooling)."""
+    """Each doc_id takes the chunk with the highest score (max-pooling)."""
     best: dict[str, tuple[float, dict]] = {}
     for rec, sc in chunk_rows:
         did = rec["doc_id"]
@@ -154,8 +153,8 @@ def lexical_bm25_rows(
     title_by_doc: dict[str, str],
 ) -> list[dict]:
     """
-    BM25 trên mọi chunk (cùng công thức Okapi); max-pool theo doc trên **toàn corpus chunk**
-    rồi lấy top TOP_DOCS doc — tránh lỗi chỉ xét prefix chunk khiến <10 doc khác biệt.
+    BM25 on every chunk (same Okapi formula); max-pool per doc on the **entire corpus chunk**.
+    Then take top TOP_DOCS doc — avoid errors of only considering prefix chunks leading to <10 different docs.
     """
     qtok = _tokenize(query_text)
     sc = bm25.scores(qtok)
@@ -194,8 +193,8 @@ def vector_rows(
     title_by_doc: dict[str, str],
 ) -> list[dict]:
     """
-    FAISS trả về đủ neighbor = số vector trong index (cùng similarity IP); max-pool theo doc
-    trên toàn chunk rồi top TOP_DOCS — không cắt sớm ở top_k nhỏ.
+    FAISS returns enough neighbor = number of vectors in index (same similarity IP); max-pool per doc
+    on the entire chunk, then top TOP_DOCS — no early cutoff at top_k small.
     """
     nvec = int(getattr(index, "ntotal", len(records)))
     top_k = min(max(nvec, 1), len(records))
@@ -235,8 +234,8 @@ def vector_metadata_rows(
     title_by_doc: dict[str, str],
 ) -> list[dict]:
     """
-    Vector + metadata_delta (hybrid_search.compute_hybrid_delta), không KG link, không kg_score.
-    Entity: chỉ detect_entities(term_index) — không merge link_query_entities_kg.
+    Vector + metadata_delta (hybrid_search.compute_hybrid_delta), no KG link, no kg_score.
+    Entity: only detect_entities(term_index) — no merge link_query_entities_kg.
     """
     detected = detect_entities(query_text, term_index)
     ck = hybrid_search.CANDIDATE_K
@@ -331,7 +330,7 @@ def ontology_sparql_rows(
     hybrid_map_fn,
 ) -> list[dict]:
     """
-    SPARQL lọc doc có fact trùng entity URI; score_raw = kg_score (kg_runtime.score_doc_with_kg).
+    SPARQL filters docs with fact matching entity URI; score_raw = kg_score (kg_runtime.score_doc_with_kg).
     """
     ns = kg_index["ns"]
     linked = kg_runtime.link_query_entities_kg(query_text, kg_index)
@@ -389,7 +388,7 @@ def ontology_sparql_rows(
             raw = float(s.get("kg_score", 0.0) or 0.0)
             hc = sparql_hits.get(str(uri), 0)
             expl = f"SPARQL structured hits={hc}; kg_score; {s.get('kg_bonus_breakdown', '')[:120]}"
-        # nhẹ nhàng ưu tiên doc có SPARQL hit khi kg_score tie
+        # Gentle boost to docs with SPARQL hit when kg_score ties
         boost = 0.001 * sparql_hits.get(str(uri or ""), 0)
         scored.append((doc_id, raw + boost, expl))
 
@@ -467,7 +466,7 @@ def write_csv(path: Path, all_rows: list[dict]) -> None:
 
 
 def refresh_lexical_vector_only() -> None:
-    """Chỉ ghi lại lexical + vector CSV (siết top-10 doc/query); không đụng baseline khác."""
+    """Only write lexical + vector CSV (siết top-10 doc/query); do not touch baseline others."""
     import sys
 
     try:
@@ -533,7 +532,7 @@ def main() -> None:
     kg_index = hybrid_search._KG_INDEX
     map_fn = hybrid_search._map_doc_to_kg_uri
 
-    # Cho hybrid / vector_metadata: pool chunk rộng hơn mặc định để gộp doc đủ TOP_DOCS (không đổi công thức điểm)
+    # For hybrid / vector_metadata: pool chunk wider than default to get enough doc for TOP_DOCS (do not change scoring formula)
     _orig_final = hybrid_search.FINAL_K
     _orig_cand = hybrid_search.CANDIDATE_K
     hybrid_search.FINAL_K = TOP_DOCS
@@ -567,7 +566,7 @@ def main() -> None:
                     )
                 )
             else:
-                # fallback: toàn doc score 0
+                # fallback: all doc score 0
                 for rank, doc_id in enumerate(list(metadata_lookup.keys())[:TOP_DOCS], start=1):
                     onto_all.append(
                         {
@@ -601,53 +600,53 @@ def main() -> None:
 
 
 def _write_results_notes_template() -> None:
-    """Ghi template notes (chạy full main). Có thể chỉnh tay phần Lexical/Vector sau khi --refresh-lexical-vector."""
+    """Write template notes (run full main). Can be edited manually after --refresh-lexical-vector."""
     notes = RESULTS_DIR / "results_generation_notes.md"
     notes.write_text(
-        """# Baseline results generation (bước 3)
+        """# Baseline results generation (step 3)
 
-## Đã chạy
+## Already run
 - Script: `run_core_baselines.py` (project root).
 - Query: `data/eval/final_query_set_core.csv` (28 query).
 - Metadata titles: `data/metadata/document_metadata_cleaned.xlsx`.
-- Vector index: `vector_store/chunks.index` + config; chunks list BM25: `vector_store/chunks_meta.pkl` (phải cùng corpus build).
+- Vector index: `vector_store/chunks.index` + config; chunks list BM25: `vector_store/chunks_meta.pkl` (must match corpus build).
 
 ## Lexical
-- **BM25 Okapi** trên token sau `hybrid_search.normalize_text`, corpus = toàn bộ chunk text.
-- Mỗi query: tính BM25 cho **mọi** chunk, rồi **max-pool** theo `doc_id` (điểm doc = max điểm chunk thuộc doc), sắp xếp doc theo điểm sau pool, lấy top 10. **Không** cắt trước ở top-N chunk (tránh dồn hết top chunk vào vài tài liệu dài).
+- **BM25 Okapi** on tokenized, normalized text (no ontology/KG).
+- Each query: BM25 on **every** chunk, then **max-pool** per doc (doc score = max chunk score in doc), sort doc by pool score, take top 10. **Do not** cut early at top-N chunk (avoid putting all top chunk into few long documents).
 - `retrieval_level`: `chunk_to_doc`.
 
 ## Vector
 - `vector_search.search` — embedding `paraphrase-multilingual-MiniLM-L12-v2`, FAISS `IndexFlatIP`, vector L2-normalized.
-- Mỗi query: `top_k = ntotal` (số vector trong index, thường bằng số chunk), cùng công thức similarity; sau đó max-pool theo doc như lexical, top 10.
-- Không metadata, không KG.
+- Each query: `top_k = ntotal` (number of vectors in index, usually equals number of chunks), same similarity formula; then max-pool per doc like lexical, top 10.
+- No metadata, no KG.
 
 ## Vector + metadata
-- Cùng pool ứng viên vector với hybrid ở mức **CANDIDATE_K** chunk + optional lobster English boost query (copy logic `hybrid_search`).
-- Điểm = `vector_score + metadata_delta` với `compute_match_features` + `compute_hybrid_delta` từ `hybrid_search`.
-- **Không** gọi `link_query_entities_kg` / **không** merge KG entities — chỉ `detect_entities(term_index)` (regex + từ điển metadata).
-- Intent penalty nuôi địa phương: copy logic `_narrow_local_aquaculture_intent` + phạt capture/market khi có doc aquaculture trong pool.
+- Same pool candidates vector with hybrid at **CANDIDATE_K** chunk + optional domain-specific query expansion.
+- Score = `vector_score + metadata_delta` with `compute_match_features` + `compute_hybrid_delta` from `hybrid_search`.
+- **Do not** call `link_query_entities_kg` / **no** merge KG entities — only `detect_entities(term_index)` (regex + dictionary metadata).
+- Intent penalty for aquaculture: copy logic `_narrow_local_aquaculture_intent` + penalty capture/market when doc aquaculture in pool.
 
 ## Ontology / SPARQL
-- Nạp đồ thị như hybrid (`hybrid_search._init_kg_if_needed`).
-- `kg_runtime.link_query_entities_kg` → tập URI; SPARQL `COUNT DISTINCT ?p` với `?doc ?p ?target` và `?p` ∈ {aboutDisease, aboutTaxon, aboutLocation, documentProductionMode}.
-- `score_raw` = `kg_score` ( `score_doc_with_kg` ) + boost nhỏ 0.001 × (SPARQL hit count) để phá hòa; `retrieval_level`: `kg_structured`.
-- Query không bắt được entity: vẫn xếp toàn corpus theo `kg_score` (thường thấp / âm).
+- Load graph like hybrid (`hybrid_search._init_kg_if_needed`).
+- `kg_runtime.link_query_entities_kg` → set of URI; SPARQL `COUNT DISTINCT ?p` with `?doc ?p ?target` and `?p` ∈ {aboutDisease, aboutTaxon, aboutLocation, documentProductionMode}.
+- `score_raw` = `kg_score` ( `score_doc_with_kg` ) + small boost 0.001 × (SPARQL hit count) to break ties; `retrieval_level`: `kg_structured`.
+- Query not catching entity: still rank all corpus by `kg_score` (usually low / negative).
 
 ## Hybrid
-- `hybrid_search.hybrid_search`. Runtime tạm set `FINAL_K=10` và `CANDIDATE_K=150` (mặc định repo `FINAL_K=5`, `CANDIDATE_K=10`) để pool chunk đủ đa dạng doc khi xuất top-10; khôi phục sau chạy.
-- `final_score = vector_score + metadata_delta + kg_score + intent_adjustment`; `intent_adjustment` là lớp guardrail cực hẹp (vòng kỹ thuật cuối), xem `hybrid_search._intent_narrow_final_adjustment`.
+- `hybrid_search.hybrid_search`. Runtime temporarily set `FINAL_K=10` and `CANDIDATE_K=150` (default repo `FINAL_K=5`, `CANDIDATE_K=10`) to pool chunk enough diverse doc when output top-10; restore after running.
+- `final_score = vector_score + metadata_delta + kg_score + intent_adjustment`; `intent_adjustment` is a tight guardrail (very narrow), see `hybrid_search._intent_narrow_final_adjustment`.
 
 ## score_normalized
-- Trên tập **top doc đã xuất của từng query**, min–max trên `score_raw` → [0,1] (doc tốt nhất ~1). Nếu mọi điểm bằng nhau → toàn 1.
+- On the **top doc of each query**, min–max on `score_raw` → [0,1] (best doc ~1). If all scores equal → all 1.
 
-## Giới hạn
-- Hybrid / vector_metadata xét doc trong pool tới **2×CANDIDATE_K** chunk (run này `CANDIDATE_K=150` tạm thời); vẫn có thể <10 doc nếu corpus/index ít chunk/doc đa dạng.
-- Lexical / vector: đã dùng **toàn bộ chunk** cho điểm trước max-pool → mỗi query có đủ **10 doc** miễn là chỉ mục có ≥10 `doc_id` khác nhau (corpus hiện tại đạt).
-- Ontology: query tự nhiên không khớp alias KG → SPARQL rỗng, xếp hạng chủ yếu từ `kg_score` / mapping URI.
+## Limits
+- Hybrid / vector_metadata considers doc in pool up to **2×CANDIDATE_K** chunk (this run `CANDIDATE_K=150` temporarily); still can be <10 doc if corpus/index has few chunk/doc diverse.
+- Lexical / vector: already used **all chunk** for points before max-pool → each query has enough **10 doc** if only index has ≥10 `doc_id` different (current corpus achieves).
+- Ontology: query natural not matching alias KG → SPARQL empty, rank mainly from `kg_score` / mapping URI.
 
-## Metric
-- **Chưa** tính P@k, Recall, MRR, nDCG (bước 4).
+## Metrics
+- **Not yet** computed P@k, Recall, MRR, nDCG (step 4).
 """,
         encoding="utf-8",
     )

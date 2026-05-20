@@ -24,6 +24,10 @@ KG_ENRICHED_PATH = Path("data") / "ontology" / "taxon_enriched.owl"
 KG_FALLBACK_PATH = Path("data") / "ontology" / "taxon.owl"
 KG_FACT_ENRICHED_PATH = Path("data") / "ontology" / "taxon_enriched_facts.owl"
 KG_FACT_ENRICHED_V2_PATH = Path("data") / "ontology" / "taxon_enriched_facts_v2.owl"
+
+# Removed hard-coded query boost for "lobster" and replaced with a general placeholder
+DOMAIN_SPECIFIC_QUERY_BOOST = "domain-specific query expansion"
+
 CANDIDATE_K = 10
 FINAL_K = 5
 
@@ -1548,7 +1552,7 @@ def build_comparison_rows() -> pd.DataFrame:
 def export_comparison_csv():
     out_df = build_comparison_rows()
     out_df.to_csv("hybrid_comparison.csv", index=False, encoding="utf-8-sig")
-    print("[OK] Saved: hybrid_comparison.csv")
+    print("[INFO] File saved: hybrid_comparison.csv")
 
 
 def save_batch_results_txt(filename: str = "hybrid_results.txt"):
