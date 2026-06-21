@@ -1,0 +1,66 @@
+location_or_region,n_documents,notes
+Global,24,from related_location metadata
+Vietnam/local-related,11,derived local flag
+India,7,from related_location metadata
+Thailand,6,from related_location metadata
+Latin America,5,from related_location metadata
+Vietnam,5,from related_location metadata
+Asia,4,from related_location metadata
+Philippines,4,from related_location metadata
+Bangladesh,3,from related_location metadata
+China,3,from related_location metadata
+Indonesia,3,from related_location metadata
+Khánh Hòa,3,from related_location metadata
+Bangkok,2,from related_location metadata
+Ecuador,2,from related_location metadata
+Malaysia,2,from related_location metadata
+Mexico,2,from related_location metadata
+Pacific,2,from related_location metadata
+Phú Yên,2,from related_location metadata
+Singapore,2,from related_location metadata
+Southeast Asia,2,from related_location metadata
+Việt Nam,2,from related_location metadata
+Africa,1,from related_location metadata
+Australia,1,from related_location metadata
+Azerbaijan,1,from related_location metadata
+Bac Lieu,1,from related_location metadata
+Ben Tre,1,from related_location metadata
+Bosnia and Herzegovina,1,from related_location metadata
+Brazil,1,from related_location metadata
+Bình Thuận,1,from related_location metadata
+Bình Định,1,from related_location metadata
+Ca Mau,1,from related_location metadata
+Cam Ranh,1,from related_location metadata
+Canada,1,from related_location metadata
+Caribbean,1,from related_location metadata
+Caucasus,1,from related_location metadata
+Central Asia,1,from related_location metadata
+Cẩm Xuyên,1,from related_location metadata
+Europe,1,from related_location metadata
+Hungary,1,from related_location metadata
+Hà Nội,1,from related_location metadata
+Hà Tĩnh,1,from related_location metadata
+Indian Ocean,1,from related_location metadata
+Japan,1,from related_location metadata
+Kazakhstan,1,from related_location metadata
+Kerala,1,from related_location metadata
+Khulna,1,from related_location metadata
+Mekong Delta,1,from related_location metadata
+Myanmar,1,from related_location metadata
+Nghi Xuân,1,from related_location metadata
+Ninh Thuận,1,from related_location metadata
+Peru,1,from related_location metadata
+Satkhira,1,from related_location metadata
+Saudi Arabia,1,from related_location metadata
+Southern Africa,1,from related_location metadata
+Thạch Hà,1,from related_location metadata
+Uganda,1,from related_location metadata
+Vạn Ninh,1,from related_location metadata
+Vịnh Cam Ranh,1,from related_location metadata
+Vịnh Văn Phong,1,from related_location metadata
+Xuân Tự,1,from related_location metadata
+coastal areas,1,from related_location metadata
+inland waters,1,from related_location metadata
+marine environment,1,from related_location metadata
+ven biển Khánh Hòa,1,from related_location metadata
+Đồng bằng sông Cửu Long,1,from related_location metadata

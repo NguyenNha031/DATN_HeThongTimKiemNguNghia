@@ -1,0 +1,6 @@
+﻿baseline_name,p_at_1,mrr,ndcg_at_10
+lexical,0.392857,0.404762,0.267647
+vector,0.642857,0.723951,0.558917
+vector_metadata,0.642857,0.745238,0.601359
+ontology_sparql,0.535714,0.626786,0.458943
+hybrid,0.821429,0.875,0.710981

@@ -1,0 +1,19 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8522,PASS,,Streamlit running at http://localhost:8522; HTTP 200; PID 22544
+raw_entities_rendering,PASS,,Raw entities now renders as escaped HTML pre.raw-json-block instead of st.json
+raw_json_color_css,PASS,,raw-json-block uses #f8fafc background, #111827 text, #d0d7de border, readable selection colors
+empty_dataframe_removed,PASS,,Entity details now use compact HTML table instead of st.dataframe canvas
+entity_cards_preserved,PASS,,Taxon/species, Disease, Location, Production mode, Intent/type metrics remain
+layout_preserved,PASS,,Single-column layout and all major sections remain
+topk_preserved,PASS,,Top-k result table remains available
+result_details_preserved,PASS,,Score breakdown, Explanation, KG evidence, KG subgraph, Source evidence remain
+method_comparison_preserved,PASS,,Method comparison remains available
+export_excel_preserved,PASS,,Export dataframe still includes kg_evidence and kg_evidence_summary
+smoke_entities,PASS,lobster Khanh Hoa,entity_rows=2; raw_json_chars=683; results=5; Excel bytes=7159
+smoke_entities,PASS,AHPND shrimp disease,entity_rows=2; raw_json_chars=661; results=5; Excel bytes=6934
+smoke_entities,PASS,shrimp farming Vietnam,entity_rows=2; raw_json_chars=624; results=5; Excel bytes=6939
+smoke_entities,PASS,biosecurity shrimp hatchery,entity_rows=4; raw_json_chars=1039; results=5; Excel bytes=6846
+screenshot_ready,PASS,,Use http://localhost:8522

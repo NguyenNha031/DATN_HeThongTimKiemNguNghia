@@ -1,0 +1,13 @@
+﻿metric,value
+metadata rows,140
+raw files,140
+unique doc_id,140
+duplicate doc_id,0
+missing file_path,0
+matched metadata rows,140
+missing raw files,0
+unreferenced raw files,0
+duplicate file_path,0
+zero-byte files,0
+suspicious extension,0
+result,PASS

@@ -1,0 +1,27 @@
+﻿metric,value
+status,NEEDS_FIX
+metadata_docs,140
+raw_files,140
+old_chunks,25555
+new_chunks,28437
+old_vector_docs,108
+new_vector_docs,137
+missing_docs_in_vector_store,3
+missing_doc_ids,KNQG_002; RIA3_002; RIA3_003
+extra_docs_in_vector_store,0
+index_ntotal,28437
+chunks_meta_rows,28437
+index_dimension,384
+model_dimension,384
+model_name,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+chunk_size,800
+chunk_overlap,150
+doc_chunk_min,5
+doc_chunk_median,80
+doc_chunk_max,3390
+parse_error_lines,0
+warn_lines,0
+empty_text_docs,
+can_proceed_to_kg_sync,NO
+backup_path,vector_store_backup_before_140docs_20260531_101107
+build_log,outputs\vector_store_rebuild_140docs_build_log_20260531_101209.txt

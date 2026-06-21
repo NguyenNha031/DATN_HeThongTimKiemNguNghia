@@ -1,0 +1,16 @@
+﻿key,value
+status,PASS_WITH_RAW_DOCS_OMITTED
+package_path,final_submission_package
+backup_status,CREATED
+backup_path,archive_pre_final/final_submission_package_before_clean_project_structure_20260601_215140
+package_file_count,120
+package_size_bytes,77460115
+manifest_file_count,120
+missing_file_count,6
+critical_missing_file_count,0
+vector_store_copied,True
+raw_docs_copied,False
+raw_docs_note,Raw PDFs are intentionally omitted per user request; placeholder file included.
+forbidden_path_count,0
+bad_figure_count,0
+ria_excluded_filename_count,0

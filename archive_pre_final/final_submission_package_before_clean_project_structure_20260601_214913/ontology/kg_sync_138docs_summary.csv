@@ -1,0 +1,30 @@
+﻿metric,value,detail
+overall_status,PASS,
+can_proceed_to_core_baselines_metrics_latency,YES,Không chạy trong bước này
+ontology_runtime_file,data/ontology/taxon_enriched_facts_v2.owl,
+triple_count_before_sync,1324,from pre-sync backup
+triple_count_after_sync_final,1528,
+metadata_docs,138,
+kg_document_nodes,138,
+mapped_docs,138,runtime verification
+unmapped_docs,0,runtime verification
+stale_kg_docs,0,
+KNQG_002_in_kg,True,
+RIA3_002_in_kg,False,
+RIA3_003_in_kg,False,
+aboutTaxon_docs,130,
+aboutDisease_docs,78,
+aboutLocation_docs,78,
+documentProductionMode_docs,138,
+docs_with_at_least_1_core_fact,138,
+docs_with_all_4_core_fact_types,29,
+docs_with_zero_core_facts,0,
+reasoner_status,completed,
+reasoner_used,owlready2_hermit,
+reasoner_consistent,True,
+unsatisfiable_classes_count,0,
+competency_total,10,
+competency_correct,10,
+competency_partial,0,
+competency_incorrect,0,
+competency_accuracy_like_ratio,1.0,

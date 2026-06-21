@@ -1,0 +1,10 @@
+topic_group,n_documents,percentage_of_corpus,notes
+aquatic_disease,106,76.81,multi-label count; total across topics can exceed corpus size
+marine_aquaculture,23,16.67,multi-label count; total across topics can exceed corpus size
+hatchery_seed_production,21,15.22,multi-label count; total across topics can exceed corpus size
+biosecurity_management,63,45.65,multi-label count; total across topics can exceed corpus size
+environment_water_quality,28,20.29,multi-label count; total across topics can exceed corpus size
+local_vietnam_khanhhoa,39,28.26,multi-label count; total across topics can exceed corpus size
+species_taxon_specific,137,99.28,multi-label count; total across topics can exceed corpus size
+general_policy_technical,0,0.0,multi-label count; total across topics can exceed corpus size
+uncategorized,0,0.0,documents not matched by topic rules; inspect manually

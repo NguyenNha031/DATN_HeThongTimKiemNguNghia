@@ -1,0 +1,682 @@
+{
+  "layer_1_retrieval_evaluation": {
+    "num_queries": 28,
+    "num_relevance_judgments": 181,
+    "baselines": [
+      "lexical",
+      "vector",
+      "vector_metadata",
+      "vector_metadata_kg_no_intent",
+      "ontology_sparql",
+      "hybrid"
+    ],
+    "metrics": [
+      "p_at_1",
+      "p_at_3",
+      "p_at_5",
+      "recall_at_5",
+      "mrr",
+      "ndcg_at_5",
+      "ndcg_at_10"
+    ],
+    "metrics_by_baseline": {
+      "lexical": {
+        "baseline_name": "lexical",
+        "num_queries": "28",
+        "p_at_1": "0.392857",
+        "p_at_3": "0.214286",
+        "p_at_5": "0.135714",
+        "recall_at_5": "0.196173",
+        "mrr": "0.433036",
+        "ndcg_at_5": "0.271533",
+        "ndcg_at_10": "0.299142",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      },
+      "vector": {
+        "baseline_name": "vector",
+        "num_queries": "28",
+        "p_at_1": "0.678571",
+        "p_at_3": "0.452381",
+        "p_at_5": "0.335714",
+        "recall_at_5": "0.415901",
+        "mrr": "0.769133",
+        "ndcg_at_5": "0.555952",
+        "ndcg_at_10": "0.602224",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      },
+      "vector_metadata": {
+        "baseline_name": "vector_metadata",
+        "num_queries": "28",
+        "p_at_1": "0.75",
+        "p_at_3": "0.52381",
+        "p_at_5": "0.392857",
+        "recall_at_5": "0.488776",
+        "mrr": "0.821769",
+        "ndcg_at_5": "0.614302",
+        "ndcg_at_10": "0.66361",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      },
+      "vector_metadata_kg_no_intent": {
+        "baseline_name": "vector_metadata_kg_no_intent",
+        "num_queries": "28",
+        "p_at_1": "0.75",
+        "p_at_3": "0.5",
+        "p_at_5": "0.385714",
+        "recall_at_5": "0.478997",
+        "mrr": "0.822959",
+        "ndcg_at_5": "0.616748",
+        "ndcg_at_10": "0.677948",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      },
+      "ontology_sparql": {
+        "baseline_name": "ontology_sparql",
+        "num_queries": "28",
+        "p_at_1": "0.571429",
+        "p_at_3": "0.428571",
+        "p_at_5": "0.342857",
+        "recall_at_5": "0.38852",
+        "mrr": "0.644643",
+        "ndcg_at_5": "0.409145",
+        "ndcg_at_10": "0.4577",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      },
+      "hybrid": {
+        "baseline_name": "hybrid",
+        "num_queries": "28",
+        "p_at_1": "0.821429",
+        "p_at_3": "0.535714",
+        "p_at_5": "0.407143",
+        "recall_at_5": "0.498044",
+        "mrr": "0.869388",
+        "ndcg_at_5": "0.669526",
+        "ndcg_at_10": "0.722203",
+        "mean_query_latency_ms": "",
+        "notes": "Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống"
+      }
+    },
+    "best_overall_by_metric": {
+      "p_at_1": {
+        "baseline_name": "hybrid",
+        "value": 0.821429
+      },
+      "p_at_3": {
+        "baseline_name": "hybrid",
+        "value": 0.535714
+      },
+      "p_at_5": {
+        "baseline_name": "hybrid",
+        "value": 0.407143
+      },
+      "recall_at_5": {
+        "baseline_name": "hybrid",
+        "value": 0.498044
+      },
+      "mrr": {
+        "baseline_name": "hybrid",
+        "value": 0.869388
+      },
+      "ndcg_at_5": {
+        "baseline_name": "hybrid",
+        "value": 0.669526
+      },
+      "ndcg_at_10": {
+        "baseline_name": "hybrid",
+        "value": 0.722203
+      }
+    },
+    "best_by_query_group": {
+      "biosecurity-management": {
+        "p_at_1": {
+          "baseline_name": "hybrid",
+          "value": 0.833333
+        },
+        "p_at_3": {
+          "baseline_name": "vector",
+          "value": 0.555556
+        },
+        "p_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.4
+        },
+        "recall_at_5": {
+          "baseline_name": "vector",
+          "value": 0.472222
+        },
+        "mrr": {
+          "baseline_name": "hybrid",
+          "value": 0.916667
+        },
+        "ndcg_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.701379
+        },
+        "ndcg_at_10": {
+          "baseline_name": "vector_metadata",
+          "value": 0.782709
+        }
+      },
+      "disease-specific": {
+        "p_at_1": {
+          "baseline_name": "ontology_sparql",
+          "value": 1.0
+        },
+        "p_at_3": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.611111
+        },
+        "p_at_5": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.566667
+        },
+        "recall_at_5": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.501984
+        },
+        "mrr": {
+          "baseline_name": "ontology_sparql",
+          "value": 1.0
+        },
+        "ndcg_at_5": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.617467
+        },
+        "ndcg_at_10": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.66292
+        }
+      },
+      "hatchery-production-mode": {
+        "p_at_1": {
+          "baseline_name": "hybrid",
+          "value": 1.0
+        },
+        "p_at_3": {
+          "baseline_name": "hybrid",
+          "value": 0.583333
+        },
+        "p_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.4
+        },
+        "recall_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.425
+        },
+        "mrr": {
+          "baseline_name": "hybrid",
+          "value": 1.0
+        },
+        "ndcg_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.656849
+        },
+        "ndcg_at_10": {
+          "baseline_name": "hybrid",
+          "value": 0.68911
+        }
+      },
+      "local": {
+        "p_at_1": {
+          "baseline_name": "hybrid",
+          "value": 0.857143
+        },
+        "p_at_3": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.571429
+        },
+        "p_at_5": {
+          "baseline_name": "ontology_sparql",
+          "value": 0.4
+        },
+        "recall_at_5": {
+          "baseline_name": "lexical",
+          "value": 0.580952
+        },
+        "mrr": {
+          "baseline_name": "lexical",
+          "value": 0.904762
+        },
+        "ndcg_at_5": {
+          "baseline_name": "lexical",
+          "value": 0.711059
+        },
+        "ndcg_at_10": {
+          "baseline_name": "lexical",
+          "value": 0.745602
+        }
+      },
+      "species-location": {
+        "p_at_1": {
+          "baseline_name": "vector_metadata",
+          "value": 1.0
+        },
+        "p_at_3": {
+          "baseline_name": "hybrid",
+          "value": 0.533333
+        },
+        "p_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.44
+        },
+        "recall_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.613333
+        },
+        "mrr": {
+          "baseline_name": "vector_metadata",
+          "value": 1.0
+        },
+        "ndcg_at_5": {
+          "baseline_name": "hybrid",
+          "value": 0.75707
+        },
+        "ndcg_at_10": {
+          "baseline_name": "hybrid",
+          "value": 0.75707
+        }
+      }
+    },
+    "latency_by_baseline": {
+      "lexical": {
+        "baseline_name": "lexical",
+        "num_queries": "28",
+        "runs_per_query": "5",
+        "warmup_done": "yes (1 call first query)",
+        "latency_scope": "Wall-clock per query: full baseline row builder in run_core_baselines (BM25 all-chunks+pool / FAISS search+pool / KG score+SPARQL+hybrid_search as applicable), including building top-10 row dicts; excludes model/index/KG load and pandas read of query CSV.",
+        "mean_query_latency_ms": "421.311",
+        "median_query_latency_ms": "422.61",
+        "min_query_latency_ms": "388.779",
+        "max_query_latency_ms": "458.557",
+        "notes": "Windows; CPU; single process. Stdout suppressed during timed calls. Hybrid/vector_metadata use FINAL_K=10 CANDIDATE_K=150 as in run_core_baselines.main."
+      },
+      "vector": {
+        "baseline_name": "vector",
+        "num_queries": "28",
+        "runs_per_query": "5",
+        "warmup_done": "yes (1 call first query)",
+        "latency_scope": "Wall-clock per query: full baseline row builder in run_core_baselines (BM25 all-chunks+pool / FAISS search+pool / KG score+SPARQL+hybrid_search as applicable), including building top-10 row dicts; excludes model/index/KG load and pandas read of query CSV.",
+        "mean_query_latency_ms": "86.398",
+        "median_query_latency_ms": "78.521",
+        "min_query_latency_ms": "60.211",
+        "max_query_latency_ms": "128.812",
+        "notes": "Windows; CPU; single process. Stdout suppressed during timed calls. Hybrid/vector_metadata use FINAL_K=10 CANDIDATE_K=150 as in run_core_baselines.main."
+      },
+      "vector_metadata": {
+        "baseline_name": "vector_metadata",
+        "num_queries": "28",
+        "runs_per_query": "5",
+        "warmup_done": "yes (1 call first query)",
+        "latency_scope": "Wall-clock per query: full baseline row builder in run_core_baselines (BM25 all-chunks+pool / FAISS search+pool / KG score+SPARQL+hybrid_search as applicable), including building top-10 row dicts; excludes model/index/KG load and pandas read of query CSV.",
+        "mean_query_latency_ms": "43.574",
+        "median_query_latency_ms": "41.565",
+        "min_query_latency_ms": "26.446",
+        "max_query_latency_ms": "73.554",
+        "notes": "Windows; CPU; single process. Stdout suppressed during timed calls. Hybrid/vector_metadata use FINAL_K=10 CANDIDATE_K=150 as in run_core_baselines.main."
+      },
+      "ontology_sparql": {
+        "baseline_name": "ontology_sparql",
+        "num_queries": "28",
+        "runs_per_query": "5",
+        "warmup_done": "yes (1 call first query)",
+        "latency_scope": "Wall-clock per query: full baseline row builder in run_core_baselines (BM25 all-chunks+pool / FAISS search+pool / KG score+SPARQL+hybrid_search as applicable), including building top-10 row dicts; excludes model/index/KG load and pandas read of query CSV.",
+        "mean_query_latency_ms": "56.835",
+        "median_query_latency_ms": "55.912",
+        "min_query_latency_ms": "36.413",
+        "max_query_latency_ms": "99.532",
+        "notes": "Windows; CPU; single process. Stdout suppressed during timed calls. Hybrid/vector_metadata use FINAL_K=10 CANDIDATE_K=150 as in run_core_baselines.main."
+      },
+      "hybrid": {
+        "baseline_name": "hybrid",
+        "num_queries": "28",
+        "runs_per_query": "5",
+        "warmup_done": "yes (1 call first query)",
+        "latency_scope": "Wall-clock per query: full baseline row builder in run_core_baselines (BM25 all-chunks+pool / FAISS search+pool / KG score+SPARQL+hybrid_search as applicable), including building top-10 row dicts; excludes model/index/KG load and pandas read of query CSV.",
+        "mean_query_latency_ms": "113.287",
+        "median_query_latency_ms": "113.579",
+        "min_query_latency_ms": "74.85",
+        "max_query_latency_ms": "147.299",
+        "notes": "Windows; CPU; single process. Stdout suppressed during timed calls. Hybrid/vector_metadata use FINAL_K=10 CANDIDATE_K=150 as in run_core_baselines.main."
+      }
+    }
+  },
+  "layer_2_ontology_kg_evaluation": {
+    "competency_questions": {
+      "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "ontology_source": "facts_v2",
+      "total_cq": 10,
+      "correct": 10,
+      "partial": 0,
+      "incorrect": 0,
+      "accuracy_like_ratio": 1.0,
+      "by_group": {
+        "document_retrieval": {
+          "total": 4,
+          "correct": 4,
+          "partial": 0,
+          "incorrect": 0
+        },
+        "taxon_query": {
+          "total": 2,
+          "correct": 2,
+          "partial": 0,
+          "incorrect": 0
+        },
+        "disease_query": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "incorrect": 0
+        },
+        "pathogen_query": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "incorrect": 0
+        },
+        "symptom_query": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "incorrect": 0
+        },
+        "explanation": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "incorrect": 0
+        }
+      },
+      "generated_at": "2026-05-21T19:51:13+07:00",
+      "notes": [
+        "Standalone competency-question evaluation for structured KG/SPARQL layer.",
+        "Does not modify ontology, metadata, retrieval baselines, relevance judgments, or core query set.",
+        "Expected answers are matched by normalized local-name/label substring against SPARQL results."
+      ]
+    },
+    "ontology_quality_check": {
+      "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "loader_source": "facts_v2",
+      "generated_at": "2026-05-21T13:02:15.380845+00:00",
+      "total_triples": 1324,
+      "total_classes": 32,
+      "total_object_properties": 14,
+      "total_data_properties": 13,
+      "total_individuals": 55,
+      "total_document_nodes": 110,
+      "document_fact_coverage": {
+        "aboutTaxon_count_docs": 108,
+        "aboutTaxon_ratio": 0.981818,
+        "aboutDisease_count_docs": 68,
+        "aboutDisease_ratio": 0.618182,
+        "aboutLocation_count_docs": 47,
+        "aboutLocation_ratio": 0.427273,
+        "documentProductionMode_count_docs": 109,
+        "documentProductionMode_ratio": 0.990909
+      },
+      "document_mapping_status": {
+        "metadata_file": "data\\metadata\\document_metadata_cleaned.xlsx",
+        "total_metadata_docs": 110,
+        "mapped_metadata_docs_to_kg": 110,
+        "unmapped_metadata_docs": []
+      },
+      "label_coverage": {
+        "total_indexed_entities": 227,
+        "entities_with_rdfs_label": 5,
+        "entities_with_skos_prefLabel": 55,
+        "entities_with_skos_altLabel": 59,
+        "entities_with_any_rdfs_or_skos_label": 60,
+        "ratio_with_any_label": 0.264317
+      },
+      "relation_counts": {
+        "aboutDisease": 95,
+        "aboutTaxon": 191,
+        "aboutLocation": 55,
+        "documentProductionMode": 114,
+        "affectsTaxon": 5,
+        "causedBy": 3,
+        "hasSymptom": 7,
+        "recommendedPrevention": 5,
+        "recommendedTreatment": 4,
+        "mentions": 4
+      },
+      "runtime_consistency_observations": {
+        "reasoner_note": "Reasoner-based consistency checking was not executed; this report focuses on runtime-oriented structural and coverage checks.",
+        "documents_missing_all_core_facts_count": 0,
+        "documents_missing_all_core_facts_sample": [],
+        "documents_missing_title_count": 0,
+        "documents_missing_title_sample": [],
+        "documents_missing_filePath_count": 0,
+        "documents_missing_filePath_sample": [],
+        "dangling_fact_objects_count": 0,
+        "dangling_fact_objects_sample": [],
+        "duplicate_local_names_count": 0,
+        "duplicate_local_names_sample": {},
+        "non_document_entities_missing_rdfs_or_skos_label_count": 62,
+        "non_document_entities_missing_rdfs_or_skos_label_sample": [
+          "Fungus",
+          "publishedYear",
+          "EnvironmentalParameter",
+          "Bacteria",
+          "hasSymptom",
+          "Gastropod",
+          "aboutDisease",
+          "hasDisease",
+          "ViralDisease",
+          "Mollusk",
+          "aboutTaxon",
+          "altLabel",
+          "aboutLocation",
+          "prefLabel",
+          "PerkinsusDisease",
+          "externalId",
+          "scientificName",
+          "title",
+          "Lobster",
+          "affectsTaxon"
+        ]
+      },
+      "quality_notes": {
+        "strengths": [
+          "The runtime ontology loads through the same KG loader used by retrieval, so the report reflects deployed behavior.",
+          "All metadata document identifiers are mapped to KG document nodes.",
+          "Taxon and production-mode document facts have high coverage."
+        ],
+        "weaknesses": [
+          "Location coverage is sparse, which can weaken local-intent retrieval and explanations.",
+          "Disease coverage is incomplete; disease-specific queries can depend on vector/metadata fallback.",
+          "Some non-document entities lack explicit rdfs/skos labels and rely on URI local-name fallback."
+        ],
+        "suggestions": [
+          "Backfill missing location facts for documents with local or regional metadata evidence.",
+          "Expand disease/pathogen facts only after manual validation against source documents.",
+          "Add explicit rdfs:label or skos labels for entities currently resolved from URI local names.",
+          "Run a reasoner-based consistency check separately if formal OWL consistency is required."
+        ]
+      }
+    },
+    "reasoner_consistency_check": {
+      "ontology_file": "data\\ontology\\taxon_enriched_facts_v2.owl",
+      "check_time": "2026-05-23T16:07:27.500805+00:00",
+      "elapsed_seconds": 3.3434,
+      "check_status": "completed",
+      "reasoner_used": "owlready2_hermit",
+      "is_consistent": true,
+      "unsatisfiable_classes_count": 0,
+      "unsatisfiable_classes": [],
+      "inferred_or_checked_summary": {
+        "python_environment": {
+          "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+          "pip_available": true,
+          "pip_version_output": "pip 25.3 from C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pip (python 3.13)",
+          "pip_install_attempted": true,
+          "owlready2_version": "0.50"
+        },
+        "rdflib_parse": {
+          "parse_ok": true,
+          "triple_count": 1324,
+          "error": null
+        },
+        "java_available": true,
+        "external_reasoner_jars_found": [],
+        "hermit_jar_found": false,
+        "hermit_jars": [],
+        "pellet_jar_found": false,
+        "pellet_jars": [],
+        "owlready2_available": true
+      },
+      "attempted_methods": [
+        {
+          "method": "java",
+          "status": "available",
+          "message": "java version \"17.0.12\" 2024-07-16 LTS\nJava(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)\nJava HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)"
+        },
+        {
+          "method": "external_hermit_or_pellet_jar_search",
+          "status": "not_available",
+          "message": "No HermiT/Pellet jar found in project root, tools/, lib/, reasoners/, or bin/."
+        },
+        {
+          "method": "owlready2_pellet",
+          "status": "failed",
+          "elapsed_seconds": 0.8901,
+          "message": "OwlReadyJavaError: Java error message is:\nException in thread \"main\" java.lang.UnsupportedClassVersionError: org/apache/jena/riot/lang/LangRDFXML has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 61.0\r\n\tat java.base/java.lang.ClassLoader.defineClass1(Native Method)\r\n\tat java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)\r\n\tat java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)\r\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\r\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)\r\n\tat org.apache.jena.riot.RiotReader.createParser(RiotReader.java:128)\r\n\tat org.apache.jena.riot.RDFParserRegistry$ReaderRIOTFactoryImpl$1.read(RDFParserRegistry.java:147)\r\n\tat org.apache.jena.riot.RDFDataMgr.process(RDFDataMgr.java:751)\r\n\tat org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:258)\r\n\tat org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:244)\r\n\tat org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:65)\r\n\tat com.hp.hpl.jena.rdf.model.impl.ModelCom.read(ModelCom.java:276)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.findMetadata(OntDocumentManager.java:891)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.initialiseMetadata(OntDocumentManager.java:849)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:197)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:179)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:163)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.getInstance(OntDocumentManager.java:241)\r\n\tat com.hp.hpl.jena.ontology.OntModelSpec.getDocumentManager(OntModelSpec.java:320)\r\n\tat com.hp.hpl.jena.ontology.OntModelSpec.<init>(OntModelSpec.java:207)\r\n\tat org.mindswap.pellet.jena.PelletReasonerFactory.<clinit>(PelletReasonerFactory.java:57)\r\n\tat org.mindswap.pellet.jena.JenaLoader.clear(JenaLoader.java:84)\r\n\tat org.mindswap.pellet.jena.JenaLoader.<init>(JenaLoader.java:42)\r\n\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:262)\r\n\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:257)\r\n\tat pellet.PelletCmdApp.getKB(PelletCmdApp.java:220)\r\n\tat pellet.PelletRealize.run(PelletRealize.java:67)\r\n\tat pellet.Pellet.run(Pellet.java:105)\r\n\tat pellet.Pellet.main(Pellet.java:59)\r\n",
+          "traceback_tail": [
+            "\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:257)",
+            "\tat pellet.PelletCmdApp.getKB(PelletCmdApp.java:220)",
+            "\tat pellet.PelletRealize.run(PelletRealize.java:67)",
+            "\tat pellet.Pellet.run(Pellet.java:105)",
+            "\tat pellet.Pellet.main(Pellet.java:59)",
+            ""
+          ]
+        },
+        {
+          "method": "owlready2_hermit",
+          "status": "completed",
+          "elapsed_seconds": 1.7381,
+          "message": "Reasoner completed."
+        }
+      ],
+      "error_message": null,
+      "warnings_or_notes": [
+        "This report is separate from the runtime-oriented ontology quality/coverage check.",
+        "Runtime-oriented checks inspect structural statistics, document mapping, fact coverage, and dangling objects.",
+        "Reasoner-based checks evaluate OWL logical consistency/class satisfiability when a reasoner can run."
+      ],
+      "limitations": [
+        "No ontology, metadata, query set, relevance judgments, baseline outputs, or metric files are modified.",
+        "If no reasoner completes, this report must not be used as proof of consistency.",
+        "If a reasoner completes, the result is scoped to the loaded ontology file and the selected reasoner/tool behavior.",
+        "This report does not replace runtime-oriented coverage checks or competency-question evaluation."
+      ],
+      "conclusion": "Ontology is consistent under owlready2_hermit. No unsatisfiable classes detected."
+    }
+  },
+  "layer_3_full_system_contribution_analysis": {
+    "ablation_metrics": [
+      {
+        "baseline_name": "vector",
+        "p_at_1": 0.678571,
+        "p_at_5": 0.335714,
+        "mrr": 0.769133,
+        "ndcg_at_10": 0.602224
+      },
+      {
+        "baseline_name": "vector_metadata",
+        "p_at_1": 0.75,
+        "p_at_5": 0.392857,
+        "mrr": 0.821769,
+        "ndcg_at_10": 0.66361
+      },
+      {
+        "baseline_name": "vector_metadata_kg_no_intent",
+        "p_at_1": 0.75,
+        "p_at_5": 0.385714,
+        "mrr": 0.822959,
+        "ndcg_at_10": 0.677948
+      },
+      {
+        "baseline_name": "hybrid",
+        "p_at_1": 0.821429,
+        "p_at_5": 0.407143,
+        "mrr": 0.869388,
+        "ndcg_at_10": 0.722203
+      }
+    ],
+    "wilcoxon_hybrid_vs_vector_metadata": {
+      "P@1": {
+        "n_queries": 28,
+        "mean_hybrid": 0.8214285714285714,
+        "mean_vector_metadata": 0.75,
+        "p_value": 0.31731050786291415,
+        "significant_at_0_05": false
+      },
+      "MRR": {
+        "n_queries": 28,
+        "mean_hybrid": 0.8693877551020408,
+        "mean_vector_metadata": 0.8217687074829932,
+        "p_value": 0.34302782731118187,
+        "significant_at_0_05": false
+      },
+      "nDCG@10": {
+        "n_queries": 28,
+        "mean_hybrid": 0.7222030264667223,
+        "mean_vector_metadata": 0.6636095865403359,
+        "p_value": 0.08840247992639415,
+        "significant_at_0_05": false
+      }
+    },
+    "error_analysis": {
+      "total_cases": 10,
+      "count_by_error_type": {
+        "metadata_incomplete": 1,
+        "missing_alias": 1,
+        "missing_disease_fact": 1,
+        "missing_location_fact": 2,
+        "not_error_but_baseline_limitation": 2,
+        "scoring_or_intent_issue": 1,
+        "weak_candidate_pool": 2
+      },
+      "notes": [
+        "Curated retrieval error-analysis cases for thesis discussion.",
+        "Cases are selected from existing core-query results and do not modify retrieval outputs.",
+        "Some rows are classified as not_error_but_baseline_limitation where the metric/judgment setup or baseline scope explains the behavior."
+      ]
+    }
+  },
+  "cross_layer_notes": [
+    "Retrieval metrics evaluate ranking quality over judged query-document pairs.",
+    "Competency questions and reasoner checks evaluate the structured ontology/KG layer, not ranking quality.",
+    "Ablation isolates contribution of vector, metadata, KG, and intent-adjustment signals in the full system."
+  ],
+  "files_read": [
+    "data/eval/final_query_set_core.csv",
+    "data/eval/relevance_judgments_core.csv",
+    "data/eval/results/baseline_lexical_core.csv",
+    "data/eval/results/baseline_vector_core.csv",
+    "data/eval/results/baseline_vector_metadata_core.csv",
+    "data/eval/results/baseline_ontology_sparql_core.csv",
+    "data/eval/results/baseline_hybrid_core.csv",
+    "data/eval/results/baseline_vector_metadata_kg_no_intent_core.csv",
+    "data/eval/metrics/baseline_metrics_summary.csv",
+    "data/eval/metrics/baseline_metrics_by_group.csv",
+    "data/eval/metrics/baseline_latency_summary.csv",
+    "outputs/competency_questions_results.csv",
+    "outputs/competency_questions_summary.json",
+    "outputs/ontology_quality_check.md",
+    "outputs/ontology_quality_check.json",
+    "outputs/ontology_reasoner_consistency_check.md",
+    "outputs/ontology_reasoner_consistency_check.json",
+    "outputs/wilcoxon_hybrid_vs_vector_metadata.csv",
+    "outputs/wilcoxon_hybrid_vs_vector_metadata.json",
+    "outputs/error_analysis_core.csv",
+    "outputs/error_analysis_summary.json"
+  ],
+  "files_missing": [],
+  "generated_at": "2026-05-23T16:13:33.942445+00:00"
+}

@@ -1,0 +1,6 @@
+query_group,n_queries,hybrid_ndcg_at_10,vector_metadata_ndcg_at_10,delta_ndcg_at_10,better_method,short_interpretation,hybrid_p_at_1,vector_metadata_p_at_1,hybrid_mrr,vector_metadata_mrr
+biosecurity-management,6,0.779406,0.782709,-0.003303,vector_metadata,"Vector+metadata is slightly higher on nDCG@10; hybrid ties P@1 and MRR.",0.833333,0.833333,0.916667,0.916667
+disease-specific,6,0.644979,0.544094,0.100885,hybrid,"Hybrid improves disease-specific ranking, consistent with added KG disease evidence and guardrails.",0.666667,0.5,0.727778,0.611111
+hatchery-production-mode,4,0.68911,0.567382,0.121728,hybrid,"Hybrid improves hatchery/production-mode queries, likely from KG and intent-sensitive reranking.",1.0,0.75,1.0,0.8
+local,7,0.733369,0.668572,0.064797,hybrid,"Hybrid improves local queries overall, though exact lexical/local signals remain important.",0.857143,0.714286,0.877551,0.806122
+species-location,5,0.75707,0.734143,0.022927,hybrid,"Hybrid has higher nDCG@10, but vector_metadata has stronger P@1/MRR for this group.",0.8,1.0,0.866667,1.0

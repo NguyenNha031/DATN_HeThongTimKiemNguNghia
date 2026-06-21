@@ -1,0 +1,37 @@
+﻿metric,value,detail
+core_queries,28,
+query_columns,14,"[""query_id"", ""query_text"", ""query_group"", ""query_family"", ""primary_intent"", ""expected_entities_disease"", ""expected_entities_species"", ""expected_entities_location"", ""expected_entities_mode"", ""expected_entities_prevention"", ""expected_entities_management"", ""expected_entities_topic"", ""difficulty_level"", ""reason_for_inclusion""]"
+query_group_distribution,5,"{""local"": 7, ""biosecurity-management"": 6, ""disease-specific"": 6, ""species-location"": 5, ""hatchery-production-mode"": 4}"
+judgment_rows,181,
+judgment_columns,11,"[""query_id"", ""query_text"", ""query_group"", ""query_family"", ""doc_id"", ""title"", ""relevance_label"", ""relevance_label_text"", ""judgment_reason"", ""judged_using_fields"", ""_label_int""]"
+judgment_label_distribution,3,"{""0"": 60, ""1"": 63, ""2"": 58}"
+core_queries_missing_any_judgment,0,[]
+core_queries_without_relevant_doc,0,[]
+judgments_to_RIA3_removed_docs,2,"[""RIA3_002"", ""RIA3_003""]"
+judgment_doc_ids_not_in_metadata,2,"[""RIA3_002"", ""RIA3_003""]"
+new30_with_judgments,0,[]
+new30_without_judgments_info,30,"[""AAF_001"", ""CTU_001"", ""CTU_002"", ""CTU_JOURNAL_001"", ""CTU_JOURNAL_002"", ""CTU_JOURNAL_003"", ""DLU_002"", ""HUIB_001"", ""JFST_001"", ""KKTY_001"", ""KNQG_001"", ""KNQG_002"", ""MDPI_001"", ""TCKHTS_002"", ""TCKHTS_003"", ""TCKHTS_004"", ""TCKHTS_005"", ""TCKHTS_006"", ""TCKHTS_007"", ""TCKHTS_008"", ""TCKHTS_009"", ""TCTS_002"", ""TNU_JST_001"", ""VAP_001"", ""VAWRE_001"", ""VJAS_001"", ""VJAS_002"", ""VJMST_001"", ""VJMST_003"", ""YERSIN_001""]"
+metadata_docs,138,
+metadata_unique_doc_id,138,
+vector_chunks_meta_rows,28542,
+vector_docs,138,
+faiss_index_ntotal,28542,
+faiss_error,,
+kg_loaded_path,data\ontology\taxon_enriched_facts_v2.owl,
+kg_source,facts_v2,
+kg_docs,138,
+kg_mapped_docs,138,
+metadata_missing_in_vector,0,[]
+vector_extra_not_metadata,0,[]
+metadata_missing_in_kg,0,[]
+kg_extra_not_metadata,0,[]
+RIA3_002_in_metadata,False,
+RIA3_003_in_metadata,False,
+RIA3_002_in_vector,False,
+RIA3_003_in_vector,False,
+RIA3_002_in_kg,False,
+RIA3_003_in_kg,False,
+KNQG_002_in_metadata,True,
+KNQG_002_in_vector,True,
+KNQG_002_in_kg,True,
+input_validation_status,NEEDS_REVIEW,

@@ -1,0 +1,46 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8517,PASS,,Streamlit running at http://localhost:8517; HTTP 200; PID 19792
+single_column_main_layout,PASS,,Removed main left_col/right_col layout; sections now render vertically
+section_order,PASS,,Order is Query input -> Detected entities -> Top-k results -> Result details -> Method comparison -> Export results
+result_details_full_width,PASS,,Result details now renders after Top-k in the main full-width flow
+method_comparison_after_details,PASS,,Method comparison now renders after Result details
+export_last,PASS,,Export results now renders after Method comparison
+sidebar_kept,PASS,,Sidebar still contains Top-k selector, method selector, search button, examples, and post-result filters
+sidebar_fixed_width_removed,PASS,,Removed min-width/width 22rem CSS from sidebar selectors
+main_layout_responsive_structure,PASS,,No hard-coded sidebar width and no main 2-column content layout remain
+topk_table_full_width,PASS,,Top-k HTML table remains width 100% with horizontal overflow support
+kg_subgraph_full_width,PASS,,KG subgraph/readable tree/mini graph now inherit full main content width
+export_columns,PASS,,Export dataframe includes query/method/rank/doc_id/title/source/file_path/final_score/vector_score/metadata_delta/kg_score/intent_adjustment/detected_entities/explanation/kg_evidence/kg_evidence_summary
+smoke_search,PASS,AHPND shrimp disease,Hybrid returned 5 results
+smoke_detected_entities,PASS,AHPND shrimp disease,Detected entities present
+smoke_topk_before_details,PASS,AHPND shrimp disease,Top-k rows available before result detail rendering in vertical flow
+smoke_result_details,PASS,AHPND shrimp disease,Score details available; KG rows=32; graph edges=10
+smoke_source_evidence,PASS,AHPND shrimp disease,Source evidence available
+smoke_method_comparison,PASS,AHPND shrimp disease,Hybrid/Vector/Vector + metadata realtime comparisons pass; offline fallback message accepted
+smoke_export_excel,PASS,AHPND shrimp disease,Excel bytes=6935; kg_evidence column present
+smoke_search,PASS,lobster Khanh Hoa,Hybrid returned 5 results
+smoke_detected_entities,PASS,lobster Khanh Hoa,Detected entities present
+smoke_topk_before_details,PASS,lobster Khanh Hoa,Top-k rows available before result detail rendering in vertical flow
+smoke_result_details,PASS,lobster Khanh Hoa,Score details available; KG rows=23; graph edges=10
+smoke_source_evidence,PASS,lobster Khanh Hoa,Source evidence available
+smoke_method_comparison,PASS,lobster Khanh Hoa,Hybrid/Vector/Vector + metadata realtime comparisons pass; offline fallback message accepted
+smoke_export_excel,PASS,lobster Khanh Hoa,Excel bytes=7160; kg_evidence column present
+smoke_search,PASS,shrimp farming Vietnam,Hybrid returned 5 results
+smoke_detected_entities,PASS,shrimp farming Vietnam,Detected entities present
+smoke_topk_before_details,PASS,shrimp farming Vietnam,Top-k rows available before result detail rendering in vertical flow
+smoke_result_details,PASS,shrimp farming Vietnam,Score details available; KG rows=19; graph edges=10
+smoke_source_evidence,PASS,shrimp farming Vietnam,Source evidence available
+smoke_method_comparison,PASS,shrimp farming Vietnam,Hybrid/Vector/Vector + metadata realtime comparisons pass; offline fallback message accepted
+smoke_export_excel,PASS,shrimp farming Vietnam,Excel bytes=6940; kg_evidence column present
+smoke_search,PASS,biosecurity shrimp hatchery,Hybrid returned 5 results
+smoke_detected_entities,PASS,biosecurity shrimp hatchery,Detected entities present
+smoke_topk_before_details,PASS,biosecurity shrimp hatchery,Top-k rows available before result detail rendering in vertical flow
+smoke_result_details,PASS,biosecurity shrimp hatchery,Score details available; KG rows=32; graph edges=10
+smoke_source_evidence,PASS,biosecurity shrimp hatchery,Source evidence available
+smoke_method_comparison,PASS,biosecurity shrimp hatchery,Hybrid/Vector/Vector + metadata realtime comparisons pass; offline fallback message accepted
+smoke_export_excel,PASS,biosecurity shrimp hatchery,Excel bytes=6847; kg_evidence column present
+responsive_sidebar_expanded,INFO,,Structural check passed: no fixed sidebar width and main content is single-column; visual check available at http://localhost:8517
+responsive_sidebar_collapsed,INFO,,Structural check passed: main content can expand because no main two-column layout or sidebar width override remains

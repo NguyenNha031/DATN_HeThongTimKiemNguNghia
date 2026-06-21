@@ -1,0 +1,14 @@
+check,status,detail
+file_modified,PASS,app_streamlit.py only
+runtime_scoring_data_modified,PASS,No metadata/raw docs/vector store/ontology/KG/scoring/runtime/baseline/metrics/latency files were modified.
+source_evidence_root_cause,PASS,Result details Source evidence tab used st.dataframe for source rows; current CSS rendered it as a large blank box.
+source_evidence_tab_fix,PASS,Replaced st.dataframe source rows with HTML table rendering and explicit st.info message when no snippet is returned.
+source_evidence_no_blank_box,PASS,Source evidence tab now renders snippet plus source metadata table or an explicit no-snippet message.
+source_evidence_AHPND_shrimp_disease,PASS,Top-1 returned 7 source metadata rows; snippet=True; source=True; file_path=True.
+source_evidence_lobster_Khanh_Hoa,PASS,Top-1 returned 7 source metadata rows; snippet=True; source=True; file_path=True.
+source_evidence_shrimp_farming_Vietnam,PASS,Top-1 returned 7 source metadata rows; snippet=True; source=True; file_path=True.
+source_evidence_biosecurity_shrimp_hatchery,PASS,Top-1 returned 7 source metadata rows; snippet=True; source=True; file_path=True.
+py_compile,PASS,python -m py_compile app_streamlit.py
+streamlit_start,PASS,streamlit run app_streamlit.py --server.port 8514 started and was stopped after verification.
+export_excel,PASS,Export Excel still creates bytes and includes kg_evidence_summary.
+overall_result,PASS,Source evidence tab no longer uses dataframe rendering for the main source evidence block.

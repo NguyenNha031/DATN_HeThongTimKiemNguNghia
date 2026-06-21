@@ -1,0 +1,17 @@
+item,status,notes
+Status,PASS,Offline fallback table rendering completed
+File changed,PASS,Only app_streamlit.py code was modified
+Offline table render,PASS,Offline rows normalize to rank/doc_id/title/score/source/file_path
+Ontology/SPARQL match,PASS,BI_001 query renders baseline table
+Lexical/BM25 match,PASS,BI_001 query renders baseline table
+No OFFLINE_BASELINE text in main UI,PASS,Status path is hidden from main UI and only available in expander
+Offline source expander,PASS,Path shown only under Show offline source file
+Query_id matching,PASS,Core query set is preferred before extended query set
+Top-k handling,PASS,Rows are sorted by rank or score and capped by selected Top-k
+Non-match behavior,PASS,AHPND shrimp disease shows no-match message for offline fallback methods
+Realtime Hybrid regression,PASS,AHPND shrimp disease renders result sections
+Realtime Vector regression,PASS,AHPND shrimp disease renders result sections
+Realtime Vector + metadata regression,PASS,AHPND shrimp disease renders result sections
+py_compile,PASS,python -m py_compile app_streamlit.py
+Streamlit 8524,PASS,http://localhost:8524
+Screenshot-ready,PASS,Ready for browser screenshot

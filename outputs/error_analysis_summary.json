@@ -1,0 +1,17 @@
+{
+  "total_cases": 10,
+  "count_by_error_type": {
+    "metadata_incomplete": 1,
+    "missing_alias": 1,
+    "missing_disease_fact": 1,
+    "missing_location_fact": 2,
+    "not_error_but_baseline_limitation": 2,
+    "scoring_or_intent_issue": 1,
+    "weak_candidate_pool": 2
+  },
+  "notes": [
+    "Curated retrieval error-analysis cases for thesis discussion.",
+    "Cases are selected from existing core-query results and do not modify retrieval outputs.",
+    "Some rows are classified as not_error_but_baseline_limitation where the metric/judgment setup or baseline scope explains the behavior."
+  ]
+}

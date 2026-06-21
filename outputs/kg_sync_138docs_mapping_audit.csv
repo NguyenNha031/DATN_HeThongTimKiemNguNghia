@@ -1,0 +1,139 @@
+﻿doc_id,title,in_metadata,in_kg_doc_nodes,in_runtime_doc_id_mapping,aboutTaxon_count,aboutDisease_count,aboutLocation_count,documentProductionMode_count,has_aboutTaxon,has_aboutDisease,has_aboutLocation,has_documentProductionMode,has_at_least_1_core_fact,has_all_4_core_fact_types
+FAO_001,Shrimp acute hepatopancreatic necrosis disease strategy manual,True,True,True,3,1,1,1,True,True,True,True,True,True
+FAO_002,Improving Penaeus monodon hatchery practices. Manual based on experience in India.,True,True,True,2,0,1,1,True,False,True,True,True,False
+FAO_003,Special Publication on Acute Hepatopancreatic Necrosis Disease (AHPND),True,True,True,3,1,2,1,True,True,True,True,True,True
+FAO_004,The Progressive Management Pathway for Aquaculture Biosecurity: Guidelines for application,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_005,Health management and biosecurity maintenance in white shrimp (Penaeus vannamei) hatcheries in Latin America,True,True,True,2,0,1,1,True,False,True,True,True,False
+FAO_006,"FAO Second International Technical Seminar/Workshop on Acute hepatopancreatic necrosis disease (AHPND), Bangkok, Thailand 23–25 June 2016",True,True,True,3,2,1,1,True,True,True,True,True,True
+FAO_007,"Report of the Ninth Session of the Central Asian and Caucasus Regional Fisheries and Aquaculture Commission, Almaty, Kazakhstan, 25–26 November 2025",True,True,True,1,0,0,2,True,False,False,True,True,False
+FAO_008,Low water exchange shrimp farming: improvements in Thailand,True,True,True,2,0,0,1,True,False,False,True,True,False
+FAO_009,Asia diagnostic guide to aquatic animal diseases,True,True,True,3,0,0,2,True,False,False,True,True,False
+FAO_010,Shrimp infectious myonecrosis strategy manual,True,True,True,2,1,1,1,True,True,True,True,True,True
+FAO_011,Brackishwater Shrimp Culture Demonstration in Bangladesh - BOBP/REP/35,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_012,Introductions and movement of Penaeus vannamei and Penaeus stylirostris in Asia and the Pacific,True,True,True,2,0,0,1,True,False,False,True,True,False
+FAO_013,Surveillance and zoning for aquatic animal diseases,True,True,True,2,0,1,2,True,False,True,True,True,False
+FAO_014,GLOBEFISH Quarterly Lobster Analysis - February 2026,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_015,FAO species catalogue. Vol.13. Marine lobsters of the world. An annotated and illustrated catalogue of marine lobsters known to date,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_016,Aquaculture development. 13. Guidelines for ex situ in vitro gene banking of aquatic genetic resources,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_017,Survey and evaluation of water qualities. A field guide for managers of inland fisheries and fish farms,True,True,True,2,0,1,2,True,False,True,True,True,False
+FAO_018,Water quality and fish health,True,True,True,2,0,0,2,True,False,False,True,True,False
+FAO_019,Understanding and applying risk analysis in aquaculture,True,True,True,2,0,1,1,True,False,True,True,True,False
+FAO_020,Risk Analysis for Movements of Live Aquatic Animals. An introductory training course,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_021,Guidelines for Sustainable Aquaculture: Communications handbook and toolkit,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_022,Aquaculture development. 4. Ecosystem approach to aquaculture,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_023,"Environmental impact assessment and monitoring in aquaculture. Requirements, practices, effectiveness and improvements",True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_024,Reducing environmental impacts of coastal aquaculture,True,True,True,0,0,1,1,False,False,True,True,True,False
+FAO_025,"Environmental management and environmental impact assessment in aquaculture: Training Workshop for aquaculture managers. Entebbe, Uganda",True,True,True,1,0,0,1,True,False,False,True,True,False
+FAO_026,Aquaculture Environmental Impact Assessment,True,True,True,1,0,0,1,True,False,False,True,True,False
+FAO_027,Aquaculture Adaptation Framework for Climate Change (Aqua-Adapt),True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_028,Climate Change Adaptation in Fisheries and Aquaculture. Compilation of initial examples,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_029,"Impacts of climate change on fisheries and aquaculture. Synthesis of current knowledge, adaptation and mitigation options",True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_031,Translating the Guidelines for Sustainable Aquaculture into action. Policy brief,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_032,Future pathways for aquaculture and fisheries development in Azerbaijan,True,True,True,1,0,0,1,True,False,False,True,True,False
+FAO_033,FAO Reference Centres for Antimicrobial Resistance and Aquaculture Biosecurity. Combating AMR together: ensuring healthy and safe aquatic foods,True,True,True,2,0,1,1,True,False,True,True,True,False
+FAO_034,A survey of national emergency preparedness and response (EPR) systems. FAO Project TCP/INT/3501: Strengthening biosecurity governance and capacities for dealing with the serious shrimp infectious myonecrosis virus (IMNV) disease,True,True,True,2,1,1,1,True,True,True,True,True,True
+FAO_035,Health management in Asian aquaculture,True,True,True,3,0,0,1,True,False,False,True,True,False
+FAO_036,Strengthening aquaculture health management in Bosnia and Herzegovina,True,True,True,2,0,0,1,True,False,False,True,True,False
+FAO_037,Preventing and managing aquatic animal disease risks in aquaculture through a progressive management pathway,True,True,True,3,0,1,1,True,False,True,True,True,False
+FAO_038,Risk management practices of small intensive shrimp farmers in the Mekong Delta of Viet Nam,True,True,True,2,0,2,1,True,False,True,True,True,False
+FAO_039,Promotion of Small-scale Shrimp and Prawn Hatcheries in India and Bangladesh - BOBP/REP/66,True,True,True,1,0,2,1,True,False,True,True,True,False
+FAO_040,An assessment of impacts from shrimp aquaculture in Bangladesh and prospects for improvement,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_041,Guidelines for Sustainable Aquaculture,True,True,True,0,0,1,1,False,False,True,True,True,False
+FAO_042_i3720e,The State of World Fisheries and Aquaculture 2024 – Blue Transformation in action,True,True,True,1,0,1,1,True,False,True,True,True,False
+NACA_001,"Status, technological innovations, and industry development needs of mud crab (Scylla spp.) aquaculture",True,True,True,1,0,1,1,True,False,True,True,True,False
+NACA_002,Shrimp farm biosecurity in Saudi Arabia: A journey from past practices to future vision,True,True,True,2,1,0,1,True,True,False,True,True,False
+NACA_003,"Report of the fifteenth meeting of the Asia Regional Advisory Group on Aquatic Animal Health, 21-23 November 2016",True,True,True,2,3,3,1,True,True,True,True,True,True
+TCTS_001,Các bệnh thường gặp trên tôm nước lợ và biện pháp phòng chống hiệu quả,True,True,True,3,1,1,1,True,True,True,True,True,True
+IJMS_001,Integrin β Regulates the Hepatopancreas Antiviral Innate Immune System by Affecting the Expression of Antimicrobial Peptides in Penaeus vannamei,True,True,True,2,1,0,1,True,True,False,True,True,False
+BIOLOGY_001,Characterization and Expression Analysis of the C-Type Lectin Ladderlectin in Litopenaeus vannamei Post-WSSV Infection,True,True,True,2,1,0,1,True,True,False,True,True,False
+PLOS_001,"PmVRP15, a Novel Viral Responsive Protein from the Black Tiger Shrimp, Penaeus monodon, Promoted White Spot Syndrome Virus Replication",True,True,True,2,1,0,1,True,True,False,True,True,False
+SEAFDEC_001,Acute hepatopancreatic necrosis disease (AHPND)) and hepatopancreatic microsporidiosis (HPM)): Two threats to sustainable shrimp aquaculture,True,True,True,1,2,0,1,True,True,False,True,True,False
+SEAFDEC_002,Status of transboundary diseases of penaeid shrimps in Singapore,True,True,True,1,2,0,1,True,True,False,True,True,False
+SEAFDEC_003,Important diseases and practical control measures in shrimp culture in Japan,True,True,True,2,2,0,1,True,True,False,True,True,False
+SEAFDEC_004,Advocating preventive measures that inhibit early mortality syndrome in shrimps,True,True,True,3,1,0,1,True,True,False,True,True,False
+SEAFDEC_005,Status of shrimp health management in Myanmar,True,True,True,2,1,0,1,True,True,False,True,True,False
+SEAFDEC_006,Status of acute hepatopancreatic necrosis disease (AHPND) of cultured shrimps in the Philippines,True,True,True,3,1,1,1,True,True,True,True,True,True
+SEAFDEC_007,"Draft genome sequence of Vibrio parahaemolyticus strain PH1339, which causes acute hepatopancreatic necrosis disease in shrimp in the Philippines",True,True,True,2,2,1,1,True,True,True,True,True,True
+SEAFDEC_008,Current status and impact of early mortality syndrome (EMS)/acute hepatopancreatic necrosis disease (AHPND) and hepatopancreatic microsporidiosis (HPM) outbreaks on Thailand’s shrimp farming,True,True,True,3,2,0,1,True,True,False,True,True,False
+SEAFDEC_009,Current status of acute hepatopancreatic necrosis disease (AHPND) and other transboundary diseases of farmed shrimps in Indonesia,True,True,True,1,3,0,1,True,True,False,True,True,False
+SEAFDEC_010,Latest research on acute hepatopancreatic necrosis disease (AHPND) of penaeid shrimps,True,True,True,1,2,0,1,True,True,False,True,True,False
+SEAFDEC_011,Current status of acute hepatopancreatic necrosis disease (AHPND) of farmed shrimp in Malaysia,True,True,True,2,1,0,1,True,True,False,True,True,False
+FAO_042_biosecurity_philippines,Biosecurity in Aquaculture: Philippines,True,True,True,1,0,1,1,True,False,True,True,True,False
+FAO_043,Boosting biosecurity in Peru’s shrimp farming industry for sustainable livelihoods,True,True,True,1,0,0,1,True,False,False,True,True,False
+TCKHTS_001,"Thực trạng môi trường và dịch bệnh tại vùng nuôi tôm trên cát ở Thạch Hà, Cẩm Xuyên và Nghi Xuân, Hà Tĩnh",True,True,True,2,3,0,1,True,True,False,True,True,False
+FAO_044,Report of the FAO/MARD Technical Workshop on Early Mortality Syndrome (EMS) or Acute Hepatopancreatic Necrosis Syndrome (AHPNS) of Cultured Shrimp,True,True,True,1,1,1,1,True,True,True,True,True,True
+FAO_045,Strengthening Capacity for Dealing with Shrimp Infectious Myonecrosis Virus Disease - TCP/INT/3501,True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_001,"Enterocytozoon hepatopenaei Infection in Shrimp: Diagnosis, Interventions, and Food Safety Guidelines",True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_002,Quantification of Enterocytozoon hepatopenaei (EHP) in Penaeid Shrimps from Southeast Asia and Latin America Using TaqMan Probe-Based Quantitative PCR,True,True,True,1,1,1,1,True,True,True,True,True,True
+PMC_003,Ecytonucleospora hepatopenaei (EHP) disease prevalence and mortality in Litopenaeus vannamei: a comparative study from Eastern India shrimp farms,True,True,True,2,1,1,1,True,True,True,True,True,True
+PMC_004,Differential regulation of the eicosanoid biosynthesis pathway in response to Enterocytozoon hepatopenaei infection in Litopenaeus vannamei,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_005,Ecytonucleospora hepatopenaei causes lipid droplet depletion and imbalanced lipid metabolism in Penaeus vannamei,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_006,Microbial community characterization of shrimp survivors to AHPND challenge test treated with an effective shrimp probiotic (Vibrio diabolicus),True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_007,"Effects of Feed Mixed with Lactic Acid Bacteria and Carbon, Nitrogen, Phosphorus Supplied to the Water on the Growth and Survival Rate of White Leg Shrimp (Penaeus vannamei) Infected with Acute Hepatopancreatic Necrosis Disease Caused by Vibrio parahaemolyticus",True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_008,Investigation of the Protective Effect of Probiotic Lactobacillus plantarum Ep-M17 on the Hepatopancreas of Penaeus vannamei,True,True,True,2,2,0,1,True,True,False,True,True,False
+PMC_009,Characterization of Microbiome Diversity in the Digestive Tract of Penaeus vannamei Fed with Probiotics and Challenged with Vibrio parahaemolyticus Acute Hepatopancreatic Necrosis Disease,True,True,True,2,2,0,1,True,True,False,True,True,False
+PMC_010,A Review of the Functional Annotations of Important Genes in the AHPND-Causing pVA1 Plasmid,True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_011,Structural Insights into the Cytotoxic Mechanism of Vibrio parahaemolyticus PirAvp and PirBvp Toxins,True,True,True,2,2,0,1,True,True,False,True,True,False
+PMC_012,Diagnosis and potential treatments for acute hepatopancreatic necrosis disease (AHPND): a review,True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_013,Innovative use of squid (Loligo spp.) ink powder as a potent immunostimulant for vannamei shrimp (Litopenaeus vannamei) in the treatment of infectious myonecrosis,True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_014,"Immune response, gene expression, and intestinal microbial composition of Pacific white shrimp fed with multispecies synbiotic for the prevention of coinfected disease",True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_015,"Kiam wood, Cotylelobium lanceotatum, extract as a natural antimicrobial agent: protecting Pacific white shrimp, Penaeus vannamei, against vibriosis",True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_016,Passive Immune-Protection of Litopenaeus vannamei against Vibrio harveyi and Vibrio parahaemolyticus Infections with Anti-Vibrio Egg Yolk (IgY)-Encapsulated Feed,True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_017,Shrimp shape resistance trait against vibriosis by memorizing the colonization resistance of intestinal microbiota,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_018,Transcriptomic insights into the resistance mechanism of Penaeus vannamei against highly lethal Vibrio parahaemolyticus,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_019,Isolation and Characterization of Specific Phages to Prepare a Cocktail Preventing Vibrio sp. Va-F3 Infections in Shrimp (Litopenaeus vannamei),True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_020,Dynamic Interplay of Metabolic and Transcriptional Responses in Shrimp during Early and Late Infection Stages of Enterocytozoon hepatopenaei (EHP),True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_021,The emerging pathogen Enterocytozoon hepatopenaei drives a degenerative cyclic pattern in the hepatopancreas microbiome of the shrimp (Penaeus vannamei),True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_022,Immune signaling of Litopenaeus vannamei c-type lysozyme and its role during microsporidian Enterocytozoon hepatopenaei (EHP) infection,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_023,A review on molecular detection techniques of white spot syndrome virus: Perspectives of problems and solutions in shrimp farming,True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_024,Immunostimulants for shrimp aquaculture: paving pathway towards shrimp sustainability,True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_025,Occurrence of viral pathogens in Penaeus monodon post-larvae from aquaculture hatcheries,True,True,True,2,1,1,1,True,True,True,True,True,True
+PMC_026,Las bolitas Syndrome in Penaeus vannamei Hatcheries in Latin America,True,True,True,2,1,1,1,True,True,True,True,True,True
+PMC_027,"Emergence of decapod hepanhamaparvovirus genotype V and its co-infection with Enterocytozoon hepatopenaei in cultured Penaeus vannamei in Thailand: Evidence from epidemiological, pathogenicity, and microbiome analyses",True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_028,"Microbiome of Pacific Whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions",True,True,True,1,1,0,1,True,True,False,True,True,False
+PMC_029,Selection of Lactic Acid Bacteria (LAB) Antagonizing Vibrio parahaemolyticus: The Pathogen of Acute Hepatopancreatic Necrosis Disease (AHPND) in Whiteleg Shrimp (Penaeus vannamei),True,True,True,1,2,0,1,True,True,False,True,True,False
+PMC_030,Microbial signature profiles of Penaeus vannamei larvae in low-survival hatchery tanks affected by vibriosis,True,True,True,2,2,0,1,True,True,False,True,True,False
+PMC_031,"Vibrios Associated with Litopenaeus vannamei Larvae, Postlarvae, Broodstock, and Hatchery Probiotics",True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_032,"Isolation, characterization, and pathogenicity of a Vibrio parahaemolyticus strain causing translucent post-larvae disease in Penaeus vannamei outside China",True,True,True,2,1,0,1,True,True,False,True,True,False
+PMC_033,Delineating virulence of Vibrio campbellii: a predominant luminescent bacterial pathogen in Indian shrimp hatcheries,True,True,True,2,1,1,1,True,True,True,True,True,True
+PMC_034,Genome Characterization and Infectivity Potential of Vibriophage-φLV6 with Lytic Activity against Luminescent Vibrios of Penaeus vannamei Shrimp Aquaculture,True,True,True,2,1,1,1,True,True,True,True,True,True
+PMC_035,Advanced Pathogen Monitoring in Penaeus vannamei from Three Latin American Regions: Passive Surveillance Part 2,True,True,True,2,2,1,1,True,True,True,True,True,True
+PMC_036,Microbiome of Penaeus vannamei Larvae and Potential Biomarkers Associated With High and Low Survival in Shrimp Hatchery Tanks Affected by Acute Hepatopancreatic Necrosis Disease,True,True,True,2,2,0,1,True,True,False,True,True,False
+RIA3_001,Quy hoạch nuôi tôm hùm đến năm 2020 và định hướng đến 2030,True,True,True,1,0,7,1,True,False,True,True,True,False
+TB_001,Giải pháp an toàn sinh học trong nuôi tôm,True,True,True,3,2,1,1,True,True,True,True,True,True
+TB_002,"Công nghệ gen và chọn giống tôm kháng bệnh, tiềm năng và thách thức",True,True,True,1,1,0,1,True,True,False,True,True,False
+TB_003,Cơ chế cơ bản của nhiễm đơn lẻ và đồng nhiễm DIV1 và WSSV ở tôm thẻ chân trắng,True,True,True,1,1,0,1,True,True,False,True,True,False
+TB_004,Mối tương tác vật chủ-bệnh nguyên động và các mục tiêu kháng vi-rút tiềm năng trong quá trình nhiễm vi-rút hoại tử cơ ở tôm thẻ chân trắng,True,True,True,1,1,0,1,True,True,False,True,True,False
+TB_005,"Sự hiện diện của bệnh đốm trắng, hoại tử gan tụy cấp và vi bào tử trùng trên tôm giống và tôm nuôi thương phẩm tại một số tỉnh khu vực ĐBSCL từ năm 2022-2024",True,True,True,2,3,1,1,True,True,True,True,True,True
+TB_006,Hoại tử cơ (IMNV) trên tôm và chiến lược kiểm soát,True,True,True,2,1,0,1,True,True,False,True,True,False
+TB_007,Bệnh đốm trắng ở tôm nuôi và công nghệ nuôi tôm nhằm phòng bệnh đốm trắng,True,True,True,2,1,0,1,True,True,False,True,True,False
+VJMST_001,"Hiện trạng nuôi trồng và khai thác thủy sản tại đầm Thủy Triều huyện Cam Lâm, tỉnh Khánh Hòa",True,True,True,1,0,2,2,True,False,True,True,True,False
+KNQG_001,"Phát triển nuôi cá lồng bè trên biển bền vững, thích ứng biến đổi khí hậu",True,True,True,1,0,2,1,True,False,True,True,True,False
+YERSIN_001,Đánh giá tính bền vững nghề nuôi tôm tại huyện Ninh Hòa - tỉnh Khánh Hòa,True,True,True,1,0,2,1,True,False,True,True,True,False
+JFST_001,"Nuôi cá chẽm (Lates calcarifer, Bloch, 1790) thương phẩm trong hệ thống “sông trong ao” tại Khánh Hòa",True,True,True,0,0,2,1,False,False,True,True,True,False
+CTU_001,Kỹ thuật sản xuất giống và nuôi giáp xác,True,True,True,2,0,1,1,True,False,True,True,True,False
+TCKHTS_002,"Mô hình phòng, trị bệnh sữa, bệnh đỏ thân trên tôm hùm nuôi lồng tại các tỉnh Nam Trung Bộ",True,True,True,1,1,2,1,True,True,True,True,True,True
+TCTS_002,Quy trình kiểm soát Rickettsia-like bacteria (RLB) gây bệnh sữa trên tôm hùm (Panulirus spp.) nuôi lồng,True,True,True,1,1,2,1,True,True,True,True,True,True
+HUIB_001,Khả năng hình thành màng sinh học và tính kháng kháng sinh của Vibrio parahaemolyticus phân lập từ tôm hùm Panulirus spp. nuôi,True,True,True,1,1,2,1,True,True,True,True,True,True
+KKTY_001,Tỷ lệ nhiễm và mức độ mẫn cảm kháng sinh của vi khuẩn Vibrio parahaemolyticus phân lập từ tôm hùm bông (Panulirus ornatus) nuôi lồng ở vùng biển tỉnh Phú Yên,True,True,True,1,1,1,1,True,True,True,True,True,True
+TCKHTS_003,Tình hình cung cấp con giống tôm hùm bông (Panulirus ornatus) ở Việt Nam: hiện trạng và trở ngại,True,True,True,1,0,3,2,True,False,True,True,True,False
+KNQG_002,Kỹ thuật nuôi tôm hùm lồng và các biện pháp phòng trị bệnh,True,True,True,1,1,2,1,True,True,True,True,True,True
+CTU_JOURNAL_001,Phân tích hiệu quả sản xuất các mô hình nuôi tôm thẻ chân trắng và tôm sú thâm canh ở tỉnh Ninh Thuận,True,True,True,2,0,1,2,True,False,True,True,True,False
+CTU_JOURNAL_002,Phân tích hiệu quả kỹ thuật và tài chính của mô hình nuôi tôm thẻ chân trắng ở tỉnh Cà Mau,True,True,True,1,0,1,2,True,False,True,True,True,False
+TCKHTS_004,"Thực trạng, tiềm năng và giải pháp phát triển nuôi tôm trên cát ở khu vực miền Trung",True,True,True,1,0,1,1,True,False,True,True,True,False
+VAP_001,Ô nhiễm môi trường trầm tích vùng nuôi và rủi ro đối với hoạt động nuôi lồng bè ven biển Nam Trung Bộ,True,True,True,1,0,1,1,True,False,True,True,True,False
+VAWRE_001,Nghiên cứu biến động và giải pháp kiểm soát chất lượng môi trường vùng nuôi tôm tập trung tại Quảng Ninh,True,True,True,1,0,1,1,True,False,True,True,True,False
+TCKHTS_005,Tổng quan Decapod iridescent virus 1 (DIV1) gây bệnh ở tôm,True,True,True,2,0,1,1,True,False,True,True,True,False
+VJAS_001,Nghiên cứu bệnh vi bào tử trùng Enterocytozoon hepatopenaei (EHP) trên tôm thẻ chân trắng nuôi tại Quảng Ninh và Nam Định,True,True,True,1,1,1,1,True,True,True,True,True,True
+TNU_JST_001,Điều tra độc lực của vi khuẩn Vibrio parahaemolyticus gây bệnh trên tôm thẻ chân trắng,True,True,True,1,1,1,1,True,True,True,True,True,True
+MDPI_001,"Prevalence of Vibrio parahaemolyticus Causing Acute Hepatopancreatic Necrosis Disease of Shrimp in Shrimp, Molluscan Shellfish and Water Samples in the Mekong Delta, Vietnam",True,True,True,1,1,2,1,True,True,True,True,True,True
+AAF_001,Characteristics and diversity of Vibrio parahaemolyticus causing acute hepatopancreatic necrosis disease in Vietnam,True,True,True,2,1,1,1,True,True,True,True,True,True
+DLU_002,Nghiên cứu sự nhiễm vi rút đốm trắng (WSSV) ở tôm càng (Macrobrachium nipponense) và khả năng lan truyền bệnh sang tôm thẻ chân trắng (Litopenaeus vannamei),True,True,True,1,1,1,1,True,True,True,True,True,True
+VJMST_003,Đánh giá sức tải môi trường vực nước Thủy Triều - Cam Ranh,True,True,True,1,0,3,1,True,False,True,True,True,False
+TCKHTS_006,Phân lập và định danh vi khuẩn Photobacterium damselae gây bệnh trên cá chim vây vàng tại Khánh Hòa bằng phương pháp sinh hóa và phân tử,True,True,True,0,0,2,1,False,False,True,True,True,False
+TCKHTS_007,Một số đặc điểm sinh học của vi khuẩn Vibrio harveyi gây bệnh xuất huyết lở loét ở cá chẽm nuôi tại Khánh Hòa,True,True,True,0,0,3,1,False,False,True,True,True,False
+CTU_JOURNAL_003,Hiện trạng nhiễm ký sinh trùng trên cá bớp (Rachycentron canadum) nuôi lồng ở tỉnh Kiên Giang,True,True,True,1,0,1,1,True,False,True,True,True,False
+CTU_002,Kỹ thuật sản xuất giống và nuôi cá biển,True,True,True,0,0,1,1,False,False,True,True,True,False
+VJAS_002,Tổng quan về bệnh do vi khuẩn Streptococcus iniae gây ra trên cá biển,True,True,True,0,0,1,1,False,False,True,True,True,False
+TCKHTS_008,Bệnh mù mắt do liên cầu khuẩn gây ra ở cá bớp nuôi tại Khánh Hòa,True,True,True,1,0,2,1,True,False,True,True,True,False
+TCKHTS_009,"Nghiên cứu mối quan hệ phát sinh loài của sán lá song chủ ký sinh trên cá chẽm (Lates calcarifer Bloch, 1790) nuôi tại Khánh Hòa",True,True,True,0,0,2,1,False,False,True,True,True,False

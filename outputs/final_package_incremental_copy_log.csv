@@ -1,0 +1,27 @@
+relative_path,source_exists,destination_path,copied,destination_exists_after,source_size_bytes,destination_size_bytes,sha256_match,status,notes
+outputs/relevance_judgment_guideline.md,True,final_submission_package/outputs/relevance_judgment_guideline.md,True,True,21516,21516,True,copied,Copied successfully; size and SHA256 match.
+outputs/relevance_judgment_guideline_examples.csv,True,final_submission_package/outputs/relevance_judgment_guideline_examples.csv,True,True,1597,1597,True,copied,Copied successfully; size and SHA256 match.
+outputs/final_score_formalization_report.md,True,final_submission_package/outputs/final_score_formalization_report.md,True,True,22798,22798,True,copied,Copied successfully; size and SHA256 match.
+outputs/final_score_component_trace.csv,True,final_submission_package/outputs/final_score_component_trace.csv,True,True,2060,2060,True,copied,Copied successfully; size and SHA256 match.
+experiments/evaluate_explanation_quality.py,True,final_submission_package/experiments/evaluate_explanation_quality.py,True,True,38358,38358,True,copied,Copied successfully; size and SHA256 match.
+outputs/explanation_quality_summary.csv,True,final_submission_package/outputs/explanation_quality_summary.csv,True,True,494,494,True,copied,Copied successfully; size and SHA256 match.
+outputs/explanation_quality_by_group.csv,True,final_submission_package/outputs/explanation_quality_by_group.csv,True,True,605,605,True,copied,Copied successfully; size and SHA256 match.
+outputs/explanation_quality_by_query.csv,True,final_submission_package/outputs/explanation_quality_by_query.csv,True,True,6740,6740,True,copied,Copied successfully; size and SHA256 match.
+outputs/explanation_quality_examples.csv,True,final_submission_package/outputs/explanation_quality_examples.csv,True,True,10208,10208,True,copied,Copied successfully; size and SHA256 match.
+outputs/explanation_quality_report.md,True,final_submission_package/outputs/explanation_quality_report.md,True,True,13265,13265,True,copied,Copied successfully; size and SHA256 match.
+outputs/figures/fig_explanation_quality_summary.png,True,final_submission_package/outputs/figures/fig_explanation_quality_summary.png,True,True,69064,69064,True,copied,Copied successfully; size and SHA256 match.
+experiments/analyze_corpus_topic_distribution.py,True,final_submission_package/experiments/analyze_corpus_topic_distribution.py,True,True,28782,28782,True,copied,Copied successfully; size and SHA256 match.
+outputs/corpus_topic_distribution.csv,True,final_submission_package/outputs/corpus_topic_distribution.csv,True,True,878,878,True,copied,Copied successfully; size and SHA256 match.
+outputs/corpus_topic_distribution_by_source.csv,True,final_submission_package/outputs/corpus_topic_distribution_by_source.csv,True,True,1327,1327,True,copied,Copied successfully; size and SHA256 match.
+outputs/corpus_topic_distribution_by_location.csv,True,final_submission_package/outputs/corpus_topic_distribution_by_location.csv,True,True,2961,2961,True,copied,Copied successfully; size and SHA256 match.
+outputs/corpus_topic_distribution_document_labels.csv,True,final_submission_package/outputs/corpus_topic_distribution_document_labels.csv,True,True,41100,41100,True,copied,Copied successfully; size and SHA256 match.
+outputs/corpus_topic_distribution_report.md,True,final_submission_package/outputs/corpus_topic_distribution_report.md,True,True,11023,11023,True,copied,Copied successfully; size and SHA256 match.
+outputs/figures/fig_corpus_topic_distribution.png,True,final_submission_package/outputs/figures/fig_corpus_topic_distribution.png,True,True,74866,74866,True,copied,Copied successfully; size and SHA256 match.
+experiments/run_query_expansion_experiment.py,True,final_submission_package/experiments/run_query_expansion_experiment.py,True,True,36396,36396,True,copied,Copied successfully; size and SHA256 match.
+data/eval/results/baseline_hybrid_query_expansion_core.csv,True,final_submission_package/data/eval/results/baseline_hybrid_query_expansion_core.csv,True,True,170511,170511,True,copied,Copied successfully; size and SHA256 match.
+data/eval/metrics/query_expansion_metrics_summary.csv,True,final_submission_package/data/eval/metrics/query_expansion_metrics_summary.csv,True,True,738,738,True,copied,Copied successfully; size and SHA256 match.
+data/eval/metrics/query_expansion_metrics_by_query.csv,True,final_submission_package/data/eval/metrics/query_expansion_metrics_by_query.csv,True,True,20463,20463,True,copied,Copied successfully; size and SHA256 match.
+data/eval/metrics/query_expansion_metrics_by_group.csv,True,final_submission_package/data/eval/metrics/query_expansion_metrics_by_group.csv,True,True,3558,3558,True,copied,Copied successfully; size and SHA256 match.
+outputs/query_expansion_experiment_analysis.md,True,final_submission_package/outputs/query_expansion_experiment_analysis.md,True,True,9654,9654,True,copied,Copied successfully; size and SHA256 match.
+outputs/query_expansion_applied_terms.csv,True,final_submission_package/outputs/query_expansion_applied_terms.csv,True,True,69014,69014,True,copied,Copied successfully; size and SHA256 match.
+outputs/figures/fig_query_expansion_experiment_summary.png,True,final_submission_package/outputs/figures/fig_query_expansion_experiment_summary.png,True,True,79146,79146,True,copied,Copied successfully; size and SHA256 match.

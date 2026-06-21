@@ -1,0 +1,77 @@
+{
+  "ontology_file": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "check_time": "2026-05-31T06:24:40.936701+00:00",
+  "elapsed_seconds": 3.1454,
+  "check_status": "completed",
+  "reasoner_used": "owlready2_hermit",
+  "is_consistent": true,
+  "unsatisfiable_classes_count": 0,
+  "unsatisfiable_classes": [],
+  "inferred_or_checked_summary": {
+    "python_environment": {
+      "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+      "pip_available": true,
+      "pip_version_output": "pip 25.3 from C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pip (python 3.13)",
+      "pip_install_attempted": false,
+      "owlready2_version": "0.50"
+    },
+    "rdflib_parse": {
+      "parse_ok": true,
+      "triple_count": 1528,
+      "error": null
+    },
+    "java_available": true,
+    "external_reasoner_jars_found": [],
+    "hermit_jar_found": false,
+    "hermit_jars": [],
+    "pellet_jar_found": false,
+    "pellet_jars": [],
+    "owlready2_available": true
+  },
+  "attempted_methods": [
+    {
+      "method": "java",
+      "status": "available",
+      "message": "java version \"17.0.12\" 2024-07-16 LTS\nJava(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)\nJava HotSpot(TM) 64-Bit Server VM (build 17.0.12+8-LTS-286, mixed mode, sharing)"
+    },
+    {
+      "method": "external_hermit_or_pellet_jar_search",
+      "status": "not_available",
+      "message": "No HermiT/Pellet jar found in project root, tools/, lib/, reasoners/, or bin/."
+    },
+    {
+      "method": "owlready2_pellet",
+      "status": "failed",
+      "elapsed_seconds": 0.7774,
+      "message": "OwlReadyJavaError: Java error message is:\nException in thread \"main\" java.lang.UnsupportedClassVersionError: org/apache/jena/riot/lang/LangRDFXML has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 61.0\r\n\tat java.base/java.lang.ClassLoader.defineClass1(Native Method)\r\n\tat java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)\r\n\tat java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)\r\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\r\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)\r\n\tat org.apache.jena.riot.RiotReader.createParser(RiotReader.java:128)\r\n\tat org.apache.jena.riot.RDFParserRegistry$ReaderRIOTFactoryImpl$1.read(RDFParserRegistry.java:147)\r\n\tat org.apache.jena.riot.RDFDataMgr.process(RDFDataMgr.java:751)\r\n\tat org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:258)\r\n\tat org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:244)\r\n\tat org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:65)\r\n\tat com.hp.hpl.jena.rdf.model.impl.ModelCom.read(ModelCom.java:276)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.findMetadata(OntDocumentManager.java:891)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.initialiseMetadata(OntDocumentManager.java:849)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:197)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:179)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.<init>(OntDocumentManager.java:163)\r\n\tat com.hp.hpl.jena.ontology.OntDocumentManager.getInstance(OntDocumentManager.java:241)\r\n\tat com.hp.hpl.jena.ontology.OntModelSpec.getDocumentManager(OntModelSpec.java:320)\r\n\tat com.hp.hpl.jena.ontology.OntModelSpec.<init>(OntModelSpec.java:207)\r\n\tat org.mindswap.pellet.jena.PelletReasonerFactory.<clinit>(PelletReasonerFactory.java:57)\r\n\tat org.mindswap.pellet.jena.JenaLoader.clear(JenaLoader.java:84)\r\n\tat org.mindswap.pellet.jena.JenaLoader.<init>(JenaLoader.java:42)\r\n\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:262)\r\n\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:257)\r\n\tat pellet.PelletCmdApp.getKB(PelletCmdApp.java:220)\r\n\tat pellet.PelletRealize.run(PelletRealize.java:67)\r\n\tat pellet.Pellet.run(Pellet.java:105)\r\n\tat pellet.Pellet.main(Pellet.java:59)\r\n",
+      "traceback_tail": [
+        "\tat pellet.PelletCmdApp.getLoader(PelletCmdApp.java:257)",
+        "\tat pellet.PelletCmdApp.getKB(PelletCmdApp.java:220)",
+        "\tat pellet.PelletRealize.run(PelletRealize.java:67)",
+        "\tat pellet.Pellet.run(Pellet.java:105)",
+        "\tat pellet.Pellet.main(Pellet.java:59)",
+        ""
+      ]
+    },
+    {
+      "method": "owlready2_hermit",
+      "status": "completed",
+      "elapsed_seconds": 1.7792,
+      "message": "Reasoner completed."
+    }
+  ],
+  "error_message": null,
+  "warnings_or_notes": [
+    "This report is separate from the runtime-oriented ontology quality/coverage check.",
+    "Runtime-oriented checks inspect structural statistics, document mapping, fact coverage, and dangling objects.",
+    "Reasoner-based checks evaluate OWL logical consistency/class satisfiability when a reasoner can run."
+  ],
+  "limitations": [
+    "No ontology, metadata, query set, relevance judgments, baseline outputs, or metric files are modified.",
+    "If no reasoner completes, this report must not be used as proof of consistency.",
+    "If a reasoner completes, the result is scoped to the loaded ontology file and the selected reasoner/tool behavior.",
+    "This report does not replace runtime-oriented coverage checks or competency-question evaluation."
+  ],
+  "conclusion": "Ontology is consistent under owlready2_hermit. No unsatisfiable classes detected."
+}

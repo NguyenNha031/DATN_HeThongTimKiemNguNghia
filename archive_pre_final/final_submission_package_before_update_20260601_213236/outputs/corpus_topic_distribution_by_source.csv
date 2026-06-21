@@ -1,0 +1,41 @@
+source,topic_group,n_documents
+FAO,aquatic_disease,27
+FAO,marine_aquaculture,4
+FAO,hatchery_seed_production,4
+FAO,biosecurity_management,30
+FAO,environment_water_quality,17
+FAO,local_vietnam_khanhhoa,3
+FAO,species_taxon_specific,44
+NACA,aquatic_disease,2
+NACA,hatchery_seed_production,2
+NACA,biosecurity_management,2
+NACA,environment_water_quality,1
+NACA,local_vietnam_khanhhoa,1
+NACA,species_taxon_specific,3
+PMC/journal,aquatic_disease,39
+PMC/journal,hatchery_seed_production,8
+PMC/journal,biosecurity_management,8
+PMC/journal,environment_water_quality,1
+PMC/journal,species_taxon_specific,39
+RIA3,aquatic_disease,2
+RIA3,marine_aquaculture,3
+RIA3,environment_water_quality,2
+RIA3,local_vietnam_khanhhoa,3
+RIA3,species_taxon_specific,3
+SEAFDEC,aquatic_disease,11
+SEAFDEC,hatchery_seed_production,1
+SEAFDEC,biosecurity_management,9
+SEAFDEC,species_taxon_specific,11
+TB,aquatic_disease,7
+TB,hatchery_seed_production,3
+TB,biosecurity_management,4
+TB,local_vietnam_khanhhoa,2
+TB,species_taxon_specific,7
+TCTS,aquatic_disease,1
+TCTS,biosecurity_management,1
+TCTS,local_vietnam_khanhhoa,1
+TCTS,species_taxon_specific,1
+Vietnamese journal,aquatic_disease,1
+Vietnamese journal,environment_water_quality,1
+Vietnamese journal,local_vietnam_khanhhoa,1
+Vietnamese journal,species_taxon_specific,1

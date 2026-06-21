@@ -1,0 +1,118 @@
+﻿source,destination,category,note
+app_streamlit.py,app_streamlit.py,root_code,main runtime/demo/evaluation code
+vector_search.py,vector_search.py,root_code,main runtime/demo/evaluation code
+hybrid_search.py,hybrid_search.py,root_code,main runtime/demo/evaluation code
+kg_runtime.py,kg_runtime.py,root_code,main runtime/demo/evaluation code
+run_core_baselines.py,run_core_baselines.py,root_code,main runtime/demo/evaluation code
+verify_kg_runtime.py,verify_kg_runtime.py,root_code,main runtime/demo/evaluation code
+measure_core_baseline_latency.py,measure_core_baseline_latency.py,root_code,main runtime/demo/evaluation code
+compute_core_metrics.py,compute_core_metrics.py,root_code,main runtime/demo/evaluation code
+run_wilcoxon_significance_test.py,run_wilcoxon_significance_test.py,root_code,main runtime/demo/evaluation code
+evaluate_competency_questions.py,evaluate_competency_questions.py,root_code,main runtime/demo/evaluation code
+verify_ontology_reasoner_consistency.py,verify_ontology_reasoner_consistency.py,root_code,main runtime/demo/evaluation code
+data/metadata/document_metadata_cleaned.xlsx,data/metadata/document_metadata_cleaned.xlsx,data_metadata,final cleaned metadata
+data/ontology/taxon_enriched_facts_v2.owl,data/ontology/taxon_enriched_facts_v2.owl,ontology,runtime ontology/fallback or mapping support
+data/ontology/taxon_enriched_facts.owl,data/ontology/taxon_enriched_facts.owl,ontology,runtime ontology/fallback or mapping support
+data/ontology/taxon_enriched_aliases.owl,data/ontology/taxon_enriched_aliases.owl,ontology,runtime ontology/fallback or mapping support
+data/ontology/taxon_enriched.owl,data/ontology/taxon_enriched.owl,ontology,runtime ontology/fallback or mapping support
+data/ontology/taxon.owl,data/ontology/taxon.owl,ontology,runtime ontology/fallback or mapping support
+data/ontology/mapping_report.csv,data/ontology/mapping_report.csv,ontology,runtime ontology/fallback or mapping support
+data/eval/final_query_set_core.csv,data/eval/final_query_set_core.csv,eval_input,final query/judgment set
+data/eval/relevance_judgments_core.csv,data/eval/relevance_judgments_core.csv,eval_input,final query/judgment set
+data/eval/final_query_set_extended.csv,data/eval/final_query_set_extended.csv,eval_input,final query/judgment set
+data/eval/relevance_judgments_extended.csv,data/eval/relevance_judgments_extended.csv,eval_input,final query/judgment set
+data/eval/results/baseline_lexical_core.csv,data/eval/results/baseline_lexical_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_vector_core.csv,data/eval/results/baseline_vector_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_vector_metadata_core.csv,data/eval/results/baseline_vector_metadata_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_ontology_sparql_core.csv,data/eval/results/baseline_ontology_sparql_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_hybrid_core.csv,data/eval/results/baseline_hybrid_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_vector_metadata_kg_no_intent_core.csv,data/eval/results/baseline_vector_metadata_kg_no_intent_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_hybrid_candidate_fusion_core.csv,data/eval/results/baseline_hybrid_candidate_fusion_core.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_lexical_extended.csv,data/eval/results/baseline_lexical_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_vector_extended.csv,data/eval/results/baseline_vector_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_vector_metadata_extended.csv,data/eval/results/baseline_vector_metadata_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_ontology_sparql_extended.csv,data/eval/results/baseline_ontology_sparql_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_hybrid_extended.csv,data/eval/results/baseline_hybrid_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/results/baseline_hybrid_candidate_fusion_extended.csv,data/eval/results/baseline_hybrid_candidate_fusion_extended.csv,eval_results,final/supplementary 138-doc result
+data/eval/metrics/baseline_metrics_summary.csv,data/eval/metrics/baseline_metrics_summary.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_by_group.csv,data/eval/metrics/baseline_metrics_by_group.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_per_query.csv,data/eval/metrics/baseline_metrics_per_query.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_summary_plus.csv,data/eval/metrics/baseline_metrics_summary_plus.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_by_group_plus.csv,data/eval/metrics/baseline_metrics_by_group_plus.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_by_query_plus.csv,data/eval/metrics/baseline_metrics_by_query_plus.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_latency_summary.csv,data/eval/metrics/baseline_latency_summary.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/kg_ablation_metrics_summary.csv,data/eval/metrics/kg_ablation_metrics_summary.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/kg_ablation_metrics_by_query.csv,data/eval/metrics/kg_ablation_metrics_by_query.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/kg_ablation_metrics_by_group.csv,data/eval/metrics/kg_ablation_metrics_by_group.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/hybrid_candidate_fusion_metrics_summary.csv,data/eval/metrics/hybrid_candidate_fusion_metrics_summary.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/hybrid_candidate_fusion_metrics_by_query.csv,data/eval/metrics/hybrid_candidate_fusion_metrics_by_query.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/hybrid_candidate_fusion_metrics_by_group.csv,data/eval/metrics/hybrid_candidate_fusion_metrics_by_group.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_summary_extended.csv,data/eval/metrics/baseline_metrics_summary_extended.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_by_query_extended.csv,data/eval/metrics/baseline_metrics_by_query_extended.csv,eval_metrics,final/supplementary metric
+data/eval/metrics/baseline_metrics_by_group_extended.csv,data/eval/metrics/baseline_metrics_by_group_extended.csv,eval_metrics,final/supplementary metric
+vector_store/chunks.index,vector_store/chunks.index,vector_store,final vector store
+vector_store/chunks_meta.pkl,vector_store/chunks_meta.pkl,vector_store,final vector store
+vector_store/config.pkl,vector_store/config.pkl,vector_store,final vector store
+outputs/figures/baseline_key_metrics_138docs.png,outputs/figures/baseline_key_metrics_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/baseline_key_metrics_138docs.pdf,outputs/figures/baseline_key_metrics_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/quality_latency_tradeoff_138docs.png,outputs/figures/quality_latency_tradeoff_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/quality_latency_tradeoff_138docs.pdf,outputs/figures/quality_latency_tradeoff_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.png,outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.pdf,outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/hybrid_ablation_signal_layers_138docs.png,outputs/figures/hybrid_ablation_signal_layers_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/hybrid_ablation_signal_layers_138docs.pdf,outputs/figures/hybrid_ablation_signal_layers_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/kg_fact_coverage_runtime_contribution_138docs.png,outputs/figures/kg_fact_coverage_runtime_contribution_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/kg_fact_coverage_runtime_contribution_138docs.pdf,outputs/figures/kg_fact_coverage_runtime_contribution_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/kg_ablation_diagnostic_138docs.png,outputs/figures/kg_ablation_diagnostic_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/kg_ablation_diagnostic_138docs.pdf,outputs/figures/kg_ablation_diagnostic_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/candidate_fusion_key_metrics_138docs.png,outputs/figures/candidate_fusion_key_metrics_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/candidate_fusion_key_metrics_138docs.pdf,outputs/figures/candidate_fusion_key_metrics_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/figures/extended_evaluation_96_queries_138docs.png,outputs/figures/extended_evaluation_96_queries_138docs.png,figure,final 138-doc Chapter 4 figure
+outputs/figures/extended_evaluation_96_queries_138docs.pdf,outputs/figures/extended_evaluation_96_queries_138docs.pdf,figure,final 138-doc Chapter 4 figure
+outputs/core_rerun_138docs_report.md,outputs/core_rerun_138docs_report.md,output_report,final 138-doc report/audit
+outputs/core_rerun_138docs_summary.csv,outputs/core_rerun_138docs_summary.csv,output_report,final 138-doc report/audit
+outputs/core_baseline_results_138docs_audit.csv,outputs/core_baseline_results_138docs_audit.csv,output_report,final 138-doc report/audit
+outputs/core_metrics_138docs_summary.csv,outputs/core_metrics_138docs_summary.csv,output_report,final 138-doc report/audit
+outputs/core_latency_138docs_summary.csv,outputs/core_latency_138docs_summary.csv,output_report,final 138-doc report/audit
+outputs/wilcoxon_hybrid_vs_vector_metadata_138docs.md,outputs/wilcoxon_hybrid_vs_vector_metadata_138docs.md,output_report,final 138-doc report/audit
+outputs/kg_sync_138docs_report.md,outputs/kg_sync_138docs_report.md,output_report,final 138-doc report/audit
+outputs/kg_sync_138docs_summary.csv,outputs/kg_sync_138docs_summary.csv,output_report,final 138-doc report/audit
+outputs/kg_sync_138docs_fact_coverage.csv,outputs/kg_sync_138docs_fact_coverage.csv,output_report,final 138-doc report/audit
+outputs/kg_runtime_verification_138docs.md,outputs/kg_runtime_verification_138docs.md,output_report,final 138-doc report/audit
+outputs/ontology_reasoner_consistency_138docs.md,outputs/ontology_reasoner_consistency_138docs.md,output_report,final 138-doc report/audit
+outputs/competency_questions_138docs_results.csv,outputs/competency_questions_138docs_results.csv,output_report,final 138-doc report/audit
+outputs/kg_score_component_analysis.csv,outputs/kg_score_component_analysis.csv,output_report,final 138-doc report/audit
+outputs/kg_score_component_analysis.md,outputs/kg_score_component_analysis.md,output_report,final 138-doc report/audit
+outputs/kg_runtime_contribution_summary_138docs.csv,outputs/kg_runtime_contribution_summary_138docs.csv,output_report,final 138-doc report/audit
+outputs/corpus_topic_distribution_report.md,outputs/corpus_topic_distribution_report.md,output_report,final 138-doc report/audit
+outputs/corpus_topic_distribution.csv,outputs/corpus_topic_distribution.csv,output_report,final 138-doc report/audit
+outputs/knqg002_text_extraction_after_pdf_update_report.md,outputs/knqg002_text_extraction_after_pdf_update_report.md,output_report,final 138-doc report/audit
+outputs/knqg002_text_extraction_after_pdf_update_summary.csv,outputs/knqg002_text_extraction_after_pdf_update_summary.csv,output_report,final 138-doc report/audit
+outputs/vector_store_rebuild_138docs_after_knqg002_pdf_update_report.md,outputs/vector_store_rebuild_138docs_after_knqg002_pdf_update_report.md,output_report,final 138-doc report/audit
+outputs/vector_store_rebuild_138docs_after_knqg002_pdf_update_summary.csv,outputs/vector_store_rebuild_138docs_after_knqg002_pdf_update_summary.csv,output_report,final 138-doc report/audit
+outputs/explanation_quality_report.md,outputs/explanation_quality_report.md,output_report,final 138-doc report/audit
+outputs/explanation_quality_summary.csv,outputs/explanation_quality_summary.csv,output_report,final 138-doc report/audit
+outputs/explanation_quality_by_group.csv,outputs/explanation_quality_by_group.csv,output_report,final 138-doc report/audit
+outputs/kg_ablation_analysis.md,outputs/kg_ablation_analysis.md,output_report,final 138-doc report/audit
+outputs/figures_and_supplementary_rerun_138docs_report.md,outputs/figures_and_supplementary_rerun_138docs_report.md,output_report,final 138-doc report/audit
+outputs/supplementary_experiments_138docs_rerun_report.md,outputs/supplementary_experiments_138docs_rerun_report.md,output_report,final 138-doc report/audit
+outputs/supplementary_experiments_138docs_rerun_summary.csv,outputs/supplementary_experiments_138docs_rerun_summary.csv,output_report,final 138-doc report/audit
+outputs/streamlit_ui_update_report.md,outputs/streamlit_ui_update_report.md,output_report,final 138-doc report/audit
+outputs/streamlit_ui_update_checklist.csv,outputs/streamlit_ui_update_checklist.csv,output_report,final 138-doc report/audit
+outputs/streamlit_ui_kg_evidence_and_method_compare_fix_report.md,outputs/streamlit_ui_kg_evidence_and_method_compare_fix_report.md,output_report,final 138-doc report/audit
+outputs/streamlit_ui_kg_evidence_and_method_compare_fix_checklist.csv,outputs/streamlit_ui_kg_evidence_and_method_compare_fix_checklist.csv,output_report,final 138-doc report/audit
+outputs/streamlit_ui_source_evidence_fix_report.md,outputs/streamlit_ui_source_evidence_fix_report.md,output_report,final 138-doc report/audit
+outputs/streamlit_ui_source_evidence_fix_checklist.csv,outputs/streamlit_ui_source_evidence_fix_checklist.csv,output_report,final 138-doc report/audit
+outputs/figures_update_138docs_report.md,outputs/figures_update_138docs_report.md,output_report,final 138-doc report/audit
+outputs/figures_update_138docs_summary.csv,outputs/figures_update_138docs_summary.csv,output_report,final 138-doc report/audit
+outputs/chapter4_figure_caption_to_file_mapping_138docs.csv,outputs/chapter4_figure_caption_to_file_mapping_138docs.csv,output_report,final 138-doc report/audit
+outputs/figures_update_138docs_source_value_check.csv,outputs/figures_update_138docs_source_value_check.csv,output_report,final 138-doc report/audit
+outputs/relevance_judgment_guideline.md,outputs/relevance_judgment_guideline.md,output_report,final 138-doc report/audit
+outputs/relevance_judgment_guideline_examples.csv,outputs/relevance_judgment_guideline_examples.csv,output_report,final 138-doc report/audit
+experiments/run_hybrid_candidate_fusion.py,experiments/run_hybrid_candidate_fusion.py,experiment_script,final/supplementary experiment script
+experiments/run_extended_evaluation.py,experiments/run_extended_evaluation.py,experiment_script,final/supplementary experiment script
+experiments/run_kg_ablation.py,experiments/run_kg_ablation.py,experiment_script,final/supplementary experiment script
+experiments/analyze_kg_score_components.py,experiments/analyze_kg_score_components.py,experiment_script,final/supplementary experiment script
+experiments/evaluate_explanation_quality.py,experiments/evaluate_explanation_quality.py,experiment_script,final/supplementary experiment script
+experiments/analyze_corpus_topic_distribution.py,experiments/analyze_corpus_topic_distribution.py,experiment_script,final/supplementary experiment script
+experiments/compute_baseline_metrics_plus.py,experiments/compute_baseline_metrics_plus.py,experiment_script,final/supplementary experiment script

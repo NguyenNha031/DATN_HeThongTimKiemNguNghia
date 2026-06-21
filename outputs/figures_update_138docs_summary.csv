@@ -1,0 +1,18 @@
+﻿metric,value,detail
+status,PASS,Chapter 4 figures regenerated for final 138-doc snapshot.
+figures_generated,8,PNG and PDF for each mapped figure.
+old_figures_archived,YES,See archive manifest in outputs/figures/archive_pre_final_138docs_update_*/archive_manifest.csv.
+query_expansion_final_figure,NOT_GENERATED,Query expansion remains future work only for 138-doc snapshot.
+stale_figures_for_final_report,NONE_IN_OUTPUTS_FIGURES,Old PNG/PDF files were moved to archive before regenerating final figures.
+core_baseline_source,data/eval/metrics/baseline_metrics_summary_plus.csv,Figure 4.1 and part of 4.2/4.6.
+latency_source,data/eval/metrics/baseline_latency_summary.csv,Figure 4.2.
+group_source,data/eval/metrics/baseline_metrics_by_group.csv,Figure 4.3.
+kg_ablation_source,data/eval/metrics/kg_ablation_metrics_summary.csv,Figures 4.6 and 4.8.
+kg_coverage_source,outputs/kg_sync_138docs_fact_coverage.csv,Figure 4.7.
+kg_runtime_source,outputs/kg_runtime_contribution_summary_138docs.csv,Figure 4.7.
+candidate_fusion_source,data/eval/metrics/hybrid_candidate_fusion_metrics_summary.csv,Figure 4.9.
+extended_source,data/eval/metrics/baseline_metrics_summary_extended.csv,Figure 4.10.
+file_validation,outputs/figures_update_138docs_file_validation.csv,All generated figure files exist and have size > 0.
+data_validation,outputs/figures_update_138docs_data_validation.csv,Figure data snapshots generated from source CSVs.
+mapping_file,outputs/chapter4_figure_caption_to_file_mapping_138docs.csv,Caption-to-file mapping for Chapter 4.
+source_value_check,outputs/figures_update_138docs_source_value_check.csv,115/115 figure values match source CSV values.

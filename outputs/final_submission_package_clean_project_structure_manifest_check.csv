@@ -1,0 +1,5 @@
+﻿check,status,path,note
+manifest_matches_package_files,PASS,final_submission_package,All package files are listed in MANIFEST.csv
+forbidden_path_scan,PASS,,No forbidden backup/archive/cache path found
+figure_scan,PASS,,Figures are final *_138docs
+ria_excluded_scan,PASS,,No excluded RIA filenames found

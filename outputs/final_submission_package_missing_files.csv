@@ -1,0 +1,3 @@
+﻿"source","category","destination","status","note"
+"Final report PDF","report","report","MISSING","PDF_NOT_FOUND; no PDF generated."
+"data/eval/metrics/baseline_metrics_by_query.csv","evaluation","evaluation","MISSING","Requested file not found in project. Copied baseline_metrics_per_query.csv as closest available existing file."

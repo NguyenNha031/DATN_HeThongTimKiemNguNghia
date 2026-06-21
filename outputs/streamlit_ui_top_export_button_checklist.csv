@@ -1,0 +1,21 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8518,PASS,,Streamlit running at http://localhost:8518; HTTP 200; PID 6916
+top_export_location,PASS,,Export results button is rendered in the right column of the header area
+hidden_before_results,PASS,,Header export placeholder is not filled until last_search/displayed_results exists
+single_export_button,PASS,,Removed bottom Export results section; no duplicate download button remains
+compact_button_label,PASS,,Button label is Export results and use_container_width=False
+layout_order_kept,PASS,,Main flow remains Query input -> Detected entities -> Top-k results -> Result details -> Method comparison
+export_columns,PASS,,Export dataframe includes all required columns including kg_evidence and kg_evidence_summary
+smoke_search_export,PASS,AHPND shrimp disease,Hybrid returned 5 results; Excel bytes=6935
+smoke_export_columns,PASS,AHPND shrimp disease,16 required export columns present
+smoke_search_export,PASS,lobster Khanh Hoa,Hybrid returned 5 results; Excel bytes=7160
+smoke_export_columns,PASS,lobster Khanh Hoa,16 required export columns present
+smoke_search_export,PASS,shrimp farming Vietnam,Hybrid returned 5 results; Excel bytes=6940
+smoke_export_columns,PASS,shrimp farming Vietnam,16 required export columns present
+smoke_search_export,PASS,biosecurity shrimp hatchery,Hybrid returned 5 results; Excel bytes=6847
+smoke_export_columns,PASS,biosecurity shrimp hatchery,16 required export columns present
+sidebar_responsive_structure,PASS,,No fixed sidebar width and single-column main layout remain
+screenshot_ready,PASS,,Use http://localhost:8518

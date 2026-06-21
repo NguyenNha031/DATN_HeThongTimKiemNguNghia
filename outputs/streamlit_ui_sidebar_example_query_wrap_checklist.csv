@@ -1,0 +1,16 @@
+item,status,notes
+Status,PASS,Example query wrap fix completed
+File changed,PASS,app_streamlit.py
+Scoped CSS,PASS,Applied only inside example_query_buttons container
+Long query wrap,PASS,Long button text can wrap instead of overflowing
+No truncation,PASS,No overflow hidden or ellipsis used
+Short query buttons,PASS,Existing short examples remain present
+Long query buttons,PASS,Both added Vietnamese examples remain present
+Example click behavior,PASS,Long examples still set the search query input
+Sidebar Search button,PASS,Not targeted by scoped example CSS
+Sidebar scroll/layout,PASS,No layout code changed
+Main layout impact,PASS,No main page layout code changed
+Search/export/KG/method comparison impact,PASS,No related logic changed
+py_compile,PASS,python -m py_compile app_streamlit.py
+Streamlit 8525,PASS,http://localhost:8525
+Screenshot-ready,PASS,Ready for browser check

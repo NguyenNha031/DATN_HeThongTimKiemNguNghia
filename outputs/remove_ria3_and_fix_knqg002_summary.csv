@@ -1,0 +1,13 @@
+﻿metric,value
+status,BLOCKED
+metadata_docs_before,140
+metadata_docs_after,138
+raw_files_before,140
+raw_files_after,138
+removed_docs,RIA3_002; RIA3_003
+KNQG_002_fixed_method,NONE - OCR unavailable; manual OCR/text required
+KNQG_002_final_text_chars,0
+vector_rebuild_138docs,NOT_RUN
+vector_docs_after_rebuild,NOT_RUN
+missing_docs_after_rebuild,NOT_RUN
+can_proceed_to_kg_sync,NO

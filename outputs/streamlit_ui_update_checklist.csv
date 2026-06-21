@@ -1,0 +1,24 @@
+check,status,detail
+file_modified,PASS,app_streamlit.py
+metadata_raw_docs_vector_kg_changed,PASS,No metadata/raw docs/vector store/ontology/scoring/runtime files were modified.
+py_compile,PASS,python -m py_compile app_streamlit.py
+streamlit_start,PASS,streamlit run app_streamlit.py started successfully on port 8510 and was stopped after verification.
+hybrid_smoke_AHPND,PASS,Hybrid returned 5 results and export Excel bytes were generated.
+hybrid_smoke_shrimp_farming_vietnam,PASS,Hybrid returned 5 results and export Excel bytes were generated.
+hybrid_smoke_lobster_vietnamese_query,PASS,Hybrid returned results and did not crash.
+hybrid_smoke_EHP_vietnamese_query,PASS,Hybrid returned results and did not crash.
+detected_entities_section,PASS,Detected entity summary cards and raw entity expander added.
+topk_results_section,PASS,Compact Top-k table with rank/doc_id/title/final_score/kg_score/source added.
+result_details_tabs,PASS,Score breakdown/Explanation/KG evidence/Source evidence tabs added.
+export_excel,PASS,st.download_button exports current results to aquaculture_search_results_<method>.xlsx.
+method_comparison,PARTIAL,"Hybrid, Vector, and Vector + metadata are enabled for realtime comparison; Ontology/SPARQL and Lexical/BM25 are documented but disabled in UI to avoid unsafe realtime changes."
+kg_evidence,PASS,Available KG fields are displayed without fabricating relation triples.
+ready_for_screenshot,YES,Use current 138-doc app with Hybrid or comparison view.
+compare_blank_output_fix,PASS,Comparison section now renders a guarded HTML table or explicit st.info message for every method.
+compare_blank_root_cause,PASS,Enabled methods returned non-empty rows but were rendered through st.dataframe inside CSS-heavy layout, which could appear as a blank white dataframe box.
+hybrid_comparison_reuse_topk,PASS,Hybrid comparison reuses the current displayed Top-k results instead of rerunning hybrid search.
+vector_comparison_no_blank,PASS,Vector comparison returned 5 rows in smoke test or will show an explicit info message if unavailable.
+vector_metadata_comparison_no_blank,PASS,Vector + metadata comparison returned 5 rows in smoke test or will show an explicit info message if unavailable.
+disabled_methods_message,PASS,Ontology/SPARQL and Lexical/BM25 show an explicit safe-demo disabled message.
+comparison_fix_compile,PASS,python -m py_compile app_streamlit.py
+comparison_fix_streamlit_start,PASS,streamlit run app_streamlit.py started successfully on port 8511 and was stopped after verification.

@@ -1,0 +1,27 @@
+relative_path,group,exists_in_project,exists_in_final_package,recommended_action,reason,risk_level
+outputs/relevance_judgment_guideline.md,relevance_judgment_guideline,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/relevance_judgment_guideline_examples.csv,relevance_judgment_guideline,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/final_score_formalization_report.md,final_score_formalization,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/final_score_component_trace.csv,final_score_formalization,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+experiments/evaluate_explanation_quality.py,explanation_quality_diagnostic,True,False,needs_copy,New supporting experiment/audit script for report reproducibility.,low
+outputs/explanation_quality_summary.csv,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/explanation_quality_by_group.csv,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/explanation_quality_by_query.csv,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/explanation_quality_examples.csv,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/explanation_quality_report.md,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/figures/fig_explanation_quality_summary.png,explanation_quality_diagnostic,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+experiments/analyze_corpus_topic_distribution.py,corpus_topic_distribution,True,False,needs_copy,New supporting experiment/audit script for report reproducibility.,low
+outputs/corpus_topic_distribution.csv,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/corpus_topic_distribution_by_source.csv,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/corpus_topic_distribution_by_location.csv,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/corpus_topic_distribution_document_labels.csv,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/corpus_topic_distribution_report.md,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+outputs/figures/fig_corpus_topic_distribution.png,corpus_topic_distribution,True,False,needs_copy,New report/result/figure created after final package was assembled and relevant to final report.,low
+experiments/run_query_expansion_experiment.py,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+data/eval/results/baseline_hybrid_query_expansion_core.csv,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+data/eval/metrics/query_expansion_metrics_summary.csv,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+data/eval/metrics/query_expansion_metrics_by_query.csv,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+data/eval/metrics/query_expansion_metrics_by_group.csv,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+outputs/query_expansion_experiment_analysis.md,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",low
+outputs/query_expansion_applied_terms.csv,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",medium
+outputs/figures/fig_query_expansion_experiment_summary.png,query_expansion_experiment,True,False,needs_copy,"New experimental query expansion artifact; include as extension/prototype, not as replacement for final hybrid baseline.",low

@@ -1,0 +1,19 @@
+check,status,detail
+file_modified,PASS,app_streamlit.py
+runtime_scoring_data_modified,PASS,No metadata/raw docs/vector store/ontology/KG/scoring/evaluation data were modified.
+py_compile,PASS,python -m py_compile app_streamlit.py
+streamlit_start,PASS,App started on test port 8513 and was stopped after verification.
+kg_evidence_tab_fix,PASS,KG evidence tab now renders score fields, KG explanation, metadata document facts, detected entities, and explicit no-relation message when needed.
+kg_evidence_AHPND_shrimp_disease,PASS,Hybrid returned 5 results; selected top result produced 18 KG/document evidence rows.
+kg_evidence_lobster_Khanh_Hoa,PASS,Hybrid returned 5 results; selected top result produced 18 KG/document evidence rows.
+kg_evidence_shrimp_farming_Vietnam,PASS,Hybrid returned 5 results; selected top result produced 14 KG/document evidence rows.
+kg_evidence_biosecurity_shrimp_hatchery,PASS,Hybrid returned 5 results; selected top result produced 17 KG/document evidence rows.
+method_hybrid,PASS,Realtime Hybrid remains enabled and unchanged.
+method_vector,PASS,Realtime Vector remains enabled.
+method_vector_metadata,PASS,Realtime Vector + metadata remains enabled.
+method_lexical_bm25,PASS_WITH_OFFLINE_FALLBACK,Uses latest 138-doc offline baseline CSV when query text or query_id matches; otherwise shows explicit no-match message.
+method_ontology_sparql,PASS_WITH_OFFLINE_FALLBACK,Uses latest 138-doc offline baseline CSV when query text or query_id matches; otherwise shows explicit no-match message.
+comparison_no_blank,PASS,Every comparison branch now renders a table or st.info message.
+export_excel,PASS,Export Excel still creates bytes and includes kg_evidence_summary column.
+screenshot_ready,YES,Ready for report/defense screenshots.
+overall_result,PASS_WITH_OFFLINE_FALLBACK,Three methods are realtime; Lexical/BM25 and Ontology/SPARQL are offline CSV fallback.

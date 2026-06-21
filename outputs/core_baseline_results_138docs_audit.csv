@@ -1,0 +1,7 @@
+﻿baseline_name,file,exists,rows,queries,unique_docs,top10_complete,queries_lt_top10,removed_docs_present,removed_docs,doc_id_not_in_metadata_count,doc_id_not_in_metadata,KNQG_002_appears,score_valid,status
+lexical,data/eval/results/baseline_lexical_core.csv,True,280,28,57,True,,False,,0,,True,True,PASS
+vector,data/eval/results/baseline_vector_core.csv,True,280,28,91,True,,False,,0,,True,True,PASS
+vector_metadata,data/eval/results/baseline_vector_metadata_core.csv,True,280,28,95,True,,False,,0,,True,True,PASS
+ontology_sparql,data/eval/results/baseline_ontology_sparql_core.csv,True,280,28,63,True,,False,,0,,True,True,PASS
+hybrid,data/eval/results/baseline_hybrid_core.csv,True,280,28,101,True,,False,,0,,True,True,PASS
+vector_metadata_kg_no_intent,data/eval/results/baseline_vector_metadata_kg_no_intent_core.csv,True,280,28,101,True,,False,,0,,True,True,SUPPORT_PASS

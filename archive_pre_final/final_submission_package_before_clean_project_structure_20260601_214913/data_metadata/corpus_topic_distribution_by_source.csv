@@ -1,0 +1,80 @@
+source,topic_group,n_documents
+Aquaculture and Fisheries,aquatic_disease,1
+Aquaculture and Fisheries,local_vietnam_khanhhoa,1
+Aquaculture and Fisheries,species_taxon_specific,1
+FAO,aquatic_disease,27
+FAO,marine_aquaculture,4
+FAO,hatchery_seed_production,4
+FAO,biosecurity_management,30
+FAO,environment_water_quality,17
+FAO,local_vietnam_khanhhoa,3
+FAO,species_taxon_specific,44
+Hội nghị Công nghệ Sinh học toàn quốc 2020,aquatic_disease,1
+Hội nghị Công nghệ Sinh học toàn quốc 2020,marine_aquaculture,1
+Hội nghị Công nghệ Sinh học toàn quốc 2020,biosecurity_management,1
+Hội nghị Công nghệ Sinh học toàn quốc 2020,local_vietnam_khanhhoa,1
+Hội nghị Công nghệ Sinh học toàn quốc 2020,species_taxon_specific,1
+Kỷ yếu Hội nghị Nghiên cứu cơ bản trong Khoa học Trái đất và Môi trường,marine_aquaculture,1
+Kỷ yếu Hội nghị Nghiên cứu cơ bản trong Khoa học Trái đất và Môi trường,biosecurity_management,1
+Kỷ yếu Hội nghị Nghiên cứu cơ bản trong Khoa học Trái đất và Môi trường,environment_water_quality,1
+Kỷ yếu Hội nghị Nghiên cứu cơ bản trong Khoa học Trái đất và Môi trường,local_vietnam_khanhhoa,1
+Kỷ yếu Hội nghị Nghiên cứu cơ bản trong Khoa học Trái đất và Môi trường,species_taxon_specific,1
+NACA,aquatic_disease,2
+NACA,hatchery_seed_production,2
+NACA,biosecurity_management,2
+NACA,environment_water_quality,1
+NACA,local_vietnam_khanhhoa,1
+NACA,species_taxon_specific,3
+Nhà xuất bản Đại học Cần Thơ,marine_aquaculture,1
+Nhà xuất bản Đại học Cần Thơ,hatchery_seed_production,2
+Nhà xuất bản Đại học Cần Thơ,local_vietnam_khanhhoa,2
+Nhà xuất bản Đại học Cần Thơ,species_taxon_specific,2
+PMC/journal,aquatic_disease,40
+PMC/journal,hatchery_seed_production,8
+PMC/journal,biosecurity_management,9
+PMC/journal,environment_water_quality,2
+PMC/journal,local_vietnam_khanhhoa,1
+PMC/journal,species_taxon_specific,40
+RIA3,marine_aquaculture,1
+RIA3,local_vietnam_khanhhoa,1
+RIA3,species_taxon_specific,1
+SEAFDEC,aquatic_disease,11
+SEAFDEC,hatchery_seed_production,1
+SEAFDEC,biosecurity_management,9
+SEAFDEC,species_taxon_specific,11
+TB,aquatic_disease,7
+TB,hatchery_seed_production,3
+TB,biosecurity_management,4
+TB,local_vietnam_khanhhoa,2
+TB,species_taxon_specific,7
+TCTS,aquatic_disease,2
+TCTS,marine_aquaculture,1
+TCTS,biosecurity_management,2
+TCTS,local_vietnam_khanhhoa,2
+TCTS,species_taxon_specific,2
+TNU Journal of Science and Technology,aquatic_disease,1
+TNU Journal of Science and Technology,local_vietnam_khanhhoa,1
+TNU Journal of Science and Technology,species_taxon_specific,1
+Thư viện số Trường Đại học Đà Lạt,aquatic_disease,1
+Thư viện số Trường Đại học Đà Lạt,local_vietnam_khanhhoa,1
+Thư viện số Trường Đại học Đà Lạt,species_taxon_specific,1
+Trung tâm Khuyến ngư Quốc gia,aquatic_disease,1
+Trung tâm Khuyến ngư Quốc gia,marine_aquaculture,1
+Trung tâm Khuyến ngư Quốc gia,biosecurity_management,1
+Trung tâm Khuyến ngư Quốc gia,environment_water_quality,1
+Trung tâm Khuyến ngư Quốc gia,local_vietnam_khanhhoa,1
+Trung tâm Khuyến ngư Quốc gia,species_taxon_specific,1
+Trung tâm Khuyến nông Quốc gia,marine_aquaculture,1
+Trung tâm Khuyến nông Quốc gia,local_vietnam_khanhhoa,1
+Trung tâm Khuyến nông Quốc gia,species_taxon_specific,1
+Vietnamese journal,aquatic_disease,12
+Vietnamese journal,marine_aquaculture,12
+Vietnamese journal,hatchery_seed_production,1
+Vietnamese journal,biosecurity_management,3
+Vietnamese journal,environment_water_quality,5
+Vietnamese journal,local_vietnam_khanhhoa,19
+Vietnamese journal,species_taxon_specific,19
+Viện Khoa học Thủy lợi Việt Nam,biosecurity_management,1
+Viện Khoa học Thủy lợi Việt Nam,environment_water_quality,1
+Viện Khoa học Thủy lợi Việt Nam,local_vietnam_khanhhoa,1
+Viện Khoa học Thủy lợi Việt Nam,species_taxon_specific,1

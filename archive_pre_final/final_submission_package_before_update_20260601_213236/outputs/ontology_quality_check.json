@@ -1,0 +1,101 @@
+{
+  "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "loader_source": "facts_v2",
+  "generated_at": "2026-05-21T13:02:15.380845+00:00",
+  "total_triples": 1324,
+  "total_classes": 32,
+  "total_object_properties": 14,
+  "total_data_properties": 13,
+  "total_individuals": 55,
+  "total_document_nodes": 110,
+  "document_fact_coverage": {
+    "aboutTaxon_count_docs": 108,
+    "aboutTaxon_ratio": 0.981818,
+    "aboutDisease_count_docs": 68,
+    "aboutDisease_ratio": 0.618182,
+    "aboutLocation_count_docs": 47,
+    "aboutLocation_ratio": 0.427273,
+    "documentProductionMode_count_docs": 109,
+    "documentProductionMode_ratio": 0.990909
+  },
+  "document_mapping_status": {
+    "metadata_file": "data\\metadata\\document_metadata_cleaned.xlsx",
+    "total_metadata_docs": 110,
+    "mapped_metadata_docs_to_kg": 110,
+    "unmapped_metadata_docs": []
+  },
+  "label_coverage": {
+    "total_indexed_entities": 227,
+    "entities_with_rdfs_label": 5,
+    "entities_with_skos_prefLabel": 55,
+    "entities_with_skos_altLabel": 59,
+    "entities_with_any_rdfs_or_skos_label": 60,
+    "ratio_with_any_label": 0.264317
+  },
+  "relation_counts": {
+    "aboutDisease": 95,
+    "aboutTaxon": 191,
+    "aboutLocation": 55,
+    "documentProductionMode": 114,
+    "affectsTaxon": 5,
+    "causedBy": 3,
+    "hasSymptom": 7,
+    "recommendedPrevention": 5,
+    "recommendedTreatment": 4,
+    "mentions": 4
+  },
+  "runtime_consistency_observations": {
+    "reasoner_note": "Reasoner-based consistency checking was not executed; this report focuses on runtime-oriented structural and coverage checks.",
+    "documents_missing_all_core_facts_count": 0,
+    "documents_missing_all_core_facts_sample": [],
+    "documents_missing_title_count": 0,
+    "documents_missing_title_sample": [],
+    "documents_missing_filePath_count": 0,
+    "documents_missing_filePath_sample": [],
+    "dangling_fact_objects_count": 0,
+    "dangling_fact_objects_sample": [],
+    "duplicate_local_names_count": 0,
+    "duplicate_local_names_sample": {},
+    "non_document_entities_missing_rdfs_or_skos_label_count": 62,
+    "non_document_entities_missing_rdfs_or_skos_label_sample": [
+      "Fungus",
+      "publishedYear",
+      "EnvironmentalParameter",
+      "Bacteria",
+      "hasSymptom",
+      "Gastropod",
+      "aboutDisease",
+      "hasDisease",
+      "ViralDisease",
+      "Mollusk",
+      "aboutTaxon",
+      "altLabel",
+      "aboutLocation",
+      "prefLabel",
+      "PerkinsusDisease",
+      "externalId",
+      "scientificName",
+      "title",
+      "Lobster",
+      "affectsTaxon"
+    ]
+  },
+  "quality_notes": {
+    "strengths": [
+      "The runtime ontology loads through the same KG loader used by retrieval, so the report reflects deployed behavior.",
+      "All metadata document identifiers are mapped to KG document nodes.",
+      "Taxon and production-mode document facts have high coverage."
+    ],
+    "weaknesses": [
+      "Location coverage is sparse, which can weaken local-intent retrieval and explanations.",
+      "Disease coverage is incomplete; disease-specific queries can depend on vector/metadata fallback.",
+      "Some non-document entities lack explicit rdfs/skos labels and rely on URI local-name fallback."
+    ],
+    "suggestions": [
+      "Backfill missing location facts for documents with local or regional metadata evidence.",
+      "Expand disease/pathogen facts only after manual validation against source documents.",
+      "Add explicit rdfs:label or skos labels for entities currently resolved from URI local names.",
+      "Run a reasoner-based consistency check separately if formal OWL consistency is required."
+    ]
+  }
+}

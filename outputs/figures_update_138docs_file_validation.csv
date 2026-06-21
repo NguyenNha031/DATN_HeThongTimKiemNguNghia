@@ -1,0 +1,17 @@
+﻿figure_no,file,exists,size_bytes,modified_time,status
+4.1,outputs/figures/baseline_key_metrics_138docs.png,True,107045,2026-06-01T15:44:24,PASS
+4.1,outputs/figures/baseline_key_metrics_138docs.pdf,True,18837,2026-06-01T15:44:24,PASS
+4.2,outputs/figures/quality_latency_tradeoff_138docs.png,True,92236,2026-06-01T15:44:25,PASS
+4.2,outputs/figures/quality_latency_tradeoff_138docs.pdf,True,20264,2026-06-01T15:44:25,PASS
+4.3,outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.png,True,158155,2026-06-01T15:44:25,PASS
+4.3,outputs/figures/hybrid_vs_vector_metadata_by_group_138docs.pdf,True,17484,2026-06-01T15:44:25,PASS
+4.6,outputs/figures/hybrid_ablation_signal_layers_138docs.png,True,97523,2026-06-01T15:44:25,PASS
+4.6,outputs/figures/hybrid_ablation_signal_layers_138docs.pdf,True,16969,2026-06-01T15:44:25,PASS
+4.7,outputs/figures/kg_fact_coverage_runtime_contribution_138docs.png,True,187925,2026-06-01T15:44:26,PASS
+4.7,outputs/figures/kg_fact_coverage_runtime_contribution_138docs.pdf,True,17098,2026-06-01T15:44:26,PASS
+4.8,outputs/figures/kg_ablation_diagnostic_138docs.png,True,125376,2026-06-01T15:44:26,PASS
+4.8,outputs/figures/kg_ablation_diagnostic_138docs.pdf,True,18188,2026-06-01T15:44:26,PASS
+4.9,outputs/figures/candidate_fusion_key_metrics_138docs.png,True,107766,2026-06-01T15:44:26,PASS
+4.9,outputs/figures/candidate_fusion_key_metrics_138docs.pdf,True,17036,2026-06-01T15:44:26,PASS
+4.10,outputs/figures/extended_evaluation_96_queries_138docs.png,True,118798,2026-06-01T15:44:26,PASS
+4.10,outputs/figures/extended_evaluation_96_queries_138docs.pdf,True,18037,2026-06-01T15:44:27,PASS

@@ -1,0 +1,6 @@
+﻿check,status,path,note
+manifest_matches_package_files,PASS,final_submission_package,All package files listed
+required_files,PASS,,Required files present
+forbidden_scan,PASS,,forbidden count=0
+figure_scan,PASS,,Only *_138docs final figures kept
+ria_scan,PASS,,No excluded RIA3 docs detected

@@ -1,0 +1,33 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8516,PASS,,Streamlit running at http://localhost:8516; HTTP 200; PID 17232
+shorten_kg_label_helper,PASS,,URI labels shorten after # or last /; Document_* doc IDs are preserved
+main_relation_table_no_raw_uri,PASS,,Featured KG relation rows use shortened labels; raw URI rows only in Raw KG triples expander
+readable_kg_tree,PASS,,KG subgraph tab includes Readable KG tree code block
+mini_kg_graph,PASS,,KG subgraph tab includes st.graphviz_chart mini graph with fallback text message
+edge_priority_limit,PASS,,Default featured rows limited to 12 prioritized KG edges
+all_rows_expander,PASS,,Additional evidence rows are available under Show all KG evidence rows
+raw_triples_expander,PASS,,Raw KG triples are available only in expander
+export_excel_still_pass,PASS,,Export dataframe still includes kg_evidence and kg_evidence_summary
+smoke_kg_subgraph_not_blank,PASS,AHPND shrimp disease,KG rows=32; featured rows=12; graph edges=10
+smoke_no_raw_uri_featured_table,PASS,AHPND shrimp disease,No http/https URI found in featured display rows
+smoke_text_tree_document_facts,PASS,AHPND shrimp disease,Readable KG tree includes Document and about* facts
+smoke_graphviz_dot,PASS,AHPND shrimp disease,Mini KG graph DOT generated
+smoke_export_excel,PASS,AHPND shrimp disease,Excel bytes=6935
+smoke_kg_subgraph_not_blank,PASS,lobster Khanh Hoa,KG rows=23; featured rows=12; graph edges=10
+smoke_no_raw_uri_featured_table,PASS,lobster Khanh Hoa,No http/https URI found in featured display rows
+smoke_text_tree_document_facts,PASS,lobster Khanh Hoa,Readable KG tree includes Document and about* facts
+smoke_graphviz_dot,PASS,lobster Khanh Hoa,Mini KG graph DOT generated
+smoke_export_excel,PASS,lobster Khanh Hoa,Excel bytes=7160
+smoke_kg_subgraph_not_blank,PASS,shrimp farming Vietnam,KG rows=19; featured rows=12; graph edges=10
+smoke_no_raw_uri_featured_table,PASS,shrimp farming Vietnam,No http/https URI found in featured display rows
+smoke_text_tree_document_facts,PASS,shrimp farming Vietnam,Readable KG tree includes Document and about* facts
+smoke_graphviz_dot,PASS,shrimp farming Vietnam,Mini KG graph DOT generated
+smoke_export_excel,PASS,shrimp farming Vietnam,Excel bytes=6940
+smoke_kg_subgraph_not_blank,PASS,biosecurity shrimp hatchery,KG rows=32; featured rows=12; graph edges=10
+smoke_no_raw_uri_featured_table,PASS,biosecurity shrimp hatchery,No http/https URI found in featured display rows
+smoke_text_tree_document_facts,PASS,biosecurity shrimp hatchery,Readable KG tree includes Document and about* facts
+smoke_graphviz_dot,PASS,biosecurity shrimp hatchery,Mini KG graph DOT generated
+smoke_export_excel,PASS,biosecurity shrimp hatchery,Excel bytes=6847

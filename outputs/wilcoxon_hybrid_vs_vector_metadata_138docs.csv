@@ -1,0 +1,7 @@
+metric,baseline_a,baseline_b,n_queries,mean_hybrid,mean_vector_metadata,mean_diff,median_diff,num_hybrid_better,num_equal,num_vector_metadata_better,wilcoxon_statistic,p_value,significant_at_0_05,effect_direction,note
+P@1,vector_metadata,hybrid,28,0.8214285714285714,0.6428571428571429,0.17857142857142858,0.0,5,23,0,0.0,0.025347318677468252,True,hybrid>vector_metadata,
+MRR,vector_metadata,hybrid,28,0.875,0.7452380952380953,0.12976190476190477,0.0,6,21,1,2.0,0.04215345023570544,True,hybrid>vector_metadata,
+nDCG@10,vector_metadata,hybrid,28,0.7109812351773269,0.6013594879961613,0.10962174718116557,0.0,11,13,4,13.0,0.007598223082063245,True,hybrid>vector_metadata,
+P@5,vector_metadata,hybrid,28,0.39285714285714285,0.37142857142857144,0.021428571428571432,0.0,5,20,3,9.0,0.1956677425436415,False,hybrid>vector_metadata,
+Recall@5,vector_metadata,hybrid,28,0.48613945578231293,0.4590136054421769,0.027125850340136048,0.0,5,20,3,10.0,0.2620327985527309,False,hybrid>vector_metadata,
+nDCG@5,vector_metadata,hybrid,28,0.6645143121603682,0.553576012771043,0.1109382993893252,0.0,9,15,4,13.0,0.02312980249735946,True,hybrid>vector_metadata,

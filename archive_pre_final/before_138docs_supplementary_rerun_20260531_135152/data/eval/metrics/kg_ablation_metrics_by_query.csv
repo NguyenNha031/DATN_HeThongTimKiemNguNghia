@@ -1,0 +1,141 @@
+﻿method,query_id,query_text,query_group,p_at_1,p_at_3,p_at_5,recall_at_5,recall_at_10,mrr,ndcg_at_5,ndcg_at_10,map
+vector_metadata,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7715366092808701,0.8223335000336048,0.62
+vector_metadata,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7504539947717144,0.7969998877805942,0.5333333333333333
+vector_metadata,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.8807824012671632,0.8807824012671632,0.65
+vector_metadata,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7672735788411231,0.833265682301589,0.49999999999999994
+vector_metadata,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48801287133544796,0.19642857142857142
+vector_metadata,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,1.0,1.0,0.7262287617954056,0.8888246188934468,0.5694444444444444
+vector_metadata,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,1.0,0.8333333333333334,0.8333333333333334,1.0,1.0,0.892210845475489,0.8333333333333334
+vector_metadata,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,0.0,0.6666666666666666,0.6,0.5,0.5,0.5,0.5804025590460403,0.5558716462644276,0.3194444444444444
+vector_metadata,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,0.9828920819566878,0.9828920819566878,0.95
+vector_metadata,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.160957993938732,0.33866445177709553,0.1603174603174603
+vector_metadata,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.04792722246291238,0.26534997041960223,0.13055555555555556
+vector_metadata,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.4,0.2857142857142857,0.5714285714285714,1.0,0.402555834981569,0.5655122534866878,0.391156462585034
+vector_metadata,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+vector_metadata,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7981908035472588,0.5
+vector_metadata,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+vector_metadata,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.16666666666666666,0.6666666666666666,0.2,0.1312050775123418,0.4346495356271557,0.2111111111111111
+vector_metadata,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+vector_metadata,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.6051906348295047,0.6051906348295047,0.5555555555555555
+vector_metadata,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+vector_metadata,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+vector_metadata,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,0.24207625393180188,0.047619047619047616
+vector_metadata,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+vector_metadata,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.6666666666666666,0.4,0.5,0.5,0.5,0.5245497084231204,0.5245497084231204,0.29166666666666663
+vector_metadata,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.7189664876551615,0.7189664876551615,0.65
+vector_metadata,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.6576630675781056,0.6576630675781056,0.25
+vector_metadata,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.3333333333333333,0.4,0.6666666666666666,0.6666666666666666,1.0,0.5230198891268198,0.5230198891268198,0.4666666666666666
+vector_metadata,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.9515234565959557,0.9515234565959557,0.8055555555555555
+vector_metadata,SL_007,shrimp hatchery Latin America white shrimp,species-location,0.0,0.0,0.2,0.2,0.4,0.25,0.20804563373066753,0.347683312757307,0.09
+kg_direct_only,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7715366092808701,0.8223335000336048,0.62
+kg_direct_only,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7504539947717144,0.7969998877805942,0.5333333333333333
+kg_direct_only,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.8807824012671632,0.8807824012671632,0.65
+kg_direct_only,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7672735788411231,0.833265682301589,0.49999999999999994
+kg_direct_only,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48801287133544796,0.19642857142857142
+kg_direct_only,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,1.0,1.0,0.7262287617954056,0.8888246188934468,0.5694444444444444
+kg_direct_only,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,1.0,0.8333333333333334,0.8333333333333334,1.0,1.0,0.892210845475489,0.8333333333333334
+kg_direct_only,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,0.0,0.6666666666666666,0.6,0.5,0.5,0.5,0.5804025590460403,0.5558716462644276,0.3194444444444444
+kg_direct_only,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,0.9828920819566878,0.9828920819566878,0.95
+kg_direct_only,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.160957993938732,0.33866445177709553,0.1603174603174603
+kg_direct_only,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.04792722246291238,0.26534997041960223,0.13055555555555556
+kg_direct_only,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.4,0.2857142857142857,0.5714285714285714,1.0,0.5846607834833523,0.7294184622317004,0.4387755102040816
+kg_direct_only,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+kg_direct_only,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7911945728506091,0.46875
+kg_direct_only,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+kg_direct_only,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.16666666666666666,0.6666666666666666,0.2,0.1312050775123418,0.4346495356271557,0.2111111111111111
+kg_direct_only,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+kg_direct_only,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+kg_direct_only,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+kg_direct_only,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+kg_direct_only,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,0.24207625393180188,0.047619047619047616
+kg_direct_only,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+kg_direct_only,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.6666666666666666,0.4,0.5,0.5,0.5,0.5245497084231204,0.5245497084231204,0.29166666666666663
+kg_direct_only,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.3333333333333333,0.6,0.75,0.75,0.3333333333333333,0.47765684554856885,0.47765684554856885,0.3583333333333333
+kg_direct_only,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.6576630675781056,0.6576630675781056,0.25
+kg_direct_only,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.3333333333333333,0.4,0.6666666666666666,0.6666666666666666,1.0,0.5230198891268198,0.5230198891268198,0.4666666666666666
+kg_direct_only,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.9832184408687481,0.9832184408687481,0.9166666666666666
+kg_direct_only,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.4,1.0,0.7878483464942911,0.7878483464942911,0.4
+kg_relation_only,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.6526795043065537,0.7034763950592885,0.62
+kg_relation_only,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7504539947717144,0.7969998877805942,0.5333333333333333
+kg_relation_only,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7959761332981399,0.865132666158157,0.59375
+kg_relation_only,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7672735788411231,0.833265682301589,0.49999999999999994
+kg_relation_only,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48801287133544796,0.19642857142857142
+kg_relation_only,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,1.0,1.0,0.7262287617954056,0.8888246188934468,0.5694444444444444
+kg_relation_only,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8687949224876583,0.8829374068620365,0.8055555555555555
+kg_relation_only,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.6666666666666666,0.4,0.3333333333333333,0.5,1.0,0.5575053277365711,0.660738200922602,0.3611111111111111
+kg_relation_only,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,1.0,1.0,1.0
+kg_relation_only,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.160957993938732,0.33866445177709553,0.1603174603174603
+kg_relation_only,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26807423232570715,0.13095238095238093
+kg_relation_only,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.5714285714285714,1.0,0.5280956204415419,0.6124815896382524,0.4428571428571429
+kg_relation_only,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+kg_relation_only,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7981908035472588,0.5
+kg_relation_only,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+kg_relation_only,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.16666666666666666,0.6666666666666666,0.2,0.1312050775123418,0.4346495356271557,0.2111111111111111
+kg_relation_only,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+kg_relation_only,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.8472668887613066,0.8472668887613066,0.5555555555555555
+kg_relation_only,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+kg_relation_only,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+kg_relation_only,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,0.24207625393180188,0.047619047619047616
+kg_relation_only,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+kg_relation_only,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.6666666666666666,0.4,0.5,0.5,0.5,0.5245497084231204,0.5245497084231204,0.29166666666666663
+kg_relation_only,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.7189664876551615,0.7189664876551615,0.65
+kg_relation_only,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.6576630675781056,0.6576630675781056,0.25
+kg_relation_only,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.3333333333333333,0.4,0.6666666666666666,0.6666666666666666,1.0,0.5230198891268198,0.5230198891268198,0.4666666666666666
+kg_relation_only,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.9515234565959557,0.9515234565959557,0.8055555555555555
+kg_relation_only,SL_007,shrimp hatchery Latin America white shrimp,species-location,0.0,0.0,0.2,0.2,0.4,0.25,0.20804563373066753,0.347683312757307,0.09
+full_kg_no_intent,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.6526795043065537,0.7034763950592885,0.62
+full_kg_no_intent,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7504539947717144,0.7969998877805942,0.5333333333333333
+full_kg_no_intent,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7959761332981399,0.865132666158157,0.59375
+full_kg_no_intent,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7672735788411231,0.833265682301589,0.49999999999999994
+full_kg_no_intent,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48801287133544796,0.19642857142857142
+full_kg_no_intent,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,1.0,1.0,0.7262287617954056,0.8888246188934468,0.5694444444444444
+full_kg_no_intent,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8687949224876583,0.8829374068620365,0.8055555555555555
+full_kg_no_intent,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.6666666666666666,0.4,0.3333333333333333,0.5,1.0,0.5575053277365711,0.660738200922602,0.3611111111111111
+full_kg_no_intent,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,1.0,1.0,1.0
+full_kg_no_intent,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.160957993938732,0.33866445177709553,0.1603174603174603
+full_kg_no_intent,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26807423232570715,0.13095238095238093
+full_kg_no_intent,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.5714285714285714,1.0,0.6469527254158582,0.7194606564841893,0.4428571428571429
+full_kg_no_intent,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+full_kg_no_intent,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7911945728506091,0.46875
+full_kg_no_intent,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+full_kg_no_intent,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.16666666666666666,0.6666666666666666,0.2,0.1312050775123418,0.4346495356271557,0.2111111111111111
+full_kg_no_intent,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+full_kg_no_intent,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+full_kg_no_intent,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+full_kg_no_intent,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+full_kg_no_intent,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,0.24207625393180188,0.047619047619047616
+full_kg_no_intent,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+full_kg_no_intent,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.6666666666666666,0.4,0.5,0.5,0.5,0.5245497084231204,0.5245497084231204,0.29166666666666663
+full_kg_no_intent,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.3333333333333333,0.6,0.75,0.75,0.3333333333333333,0.47765684554856885,0.47765684554856885,0.3583333333333333
+full_kg_no_intent,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.6576630675781056,0.6576630675781056,0.25
+full_kg_no_intent,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.3333333333333333,0.4,0.6666666666666666,0.6666666666666666,1.0,0.5230198891268198,0.5230198891268198,0.4666666666666666
+full_kg_no_intent,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.9832184408687481,0.9832184408687481,0.9166666666666666
+full_kg_no_intent,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.4,1.0,0.7878483464942911,0.7878483464942911,0.4
+full_hybrid,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.3333333333333333,0.6,0.6,0.8,1.0,0.7534045776410563,0.804201468393791,0.52
+full_hybrid,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.6,0.8,1.0,0.7504539947717144,0.7969998877805942,0.5333333333333333
+full_hybrid,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7959761332981399,0.865132666158157,0.59375
+full_hybrid,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7672735788411231,0.833265682301589,0.49999999999999994
+full_hybrid,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48801287133544796,0.19642857142857142
+full_hybrid,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,1.0,1.0,0.7262287617954056,0.8888246188934468,0.5694444444444444
+full_hybrid,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8687949224876583,0.8829374068620365,0.8055555555555555
+full_hybrid,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.6666666666666666,0.4,0.3333333333333333,0.5,1.0,0.5575053277365711,0.660738200922602,0.3611111111111111
+full_hybrid,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,1.0,1.0,1.0
+full_hybrid,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.2,0.16666666666666666,0.5,0.2,0.160957993938732,0.33866445177709553,0.1603174603174603
+full_hybrid,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26807423232570715,0.13095238095238093
+full_hybrid,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.5714285714285714,1.0,0.6469527254158582,0.7194606564841893,0.4428571428571429
+full_hybrid,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+full_hybrid,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7911945728506091,0.46875
+full_hybrid,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+full_hybrid,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,1.0,1.0,0.6,0.5,0.6666666666666666,1.0,0.7227265726449518,0.7976000064097211,0.5833333333333334
+full_hybrid,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+full_hybrid,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+full_hybrid,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+full_hybrid,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+full_hybrid,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,0.24207625393180188,0.047619047619047616
+full_hybrid,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+full_hybrid,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7672735788411231,0.7672735788411231,0.41666666666666663
+full_hybrid,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.3333333333333333,0.6,0.75,0.75,0.3333333333333333,0.47765684554856885,0.47765684554856885,0.3583333333333333
+full_hybrid,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.6576630675781056,0.6576630675781056,0.25
+full_hybrid,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+full_hybrid,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.9832184408687481,0.9832184408687481,0.9166666666666666
+full_hybrid,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.4,1.0,0.7878483464942911,0.7878483464942911,0.4

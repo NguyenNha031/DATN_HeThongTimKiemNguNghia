@@ -1,0 +1,17 @@
+﻿metric,value,detail
+status,PASS,
+metadata_docs,138,
+vector_docs,138,
+kg_docs,138,
+core_queries,28,
+judgment_rows,181,
+baseline_files_generated,5,official five baselines
+baseline_top10_complete,True,28 queries x Top-10 for each official baseline
+removed_docs_in_baseline_outputs,False,RIA3_002/RIA3_003 absent expected
+metrics_generated,True,baseline_metrics_summary/by_group/per_query and plus files
+hybrid_best_all_main_metrics,True,"{""p_at_1"": ""hybrid"", ""p_at_5"": ""hybrid"", ""recall_at_5"": ""hybrid"", ""recall_at_10"": ""hybrid"", ""mrr"": ""hybrid"", ""ndcg_at_5"": ""hybrid"", ""ndcg_at_10"": ""hybrid"", ""map"": ""hybrid""}"
+wilcoxon_significant_metrics,4,out of 6
+latency_generated,True,baseline_latency_summary/per_query
+figures_generated,6,png/pdf core figures
+can_proceed_to_supplementary_diagnostics,YES,
+backup_folder,archive_pre_final/before_138docs_core_rerun_20260531_133316,

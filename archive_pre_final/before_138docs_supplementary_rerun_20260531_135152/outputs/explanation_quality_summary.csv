@@ -1,0 +1,2 @@
+scope,n_queries,n_rows,top_k,has_explanation_rate,top1_has_explanation_rate,query_has_any_explanation_rate,has_entity_match_rate,has_metadata_evidence_rate,has_kg_evidence_rate,has_kg_relation_or_fact_rate,mean_explanation_length,mean_evidence_count,notes
+core_hybrid_top10,28,280,10,1.0,1.0,1.0,0.7071428571428572,0.7071428571428572,0.5642857142857143,0.5642857142857143,192.5142857142857,9.728571428571428,Explanation diagnostic; runtime recomputed for core queries; no baseline overwrite.

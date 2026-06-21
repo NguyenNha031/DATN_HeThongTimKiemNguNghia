@@ -1,0 +1,7 @@
+﻿baseline_name,num_queries,p_at_1,p_at_3,p_at_5,recall_at_5,mrr,ndcg_at_5,ndcg_at_10,mean_query_latency_ms,notes
+lexical,28,0.392857,0.214286,0.135714,0.196173,0.433036,0.271533,0.299142,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống
+vector,28,0.678571,0.452381,0.335714,0.415901,0.769133,0.555952,0.602224,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống
+vector_metadata,28,0.75,0.52381,0.392857,0.488776,0.821769,0.614302,0.66361,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống
+vector_metadata_kg_no_intent,28,0.75,0.5,0.385714,0.478997,0.822959,0.616748,0.677948,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống
+ontology_sparql,28,0.571429,0.428571,0.342857,0.38852,0.644643,0.409145,0.4577,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống
+hybrid,28,0.821429,0.535714,0.407143,0.498044,0.869388,0.669526,0.722203,,Recall@5 macro trên 28/28 query (loại R=0: 0). latency không có trong CSV baseline bước 3; để trống

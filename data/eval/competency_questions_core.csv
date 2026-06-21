@@ -1,0 +1,11 @@
+cq_id,question,cq_group,sparql_intent,expected_type,expected_answer,required_relations,note
+CQ_01,Tìm tài liệu liên quan đến AHPND,document_retrieval,docs_about_disease:AHPND,document,FAO_001;FAO_006;PMC_012,aboutDisease,Expected answers verified in taxon_enriched_facts_v2.owl.
+CQ_02,Tìm tài liệu liên quan đến tôm sú / Penaeus monodon,taxon_query,docs_about_taxon:Penaeus monodon,document,FAO_002;SEAFDEC_006;PLOS_001,aboutTaxon,Uses ontology alias Penaeus monodon -> Tom_su.
+CQ_03,Tìm tài liệu theo production mode aquaculture,document_retrieval,docs_by_mode:Aquaculture,document,FAO_001;FAO_005;FAO_008,documentProductionMode,Ontology maps hatchery/aquaculture variants mainly to Aquaculture.
+CQ_04,Tìm bệnh liên quan đến tôm thẻ chân trắng / Penaeus vannamei,disease_query,diseases_for_taxon:Penaeus vannamei,disease,WhiteSpotDisease;IMN,hasDisease;affectsTaxon,Uses taxon hasDisease and inverse disease affectsTaxon.
+CQ_05,Tìm loài bị ảnh hưởng bởi AHPND,taxon_query,taxa_affected_by_disease:AHPND,taxon,Tom_su,affectsTaxon,AHPND affectsTaxon Tom_su in current ontology.
+CQ_06,Tìm tác nhân gây bệnh AHPND,pathogen_query,pathogens_for_disease:AHPND,pathogen,Vibrio_parahaemolyticus,causedBy,AHPND causedBy Vibrio_parahaemolyticus.
+CQ_07,Tìm triệu chứng của AHPND,symptom_query,symptoms_for_disease:AHPND,symptom,Anorexia;GanTuyBatThuong;Letargy,hasSymptom,AHPND has three symptom individuals in current ontology.
+CQ_08,Tìm tài liệu có mentions AHPND,document_retrieval,docs_mention_entity:AHPND,document,FAO_001;FAO_003,mentions,mentions relation is sparser than aboutDisease.
+CQ_09,Tìm tài liệu khớp đồng thời disease AHPND và taxon tôm sú,document_retrieval,docs_about_disease_and_taxon:AHPND|Penaeus monodon,document,FAO_001;FAO_003;FAO_006,aboutDisease;aboutTaxon,Conjunctive structured query over disease and taxon facts.
+CQ_10,Giải thích vì sao FAO_001 phù hợp với truy vấn AHPND/tôm,explanation,explain_doc_match:FAO_001|AHPND|Penaeus monodon,explanation,aboutDisease=AHPND;aboutTaxon=Tom_su,aboutDisease;aboutTaxon;documentProductionMode;mentions,Checks structured evidence for one document rather than ranking.

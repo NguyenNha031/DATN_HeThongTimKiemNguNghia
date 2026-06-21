@@ -1,0 +1,24 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8519,PASS,,Streamlit running at http://localhost:8519; HTTP 200; PID 4424
+zoom_controls_present,PASS,,Mini KG graph section includes Zoom in, Zoom out, and Reset zoom buttons
+zoom_session_state,PASS,,Zoom is stored in st.session_state['kg_graph_zoom']; default=1.0; min=0.6; max=2.0; step=0.15
+zoom_scale_method,PASS,,Graph zoom is applied through DOT attributes: fontsize, nodesep, ranksep, node width, node height, and graph pad
+zoom_in_path,PASS,,Zoom in updates session_state and clamps value before DOT render
+zoom_out_path,PASS,,Zoom out updates session_state and clamps value before DOT render
+reset_zoom_path,PASS,,Reset zoom sets session_state value back to 1.0 before DOT render
+zoom_caption,PASS,,Mini KG graph shows Graph zoom: <value>x
+kg_subgraph_preserved,PASS,,Readable KG tree, mini graph, key relation rows, all rows expander, and raw triples expander remain
+export_excel_preserved,PASS,,Export dataframe still includes kg_evidence and kg_evidence_summary
+method_comparison_preserved,PASS,,Method comparison code unchanged
+smoke_search,PASS,AHPND shrimp disease,Hybrid returned results; KG subgraph rows=32
+smoke_graph_present,PASS,AHPND shrimp disease,Mini KG graph DOT generated with 10 edges
+smoke_zoom_dot_scale,PASS,AHPND shrimp disease,DOT differs between 0.6x and 1.6x zoom; large zoom fontsize reflected
+smoke_export_excel,PASS,AHPND shrimp disease,Excel bytes=6935
+smoke_search,PASS,lobster Khanh Hoa,Hybrid returned results; KG subgraph rows=23
+smoke_graph_present,PASS,lobster Khanh Hoa,Mini KG graph DOT generated with 10 edges
+smoke_zoom_dot_scale,PASS,lobster Khanh Hoa,DOT differs between 0.6x and 1.6x zoom; large zoom fontsize reflected
+smoke_export_excel,PASS,lobster Khanh Hoa,Excel bytes=7160
+screenshot_ready,PASS,,Use http://localhost:8519

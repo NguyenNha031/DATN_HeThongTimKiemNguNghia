@@ -1,0 +1,53 @@
+{
+  "ontology_file_loaded": "data\\ontology\\taxon_enriched_facts_v2.owl",
+  "ontology_source": "facts_v2",
+  "total_cq": 10,
+  "correct": 10,
+  "partial": 0,
+  "incorrect": 0,
+  "accuracy_like_ratio": 1.0,
+  "by_group": {
+    "document_retrieval": {
+      "total": 4,
+      "correct": 4,
+      "partial": 0,
+      "incorrect": 0
+    },
+    "taxon_query": {
+      "total": 2,
+      "correct": 2,
+      "partial": 0,
+      "incorrect": 0
+    },
+    "disease_query": {
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "incorrect": 0
+    },
+    "pathogen_query": {
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "incorrect": 0
+    },
+    "symptom_query": {
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "incorrect": 0
+    },
+    "explanation": {
+      "total": 1,
+      "correct": 1,
+      "partial": 0,
+      "incorrect": 0
+    }
+  },
+  "generated_at": "2026-05-21T19:51:13+07:00",
+  "notes": [
+    "Standalone competency-question evaluation for structured KG/SPARQL layer.",
+    "Does not modify ontology, metadata, retrieval baselines, relevance judgments, or core query set.",
+    "Expected answers are matched by normalized local-name/label substring against SPARQL results."
+  ]
+}

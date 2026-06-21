@@ -1,0 +1,19 @@
+﻿metric,value
+status,BLOCKED
+reason,KNQG_002 is image-based PDF and OCR/text fallback is unavailable
+metadata_docs_after_removal,138
+raw_files_after_removal,138
+old_chunks_before_138_step,28437
+new_chunks_after_138_rebuild,NOT_RUN
+current_vector_docs,137
+expected_vector_docs_after_rebuild,138
+current_missing_docs_vs_138_metadata,KNQG_002
+current_extra_docs_vs_138_metadata,
+KNQG_002_chunk_count,0
+RIA3_002_in_chunks_meta,False
+RIA3_003_in_chunks_meta,False
+index_ntotal_current,28437
+chunks_meta_rows_current,28437
+index_chunks_meta_match_current,True
+config_model,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+can_proceed_to_kg_sync,NO

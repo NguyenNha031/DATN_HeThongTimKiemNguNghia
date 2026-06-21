@@ -1,0 +1,893 @@
+{
+  "summary": {
+    "generated_at": "2026-05-23T16:31:44.668591+00:00",
+    "num_queries": 28,
+    "profile_counts": {
+      "biosecurity-management": 6,
+      "disease-specific": 6,
+      "hatchery-production-mode": 4,
+      "local": 7,
+      "species-location": 5
+    },
+    "runtime_profile_counts": {
+      "species_priority": 16,
+      "generic": 5,
+      "disease_priority": 7
+    },
+    "entity_detection_counts": {
+      "disease": 7,
+      "taxon_species": 22,
+      "location": 12,
+      "production_mode": 10,
+      "topic_management_prevention": 2
+    },
+    "multi_context_queries": [
+      {
+        "query_id": "BI_001",
+        "query_group": "biosecurity-management",
+        "dimensions": [
+          "taxon",
+          "production_mode",
+          "topic/management"
+        ]
+      },
+      {
+        "query_id": "BI_004",
+        "query_group": "biosecurity-management",
+        "dimensions": [
+          "production_mode",
+          "topic/management"
+        ]
+      },
+      {
+        "query_id": "DS_001",
+        "query_group": "disease-specific",
+        "dimensions": [
+          "disease",
+          "taxon"
+        ]
+      },
+      {
+        "query_id": "DS_002",
+        "query_group": "disease-specific",
+        "dimensions": [
+          "disease",
+          "taxon"
+        ]
+      },
+      {
+        "query_id": "DS_006",
+        "query_group": "disease-specific",
+        "dimensions": [
+          "disease",
+          "taxon"
+        ]
+      },
+      {
+        "query_id": "DS_010",
+        "query_group": "disease-specific",
+        "dimensions": [
+          "disease",
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "HM_001",
+        "query_group": "hatchery-production-mode",
+        "dimensions": [
+          "taxon",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "HM_002",
+        "query_group": "hatchery-production-mode",
+        "dimensions": [
+          "taxon",
+          "location",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "HM_007",
+        "query_group": "hatchery-production-mode",
+        "dimensions": [
+          "taxon",
+          "location",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "HM_010",
+        "query_group": "hatchery-production-mode",
+        "dimensions": [
+          "taxon",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "LO_001",
+        "query_group": "local",
+        "dimensions": [
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "LO_002",
+        "query_group": "local",
+        "dimensions": [
+          "disease",
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "LO_003",
+        "query_group": "local",
+        "dimensions": [
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "LO_004",
+        "query_group": "local",
+        "dimensions": [
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "LO_005",
+        "query_group": "local",
+        "dimensions": [
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "LO_006",
+        "query_group": "local",
+        "dimensions": [
+          "disease",
+          "taxon"
+        ]
+      },
+      {
+        "query_id": "SL_001",
+        "query_group": "species-location",
+        "dimensions": [
+          "taxon",
+          "location",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "SL_004",
+        "query_group": "species-location",
+        "dimensions": [
+          "taxon",
+          "location"
+        ]
+      },
+      {
+        "query_id": "SL_006",
+        "query_group": "species-location",
+        "dimensions": [
+          "taxon",
+          "location",
+          "production_mode"
+        ]
+      },
+      {
+        "query_id": "SL_007",
+        "query_group": "species-location",
+        "dimensions": [
+          "taxon",
+          "location",
+          "production_mode"
+        ]
+      }
+    ],
+    "profile_summary_table": [
+      {
+        "profile": "biosecurity-management",
+        "n_queries": 6,
+        "main_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence.",
+        "risk_if_misclassified": "Topic aliases are sparse; generic biosecurity documents may outrank emergency or management-specific documents.",
+        "example_query_id": "BI_001"
+      },
+      {
+        "profile": "disease-specific",
+        "n_queries": 6,
+        "main_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate.",
+        "risk_if_misclassified": "Missing disease aliases can let species/vector similarity outrank disease-specific evidence.",
+        "example_query_id": "DS_001"
+      },
+      {
+        "profile": "hatchery-production-mode",
+        "n_queries": 4,
+        "main_signal_priority": "production_mode metadata + species + vector; KG mode and hatchery intent guardrails are important.",
+        "risk_if_misclassified": "Hatchery/life-stage misses can mix grow-out, disease, and hatchery documents.",
+        "example_query_id": "HM_001"
+      },
+      {
+        "profile": "local",
+        "n_queries": 7,
+        "main_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent.",
+        "risk_if_misclassified": "Sparse location facts or missing local aliases can make exact local documents depend on lexical/vector luck.",
+        "example_query_id": "LO_001"
+      },
+      {
+        "profile": "species-location",
+        "n_queries": 5,
+        "main_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary.",
+        "risk_if_misclassified": "Location or species miss can cause broad shrimp/aquaculture documents to outrank country-specific documents.",
+        "example_query_id": "SL_001"
+      }
+    ],
+    "ambiguous_or_uncertain_queries": [
+      {
+        "query_id": "BI_007",
+        "query_group": "biosecurity-management",
+        "detected_profile": "generic",
+        "note": "Linked error-analysis note: missing_alias"
+      },
+      {
+        "query_id": "DS_006",
+        "query_group": "disease-specific",
+        "detected_profile": "disease_priority",
+        "note": "Linked error-analysis note: not_error_but_baseline_limitation"
+      },
+      {
+        "query_id": "DS_007",
+        "query_group": "disease-specific",
+        "detected_profile": "species_priority",
+        "note": "Expected disease-specific intent but runtime disease entity is missing. Linked error-analysis note: missing_disease_fact"
+      },
+      {
+        "query_id": "HM_001",
+        "query_group": "hatchery-production-mode",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: weak_candidate_pool"
+      },
+      {
+        "query_id": "HM_010",
+        "query_group": "hatchery-production-mode",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: metadata_incomplete"
+      },
+      {
+        "query_id": "LO_001",
+        "query_group": "local",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: weak_candidate_pool"
+      },
+      {
+        "query_id": "LO_003",
+        "query_group": "local",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: missing_location_fact"
+      },
+      {
+        "query_id": "LO_005",
+        "query_group": "local",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: missing_location_fact"
+      },
+      {
+        "query_id": "LO_006",
+        "query_group": "local",
+        "detected_profile": "disease_priority",
+        "note": "Location-sensitive query with no runtime location entity."
+      },
+      {
+        "query_id": "LO_007",
+        "query_group": "local",
+        "detected_profile": "species_priority",
+        "note": "Location-sensitive query with no runtime location entity."
+      },
+      {
+        "query_id": "SL_001",
+        "query_group": "species-location",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: scoring_or_intent_issue"
+      },
+      {
+        "query_id": "SL_002",
+        "query_group": "species-location",
+        "detected_profile": "species_priority",
+        "note": "Location-sensitive query with no runtime location entity."
+      },
+      {
+        "query_id": "SL_004",
+        "query_group": "species-location",
+        "detected_profile": "species_priority",
+        "note": "Linked error-analysis note: not_error_but_baseline_limitation"
+      }
+    ],
+    "runtime_functions_reused": [
+      "hybrid_search.load_full_metadata",
+      "hybrid_search.build_term_index",
+      "hybrid_search.detect_entities",
+      "kg_runtime.link_query_entities_kg",
+      "hybrid_search._merge_detected_with_kg",
+      "hybrid_search.get_query_profile",
+      "hybrid_search._narrow_local_aquaculture_intent",
+      "hybrid_search._lobster_coastal_vietnam_boost_intent",
+      "hybrid_search._hatchery_vannamei_production_mode_intent",
+      "hybrid_search._biosecurity_hatchery_vannamei_stack_intent",
+      "hybrid_search._thailand_low_water_exchange_intent"
+    ],
+    "input_files_read": [
+      "data\\eval\\final_query_set_core.csv",
+      "data/metadata/document_metadata_cleaned.xlsx",
+      "data/ontology/taxon_enriched_facts_v2.owl via kg_runtime loader",
+      "outputs\\error_analysis_core.csv"
+    ]
+  },
+  "queries": [
+    {
+      "query_id": "BI_001",
+      "query_text": "biosecurity trong hatchery tôm thẻ chân trắng",
+      "query_group": "biosecurity-management",
+      "detected_profile": "species_priority",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "topic: biosecurity; prevention: An toàn sinh học",
+      "alias_matches": "species:tom the chan trang->Penaeus vannamei [kg]; mode:hatchery->hatchery aquaculture [term]; topic:biosecurity->biosecurity [term]; prevention:biosecurity->An toàn sinh học [kg]",
+      "canonical_entities": "{\"species\": [\"Penaeus vannamei\"], \"mode\": [\"hatchery aquaculture\"], \"topic\": [\"biosecurity\"], \"prevention\": [\"An toàn sinh học\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": true,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence. Runtime flags: species_priority, mode-sensitive, topic/management context.",
+      "note": "OK"
+    },
+    {
+      "query_id": "BI_003",
+      "query_text": "surveillance và phân vùng dịch bệnh động vật thủy sản",
+      "query_group": "biosecurity-management",
+      "detected_profile": "generic",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "",
+      "canonical_entities": "{}",
+      "uses_disease_priority": false,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence.",
+      "note": "OK"
+    },
+    {
+      "query_id": "BI_004",
+      "query_text": "Progressive Management Pathway nuôi trồng an toàn sinh học FAO",
+      "query_group": "biosecurity-management",
+      "detected_profile": "generic",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "Nuôi trồng",
+      "detected_topic_or_management_entities": "topic: biosecurity; prevention: An toàn sinh học",
+      "alias_matches": "mode:nuoi trong->Nuôi trồng [kg]; topic:an toan sinh hoc->biosecurity [term]; prevention:an toan sinh hoc->An toàn sinh học [kg]",
+      "canonical_entities": "{\"mode\": [\"Nuôi trồng\"], \"topic\": [\"biosecurity\"], \"prevention\": [\"An toàn sinh học\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence. Runtime flags: mode-sensitive, topic/management context.",
+      "note": "OK"
+    },
+    {
+      "query_id": "BI_006",
+      "query_text": "phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn",
+      "query_group": "biosecurity-management",
+      "detected_profile": "generic",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "Nuôi trồng",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "mode:nuoi trong->Nuôi trồng [kg]",
+      "canonical_entities": "{\"mode\": [\"Nuôi trồng\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence. Runtime flags: mode-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "BI_007",
+      "query_text": "ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia",
+      "query_group": "biosecurity-management",
+      "detected_profile": "generic",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "",
+      "canonical_entities": "{}",
+      "uses_disease_priority": false,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence.",
+      "note": "Linked error-analysis note: missing_alias"
+    },
+    {
+      "query_id": "BI_010",
+      "query_text": "sổ tay chẩn đoán bệnh thủy sản châu Á",
+      "query_group": "biosecurity-management",
+      "detected_profile": "generic",
+      "inferred_profile": "biosecurity-management",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "",
+      "canonical_entities": "{}",
+      "uses_disease_priority": false,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "vector semantics + topic/management/prevention aliases; KG prevention/management context is supporting evidence.",
+      "note": "OK"
+    },
+    {
+      "query_id": "DS_001",
+      "query_text": "bệnh AHPND trên tôm",
+      "query_group": "disease-specific",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "AHPND",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:ahpnd->AHPND [kg]; species:tom->tôm [term]",
+      "canonical_entities": "{\"disease\": [\"AHPND\"], \"species\": [\"tôm\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: disease_priority, species_priority.",
+      "note": "OK"
+    },
+    {
+      "query_id": "DS_002",
+      "query_text": "bệnh đốm trắng ở tôm thẻ chân trắng",
+      "query_group": "disease-specific",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "WSSV",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:benh om trang->WSSV [kg]; species:tom the chan trang->Penaeus vannamei [kg]",
+      "canonical_entities": "{\"disease\": [\"WSSV\"], \"species\": [\"Penaeus vannamei\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: disease_priority, species_priority.",
+      "note": "OK"
+    },
+    {
+      "query_id": "DS_003",
+      "query_text": "infectious myonecrosis",
+      "query_group": "disease-specific",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "IMN",
+      "detected_taxon_entities": "",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:infectious myonecrosis->IMN [kg]",
+      "canonical_entities": "{\"disease\": [\"IMN\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: disease_priority.",
+      "note": "OK"
+    },
+    {
+      "query_id": "DS_006",
+      "query_text": "bệnh vi bào tử trùng gan tụy EHP trên tôm",
+      "query_group": "disease-specific",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "EHP",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:ehp->EHP [kg]; species:tom->tôm [term]",
+      "canonical_entities": "{\"disease\": [\"EHP\"], \"species\": [\"tôm\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: disease_priority, species_priority.",
+      "note": "Linked error-analysis note: not_error_but_baseline_limitation"
+    },
+    {
+      "query_id": "DS_007",
+      "query_text": "bệnh do Vibrio parahaemolyticus trên tôm thẻ",
+      "query_group": "disease-specific",
+      "detected_profile": "species_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom the->Penaeus vannamei [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus vannamei\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: species_priority.",
+      "note": "Expected disease-specific intent but runtime disease entity is missing. Linked error-analysis note: missing_disease_fact"
+    },
+    {
+      "query_id": "DS_010",
+      "query_text": "tình hình AHPND trên tôm nuôi ở Philippines",
+      "query_group": "disease-specific",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "disease-specific",
+      "detected_disease_entities": "AHPND",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "Philippines",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:ahpnd->AHPND [kg]; species:tom->tôm [term]; location:philippines->Philippines [kg]",
+      "canonical_entities": "{\"disease\": [\"AHPND\"], \"species\": [\"tôm\"], \"location\": [\"Philippines\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "KG disease facts + metadata disease + vector; disease evidence should dominate. Runtime flags: disease_priority, species_priority, location-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "HM_001",
+      "query_text": "production mode trại giống tôm thẻ chân trắng",
+      "query_group": "hatchery-production-mode",
+      "detected_profile": "species_priority",
+      "inferred_profile": "hatchery-production-mode",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom the chan trang->Penaeus vannamei [kg]; mode:trai giong->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus vannamei\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": true,
+      "recommended_signal_priority": "production_mode metadata + species + vector; KG mode and hatchery intent guardrails are important. Runtime flags: species_priority, mode-sensitive.",
+      "note": "Linked error-analysis note: weak_candidate_pool"
+    },
+    {
+      "query_id": "HM_002",
+      "query_text": "tài liệu về trại giống tôm sú ở Ấn Độ",
+      "query_group": "hatchery-production-mode",
+      "detected_profile": "species_priority",
+      "inferred_profile": "hatchery-production-mode",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus monodon",
+      "detected_location_entities": "Ấn Độ",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom su->Penaeus monodon [kg]; location:an o->Ấn Độ [kg]; mode:trai giong->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus monodon\"], \"location\": [\"Ấn Độ\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "production_mode metadata + species + vector; KG mode and hatchery intent guardrails are important. Runtime flags: species_priority, location-sensitive, mode-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "HM_007",
+      "query_text": "trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh",
+      "query_group": "hatchery-production-mode",
+      "detected_profile": "species_priority",
+      "inferred_profile": "hatchery-production-mode",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "Ấn Độ; Bangladesh",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom->tôm [term]; location:an o->Ấn Độ [kg]; location:bangladesh->Bangladesh [kg]; mode:trai giong->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"tôm\"], \"location\": [\"Ấn Độ\", \"Bangladesh\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "production_mode metadata + species + vector; KG mode and hatchery intent guardrails are important. Runtime flags: species_priority, location-sensitive, mode-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "HM_010",
+      "query_text": "broodstock và post-larvae tôm thẻ trong trại giống probiotics",
+      "query_group": "hatchery-production-mode",
+      "detected_profile": "species_priority",
+      "inferred_profile": "hatchery-production-mode",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "broodstock; post-larvae; Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:broodstock->broodstock [term]; species:post-larvae->post-larvae [term]; species:tom the->Penaeus vannamei [term]; mode:trai giong->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"broodstock\", \"post-larvae\", \"Penaeus vannamei\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": true,
+      "recommended_signal_priority": "production_mode metadata + species + vector; KG mode and hatchery intent guardrails are important. Runtime flags: species_priority, mode-sensitive.",
+      "note": "Linked error-analysis note: metadata_incomplete"
+    },
+    {
+      "query_id": "LO_001",
+      "query_text": "nuôi tôm hùm ở Khánh Hòa",
+      "query_group": "local",
+      "detected_profile": "species_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "lobster",
+      "detected_location_entities": "Khanh Hoa",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom hum->lobster [kg]; location:khanh hoa->Khanh Hoa [kg]",
+      "canonical_entities": "{\"species\": [\"lobster\"], \"location\": [\"Khanh Hoa\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: species_priority, location-sensitive.",
+      "note": "Linked error-analysis note: weak_candidate_pool"
+    },
+    {
+      "query_id": "LO_002",
+      "query_text": "hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024",
+      "query_group": "local",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "WSSV; AHPND; EHP",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "Đồng bằng sông Cửu Long",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:benh om trang->WSSV [kg]; disease:ahpnd->AHPND [kg]; disease:ehp->EHP [kg]; species:tom->tôm [term]; location:bscl->Đồng bằng sông Cửu Long [kg]",
+      "canonical_entities": "{\"disease\": [\"WSSV\", \"AHPND\", \"EHP\"], \"species\": [\"tôm\"], \"location\": [\"Đồng bằng sông Cửu Long\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: disease_priority, species_priority, location-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "LO_003",
+      "query_text": "thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh",
+      "query_group": "local",
+      "detected_profile": "species_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "Thạch Hà; Cẩm Xuyên; Nghi Xuân; Hà Tĩnh",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom->tôm [term]; location:thach ha->Thạch Hà [term]; location:cam xuyen->Cẩm Xuyên [term]; location:nghi xuan->Nghi Xuân [term]; location:ha tinh->Hà Tĩnh [term]",
+      "canonical_entities": "{\"species\": [\"tôm\"], \"location\": [\"Thạch Hà\", \"Cẩm Xuyên\", \"Nghi Xuân\", \"Hà Tĩnh\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: species_priority, location-sensitive.",
+      "note": "Linked error-analysis note: missing_location_fact"
+    },
+    {
+      "query_id": "LO_004",
+      "query_text": "quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030",
+      "query_group": "local",
+      "detected_profile": "species_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "lobster",
+      "detected_location_entities": "Khanh Hoa",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom hum->lobster [kg]; location:khanh hoa->Khanh Hoa [kg]",
+      "canonical_entities": "{\"species\": [\"lobster\"], \"location\": [\"Khanh Hoa\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: species_priority, location-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "LO_005",
+      "query_text": "rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long",
+      "query_group": "local",
+      "detected_profile": "species_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "Đồng bằng sông Cửu Long",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom->tôm [term]; location:ong bang song cuu long->Đồng bằng sông Cửu Long [kg]",
+      "canonical_entities": "{\"species\": [\"tôm\"], \"location\": [\"Đồng bằng sông Cửu Long\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: species_priority, location-sensitive.",
+      "note": "Linked error-analysis note: missing_location_fact"
+    },
+    {
+      "query_id": "LO_006",
+      "query_text": "bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng",
+      "query_group": "local",
+      "detected_profile": "disease_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "WSSV",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "disease:benh om trang->WSSV [kg]; disease:benh om trang->WSSV [kg]; species:tom->tôm [term]",
+      "canonical_entities": "{\"disease\": [\"WSSV\"], \"species\": [\"tôm\"]}",
+      "uses_disease_priority": true,
+      "uses_species_priority": false,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: disease_priority, species_priority.",
+      "note": "Location-sensitive query with no runtime location entity."
+    },
+    {
+      "query_id": "LO_007",
+      "query_text": "các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả",
+      "query_group": "local",
+      "detected_profile": "species_priority",
+      "inferred_profile": "local",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "tôm",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom->tôm [term]",
+      "canonical_entities": "{\"species\": [\"tôm\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "location metadata/KG + lexical exact terms + vector; guardrails should protect local aquaculture intent. Runtime flags: species_priority.",
+      "note": "Location-sensitive query with no runtime location entity."
+    },
+    {
+      "query_id": "SL_001",
+      "query_text": "nuôi tôm sú và trại giống tại Bangladesh",
+      "query_group": "species-location",
+      "detected_profile": "species_priority",
+      "inferred_profile": "species-location",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus monodon",
+      "detected_location_entities": "Bangladesh",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom su->Penaeus monodon [kg]; location:bangladesh->Bangladesh [kg]; mode:trai giong->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus monodon\"], \"location\": [\"Bangladesh\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary. Runtime flags: species_priority, location-sensitive, mode-sensitive.",
+      "note": "Linked error-analysis note: scoring_or_intent_issue"
+    },
+    {
+      "query_id": "SL_002",
+      "query_text": "tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương",
+      "query_group": "species-location",
+      "detected_profile": "species_priority",
+      "inferred_profile": "species-location",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom the chan trang->Penaeus vannamei [kg]; species:penaeus vannamei->Penaeus vannamei [kg]",
+      "canonical_entities": "{\"species\": [\"Penaeus vannamei\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary. Runtime flags: species_priority.",
+      "note": "Location-sensitive query with no runtime location entity."
+    },
+    {
+      "query_id": "SL_004",
+      "query_text": "nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan",
+      "query_group": "species-location",
+      "detected_profile": "species_priority",
+      "inferred_profile": "species-location",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus vannamei",
+      "detected_location_entities": "Thailand",
+      "detected_production_mode_entities": "",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:tom the->Penaeus vannamei [term]; location:thai lan->Thailand [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus vannamei\"], \"location\": [\"Thailand\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": true,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary. Runtime flags: species_priority, location-sensitive.",
+      "note": "Linked error-analysis note: not_error_but_baseline_limitation"
+    },
+    {
+      "query_id": "SL_006",
+      "query_text": "Penaeus monodon hatchery manual Ấn Độ kinh nghiệm",
+      "query_group": "species-location",
+      "detected_profile": "species_priority",
+      "inferred_profile": "species-location",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "Penaeus monodon",
+      "detected_location_entities": "Ấn Độ",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:penaeus monodon->Penaeus monodon [kg]; location:an o->Ấn Độ [kg]; mode:hatchery->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"Penaeus monodon\"], \"location\": [\"Ấn Độ\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary. Runtime flags: species_priority, location-sensitive, mode-sensitive.",
+      "note": "OK"
+    },
+    {
+      "query_id": "SL_007",
+      "query_text": "shrimp hatchery Latin America white shrimp",
+      "query_group": "species-location",
+      "detected_profile": "species_priority",
+      "inferred_profile": "species-location",
+      "detected_disease_entities": "",
+      "detected_taxon_entities": "shrimp; Penaeus vannamei",
+      "detected_location_entities": "Mỹ Latin",
+      "detected_production_mode_entities": "hatchery aquaculture",
+      "detected_topic_or_management_entities": "",
+      "alias_matches": "species:shrimp->shrimp [kg]; species:white shrimp->Penaeus vannamei [kg]; location:latin america->Mỹ Latin [kg]; mode:hatchery->hatchery aquaculture [term]",
+      "canonical_entities": "{\"species\": [\"shrimp\", \"Penaeus vannamei\"], \"location\": [\"Mỹ Latin\"], \"mode\": [\"hatchery aquaculture\"]}",
+      "uses_disease_priority": false,
+      "uses_species_priority": true,
+      "uses_location_guardrail": false,
+      "uses_production_mode_guardrail": false,
+      "recommended_signal_priority": "metadata species/location + vector; KG location/taxon facts and intent guardrails are secondary. Runtime flags: species_priority, location-sensitive, mode-sensitive.",
+      "note": "OK"
+    }
+  ]
+}

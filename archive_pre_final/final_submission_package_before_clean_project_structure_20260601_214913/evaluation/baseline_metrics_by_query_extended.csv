@@ -1,0 +1,577 @@
+﻿baseline_name,query_id,query_text,query_group,p_at_1,p_at_3,p_at_5,recall_at_5,recall_at_10,mrr,ndcg_at_5,ndcg_at_10,map
+lexical,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.25,0.3333333333333333,0.3288315337890528,0.3288315337890528,0.08333333333333333
+lexical,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,0.3333333333333333,0.2,0.16666666666666666,0.16666666666666666,1.0,0.3391602052736162,0.3026024134988135,0.16666666666666666
+lexical,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.3333333333333333,0.4,0.4,0.4,1.0,0.5317398689291577,0.5317398689291577,0.3
+lexical,DS_003,infectious myonecrosis,disease-specific,1.0,0.3333333333333333,0.2,0.25,0.25,1.0,0.3903800499921017,0.3903800499921017,0.25
+lexical,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+lexical,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,1.0,0.6,1.0,1.0,1.0,1.0,1.0,1.0
+lexical,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+lexical,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+lexical,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,0.3333333333333333,0.4,0.4,0.4,1.0,0.6911126357085503,0.6911126357085503,0.3
+lexical,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,1.0,0.3333333333333333,0.4,0.6666666666666666,1.0,1.0,0.8304853296300547,0.9068518852494014,0.625
+lexical,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lexical,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+lexical,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.48306700197788277,0.48306700197788277,0.2
+lexical,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,0.6666666666666666,0.8,0.17391304347826086,0.34782608695652173,1.0,0.4724368800748339,0.5792493645213027,0.27211870255348514
+lexical,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,1.0,1.0,0.17857142857142858,0.32142857142857145,1.0,1.0,0.9305687780632227,0.31388888888888894
+lexical,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5294117647058824,1.0,0.9125299483251055,0.8769836981178636,0.5235294117647059
+lexical,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,0.6,0.15,0.35,1.0,0.4670156610640614,0.5303255851651402,0.2781547619047619
+lexical,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,0.6666666666666666,0.8,0.19047619047619047,0.38095238095238093,1.0,0.5599069317497284,0.6008090076880221,0.3088057445200302
+lexical,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6864231448093615,0.7018307059217811,0.38461538461538464
+lexical,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,0.8,0.13333333333333333,0.23333333333333334,1.0,0.7261374126646399,0.5830517807844957,0.20666666666666667
+lexical,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.34782608695652173,1.0,0.6568190367442152,0.5511682630522946,0.34299516908212563
+lexical,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,1.0,0.8,0.15384615384615385,0.2692307692307692,1.0,0.4878817072119659,0.5023431976741392,0.22275641025641027
+lexical,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,1.0,1.0,0.8,0.14814814814814814,0.2962962962962963,1.0,0.7652619595605827,0.7673315388700828,0.25340975896531454
+lexical,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.3333333333333333,0.4,0.16666666666666666,0.16666666666666666,1.0,0.47036528278595796,0.3520062429247245,0.11666666666666665
+lexical,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,0.8,0.2222222222222222,0.5,1.0,0.9271183815384791,0.9403208750970035,0.46413139329805997
+lexical,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,0.6666666666666666,0.6,0.11538461538461539,0.23076923076923078,1.0,0.45917841013269417,0.5598928323063278,0.17742673992673993
+lexical,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,0.6666666666666666,0.6,0.6,0.6,1.0,0.6843515475204855,0.6843515475204855,0.52
+lexical,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,1.0,1.0,0.8,0.3333333333333333,0.4166666666666667,1.0,0.9129675424759451,0.7413573627891256,0.3761904761904762
+lexical,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,1.0,1.0,0.2777777777777778,0.5555555555555556,1.0,0.7698724385020872,0.8174854440690185,0.5555555555555556
+lexical,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,1.0,0.35714285714285715,0.5714285714285714,1.0,0.773893196484256,0.7207146135735067,0.5482142857142857
+lexical,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,1.0,0.6666666666666666,0.8,0.2222222222222222,0.4444444444444444,1.0,0.534899027515171,0.6394436806007302,0.35432098765432096
+lexical,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,0.0,0.0,0.2,0.1,0.3,0.25,0.14606834984270647,0.22188765398606355,0.08
+lexical,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,1.0,0.8,0.26666666666666666,0.4666666666666667,1.0,0.6326497549195461,0.6259139530214073,0.41613756613756614
+lexical,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,1.0,0.20833333333333334,0.375,1.0,1.0,0.9539959859595428,0.37083333333333335
+lexical,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,0.6666666666666666,0.4,0.08695652173913043,0.13043478260869565,1.0,0.7072908790226796,0.5830870753439809,0.08876811594202898
+lexical,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,1.0,0.8,0.2857142857142857,0.6428571428571429,1.0,0.8687949224876583,0.7754906373646948,0.5967403628117914
+lexical,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,0.6666666666666666,0.8,0.3333333333333333,0.5833333333333334,1.0,0.6877623875401737,0.6675041426152494,0.5096230158730158
+lexical,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.6666666666666666,0.6,0.14285714285714285,0.23809523809523808,1.0,0.8207820281163857,0.7193146851551043,0.1865079365079365
+lexical,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.9026211001048624,0.8356329630349425,0.38461538461538464
+lexical,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,1.0,1.0,0.20833333333333334,0.2916666666666667,1.0,0.5216166812168791,0.5805736954489666,0.2916666666666667
+lexical,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.4,1.0,1.0,0.8701249883466592,0.4
+lexical,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,0.6666666666666666,0.8,0.14285714285714285,0.21428571428571427,1.0,0.8989584458539029,0.7767672279352504,0.17610544217687077
+lexical,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.8156325058538716,0.9197519584037854,0.5263157894736842
+lexical,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.3,1.0,0.646910188523972,0.5610259960995225,0.2966666666666667
+lexical,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,0.6666666666666666,0.6,0.10714285714285714,0.25,1.0,0.6992148198508502,0.5917911244212368,0.196343537414966
+lexical,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.08,0.24,1.0,0.5531464700081438,0.4538922772428895,0.17185714285714282
+lexical,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.8151510484299679,0.7291934843487726,0.3448275862068966
+lexical,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,1.0,1.0,0.8,0.2222222222222222,0.3888888888888889,1.0,0.6583626208346486,0.6235956213777245,0.353395061728395
+lexical,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.646910188523972,0.7186033597527862,0.37037037037037035
+lexical,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.32142857142857145,1.0,0.7020976466720958,0.6190470387719832,0.30432256235827665
+lexical,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,0.8,0.13793103448275862,0.20689655172413793,1.0,0.8539316501572936,0.7019727018777484,0.18563218390804595
+lexical,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.9125299483251055,0.8667502567639678,0.4166666666666667
+lexical,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,1.0,1.0,0.22727272727272727,0.45454545454545453,1.0,0.7895676983469904,0.8192743526846801,0.45454545454545453
+lexical,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,0.0,0.6666666666666666,0.8,0.15384615384615385,0.3076923076923077,0.5,0.660839794726384,0.6238936706629153,0.2301892551892552
+lexical,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,1.0,0.8,0.21052631578947367,0.3157894736842105,1.0,0.7261374126646399,0.5708186934861819,0.2859649122807017
+lexical,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.391304347826087,1.0,0.7895676983469904,0.7446172239266844,0.37047964113181503
+lexical,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,1.0,0.6666666666666666,0.6,0.5,0.5,1.0,0.850140288426797,0.8040236524147698,0.43333333333333335
+lexical,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,1.0,1.0,0.8,0.2857142857142857,0.6428571428571429,1.0,0.8281827047067386,0.930231266888978,0.5967403628117914
+lexical,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,1.0,0.6,0.3,0.4,1.0,0.6856253995855359,0.5694336066242911,0.3571428571428571
+lexical,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,0.6666666666666666,0.8,0.16,0.24,1.0,0.5329536911612706,0.501490312787157,0.19099999999999998
+lexical,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,0.8,0.17391304347826086,0.2608695652173913,1.0,0.6287585127695022,0.4974192162948035,0.23007246376811596
+lexical,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,1.0,1.0,1.0,0.19230769230769232,0.34615384615384615,1.0,0.8573424901769817,0.700203961220305,0.3423076923076923
+lexical,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.42857142857142855,1.0,1.0,0.9216017310213247,0.40576341647770214
+lexical,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3103448275862069,1.0,0.7020976466720958,0.600338492114346,0.3103448275862069
+lexical,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,1.0,1.0,0.8,0.3333333333333333,0.5,1.0,0.7557415207297863,0.680315262421137,0.47420634920634913
+lexical,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.8613098738256916,0.9673399266021623,0.4
+lexical,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.7994765465672335,0.8499346995954219,0.37037037037037035
+lexical,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.8932868997079265,0.9108954758022454,0.37037037037037035
+lexical,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.8151510484299679,0.7869669149567193,0.3333333333333333
+lexical,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,0.9575861412006988,0.35714285714285715
+lexical,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,0.0,0.3333333333333333,0.2,0.09090909090909091,0.09090909090909091,0.5,0.3047813445164083,0.242496821534539,0.045454545454545456
+lexical,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.8573424901769817,0.9368037035641623,0.38461538461538464
+lexical,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,0.9086768598011254,0.4166666666666667
+lexical,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.9125299483251055,0.797893645217303,0.4166666666666667
+lexical,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,0.8083682423538655,0.35714285714285715
+lexical,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.9125299483251055,0.9290741459142807,0.4166666666666667
+lexical,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.7968124369890611,0.9124031819349623,0.3225806451612903
+lexical,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,1.0,1.0,0.5
+lexical,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,0.6666666666666666,0.8,0.11764705882352941,0.2647058823529412,1.0,0.6011647836954404,0.6023343810309869,0.22267740429505137
+lexical,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.9477344873475498,0.3448275862068966
+lexical,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,1.0,0.901447006056365,0.37037037037037035
+vector,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,0.0,0.3333333333333333,0.4,0.4,0.4,0.3333333333333333,0.31088204556583054,0.31088204556583054,0.16666666666666666
+vector,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,1.0,1.0,0.8003066501511268,0.8499445866159209,0.6666666666666666
+vector,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.8807824012671632,0.8807824012671632,0.65
+vector,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.8472668887613066,0.8472668887613066,0.5555555555555555
+vector,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48093130062056877,0.18055555555555555
+vector,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.7262287617954056,0.7991009754668488,0.40740740740740744
+vector,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,1.0,0.8333333333333334,0.8333333333333334,1.0,1.0,0.892210845475489,0.8333333333333334
+vector,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,0.0,0.3333333333333333,0.4,0.4,0.6,0.3333333333333333,0.23376233170843608,0.35101123138963924,0.22166666666666668
+vector,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.6,0.75,0.75,1.0,0.8318724637288825,0.8318724637288825,0.75
+vector,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+vector,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.16666666666666666,0.1,0.0,0.034298644859944834,0.016666666666666666
+vector,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.3333333333333333,0.6,0.42857142857142855,0.42857142857142855,1.0,0.4313599096558011,0.3882517634911012,0.3
+vector,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,0.0,0.0,0.2,0.2,0.2,0.25,0.16006965043811028,0.16006965043811028,0.05
+vector,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.5891125087409779,0.7726151847378835,0.5
+vector,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+vector,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.0,0.0,0.2,0.1111111111111111,0.0,0.11188388426079096,0.02222222222222222
+vector,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+vector,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.7002755876478819,0.7002755876478819,0.6666666666666666
+vector,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+vector,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+vector,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+vector,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.6,0.6,0.6,1.0,0.8683595134906049,0.8683595134906049,0.6
+vector,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,1.0,0.7262287617954056,0.7262287617954056,0.3333333333333333
+vector,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,1.0,1.0,0.7002755876478819,0.7865048891265763,0.8333333333333334
+vector,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+vector,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,0.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,0.5,0.45819933371607996,0.45819933371607996,0.16666666666666666
+vector,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.8472668887613066,0.8472668887613066,0.5555555555555555
+vector,SL_007,shrimp hatchery Latin America white shrimp,species-location,0.0,0.0,0.0,0.0,0.2,0.14285714285714285,0.0,0.16102233399262758,0.02857142857142857
+vector,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,1.0,0.8,0.17391304347826086,0.391304347826087,1.0,0.7112741403342753,0.7213135328492051,0.35453761214630775
+vector,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,0.6666666666666666,0.8,0.14285714285714285,0.32142857142857145,1.0,0.7860137352654726,0.8611375561264454,0.27039399092970523
+vector,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5882352941176471,1.0,1.0,0.9537125187088151,0.5882352941176471
+vector,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.25,0.45,1.0,0.9026211001048624,0.80125965025814,0.43944444444444447
+vector,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,1.0,1.0,0.23809523809523808,0.38095238095238093,1.0,0.759963590281844,0.6082571618726577,0.3586734693877551
+vector,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,1.0,0.955830517697074,0.38461538461538464
+vector,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,0.8,0.13333333333333333,0.3,1.0,0.5147714448836774,0.4952437351898595,0.2718121693121693
+vector,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,0.6666666666666666,0.8,0.17391304347826086,0.34782608695652173,1.0,0.5029134359701415,0.4684597683739077,0.30453761214630776
+vector,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,1.0,0.8,0.15384615384615385,0.34615384615384615,1.0,0.6326497549195461,0.6991951932176496,0.32132173382173385
+vector,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,0.0,0.6666666666666666,0.8,0.14814814814814814,0.3333333333333333,0.5,0.5839296214770747,0.6593007041766439,0.2618900646678424
+vector,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.6666666666666666,0.4,0.16666666666666666,0.3333333333333333,1.0,0.5087403079104242,0.43338320200898106,0.2079365079365079
+vector,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,0.8,0.2222222222222222,0.3888888888888889,1.0,0.9402694138204842,0.8824353185950212,0.3482363315696648
+vector,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,1.0,1.0,0.19230769230769232,0.2692307692307692,1.0,0.8151510484299679,0.7043545902373527,0.2576923076923077
+vector,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,0.6666666666666666,0.6,0.6,0.6,1.0,0.6548086577531307,0.6548086577531307,0.4833333333333333
+vector,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,1.0,0.6666666666666666,0.6,0.25,0.25,1.0,0.811925988329848,0.6140056738569694,0.21666666666666667
+vector,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,0.3333333333333333,0.4,0.1111111111111111,0.3333333333333333,1.0,0.387849655221185,0.48621705464311843,0.20705467372134037
+vector,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,0.8,0.2857142857142857,0.35714285714285715,1.0,0.5147714448836774,0.41192845833618763,0.31607142857142856
+vector,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,0.0,0.0,0.2,0.05555555555555555,0.16666666666666666,0.2,0.04792722246291238,0.10440413520853233,0.04365079365079365
+vector,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,0.0,0.3333333333333333,0.2,0.1,0.1,0.3333333333333333,0.05652670087893603,0.04483142150383406,0.03333333333333333
+vector,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,0.6666666666666666,0.6,0.2,0.3333333333333333,1.0,0.5451460277895953,0.5917270505065986,0.24087301587301588
+vector,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,0.8,0.16666666666666666,0.2916666666666667,1.0,0.9129675424759451,0.8350324781332514,0.25
+vector,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,0.3333333333333333,0.2,0.043478260869565216,0.043478260869565216,1.0,0.20208310829219417,0.15282202671858752,0.043478260869565216
+vector,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.6666666666666666,0.8,0.2857142857142857,0.5,1.0,0.830419897363192,0.6638233430127315,0.42987528344671194
+vector,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,1.0,0.8,0.3333333333333333,0.5833333333333334,1.0,0.8539316501572936,0.71989411284227,0.5223544973544972
+vector,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,0.6666666666666666,0.8,0.19047619047619047,0.23809523809523808,1.0,0.6511450647445489,0.5365932175824272,0.19285714285714284
+vector,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,0.3333333333333333,0.6,0.11538461538461539,0.2692307692307692,1.0,0.5190547327335268,0.47356865522207525,0.18301282051282053
+vector,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,0.6666666666666666,0.8,0.16666666666666666,0.2916666666666667,1.0,0.41100895468482196,0.44566065059003734,0.2368716931216931
+vector,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.45,1.0,0.9026211001048624,0.8210299761883049,0.4331944444444445
+vector,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,0.3333333333333333,0.2,0.03571428571428571,0.14285714285714285,1.0,0.6062493248765826,0.6052878388612183,0.07529761904761904
+vector,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,0.0,0.6666666666666666,0.8,0.21052631578947367,0.42105263157894735,0.5,0.39772660838652996,0.5255261458521564,0.3030910609857978
+vector,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.3,1.0,0.6568190367442152,0.5220464910454368,0.3
+vector,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,0.6666666666666666,0.6,0.10714285714285714,0.2857142857142857,1.0,0.596881495845591,0.5909413987104533,0.22531179138321994
+vector,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,1.0,0.8,0.16,0.24,1.0,0.6238040886593808,0.5346811816055195,0.1982222222222222
+vector,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,0.6666666666666666,0.8,0.13793103448275862,0.27586206896551724,1.0,0.830419897363192,0.7503002113928889,0.22731253420908593
+vector,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,1.0,1.0,1.0,0.2777777777777778,0.3888888888888889,1.0,0.7442890884191097,0.5990383708637219,0.35833333333333334
+vector,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.7994765465672335,0.7794170358787817,0.37037037037037035
+vector,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.2857142857142857,1.0,0.646910188523972,0.5119997596182767,0.2741071428571428
+vector,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.8573424901769817,0.8088720434739952,0.3448275862068966
+vector,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,0.6666666666666666,0.8,0.16666666666666666,0.2916666666666667,1.0,0.6011647836954404,0.7322776925684107,0.22744708994708995
+vector,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,1.0,1.0,0.22727272727272727,0.4090909090909091,1.0,0.9125299483251055,0.7823043266661122,0.40454545454545454
+vector,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,0.0,0.6666666666666666,0.8,0.15384615384615385,0.23076923076923078,0.5,0.5181822849033656,0.42302937529594087,0.15160256410256412
+vector,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,0.6666666666666666,0.8,0.21052631578947367,0.3684210526315789,1.0,0.7330409974680543,0.5963970570950083,0.31265664160400997
+vector,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.2608695652173913,1.0,0.7994765465672335,0.6265043658247194,0.2546583850931677
+vector,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,1.0,1.0,0.6,0.5,0.8333333333333334,1.0,0.7073371794979774,0.7610293640855599,0.6666666666666666
+vector,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,1.0,1.0,0.8,0.2857142857142857,0.5714285714285714,1.0,0.8118947216573654,0.8102997625408546,0.504875283446712
+vector,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,0.6666666666666666,0.4,0.2,0.3,1.0,0.3031246624382913,0.2801737156507438,0.2095238095238095
+vector,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,1.0,1.0,0.2,0.36,1.0,0.47476776900380596,0.5393978322287291,0.34655555555555556
+vector,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.391304347826087,1.0,0.759963590281844,0.5889802486595103,0.391304347826087
+vector,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,1.0,1.0,0.8,0.15384615384615385,0.2692307692307692,1.0,0.5000306091488959,0.49676978252437504,0.252518315018315
+vector,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.42857142857142855,1.0,0.8869465982421281,0.8010066431488297,0.4125661375661376
+vector,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3103448275862069,1.0,0.7994765465672335,0.6096956267012319,0.2938286808976464
+vector,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,1.0,1.0,0.8,0.3333333333333333,0.5833333333333334,1.0,0.8687949224876583,0.8421607465490631,0.5325396825396825
+vector,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.8613098738256916,0.9580860089774811,0.4
+vector,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.5338567867660999,0.6511534180765809,0.37037037037037035
+vector,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.876109927169651,0.8965528509418313,0.37037037037037035
+vector,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.6312356866612376,0.7144097119277253,0.3333333333333333
+vector,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.7442890884191097,0.8340611153182702,0.35714285714285715
+vector,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,1.0,1.0,0.8,0.36363636363636365,0.45454545454545453,1.0,0.6086067874378557,0.5212669524778402,0.3909090909090909
+vector,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.9026211001048624,0.981352725671237,0.38461538461538464
+vector,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,0.955830517697074,0.4166666666666667
+vector,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.6568190367442152,0.7348851780912218,0.4166666666666667
+vector,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.6312356866612376,0.6278263708254982,0.35714285714285715
+vector,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.8869465982421281,0.9123709313790119,0.4166666666666667
+vector,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.47476776900380596,0.5821032065260975,0.3225806451612903
+vector,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,1.0,0.9537125187088151,0.5
+vector,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,1.0,0.8,0.11764705882352941,0.23529411764705882,1.0,0.8687949224876583,0.8364586133797036,0.20711951447245563
+vector,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.9026211001048624,0.9368077570869662,0.3448275862068966
+vector,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.773893196484256,0.8091026734983539,0.37037037037037035
+vector_metadata,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.6666666666666666,0.4,0.4,0.6,1.0,0.5846607834833523,0.7567327214425993,0.5
+vector_metadata,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,1.0,1.0,0.8003066501511268,0.8499445866159209,0.6666666666666666
+vector_metadata,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,0.75,1.0,0.8807824012671632,0.8807824012671632,0.65
+vector_metadata,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.8472668887613066,0.8472668887613066,0.5555555555555555
+vector_metadata,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48093130062056877,0.18055555555555555
+vector_metadata,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.7262287617954056,0.7991009754668488,0.40740740740740744
+vector_metadata,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,1.0,0.8333333333333334,0.8333333333333334,1.0,1.0,0.892210845475489,0.8333333333333334
+vector_metadata,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,0.0,0.3333333333333333,0.6,0.6,0.8,0.3333333333333333,0.48968642707237114,0.5971232142280172,0.3666666666666666
+vector_metadata,DS_003,infectious myonecrosis,disease-specific,1.0,1.0,0.8,1.0,1.0,1.0,0.9828920819566878,0.9828920819566878,0.95
+vector_metadata,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+vector_metadata,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26381509330158276,0.1253968253968254
+vector_metadata,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.4,0.2857142857142857,0.5714285714285714,1.0,0.402555834981569,0.5655122534866878,0.391156462585034
+vector_metadata,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+vector_metadata,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7911945728506091,0.46875
+vector_metadata,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,0.0,0.3333333333333333,0.4,0.5,0.5,0.5,0.5093525525989454,0.5093525525989454,0.25
+vector_metadata,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.2,0.6,0.2,0.14378166738873713,0.31346789853618745,0.17333333333333334
+vector_metadata,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,1.0,1.0,0.8262346571285599,0.9243382314975351,0.6666666666666666
+vector_metadata,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.6051906348295047,0.6051906348295047,0.5555555555555555
+vector_metadata,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,0.0,0.3333333333333333,0.2,1.0,1.0,0.3333333333333333,0.5,0.5,0.3333333333333333
+vector_metadata,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+vector_metadata,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+vector_metadata,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+vector_metadata,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.3631143808977028,0.44934368237639727,0.2222222222222222
+vector_metadata,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.6666666666666666,0.6,1.0,1.0,0.5,0.6094953705347356,0.6094953705347356,0.5888888888888889
+vector_metadata,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+vector_metadata,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.24207625393180188,0.48415250786360375,0.42857142857142855
+vector_metadata,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.940914767159646,0.940914767159646,0.7555555555555555
+vector_metadata,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.4,1.0,0.7878483464942911,0.7878483464942911,0.4
+vector_metadata,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+vector_metadata,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,1.0,0.35714285714285715
+vector_metadata,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5882352941176471,1.0,1.0,0.9086768598011254,0.5882352941176471
+vector_metadata,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.25,0.45,1.0,1.0,0.8099497858086888,0.42605158730158726
+vector_metadata,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+vector_metadata,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,1.0,1.0,0.38461538461538464
+vector_metadata,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.5733697430514895,0.5332700211316629,0.3333333333333333
+vector_metadata,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.5594401368490775,0.669937311674563,0.43478260869565216
+vector_metadata,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6863024195657901,0.7431286862216819,0.38461538461538464
+vector_metadata,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.6863024195657901,0.7431286862216819,0.37037037037037035
+vector_metadata,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.6666666666666666,0.4,0.16666666666666666,0.3333333333333333,1.0,0.5087403079104242,0.5454006227637571,0.21626984126984125
+vector_metadata,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,1.0,0.2777777777777778,0.5555555555555556,1.0,1.0,1.0,0.5555555555555556
+vector_metadata,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,1.0,1.0,0.19230769230769232,0.3076923076923077,1.0,0.8151510484299679,0.7313457954791712,0.2914529914529914
+vector_metadata,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,1.0,0.6,0.6,0.6,1.0,0.7227265726449518,0.7227265726449518,0.6
+vector_metadata,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,1.0,1.0,0.8,0.3333333333333333,0.4166666666666667,1.0,0.9129675424759451,0.7448529914818381,0.38611111111111107
+vector_metadata,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,1.0,0.8,0.2222222222222222,0.3333333333333333,1.0,0.766461598482399,0.7933604726819631,0.305026455026455
+vector_metadata,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,1.0,0.35714285714285715,0.6428571428571429,1.0,1.0,0.9095887083455468,0.6086451247165533
+vector_metadata,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,0.0,0.0,0.2,0.05555555555555555,0.1111111111111111,0.25,0.053356550146036755,0.0771862042303474,0.027777777777777776
+vector_metadata,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,1.0,0.3333333333333333,0.2,0.1,0.2,1.0,0.3391602052736162,0.29490690316418394,0.12
+vector_metadata,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,0.3333333333333333,0.4,0.13333333333333333,0.4,1.0,0.4697230431691693,0.6046070093054435,0.25087301587301586
+vector_metadata,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+vector_metadata,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.5958337834156117,0.694355946562825,0.43478260869565216
+vector_metadata,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,1.0,1.0,0.35714285714285715,0.5,1.0,0.9125299483251055,0.6926525070342375,0.48412698412698413
+vector_metadata,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,1.0,1.0,0.4166666666666667,0.6666666666666666,1.0,0.9125299483251055,0.8133629099189119,0.6666666666666666
+vector_metadata,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,1.0,0.8,0.19047619047619047,0.23809523809523808,1.0,0.6917222807262043,0.5775399013961896,0.23015873015873015
+vector_metadata,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,1.0,1.0,0.19230769230769232,0.34615384615384615,1.0,0.9125299483251055,0.6830595488005919,0.32773199023199023
+vector_metadata,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.6130649606359733,0.6769125582181964,0.4166666666666667
+vector_metadata,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.45,1.0,1.0,0.8874699304014749,0.45
+vector_metadata,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,0.6666666666666666,0.8,0.14285714285714285,0.32142857142857145,1.0,0.8989584458539029,0.9235889866407062,0.2822987528344671
+vector_metadata,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.7369550334663224,0.780359707276365,0.5263157894736842
+vector_metadata,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.26666666666666666,1.0,0.5733697430514895,0.4458088682776233,0.26666666666666666
+vector_metadata,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.7020976466720958,0.6613374802049091,0.35714285714285715
+vector_metadata,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,1.0,1.0,0.2,0.36,1.0,0.5594401368490775,0.456917436886461,0.35155555555555557
+vector_metadata,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.8441728713202429,0.3448275862068966
+vector_metadata,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,1.0,1.0,1.0,0.2777777777777778,0.3888888888888889,1.0,0.7442890884191097,0.5990383708637219,0.35833333333333334
+vector_metadata,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.7895676983469904,0.7258332134975467,0.37037037037037035
+vector_metadata,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.6568190367442152,0.6134413161112118,0.35714285714285715
+vector_metadata,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.9026211001048624,0.8437289933844667,0.3448275862068966
+vector_metadata,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.20833333333333334,0.375,1.0,0.8151510484299679,0.7636005133955531,0.375
+vector_metadata,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,1.0,1.0,0.22727272727272727,0.4090909090909091,1.0,0.9125299483251055,0.7872233585332482,0.3994949494949495
+vector_metadata,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6864231448093615,0.6529214245222078,0.38461538461538464
+vector_metadata,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,1.0,1.0,0.2631578947368421,0.47368421052631576,1.0,0.9125299483251055,0.7872233585332482,0.4625730994152047
+vector_metadata,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,0.8,0.17391304347826086,0.2608695652173913,1.0,0.7714160225925206,0.6318965093706754,0.236231884057971
+vector_metadata,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,1.0,1.0,0.6,0.5,0.8333333333333334,1.0,0.7073371794979774,0.7610293640855599,0.6666666666666666
+vector_metadata,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,1.0,1.0,0.8,0.2857142857142857,0.5714285714285714,1.0,0.8118947216573654,0.8102997625408546,0.504875283446712
+vector_metadata,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,0.3333333333333333,0.6,0.3,0.4,1.0,0.5236448190288007,0.45043408557919706,0.27666666666666667
+vector_metadata,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,1.0,1.0,0.2,0.4,1.0,0.7968124369890611,0.8383354523103074,0.4
+vector_metadata,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.6568190367442152,0.589540901736272,0.43478260869565216
+vector_metadata,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,1.0,1.0,0.6,0.11538461538461539,0.23076923076923078,1.0,0.5800690628219335,0.5757313643284231,0.17905982905982903
+vector_metadata,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,0.955830517697074,0.47619047619047616
+vector_metadata,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.9125299483251055,0.797893645217303,0.3448275862068966
+vector_metadata,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,1.0,1.0,1.0,0.4166666666666667,0.6666666666666666,1.0,1.0,0.927276289835377,0.6106481481481482
+vector_metadata,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.8613098738256916,0.9520896899080846,0.4
+vector_metadata,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.5338567867660999,0.6511534180765809,0.37037037037037035
+vector_metadata,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.2222222222222222,1.0,0.876109927169651,0.7683928987829599,0.2222222222222222
+vector_metadata,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,1.0,1.0,0.3333333333333333
+vector_metadata,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.2857142857142857,1.0,0.7442890884191097,0.7041861036649294,0.2857142857142857
+vector_metadata,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,1.0,1.0,1.0,0.45454545454545453,0.5454545454545454,1.0,0.6779553320147448,0.5850455822649747,0.5454545454545454
+vector_metadata,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.9026211001048624,0.9174986862536414,0.38461538461538464
+vector_metadata,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+vector_metadata,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.7442890884191097,0.78179560266582,0.4166666666666667
+vector_metadata,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.5437656349863431,0.6173517736889357,0.35714285714285715
+vector_metadata,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.8869465982421281,0.9123709313790119,0.4166666666666667
+vector_metadata,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.47476776900380596,0.6561709361507524,0.3225806451612903
+vector_metadata,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,1.0,0.955830517697074,0.5
+vector_metadata,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,1.0,1.0,0.14705882352941177,0.23529411764705882,1.0,1.0,0.8572048559638626,0.22287581699346404
+vector_metadata,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,1.0,0.3448275862068966
+vector_metadata,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,1.0,1.0,0.37037037037037035
+ontology_sparql,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.3333333333333333,0.4,0.4,0.6,1.0,0.22331427592513353,0.27178682842873836,0.3466666666666666
+ontology_sparql,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,0.0,0.0,0.2,0.25,0.25,0.25,0.07395536807032282,0.07395536807032282,0.0625
+ontology_sparql,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.0,0.0,0.0,0.25,0.1,0.0,0.06336908680171814,0.025
+ontology_sparql,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.24207625393180188,0.4606928949461313,0.40740740740740744
+ontology_sparql,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8539316501572936,0.8627545507313895,0.7523809523809524
+ontology_sparql,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.3333333333333333,0.4,0.4,0.6,1.0,0.5317398689291577,0.6556299417595068,0.38571428571428573
+ontology_sparql,DS_003,infectious myonecrosis,disease-specific,0.0,0.6666666666666666,0.6,0.75,1.0,0.5,0.592512031964586,0.7053571733135213,0.5416666666666666
+ontology_sparql,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,1.0,0.6666666666666666,0.8,0.8,0.8,1.0,0.7364185288376675,0.7364185288376675,0.71
+ontology_sparql,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,1.0,0.3333333333333333,0.2,0.16666666666666666,0.3333333333333333,1.0,0.12389007283034914,0.22580889010886368,0.20370370370370372
+ontology_sparql,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.7142857142857143,1.0,0.7939490475437133,0.8098591032411627,0.5198412698412698
+ontology_sparql,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,0.0,0.3333333333333333,0.2,0.2,0.4,0.3333333333333333,0.1858351092455237,0.22491807580592477,0.11666666666666665
+ontology_sparql,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6234997966086261,0.6234997966086261,0.5
+ontology_sparql,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.6,0.75,1.0,1.0,0.8903894887369824,0.9563815921974483,0.7986111111111112
+ontology_sparql,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,0.0,0.0,0.2,0.2,0.2,0.2,0.04792722246291238,0.04792722246291238,0.04
+ontology_sparql,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,1.0,1.0,0.8262346571285599,0.9058464496821221,0.6
+ontology_sparql,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+ontology_sparql,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+ontology_sparql,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,1.0,0.6666666666666666,0.4,1.0,1.0,1.0,1.0,1.0,1.0
+ontology_sparql,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,1.0,1.0,0.8732175842103337,0.9268916955412094,0.9428571428571428
+ontology_sparql,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,0.0,0.3333333333333333,0.2,0.5,1.0,0.5,0.17376534287144002,0.46807606597836554,0.41666666666666663
+ontology_sparql,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,0.0,0.0,0.0,0.0,0.6666666666666666,0.16666666666666666,0.0,0.3153289683367344,0.13888888888888887
+ontology_sparql,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+ontology_sparql,SL_007,shrimp hatchery Latin America white shrimp,species-location,0.0,0.6666666666666666,0.6,0.6,0.8,0.5,0.6156633900822389,0.6622092830911187,0.46333333333333326
+ontology_sparql,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+ontology_sparql,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,1.0,0.35714285714285715
+ontology_sparql,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5882352941176471,1.0,1.0,1.0,0.5882352941176471
+ontology_sparql,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.25,0.4,1.0,1.0,0.9462434762814693,0.39
+ontology_sparql,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+ontology_sparql,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,1.0,1.0,0.38461538461538464
+ontology_sparql,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.5594401368490775,0.48006117753205346,0.3333333333333333
+ontology_sparql,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.759963590281844,0.6624526907116111,0.43478260869565216
+ontology_sparql,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,0.6666666666666666,0.6,0.11538461538461539,0.2692307692307692,1.0,0.2677657754409784,0.36622298590200364,0.20183150183150184
+ontology_sparql,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.40892216721717317,0.5159958223394445,0.37037037037037035
+ontology_sparql,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.6666666666666666,0.4,0.16666666666666666,0.16666666666666666,1.0,0.5531464700081438,0.41395701983227506,0.16666666666666666
+ontology_sparql,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,1.0,0.2777777777777778,0.5555555555555556,1.0,1.0,1.0,0.5555555555555556
+ontology_sparql,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.5338567867660999,0.5664239356790007,0.38461538461538464
+ontology_sparql,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,1.0,0.8,0.8,0.8,1.0,0.8687949224876583,0.8687949224876583,0.8
+ontology_sparql,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,0.0,0.3333333333333333,0.2,0.08333333333333333,0.16666666666666666,0.3333333333333333,0.10104155414609708,0.12462099518821831,0.048611111111111105
+ontology_sparql,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,1.0,1.0,0.2777777777777778,0.4444444444444444,1.0,1.0,0.9418269079424384,0.4209876543209876
+ontology_sparql,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,1.0,0.35714285714285715,0.5714285714285714,1.0,1.0,0.9396420028368921,0.5412698412698412
+ontology_sparql,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,0.0,0.0,0.0,0.0,0.16666666666666666,0.125,0.0,0.15595895880434543,0.03595679012345679
+ontology_sparql,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,0.0,0.3333333333333333,0.2,0.1,0.3,0.5,0.21398626473452756,0.29541612795353134,0.1261904761904762
+ontology_sparql,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,0.6666666666666666,0.4,0.13333333333333333,0.13333333333333333,1.0,0.6785815599127776,0.5556566185791553,0.13333333333333333
+ontology_sparql,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.5958337834156117,0.8032285550939751,0.4166666666666667
+ontology_sparql,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+ontology_sparql,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,1.0,1.0,0.35714285714285715,0.5714285714285714,1.0,1.0,0.774928225655901,0.5714285714285714
+ontology_sparql,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,1.0,1.0,0.4166666666666667,0.6666666666666666,1.0,1.0,0.8238375070554743,0.6666666666666666
+ontology_sparql,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,1.0,0.8,0.19047619047619047,0.3333333333333333,1.0,0.5088013258915567,0.5315943924845438,0.28968253968253965
+ontology_sparql,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,1.0,1.0,0.19230769230769232,0.34615384615384615,1.0,0.8151510484299679,0.670202802353505,0.3423076923076923
+ontology_sparql,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.36528481497527493,0.47001826010185915,0.4166666666666667
+ontology_sparql,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.5,1.0,0.7698724385020872,0.850662958989883,0.5
+ontology_sparql,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.5958337834156117,0.694355946562825,0.35714285714285715
+ontology_sparql,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.8932868997079265,0.9108954758022454,0.5263157894736842
+ontology_sparql,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.4759908431563517,0.425908295915703,0.3333333333333333
+ontology_sparql,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.5733697430514895,0.5353880201199217,0.35714285714285715
+ontology_sparql,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,1.0,1.0,0.2,0.4,1.0,0.6724935386069495,0.5958389584307145,0.4
+ontology_sparql,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.4759908431563517,0.4447728278331856,0.3448275862068966
+ontology_sparql,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,0.0,0.3333333333333333,0.2,0.05555555555555555,0.16666666666666666,0.3333333333333333,0.05652670087893603,0.1338761272977232,0.050925925925925916
+ontology_sparql,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.4463867350912054,0.45298473672387823,0.37037037037037035
+ontology_sparql,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.33333333333333337,0.34809749117230654,0.35714285714285715
+ontology_sparql,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.5338567867660999,0.6533354680029503,0.3448275862068966
+ontology_sparql,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.20833333333333334,0.375,1.0,0.33333333333333337,0.3775008332911504,0.3609953703703704
+ontology_sparql,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,0.6666666666666666,0.6,0.13636363636363635,0.18181818181818182,1.0,0.4582447440047414,0.32350223994076066,0.14848484848484847
+ontology_sparql,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.4208033850082279,0.4342648940640067,0.38461538461538464
+ontology_sparql,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.7698724385020872,0.7494881649378594,0.5263157894736842
+ontology_sparql,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.34782608695652173,1.0,0.33333333333333337,0.33448495365221137,0.34782608695652173
+ontology_sparql,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,0.0,0.0,0.2,0.16666666666666666,0.3333333333333333,0.25,0.20804563373066753,0.2426031230546146,0.0787037037037037
+ontology_sparql,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,0.0,0.3333333333333333,0.4,0.14285714285714285,0.2857142857142857,0.3333333333333333,0.22201468685328485,0.25336967363850255,0.12698412698412698
+ontology_sparql,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,0.6666666666666666,0.4,0.2,0.3,1.0,0.3031246624382913,0.39254195287460647,0.21666666666666665
+ontology_sparql,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,1.0,1.0,0.2,0.4,1.0,0.47476776900380596,0.7587857226379988,0.4
+ontology_sparql,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.9125299483251055,0.709192305126817,0.43478260869565216
+ontology_sparql,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,0.0,0.6666666666666666,0.6,0.11538461538461539,0.3076923076923077,0.5,0.3721139350606591,0.4973481440592411,0.2105921855921856
+ontology_sparql,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,0.9069212362975007,0.47619047619047616
+ontology_sparql,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.8869465982421281,0.7791738025574314,0.3448275862068966
+ontology_sparql,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,0.0,0.0,0.2,0.08333333333333333,0.16666666666666666,0.25,0.14606834984270647,0.13600292558561372,0.041666666666666664
+ontology_sparql,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.40892216721717317,0.5159958223394445,0.4
+ontology_sparql,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.33333333333333337,0.3844102377610974,0.37037037037037035
+ontology_sparql,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.36528481497527493,0.47001826010185915,0.37037037037037035
+ontology_sparql,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.6312356866612376,0.6719958531284241,0.3333333333333333
+ontology_sparql,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.6312356866612376,0.6719958531284241,0.35714285714285715
+ontology_sparql,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontology_sparql,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.5594401368490775,0.6267490438585046,0.38461538461538464
+ontology_sparql,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+ontology_sparql,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.6312356866612376,0.718283334419609,0.4166666666666667
+ontology_sparql,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.33333333333333337,0.38224261473290666,0.35714285714285715
+ontology_sparql,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.430712233228471,0.4572854731296665,0.4166666666666667
+ontology_sparql,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.47476776900380596,0.667513955120834,0.3225806451612903
+ontology_sparql,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,0.6312356866612376,0.7606971932189102,0.5
+ontology_sparql,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,1.0,1.0,0.14705882352941177,0.23529411764705882,1.0,0.9026211001048624,0.7971896115332171,0.22573529411764706
+ontology_sparql,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,1.0,0.3448275862068966
+ontology_sparql,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,1.0,1.0,0.37037037037037035
+hybrid,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.3333333333333333,0.6,0.6,0.8,1.0,0.7534045776410563,0.8018771301446611,0.5088888888888888
+hybrid,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,1.0,0.6666666666666666,0.6,0.75,1.0,1.0,0.8003066501511268,0.8499445866159209,0.6666666666666666
+hybrid,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7959761332981399,0.865132666158157,0.59375
+hybrid,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,1.0,0.6666666666666666,0.4,0.6666666666666666,1.0,1.0,0.8472668887613066,0.9201391024327498,0.6666666666666666
+hybrid,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.5,0.41493919716010286,0.48093130062056877,0.18055555555555555
+hybrid,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.7262287617954056,0.7991009754668488,0.40740740740740744
+hybrid,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8687949224876583,0.8829374068620365,0.8055555555555555
+hybrid,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.3333333333333333,0.4,0.4,0.6,1.0,0.5317398689291577,0.6556299417595068,0.38571428571428573
+hybrid,DS_003,infectious myonecrosis,disease-specific,1.0,0.6666666666666666,0.8,1.0,1.0,1.0,0.9558295932317544,0.9558295932317544,0.8875
+hybrid,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.0,0.0,0.6,0.16666666666666666,0.0,0.3306492489119051,0.16547619047619047
+hybrid,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26381509330158276,0.1253968253968254
+hybrid,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.5714285714285714,1.0,0.7715366092808701,0.746058035839966,0.4666666666666667
+hybrid,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+hybrid,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.3333333333333333,0.4,0.5,0.75,1.0,0.7370232448816235,0.7911945728506091,0.46875
+hybrid,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.7959761332981399,0.7959761332981399,0.5
+hybrid,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,1.0,1.0,0.6,0.6,0.8,1.0,0.7920031270989775,0.9092520267801805,0.7
+hybrid,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,1.0,1.0,0.8262346571285599,0.9243382314975351,0.6666666666666666
+hybrid,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+hybrid,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,0.0,0.3333333333333333,0.2,1.0,1.0,0.3333333333333333,0.5,0.5,0.3333333333333333
+hybrid,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+hybrid,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+hybrid,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.7262287617954056,0.8124580632741002,0.4444444444444444
+hybrid,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.3333333333333333,0.6,1.0,1.0,0.3333333333333333,0.5274557088681877,0.5274557088681877,0.4777777777777777
+hybrid,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+hybrid,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.878961873034099,0.878961873034099,0.6666666666666666
+hybrid,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.6,1.0,1.0,1.0,0.940914767159646,0.940914767159646,0.7555555555555555
+hybrid,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.4,1.0,0.7878483464942911,0.7878483464942911,0.4
+hybrid,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+hybrid,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,1.0,0.35714285714285715
+hybrid,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5882352941176471,1.0,1.0,1.0,0.5882352941176471
+hybrid,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.25,0.45,1.0,1.0,0.8099497858086888,0.42605158730158726
+hybrid,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+hybrid,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,1.0,1.0,0.38461538461538464
+hybrid,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.5733697430514895,0.5332700211316629,0.3333333333333333
+hybrid,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.5594401368490775,0.669937311674563,0.43478260869565216
+hybrid,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6863024195657901,0.7431286862216819,0.38461538461538464
+hybrid,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.6863024195657901,0.7431286862216819,0.37037037037037035
+hybrid,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.6666666666666666,0.4,0.16666666666666666,0.3333333333333333,1.0,0.5087403079104242,0.5454006227637571,0.21626984126984125
+hybrid,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,1.0,0.2777777777777778,0.5555555555555556,1.0,1.0,1.0,0.5555555555555556
+hybrid,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,1.0,1.0,0.19230769230769232,0.3076923076923077,1.0,0.8151510484299679,0.7276927241049739,0.28183760683760684
+hybrid,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,1.0,0.6,0.6,0.6,1.0,0.7227265726449518,0.7227265726449518,0.6
+hybrid,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,1.0,1.0,0.8,0.3333333333333333,0.4166666666666667,1.0,0.9129675424759451,0.7448529914818381,0.38611111111111107
+hybrid,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,1.0,1.0,0.2777777777777778,0.4444444444444444,1.0,1.0,0.8758988749907188,0.4130511463844797
+hybrid,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,1.0,0.35714285714285715,0.5714285714285714,1.0,1.0,0.8841199065547682,0.5380102040816326
+hybrid,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,0.0,0.0,0.0,0.0,0.05555555555555555,0.14285714285714285,0.0,0.034482383019389544,0.007936507936507936
+hybrid,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,1.0,0.3333333333333333,0.2,0.1,0.2,1.0,0.3391602052736162,0.29490690316418394,0.12
+hybrid,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,0.3333333333333333,0.4,0.13333333333333333,0.4,1.0,0.4697230431691693,0.5972518486458401,0.24642857142857144
+hybrid,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+hybrid,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+hybrid,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,1.0,1.0,0.35714285714285715,0.5,1.0,0.9125299483251055,0.6867403484031098,0.4683673469387755
+hybrid,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,1.0,1.0,0.4166666666666667,0.6666666666666666,1.0,1.0,0.8238375070554743,0.6666666666666666
+hybrid,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,1.0,0.8,0.19047619047619047,0.23809523809523808,1.0,0.6917222807262043,0.5775399013961896,0.23015873015873015
+hybrid,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,1.0,1.0,0.19230769230769232,0.34615384615384615,1.0,0.7994765465672335,0.6096956267012319,0.32773199023199023
+hybrid,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.6130649606359733,0.6769125582181964,0.4166666666666667
+hybrid,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.45,1.0,1.0,0.8900917305098635,0.45
+hybrid,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,1.0,0.8,0.14285714285714285,0.32142857142857145,1.0,0.9218235822624828,0.9408803699566423,0.2983701814058957
+hybrid,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.7693968268775774,0.8074483267440767,0.5263157894736842
+hybrid,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.4759908431563517,0.4748175773152764,0.3333333333333333
+hybrid,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.7020976466720958,0.6215454215139965,0.35714285714285715
+hybrid,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,1.0,1.0,0.2,0.36,1.0,0.5594401368490775,0.4963422800051295,0.34084126984126983
+hybrid,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.8441728713202429,0.3448275862068966
+hybrid,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,1.0,1.0,1.0,0.2777777777777778,0.3888888888888889,1.0,0.7442890884191097,0.5990383708637219,0.35833333333333334
+hybrid,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.7895676983469904,0.7258332134975467,0.37037037037037035
+hybrid,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.430712233228471,0.5094567427986557,0.35714285714285715
+hybrid,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.8083682423538655,0.3448275862068966
+hybrid,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.20833333333333334,0.3333333333333333,1.0,0.6864231448093615,0.6345149913656334,0.3333333333333333
+hybrid,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,1.0,1.0,0.22727272727272727,0.4090909090909091,1.0,0.9125299483251055,0.7872233585332482,0.3994949494949495
+hybrid,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6864231448093615,0.6610174548717319,0.38461538461538464
+hybrid,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,1.0,1.0,0.2631578947368421,0.47368421052631576,1.0,0.9125299483251055,0.7872233585332482,0.4625730994152047
+hybrid,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.34782608695652173,1.0,0.7994765465672335,0.682110264833649,0.34299516908212563
+hybrid,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,1.0,1.0,0.6,0.5,0.8333333333333334,1.0,0.7073371794979774,0.7610293640855599,0.6666666666666666
+hybrid,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,1.0,1.0,0.8,0.2857142857142857,0.5714285714285714,1.0,0.8118947216573654,0.8102997625408546,0.504875283446712
+hybrid,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,0.3333333333333333,0.6,0.3,0.4,1.0,0.5236448190288007,0.45043408557919706,0.27666666666666667
+hybrid,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,1.0,1.0,0.2,0.4,1.0,0.7968124369890611,0.8383354523103074,0.4
+hybrid,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.6724935386069495,0.6447482398302881,0.43478260869565216
+hybrid,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,1.0,0.6666666666666666,0.4,0.07692307692307693,0.2692307692307692,1.0,0.3270396664923996,0.519125308338142,0.19473443223443224
+hybrid,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+hybrid,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.9026211001048624,0.7893454817437576,0.3448275862068966
+hybrid,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,1.0,1.0,0.8,0.3333333333333333,0.5833333333333334,1.0,0.8687949224876583,0.8421607465490631,0.5325396825396825
+hybrid,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.8613098738256916,0.9580860089774811,0.4
+hybrid,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.5338567867660999,0.6511534180765809,0.37037037037037035
+hybrid,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.2222222222222222,1.0,0.876109927169651,0.7683928987829599,0.2222222222222222
+hybrid,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,1.0,1.0,0.3333333333333333
+hybrid,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.2857142857142857,1.0,0.7442890884191097,0.7041861036649294,0.2857142857142857
+hybrid,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,1.0,1.0,1.0,0.45454545454545453,0.5454545454545454,1.0,0.6779553320147448,0.5850455822649747,0.5454545454545454
+hybrid,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.9026211001048624,0.9174986862536414,0.38461538461538464
+hybrid,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+hybrid,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.7442890884191097,0.78179560266582,0.4166666666666667
+hybrid,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.6312356866612376,0.6278263708254982,0.35714285714285715
+hybrid,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.8869465982421281,0.9123709313790119,0.4166666666666667
+hybrid,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.47476776900380596,0.5821032065260975,0.3225806451612903
+hybrid,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,1.0,0.955830517697074,0.5
+hybrid,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,1.0,1.0,0.14705882352941177,0.23529411764705882,1.0,1.0,0.8572048559638626,0.22287581699346404
+hybrid,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.8869465982421281,0.92663607790064,0.3448275862068966
+hybrid,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,1.0,1.0,0.37037037037037035
+hybrid_candidate_fusion,BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,1.0,0.3333333333333333,0.6,0.6,0.8,1.0,0.7534045776410563,0.8018771301446611,0.5088888888888888
+hybrid_candidate_fusion,BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,0.0,0.3333333333333333,0.4,0.5,0.75,0.5,0.3989833358842358,0.5824860118811416,0.375
+hybrid_candidate_fusion,BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,1.0,0.6666666666666666,0.4,0.5,0.75,1.0,0.7959761332981399,0.865132666158157,0.59375
+hybrid_candidate_fusion,BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,0.0,0.3333333333333333,0.4,0.6666666666666666,1.0,0.5,0.562455901550729,0.6324316318492104,0.43333333333333335
+hybrid_candidate_fusion,BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,0.0,0.3333333333333333,0.2,0.25,0.5,0.3333333333333333,0.3288315337890528,0.3922006205907709,0.13333333333333333
+hybrid_candidate_fusion,BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,0.0,0.3333333333333333,0.2,0.3333333333333333,0.3333333333333333,0.5,0.45819933371607996,0.45819933371607996,0.16666666666666666
+hybrid_candidate_fusion,DS_001,bệnh AHPND trên tôm,disease-specific,1.0,1.0,0.8,0.6666666666666666,0.8333333333333334,1.0,0.8687949224876583,0.8829374068620365,0.8055555555555555
+hybrid_candidate_fusion,DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,1.0,0.3333333333333333,0.4,0.4,0.6,1.0,0.5317398689291577,0.6556299417595068,0.38571428571428573
+hybrid_candidate_fusion,DS_003,infectious myonecrosis,disease-specific,1.0,0.6666666666666666,0.8,1.0,1.0,1.0,0.9558295932317544,0.9558295932317544,0.8875
+hybrid_candidate_fusion,DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,0.0,0.0,0.0,0.0,0.6,0.16666666666666666,0.0,0.3306492489119051,0.16547619047619047
+hybrid_candidate_fusion,DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,0.26381509330158276,0.1253968253968254
+hybrid_candidate_fusion,DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,1.0,0.6666666666666666,0.6,0.42857142857142855,0.7142857142857143,1.0,0.7715366092808701,0.7896864620547629,0.546031746031746
+hybrid_candidate_fusion,HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,1.0,0.3333333333333333,0.2,0.2,0.2,1.0,0.3716702184910474,0.3716702184910474,0.2
+hybrid_candidate_fusion,HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,0.5,1.0,0.6010166641157642,0.6010166641157642,0.41666666666666663
+hybrid_candidate_fusion,HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.5,1.0,1.0,0.7959761332981399,0.9253373235603238,0.6833333333333333
+hybrid_candidate_fusion,HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,1.0,0.6666666666666666,0.4,0.4,0.8,1.0,0.6061680178534538,0.7658703530690182,0.5657142857142856
+hybrid_candidate_fusion,LO_001,nuôi tôm hùm ở Khánh Hòa,local,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+hybrid_candidate_fusion,LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,1.0,0.6666666666666666,0.4,0.6666666666666666,1.0,1.0,0.878961873034099,0.9489376033325803,0.7666666666666666
+hybrid_candidate_fusion,LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,0.0,0.3333333333333333,0.2,1.0,1.0,0.3333333333333333,0.5,0.5,0.3333333333333333
+hybrid_candidate_fusion,LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid_candidate_fusion,LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+hybrid_candidate_fusion,LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,1.0,1.0,0.8,0.8,0.8,1.0,0.8955428290491828,0.8955428290491828,0.8
+hybrid_candidate_fusion,LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,1.0,0.3333333333333333,0.2,0.3333333333333333,0.6666666666666666,1.0,0.7262287617954056,0.8124580632741002,0.4444444444444444
+hybrid_candidate_fusion,SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,0.0,0.0,0.2,0.3333333333333333,0.6666666666666666,0.25,0.10425656783464912,0.3333562346926891,0.16666666666666666
+hybrid_candidate_fusion,SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,1.0,0.3333333333333333,0.2,0.5,0.5,1.0,0.8262346571285599,0.8262346571285599,0.5
+hybrid_candidate_fusion,SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,1.0,1.0,0.6,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid_candidate_fusion,SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,1.0,0.6666666666666666,0.4,0.6666666666666666,0.6666666666666666,1.0,0.8472668887613066,0.8472668887613066,0.5555555555555555
+hybrid_candidate_fusion,SL_007,shrimp hatchery Latin America white shrimp,species-location,1.0,0.6666666666666666,0.4,0.4,0.6,1.0,0.7878483464942911,0.8386452372470259,0.475
+hybrid_candidate_fusion,DS_EXT_001,white spot syndrome virus WSSV in shrimp,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+hybrid_candidate_fusion,DS_EXT_002,AHPND EMS Vibrio parahaemolyticus whiteleg shrimp,disease-specific,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,1.0,1.0,0.35714285714285715
+hybrid_candidate_fusion,DS_EXT_003,EHP Enterocytozoon hepatopenaei trên tôm thẻ chân trắng,disease-specific,1.0,1.0,1.0,0.29411764705882354,0.5882352941176471,1.0,1.0,1.0,0.5882352941176471
+hybrid_candidate_fusion,DS_EXT_004,infectious myonecrosis virus IMNV Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.25,0.4,1.0,1.0,0.9526046846973931,0.4
+hybrid_candidate_fusion,DS_EXT_005,DIV1 and WSSV co-infection in Litopenaeus vannamei,disease-specific,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+hybrid_candidate_fusion,DS_EXT_006,vibriosis Vibrio campbellii shrimp hatchery larvae India,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,1.0,1.0,0.38461538461538464
+hybrid_candidate_fusion,DS_EXT_007,translucent post-larvae disease TPD Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.5733697430514895,0.5332700211316629,0.3333333333333333
+hybrid_candidate_fusion,DS_EXT_008,Las bolitas syndrome Penaeus vannamei hatchery Latin America,disease-specific,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.5594401368490775,0.669937311674563,0.43478260869565216
+hybrid_candidate_fusion,DS_EXT_009,yellow head virus YHV shrimp disease,disease-specific,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6863024195657901,0.7431286862216819,0.38461538461538464
+hybrid_candidate_fusion,DS_EXT_010,IHHNV pathogen monitoring in Penaeus vannamei,disease-specific,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.6863024195657901,0.7431286862216819,0.37037037037037035
+hybrid_candidate_fusion,SL_EXT_001,Penaeus monodon hatchery practices India,species-location,1.0,0.6666666666666666,0.4,0.16666666666666666,0.16666666666666666,1.0,0.5087403079104242,0.38072487695357193,0.13888888888888887
+hybrid_candidate_fusion,SL_EXT_002,brackishwater shrimp culture Bangladesh Khulna Satkhira,species-location,1.0,1.0,1.0,0.2777777777777778,0.5555555555555556,1.0,1.0,1.0,0.5555555555555556
+hybrid_candidate_fusion,SL_EXT_003,low water exchange shrimp farming Thailand,species-location,1.0,1.0,1.0,0.19230769230769232,0.3076923076923077,1.0,0.9125299483251055,0.8664423926296041,0.2951923076923077
+hybrid_candidate_fusion,SL_EXT_004,Penaeus vannamei pathogen monitoring Latin America,species-location,1.0,1.0,0.6,0.6,0.6,1.0,0.7227265726449518,0.7227265726449518,0.6
+hybrid_candidate_fusion,SL_EXT_005,Litopenaeus vannamei broodstock larvae postlarvae Ecuador Mexico,species-location,1.0,1.0,0.8,0.3333333333333333,0.4166666666666667,1.0,0.9129675424759451,0.7448529914818381,0.38611111111111107
+hybrid_candidate_fusion,SL_EXT_006,tôm hùm Khánh Hòa Vịnh Cam Ranh Vạn Ninh,species-location,1.0,1.0,1.0,0.2777777777777778,0.4444444444444444,1.0,1.0,0.9470904206170018,0.4444444444444444
+hybrid_candidate_fusion,SL_EXT_007,quan trắc môi trường tôm hùm Phú Yên Khánh Hòa,species-location,1.0,1.0,1.0,0.35714285714285715,0.5714285714285714,1.0,1.0,0.9500747158911139,0.5714285714285714
+hybrid_candidate_fusion,SL_EXT_008,Nam Trung Bộ tôm thẻ chân trắng tôm sú quan trắc Vibrio,species-location,0.0,0.0,0.0,0.0,0.16666666666666666,0.16666666666666666,0.0,0.09789224498836643,0.03827160493827161
+hybrid_candidate_fusion,SL_EXT_009,Penaeus vannamei introduction Asia Pacific disease risk,species-location,1.0,0.3333333333333333,0.2,0.1,0.2,1.0,0.3391602052736162,0.29490690316418394,0.12
+hybrid_candidate_fusion,SL_EXT_010,lobster market trends Canada China global trade,species-location,1.0,0.3333333333333333,0.4,0.13333333333333333,0.2,1.0,0.5770283724616573,0.5053278357600547,0.11333333333333333
+hybrid_candidate_fusion,SL_EXT_011,fish farms water quality inland waters Hungary,species-location,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+hybrid_candidate_fusion,LO_EXT_001,ĐBSCL WSSV AHPND EHP trên tôm giống và tôm thương phẩm,local,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,1.0,1.0,0.43478260869565216
+hybrid_candidate_fusion,LO_EXT_002,quy hoạch nuôi tôm hùm Khánh Hòa đến 2030,local,1.0,1.0,1.0,0.35714285714285715,0.6428571428571429,1.0,1.0,0.8378262178574132,0.6428571428571429
+hybrid_candidate_fusion,LO_EXT_003,mưa lũ Phú Yên Khánh Hòa cảnh báo môi trường vùng nuôi tôm hùm,local,1.0,1.0,1.0,0.4166666666666667,0.75,1.0,1.0,0.8900917305098635,0.75
+hybrid_candidate_fusion,LO_EXT_004,nuôi tôm trên cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,1.0,1.0,0.8,0.19047619047619047,0.23809523809523808,1.0,0.6917222807262043,0.5775399013961896,0.23015873015873015
+hybrid_candidate_fusion,LO_EXT_005,an toàn sinh học nuôi tôm Việt Nam WSSV EMS IMNV,local,1.0,1.0,1.0,0.19230769230769232,0.34615384615384615,1.0,0.9026211001048624,0.6806773994900676,0.3423076923076923
+hybrid_candidate_fusion,LO_EXT_006,Cà Mau small-scale shrimp farmers risk management,local,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.6130649606359733,0.6769125582181964,0.4166666666666667
+hybrid_candidate_fusion,LO_EXT_007,Khánh Hòa Bình Định Ninh Thuận Bình Thuận quan trắc tôm,local,1.0,1.0,1.0,0.25,0.45,1.0,1.0,0.8900917305098635,0.45
+hybrid_candidate_fusion,LO_EXT_008,biosecurity Peru shrimp farming sustainable livelihoods,local,1.0,1.0,0.8,0.14285714285714285,0.32142857142857145,1.0,0.9218235822624828,0.9408803699566423,0.2983701814058957
+hybrid_candidate_fusion,LO_EXT_009,Philippines AHPND shrimp aquaculture surveillance,local,1.0,1.0,1.0,0.2631578947368421,0.5263157894736842,1.0,0.7693968268775774,0.8764130927828558,0.5263157894736842
+hybrid_candidate_fusion,HM_EXT_001,Penaeus monodon shrimp hatchery productivity health management,hatchery-production-mode,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,0.4759908431563517,0.4748175773152764,0.3333333333333333
+hybrid_candidate_fusion,HM_EXT_002,white shrimp Penaeus vannamei hatchery biosecurity Latin America,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.7020976466720958,0.6215454215139965,0.35714285714285715
+hybrid_candidate_fusion,HM_EXT_003,Penaeus monodon post-larvae hatchery WSSV HPV MBV IHHNV India,hatchery-production-mode,1.0,1.0,1.0,0.2,0.4,1.0,0.5594401368490775,0.5323266901845036,0.4
+hybrid_candidate_fusion,HM_EXT_004,Penaeus vannamei larvae low survival hatchery vibriosis,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.8460062557314078,0.3448275862068966
+hybrid_candidate_fusion,HM_EXT_005,Litopenaeus vannamei larvae postlarvae broodstock hatchery probiotics,hatchery-production-mode,1.0,1.0,1.0,0.2777777777777778,0.3888888888888889,1.0,0.7442890884191097,0.5990383708637219,0.35833333333333334
+hybrid_candidate_fusion,HM_EXT_006,luminescent Vibrios phage therapy hatchery post-larvae Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.7895676983469904,0.7258332134975467,0.37037037037037035
+hybrid_candidate_fusion,HM_EXT_007,AHPND biomarkers microbiome shrimp hatchery larvae survival,hatchery-production-mode,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.430712233228471,0.4651642692817362,0.35714285714285715
+hybrid_candidate_fusion,HM_EXT_008,trại giống tôm biofloc SPF an toàn sinh học,hatchery-production-mode,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,1.0,0.911298659909514,0.3448275862068966
+hybrid_candidate_fusion,HM_EXT_009,zoea stage AHPND Vibrio alginolyticus hatchery Penaeus vannamei,hatchery-production-mode,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.5437656349863431,0.6381597580536823,0.4166666666666667
+hybrid_candidate_fusion,HM_EXT_010,Indian shrimp hatcheries Vibrio campbellii larvae virulence,hatchery-production-mode,1.0,1.0,1.0,0.22727272727272727,0.4090909090909091,1.0,0.9125299483251055,0.7872233585332482,0.3994949494949495
+hybrid_candidate_fusion,HM_EXT_011,post-larvae disease biosecurity in Penaeus vannamei hatchery,hatchery-production-mode,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.6864231448093615,0.6555432246305964,0.38461538461538464
+hybrid_candidate_fusion,HM_EXT_012,shrimp hatchery health management India Latin America,hatchery-production-mode,1.0,1.0,1.0,0.2631578947368421,0.47368421052631576,1.0,0.9125299483251055,0.7872233585332482,0.4625730994152047
+hybrid_candidate_fusion,BI_EXT_001,Progressive Management Pathway aquaculture biosecurity guidelines,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.34782608695652173,1.0,0.7994765465672335,0.682110264833649,0.34299516908212563
+hybrid_candidate_fusion,BI_EXT_002,emergency preparedness aquatic animal disease national system,biosecurity-management,1.0,1.0,0.6,0.5,0.8333333333333334,1.0,0.7073371794979774,0.7610293640855599,0.6666666666666666
+hybrid_candidate_fusion,BI_EXT_003,surveillance zoning aquatic animal diseases risk assessment,biosecurity-management,1.0,1.0,0.8,0.2857142857142857,0.5714285714285714,1.0,0.8118947216573654,0.8102997625408546,0.504875283446712
+hybrid_candidate_fusion,BI_EXT_004,risk analysis movements of live aquatic animals pathogen spread,biosecurity-management,1.0,0.3333333333333333,0.6,0.3,0.4,1.0,0.5236448190288007,0.45043408557919706,0.27666666666666667
+hybrid_candidate_fusion,BI_EXT_005,Penaeus vannamei introduction disease risk Asia Pacific,biosecurity-management,1.0,1.0,1.0,0.2,0.4,1.0,0.7968124369890611,0.8383354523103074,0.4
+hybrid_candidate_fusion,BI_EXT_006,AHPND strategy manual disease prevention eradication policy,biosecurity-management,1.0,1.0,1.0,0.21739130434782608,0.43478260869565216,1.0,0.6724935386069495,0.6447482398302881,0.43478260869565216
+hybrid_candidate_fusion,BI_EXT_007,health management biosecurity maintenance white shrimp hatcheries,biosecurity-management,1.0,0.6666666666666666,0.4,0.07692307692307693,0.2692307692307692,1.0,0.3270396664923996,0.563294790641068,0.19473443223443224
+hybrid_candidate_fusion,BI_EXT_008,biosecurity disease surveillance shrimp AHPND Thailand Bangkok,biosecurity-management,1.0,1.0,1.0,0.23809523809523808,0.47619047619047616,1.0,1.0,1.0,0.47619047619047616
+hybrid_candidate_fusion,BI_EXT_009,an toàn sinh học phòng bệnh đốm trắng tôm nuôi,biosecurity-management,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.9026211001048624,0.7893454817437576,0.3448275862068966
+hybrid_candidate_fusion,BI_EXT_010,risk analysis training aquaculture disease hazards food safety,biosecurity-management,1.0,1.0,0.8,0.3333333333333333,0.5833333333333334,1.0,0.8687949224876583,0.8421607465490631,0.5325396825396825
+hybrid_candidate_fusion,GE_EXT_001,sustainable aquaculture guidelines communication toolkit,generic-mixed,1.0,1.0,1.0,0.2,0.4,1.0,0.8613098738256916,0.9580860089774811,0.4
+hybrid_candidate_fusion,GE_EXT_002,ecosystem approach to aquaculture environmental management,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.5338567867660999,0.6511534180765809,0.37037037037037035
+hybrid_candidate_fusion,GE_EXT_003,aquaculture climate change adaptation fisheries resilience,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,0.876109927169651,0.8965528509418313,0.37037037037037035
+hybrid_candidate_fusion,GE_EXT_004,water quality and fish health environmental stress,generic-mixed,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,1.0,1.0,1.0,0.3333333333333333
+hybrid_candidate_fusion,GE_EXT_005,gene banking aquatic genetic resources cryopreservation protocols,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.7442890884191097,0.8340611153182702,0.35714285714285715
+hybrid_candidate_fusion,GE_EXT_006,marine lobsters taxonomy habitats geographical distribution,generic-mixed,1.0,1.0,1.0,0.45454545454545453,0.6363636363636364,1.0,0.6779553320147448,0.7131617051570797,0.6363636363636364
+hybrid_candidate_fusion,GE_EXT_007,aquaculture environmental impact assessment coastal areas,generic-mixed,1.0,1.0,1.0,0.19230769230769232,0.38461538461538464,1.0,0.9026211001048624,0.9174986862536414,0.38461538461538464
+hybrid_candidate_fusion,GE_EXT_008,inland fisheries fish farms water quality survey managers,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,1.0,1.0,0.4166666666666667
+hybrid_candidate_fusion,GE_EXT_009,aquatic animal diseases diagnostic guide Asia,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.7442890884191097,0.78179560266582,0.4166666666666667
+hybrid_candidate_fusion,GE_EXT_010,aquaculture production sustainable development food security,generic-mixed,1.0,1.0,1.0,0.17857142857142858,0.35714285714285715,1.0,0.6312356866612376,0.6278263708254982,0.35714285714285715
+hybrid_candidate_fusion,GE_EXT_011,risk factors invasive species genetic impacts aquaculture,generic-mixed,1.0,1.0,1.0,0.20833333333333334,0.4166666666666667,1.0,0.8869465982421281,0.9123709313790119,0.4166666666666667
+hybrid_candidate_fusion,GE_EXT_012,fisheries aquaculture data collection regional planning,generic-mixed,1.0,1.0,1.0,0.16129032258064516,0.3225806451612903,1.0,0.47476776900380596,0.5821032065260975,0.3225806451612903
+hybrid_candidate_fusion,GE_EXT_013,nuôi biển tôm hùm lồng bè phát triển ngành,generic-mixed,1.0,1.0,1.0,0.25,0.5,1.0,1.0,0.9048032373092418,0.5
+hybrid_candidate_fusion,GE_EXT_014,công nghệ gen chọn giống tôm kháng bệnh CRISPR,generic-mixed,1.0,1.0,1.0,0.14705882352941177,0.23529411764705882,1.0,1.0,0.8701249883466592,0.23529411764705882
+hybrid_candidate_fusion,GE_EXT_015,probiotic LAB antagonizing Vibrio parahaemolyticus whiteleg shrimp,generic-mixed,1.0,1.0,1.0,0.1724137931034483,0.3448275862068966,1.0,0.8869465982421281,0.92663607790064,0.3448275862068966
+hybrid_candidate_fusion,GE_EXT_016,microbiome Pacific whiteleg shrimp AHPND EMS outbreak,generic-mixed,1.0,1.0,1.0,0.18518518518518517,0.37037037037037035,1.0,1.0,1.0,0.37037037037037035

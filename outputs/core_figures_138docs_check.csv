@@ -1,0 +1,7 @@
+﻿figure_path,exists,size_bytes,status,suggested_caption
+outputs\figures\fig_baseline_key_metrics.png,True,57448,PASS,Comparison of key retrieval metrics on the 28-query core set for the 138-document corpus.
+outputs\figures\fig_baseline_key_metrics.pdf,True,17444,PASS,Comparison of key retrieval metrics on the 28-query core set for the 138-document corpus.
+outputs\figures\fig_hybrid_vs_vector_metadata_by_group.png,True,95905,PASS,nDCG@10 comparison between Hybrid and Vector+Metadata by query group.
+outputs\figures\fig_hybrid_vs_vector_metadata_by_group.pdf,True,15667,PASS,nDCG@10 comparison between Hybrid and Vector+Metadata by query group.
+outputs\figures\fig_quality_latency_tradeoff.png,True,64486,PASS,Quality-latency tradeoff using nDCG@10 and mean per-query latency.
+outputs\figures\fig_quality_latency_tradeoff.pdf,True,18780,PASS,Quality-latency tradeoff using nDCG@10 and mean per-query latency.

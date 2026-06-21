@@ -1,0 +1,7 @@
+﻿path,category,note
+requirements.txt,dependency,INFO: dependency file not present in project root
+environment.yml,dependency,INFO: dependency file not present in project root
+pyproject.toml,dependency,INFO: dependency file not present in project root
+poetry.lock,dependency,INFO: dependency file not present in project root
+conda.yml,dependency,INFO: dependency file not present in project root
+data\eval\metrics\baseline_metrics_by_query.csv,eval_metrics,final/supplementary metric

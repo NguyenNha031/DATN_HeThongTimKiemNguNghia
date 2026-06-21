@@ -1,0 +1,27 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8521,PASS,,Streamlit running at http://localhost:8521; HTTP 200; PID 17676
+old_zoom_buttons_removed,PASS,,No Zoom in/Zoom out/Reset zoom buttons remain
+graph_size_control,PASS,,Mini KG graph now uses compact selectbox control labeled Graph size
+graph_size_options,PASS,,Options are Compact, Normal, Large; default is Normal
+graph_size_scale_method,PASS,,Graph size changes Graphviz DOT attributes: fontsize, nodesep, ranksep, node width, node height
+normal_edge_limit,PASS,,Normal graph size defaults to 7 prioritized edges
+compact_edge_limit,PASS,,Compact graph size uses 6 prioritized edges
+large_edge_limit,PASS,,Large graph size uses 8 prioritized edges
+readable_tree_compact,PASS,,Readable KG tree now uses 8 prioritized rows
+raw_uri_check,PASS,,Featured table rows still use shortened labels; raw triples remain only in expander
+kg_subgraph_preserved,PASS,,Readable tree, mini graph, key relation rows, all rows expander, and raw triples expander remain
+export_excel_preserved,PASS,,Export dataframe still includes kg_evidence and kg_evidence_summary
+method_comparison_preserved,PASS,,Method comparison remains available
+smoke_graph_render,PASS,AHPND shrimp disease,KG rows=32; tree lines=10; edges Compact/Normal/Large=6/7/8
+smoke_export_excel,PASS,AHPND shrimp disease,Excel bytes=6934
+smoke_graph_render,PASS,lobster Khanh Hoa,KG rows=23; tree lines=10; edges Compact/Normal/Large=6/7/8
+smoke_export_excel,PASS,lobster Khanh Hoa,Excel bytes=7159
+smoke_graph_render,PASS,shrimp farming Vietnam,KG rows=19; tree lines=10; edges Compact/Normal/Large=6/7/8
+smoke_export_excel,PASS,shrimp farming Vietnam,Excel bytes=6939
+smoke_graph_render,PASS,biosecurity shrimp hatchery,KG rows=32; tree lines=10; edges Compact/Normal/Large=6/7/8
+smoke_export_excel,PASS,biosecurity shrimp hatchery,Excel bytes=6846
+sidebar_responsive_structure,PASS,,No absolute/fixed CSS was added; control stays inside Streamlit layout
+screenshot_ready,PASS,,Use http://localhost:8521

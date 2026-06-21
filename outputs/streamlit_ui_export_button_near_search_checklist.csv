@@ -1,0 +1,23 @@
+check_item,status,query,details
+scope_app_only,PASS,,Only app_streamlit.py was changed for implementation; report/checklist added under outputs
+data_runtime_scoring_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_port_8520,PASS,,Streamlit running at http://localhost:8520; HTTP 200; PID 4212
+export_removed_from_header,PASS,,Removed header_right/top_export_slot layout; no st.columns([4, 1]) header export remains
+export_near_search,PASS,,Export placeholder is in section 1 Query input beside Search query
+hidden_before_results,PASS,,Export slot remains empty until last_search/displayed_results exists
+visible_after_results,PASS,,Export results button renders after search results are available
+single_export_button,PASS,,No bottom export section and no duplicate header export button remain
+compact_button,PASS,,Export button label is Export results and use_container_width=False
+single_column_layout_kept,PASS,,Main layout order remains Query input -> Detected entities -> Top-k results -> Result details -> Method comparison
+export_columns,PASS,,Export dataframe includes all required columns including kg_evidence and kg_evidence_summary
+smoke_search_export,PASS,AHPND shrimp disease,Hybrid returned 5 results; Excel bytes=6934
+smoke_export_columns,PASS,AHPND shrimp disease,16 required export columns present
+smoke_search_export,PASS,lobster Khanh Hoa,Hybrid returned 5 results; Excel bytes=7159
+smoke_export_columns,PASS,lobster Khanh Hoa,16 required export columns present
+smoke_search_export,PASS,shrimp farming Vietnam,Hybrid returned 5 results; Excel bytes=6939
+smoke_export_columns,PASS,shrimp farming Vietnam,16 required export columns present
+smoke_search_export,PASS,biosecurity shrimp hatchery,Hybrid returned 5 results; Excel bytes=6846
+smoke_export_columns,PASS,biosecurity shrimp hatchery,16 required export columns present
+sidebar_responsive_structure,PASS,,No fixed/sidebar header export positioning; controls remain in responsive columns near search
+screenshot_ready,PASS,,Use http://localhost:8520

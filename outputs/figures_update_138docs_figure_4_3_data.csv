@@ -1,0 +1,11 @@
+﻿baseline_name,query_group,ndcg_at_10
+vector_metadata,biosecurity-management,0.74697
+hybrid,biosecurity-management,0.762885
+vector_metadata,disease-specific,0.546053
+hybrid,disease-specific,0.631941
+vector_metadata,hatchery-production-mode,0.486798
+hybrid,hatchery-production-mode,0.68911
+vector_metadata,local,0.53003
+hybrid,local,0.719863
+vector_metadata,species-location,0.684506
+hybrid,species-location,0.748609

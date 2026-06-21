@@ -1,0 +1,245 @@
+{
+  "experiment_name": "candidate_fusion_experiment",
+  "generated_at": "2026-05-23T16:25:47.873518+00:00",
+  "input_files_read": [
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\data\\eval\\final_query_set_core.csv",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\data\\eval\\relevance_judgments_core.csv",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\data\\eval\\results\\baseline_hybrid_core.csv",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\data\\eval\\results\\baseline_vector_metadata_core.csv",
+    "vector_store/chunks.index",
+    "vector_store/chunks_meta.pkl",
+    "data/metadata/document_metadata_cleaned.xlsx"
+  ],
+  "outputs_written": [
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\data\\eval\\results\\baseline_hybrid_candidate_fusion_core.csv",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\outputs\\candidate_fusion_experiment_summary.csv",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\outputs\\candidate_fusion_experiment_summary.json",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\outputs\\candidate_fusion_experiment_summary.md",
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\project\\outputs\\candidate_fusion_per_query_delta.csv"
+  ],
+  "retrieval_rerun": true,
+  "retrieval_rerun_reason": "Existing lexical/vector baseline CSVs contain top-10 docs only; deeper chunk candidate pools are required for fusion.",
+  "candidate_pool_config": {
+    "vector_chunk_pool_k": 150,
+    "lexical_chunk_pool_k": 150,
+    "merge_key": "doc_id",
+    "rerank_formula": "vector_score + metadata_delta + kg_score + intent_adjustment",
+    "label": "candidate_fusion_experiment"
+  },
+  "candidate_pool_stats": {
+    "num_queries": 28,
+    "avg_vector_candidate_count": 32.785714285714285,
+    "avg_lexical_candidate_count": 11.107142857142858,
+    "avg_union_candidate_count": 38.464285714285715,
+    "queries_union_larger_than_vector": 26
+  },
+  "metric_summary": [
+    {
+      "baseline_name": "hybrid",
+      "num_queries": 28,
+      "p_at_1": 0.8214285714285714,
+      "p_at_3": 0.5357142857142857,
+      "p_at_5": 0.40714285714285714,
+      "recall_at_5": 0.4980442176870748,
+      "mrr": 0.8693877551020408,
+      "ndcg_at_5": 0.669526385544799,
+      "ndcg_at_10": 0.7222030264667223
+    },
+    {
+      "baseline_name": "vector_metadata",
+      "num_queries": 28,
+      "p_at_1": 0.75,
+      "p_at_3": 0.5238095238095238,
+      "p_at_5": 0.39285714285714285,
+      "recall_at_5": 0.4887755102040816,
+      "mrr": 0.8217687074829932,
+      "ndcg_at_5": 0.6143017033355448,
+      "ndcg_at_10": 0.6636095865403359
+    },
+    {
+      "baseline_name": "hybrid_candidate_fusion",
+      "num_queries": 28,
+      "p_at_1": 0.8571428571428571,
+      "p_at_3": 0.5476190476190476,
+      "p_at_5": 0.38571428571428573,
+      "recall_at_5": 0.47125850340136055,
+      "mrr": 0.9,
+      "ndcg_at_5": 0.6533802158162503,
+      "ndcg_at_10": 0.7252403584142932
+    }
+  ],
+  "delta_vs_hybrid": {
+    "p_at_1": 0.0357142857142857,
+    "p_at_5": -0.021428571428571408,
+    "recall_at_5": -0.026785714285714246,
+    "mrr": 0.030612244897959218,
+    "ndcg_at_5": -0.016146169728548765,
+    "ndcg_at_10": 0.0030373319475709426
+  },
+  "by_group": {
+    "hybrid": {
+      "biosecurity-management": {
+        "p_at_1": 0.8333333333333334,
+        "mrr": 0.9166666666666666,
+        "ndcg_at_10": 0.7794061991438377
+      },
+      "disease-specific": {
+        "p_at_1": 0.6666666666666666,
+        "mrr": 0.7277777777777777,
+        "ndcg_at_10": 0.6449791580619384
+      },
+      "hatchery-production-mode": {
+        "p_at_1": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_10": 0.6891102327623794
+      },
+      "local": {
+        "p_at_1": 0.8571428571428571,
+        "mrr": 0.8775510204081632,
+        "ndcg_at_10": 0.7333690133228912
+      },
+      "species-location": {
+        "p_at_1": 0.8,
+        "mrr": 0.8666666666666667,
+        "ndcg_at_10": 0.7570697147047625
+      }
+    },
+    "hybrid_candidate_fusion": {
+      "biosecurity-management": {
+        "p_at_1": 0.8333333333333334,
+        "mrr": 0.9166666666666666,
+        "ndcg_at_10": 0.7794061991438377
+      },
+      "disease-specific": {
+        "p_at_1": 0.6666666666666666,
+        "mrr": 0.7277777777777777,
+        "ndcg_at_10": 0.6515532109433892
+      },
+      "hatchery-production-mode": {
+        "p_at_1": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_10": 0.66072937069413
+      },
+      "local": {
+        "p_at_1": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_10": 0.766097537159754
+      },
+      "species-location": {
+        "p_at_1": 0.8,
+        "mrr": 0.8666666666666667,
+        "ndcg_at_10": 0.7430746664364101
+      }
+    }
+  },
+  "query_delta_counts": {
+    "improved": 3,
+    "regressed": 3,
+    "unchanged": 22
+  },
+  "top_improvements": [
+    {
+      "query_id": "LO_005",
+      "query_group": "local",
+      "hybrid_p1": 0.0,
+      "fusion_p1": 1.0,
+      "hybrid_mrr": 0.14285714285714285,
+      "fusion_mrr": 1.0,
+      "hybrid_ndcg10": 0.24207625393180188,
+      "fusion_ndcg10": 0.4711759207898419,
+      "delta_ndcg10": 0.22909966685804,
+      "vector_candidate_count": 20,
+      "lexical_candidate_count": 6,
+      "union_candidate_count": 25,
+      "improved_or_regressed": "improved",
+      "note": "fusion experiment; not final hybrid"
+    },
+    {
+      "query_id": "SL_007",
+      "query_group": "species-location",
+      "hybrid_p1": 1.0,
+      "fusion_p1": 1.0,
+      "hybrid_mrr": 1.0,
+      "fusion_mrr": 1.0,
+      "hybrid_ndcg10": 0.7878483464942911,
+      "fusion_ndcg10": 0.8386452372470259,
+      "delta_ndcg10": 0.05079689075273475,
+      "vector_candidate_count": 58,
+      "lexical_candidate_count": 38,
+      "union_candidate_count": 66,
+      "improved_or_regressed": "improved",
+      "note": "fusion experiment; not final hybrid"
+    },
+    {
+      "query_id": "DS_010",
+      "query_group": "disease-specific",
+      "hybrid_p1": 1.0,
+      "fusion_p1": 1.0,
+      "hybrid_mrr": 1.0,
+      "fusion_mrr": 1.0,
+      "hybrid_ndcg10": 0.7194606564841893,
+      "fusion_ndcg10": 0.7589049737728945,
+      "delta_ndcg10": 0.03944431728870512,
+      "vector_candidate_count": 34,
+      "lexical_candidate_count": 8,
+      "union_candidate_count": 40,
+      "improved_or_regressed": "improved",
+      "note": "fusion experiment; not final hybrid"
+    }
+  ],
+  "top_regressions": [
+    {
+      "query_id": "HM_002",
+      "query_group": "hatchery-production-mode",
+      "hybrid_p1": 1.0,
+      "fusion_p1": 1.0,
+      "hybrid_mrr": 1.0,
+      "fusion_mrr": 1.0,
+      "hybrid_ndcg10": 0.7911945728506091,
+      "fusion_ndcg10": 0.6776711245776115,
+      "delta_ndcg10": -0.11352344827299765,
+      "vector_candidate_count": 23,
+      "lexical_candidate_count": 9,
+      "union_candidate_count": 31,
+      "improved_or_regressed": "regressed",
+      "note": "fusion experiment; not final hybrid"
+    },
+    {
+      "query_id": "SL_001",
+      "query_group": "species-location",
+      "hybrid_p1": 0.0,
+      "fusion_p1": 0.0,
+      "hybrid_mrr": 0.3333333333333333,
+      "fusion_mrr": 0.3333333333333333,
+      "hybrid_ndcg10": 0.47765684554856885,
+      "fusion_ndcg10": 0.38044919664478716,
+      "delta_ndcg10": -0.0972076489037817,
+      "vector_candidate_count": 18,
+      "lexical_candidate_count": 9,
+      "union_candidate_count": 26,
+      "improved_or_regressed": "regressed",
+      "note": "fusion experiment; not final hybrid"
+    },
+    {
+      "query_id": "SL_006",
+      "query_group": "species-location",
+      "hybrid_p1": 1.0,
+      "fusion_p1": 1.0,
+      "hybrid_mrr": 1.0,
+      "fusion_mrr": 1.0,
+      "hybrid_ndcg10": 0.9832184408687481,
+      "fusion_ndcg10": 0.959653957678033,
+      "delta_ndcg10": -0.023564483190715135,
+      "vector_candidate_count": 25,
+      "lexical_candidate_count": 22,
+      "union_candidate_count": 38,
+      "improved_or_regressed": "regressed",
+      "note": "fusion experiment; not final hybrid"
+    }
+  ],
+  "interpretation": "Candidate fusion gives a mixed result: P@1, MRR, and nDCG@10 increase slightly, but P@5, Recall@5, and nDCG@5 decrease. This should not be treated as a final improvement; it is best framed as future work that needs candidate filtering, lexical-score calibration, and reranker tuning.",
+  "safety_notes": [
+    "No ontology, metadata, query set, relevance judgments, existing baselines, or existing metrics are modified.",
+    "This is not the final hybrid baseline."
+  ]
+}

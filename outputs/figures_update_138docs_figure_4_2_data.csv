@@ -1,0 +1,6 @@
+﻿baseline_name,ndcg_at_10,mean_query_latency_ms
+lexical,0.267647,425.216
+vector,0.558917,86.011
+vector_metadata,0.601359,56.033
+ontology_sparql,0.458943,56.545
+hybrid,0.710981,111.79

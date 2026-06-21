@@ -1,0 +1,321 @@
+query_id,query_text,query_group,detected_entity_or_intent,expansion_term,expansion_type,source_field,used,reason
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Pacific white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Penaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Litopenaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,Biosecurity,topic_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,Infectious myonecrosis,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,IMN,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,IMNV disease,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,infectious myonecrosis virus disease,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_001
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,Bệnh hoại tử gan tụy cấp,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,AHPND,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,Acute Hepatopancreatic Necrosis Disease,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,An toàn sinh học,Bệnh đốm trắng,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Khanh Hoa coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,coastal khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Ven biển Ninh Thuận,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_001,biosecurity trong hatchery tôm thẻ chân trắng,biosecurity-management,Tôm thẻ chân trắng,Ninh Thuan coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,surveillance,disease surveillance,topic_alias,metadata keywords; query_understanding_profiles,true,detected_entity matched query: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,surveillance,zoning,topic_alias,metadata keywords; query_understanding_profiles,true,detected_entity matched query: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,surveillance,risk assessment,topic_alias,metadata keywords; query_understanding_profiles,true,detected_entity matched query: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,surveillance,animal health,topic_alias,metadata keywords; query_understanding_profiles,false,bucket limit reached for mode
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,AHPND,biosecurity,disease_to_prevention,ontology relation recommendedPrevention; metadata keywords,true,expansion term already present as alias: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,AHPND,disease prevention,disease_to_prevention,ontology relation recommendedPrevention; metadata keywords,true,expansion term already present as alias: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,AHPND,disease control,disease_to_prevention,ontology relation recommendedPrevention; metadata keywords,true,expansion term already present as alias: surveillance
+BI_003,surveillance và phân vùng dịch bệnh động vật thủy sản,biosecurity-management,AHPND,surveillance,disease_to_prevention,ontology relation recommendedPrevention; metadata keywords,false,term already present in query
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,Nuôi trồng,Aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,false,filtered generic/risky term
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,Nuôi trồng,shrimp aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,Nuôi trồng,hatchery aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,Biosecurity,topic_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,Infectious myonecrosis,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,IMN,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,IMNV disease,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,infectious myonecrosis virus disease,disease_to_prevention,ontology relation recommendedPrevention,true,exact expansion row for query_id BI_004
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,Bệnh hoại tử gan tụy cấp,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,AHPND,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,Acute Hepatopancreatic Necrosis Disease,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_004,Progressive Management Pathway nuôi trồng an toàn sinh học FAO,biosecurity-management,An toàn sinh học,Bệnh đốm trắng,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,Nuôi trồng,Aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,false,filtered generic/risky term
+BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,Nuôi trồng,shrimp aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_006
+BI_006,phân tích rủi ro nuôi trồng thủy sản áp dụng thực tiễn,biosecurity-management,Nuôi trồng,hatchery aquaculture,production_mode_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id BI_006
+BI_007,ứng phó khẩn cấp dịch bệnh thủy sản hệ thống quốc gia,biosecurity-management,,,,,false,no matching expansion rule
+BI_010,sổ tay chẩn đoán bệnh thủy sản châu Á,biosecurity-management,,,,,false,no matching expansion rule
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,AHPND,disease_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Acute Hepatopancreatic Necrosis Disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_001
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Vi khuẩn Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id DS_001
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id DS_001
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,true,exact expansion row for query_id DS_001
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Gan tụy bất thường,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_001,bệnh AHPND trên tôm,disease-specific,Bệnh hoại tử gan tụy cấp,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,WSD,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,White spot disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,WSSV,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Pacific white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Penaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Litopenaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Virus đốm trắng (WSSV),disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id DS_002
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,White Spot Syndrome Virus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Đốm trắng,disease_to_symptom,ontology relation hasSymptom,false,term already present in query
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,White spot,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,filtered generic/risky term
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Bệnh đốm trắng,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Khanh Hoa coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,coastal khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Ven biển Ninh Thuận,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_002,bệnh đốm trắng ở tôm thẻ chân trắng,disease-specific,Tôm thẻ chân trắng,Ninh Thuan coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,IMN,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_003
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,IMNV disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_003
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,infectious myonecrosis virus disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_003
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,shrimp infectious myonecrosis,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_003
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,IMNV,disease_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,infectious myonecrosis virus,disease_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,Infectious myonecrosis virus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,IMNV,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_003,infectious myonecrosis,disease-specific,Infectious myonecrosis,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,filtered generic/risky term
+DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,EHP,Enterocytozoon hepatopenaei,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_006
+DS_006,bệnh vi bào tử trùng gan tụy EHP trên tôm,disease-specific,EHP,Ecytonucleospora hepatopenaei,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_006
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,Bệnh hoại tử gan tụy cấp,Vi khuẩn Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,true,expansion term already present as alias: Vibrio parahaemolyticus
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy; metadata keywords,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND,Vibrio,disease_to_pathogen,ontology relation causedBy; metadata keywords,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND,bacterial pathogen,disease_to_pathogen,ontology relation causedBy; metadata keywords,true,expansion term already present as alias: Vibrio parahaemolyticus
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND + Penaeus vannamei + hatchery,acute hepatopancreatic necrosis disease,disease_to_pathogen,ontology relation causedBy; metadata related_taxon; metadata production_mode,true,expansion term already present as alias: Vibrio parahaemolyticus
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND + Penaeus vannamei + hatchery,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy; metadata related_taxon; metadata production_mode,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND + Penaeus vannamei + hatchery,whiteleg shrimp,disease_to_pathogen,ontology relation causedBy; metadata related_taxon; metadata production_mode,true,expansion term already present as alias: Vibrio parahaemolyticus
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND + Penaeus vannamei + hatchery,tôm thẻ chân trắng,disease_to_pathogen,ontology relation causedBy; metadata related_taxon; metadata production_mode,false,bucket limit reached for disease
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,AHPND + Penaeus vannamei + hatchery,hatchery aquaculture,disease_to_pathogen,ontology relation causedBy; metadata related_taxon; metadata production_mode,false,bucket limit reached for disease
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,vibriosis,Vibrio parahaemolyticus,disease_to_pathogen,metadata related_disease; metadata keywords; ontology relation causedBy,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,vibriosis,Vibrio harveyi,disease_to_pathogen,metadata related_disease; metadata keywords; ontology relation causedBy,false,bucket limit reached for disease
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,vibriosis,Vibrio campbellii,disease_to_pathogen,metadata related_disease; metadata keywords; ontology relation causedBy,false,bucket limit reached for disease
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,vibriosis,Vibrio alginolyticus,disease_to_pathogen,metadata related_disease; metadata keywords; ontology relation causedBy,false,bucket limit reached for disease
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,shrimp,tôm,taxon_common_name,metadata related_taxon; metadata keywords,false,term already present in query
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,shrimp,prawns and shrimps,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,shrimp,crustaceans,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+DS_007,bệnh do Vibrio parahaemolyticus trên tôm thẻ,disease-specific,shrimp,Penaeus,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,AHPND,disease_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Acute Hepatopancreatic Necrosis Disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_010
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Philippines,The Philippines,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id DS_010
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Vi khuẩn Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id DS_010
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id DS_010
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,true,exact expansion row for query_id DS_010
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Gan tụy bất thường,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+DS_010,tình hình AHPND trên tôm nuôi ở Philippines,disease-specific,Bệnh hoại tử gan tụy cấp,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Pacific white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_001
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Penaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_001
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Litopenaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_001
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Khanh Hoa coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,coastal khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Ven biển Ninh Thuận,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_001,production mode trại giống tôm thẻ chân trắng,hatchery-production-mode,Tôm thẻ chân trắng,Ninh Thuan coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,Tôm sú,Black Tiger Prawn,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_002
+HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,Tôm sú,Penaeus monodon,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_002
+HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,Ấn Độ,India,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_002
+HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,Tôm sú,Vùng biển miền Trung,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id HM_002
+HM_002,tài liệu về trại giống tôm sú ở Ấn Độ,hatchery-production-mode,Tôm sú,Central Coast Sea of Vietnam,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+HM_007,trại giống tôm nước mặn quy mô nhỏ Ấn Độ Bangladesh,hatchery-production-mode,Ấn Độ,India,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id HM_007
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,broodstock,production_mode_alias,metadata keywords; metadata production_mode,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,larvae,production_mode_alias,metadata keywords; metadata production_mode,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,postlarvae,production_mode_alias,metadata keywords; metadata production_mode,true,detected_entity matched query: broodstock
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,post-larvae,production_mode_alias,metadata keywords; metadata production_mode,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,probiotics,production_mode_alias,metadata keywords; metadata production_mode,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,broodstock,hatchery tanks,production_mode_alias,metadata keywords; metadata production_mode,true,detected_entity matched query: broodstock
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,hatchery,trại giống,production_mode_alias,metadata production_mode; metadata keywords; fallback_metadata_alias,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,hatchery,shrimp hatchery,production_mode_alias,metadata production_mode; metadata keywords; fallback_metadata_alias,true,expansion term already present as alias: trại giống
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,hatchery,hatchery aquaculture,production_mode_alias,metadata production_mode; metadata keywords; fallback_metadata_alias,false,bucket limit reached for mode
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,hatchery,larval rearing,production_mode_alias,metadata production_mode; metadata keywords; fallback_metadata_alias,false,bucket limit reached for mode
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,hatchery,post-larvae,production_mode_alias,metadata production_mode; metadata keywords; fallback_metadata_alias,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,shrimp,tôm,taxon_common_name,metadata related_taxon; metadata keywords,false,term already present in query
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,shrimp,prawns and shrimps,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,shrimp,crustaceans,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+HM_010,broodstock và post-larvae tôm thẻ trong trại giống probiotics,hatchery-production-mode,shrimp,Penaeus,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,Ornate spiny lobster,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,Panulirus ornatus,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,lobster,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,mud spiny lobster,taxon_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for taxon
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,tom hum,taxon_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Khanh Hoa coastal waters,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,coastal khanh hoa,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,khanh hoa,location_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,khanh hoa,location_parent,ontology relation isFoundIn,false,term already present in query
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,Ven biển Phú Yên,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Tôm hùm bông,Phu Yen coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Tôm thẻ chân trắng,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id LO_001
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Pacific white shrimp,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Penaeus vannamei,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Litopenaeus vannamei,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Cá bớp,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Cobia,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Rachycentron canadum,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_001,nuôi tôm hùm ở Khánh Hòa,local,Ven biển Khánh Hòa,Tôm hùm bông,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,WSD,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,White spot disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,WSSV,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,AHPND,disease_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Acute Hepatopancreatic Necrosis Disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,EHP,Enterocytozoon hepatopenaei,disease_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,EHP,Ecytonucleospora hepatopenaei,disease_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Đồng bằng sông Cửu Long,Mekong Delta,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Đồng bằng sông Cửu Long,Mekong River Delta,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Đồng bằng sông Cửu Long,ĐBSCL,location_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Đồng bằng sông Cửu Long,dong bang song cuu long,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_002
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Virus đốm trắng (WSSV),disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,White Spot Syndrome Virus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Vi khuẩn Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Vibrio parahaemolyticus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Đốm trắng,disease_to_symptom,ontology relation hasSymptom,false,term already present in query
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,White spot,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh đốm trắng,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Gan tụy bất thường,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_002,hiện diện bệnh đốm trắng AHPND và EHP trên tôm ĐBSCL 2022–2024,local,Bệnh hoại tử gan tụy cấp,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,shrimp,tôm,taxon_common_name,metadata related_taxon; metadata keywords,false,term already present in query
+LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,shrimp,prawns and shrimps,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,shrimp,crustaceans,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_003,thực trạng môi trường và dịch bệnh nuôi tôm cát Thạch Hà Cẩm Xuyên Nghi Xuân Hà Tĩnh,local,shrimp,Penaeus,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,Ornate spiny lobster,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,Panulirus ornatus,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,lobster,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,mud spiny lobster,taxon_alias,skos:altLabel; skos:prefLabel,false,bucket limit reached for taxon
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,tom hum,taxon_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Khanh Hoa coastal waters,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,coastal khanh hoa,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,khanh hoa,location_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,khanh hoa,location_parent,ontology relation isFoundIn,false,term already present in query
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,Ven biển Phú Yên,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Tôm hùm bông,Phu Yen coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Tôm thẻ chân trắng,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id LO_004
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Pacific white shrimp,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Penaeus vannamei,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Litopenaeus vannamei,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Cá bớp,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Cobia,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Rachycentron canadum,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_004,quy hoạch phát triển nuôi tôm hùm Khánh Hòa đến 2030,local,Ven biển Khánh Hòa,Tôm hùm bông,location_parent,ontology relation isFoundIn,false,bucket limit reached for location
+LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,Đồng bằng sông Cửu Long,Mekong Delta,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_005
+LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,Đồng bằng sông Cửu Long,Mekong River Delta,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_005
+LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,Đồng bằng sông Cửu Long,ĐBSCL,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_005
+LO_005,rủi ro quản lý nông dân nuôi tôm càng quy mô nhỏ Đồng bằng sông Cửu Long,local,Đồng bằng sông Cửu Long,dong bang song cuu long,location_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,WSD,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_006
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,White spot disease,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_006
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,WSSV,disease_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id LO_006
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Virus đốm trắng (WSSV),disease_to_pathogen,ontology relation causedBy,true,exact expansion row for query_id LO_006
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,White Spot Syndrome Virus,disease_to_pathogen,ontology relation causedBy,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Bỏ ăn,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Anorexia,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Lờ đờ,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Lethargy,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Đốm trắng,disease_to_symptom,ontology relation hasSymptom,false,term already present in query
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,White spot,disease_to_symptom,ontology relation hasSymptom,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,An toàn sinh học,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Biosecurity,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Giống sạch bệnh (SPF),disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Use SPF seed,disease_to_prevention,ontology relation recommendedPrevention,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Tăng sục khí,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Improve aeration,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Thay nước,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_006,bệnh đốm trắng ở tôm nuôi và công nghệ phòng bệnh đốm trắng,local,Bệnh đốm trắng,Water exchange,disease_to_treatment,ontology relation recommendedTreatment,false,bucket limit reached for disease
+LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,shrimp,tôm,taxon_common_name,metadata related_taxon; metadata keywords,false,term already present in query
+LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,shrimp,prawns and shrimps,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,shrimp,crustaceans,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+LO_007,các bệnh thường gặp tôm nước lợ và biện pháp phòng chống hiệu quả,local,shrimp,Penaeus,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,Tôm sú,Black Tiger Prawn,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_001
+SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,Tôm sú,Penaeus monodon,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_001
+SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,Tôm sú,Vùng biển miền Trung,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id SL_001
+SL_001,nuôi tôm sú và trại giống tại Bangladesh,species-location,Tôm sú,Central Coast Sea of Vietnam,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Pacific white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_002
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Penaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Litopenaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_002
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_002
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Khanh Hoa coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,coastal khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Ven biển Ninh Thuận,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_002,tôm thẻ chân trắng Penaeus vannamei di chuyển giới thiệu Châu Á Thái Bình Dương,species-location,Tôm thẻ chân trắng,Ninh Thuan coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,shrimp,tôm,taxon_common_name,metadata related_taxon; metadata keywords,false,term already present in query
+SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,shrimp,prawns and shrimps,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,shrimp,crustaceans,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+SL_004,nuôi tôm thẻ nước lợ cải tiến trao đổi nước thấp Thái Lan,species-location,shrimp,Penaeus,taxon_common_name,metadata related_taxon; metadata keywords,true,expansion term already present as alias: tôm
+SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,Tôm sú,Black Tiger Prawn,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_006
+SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,Tôm sú,Penaeus monodon,taxon_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,Ấn Độ,India,location_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_006
+SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,Tôm sú,Vùng biển miền Trung,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id SL_006
+SL_006,Penaeus monodon hatchery manual Ấn Độ kinh nghiệm,species-location,Tôm sú,Central Coast Sea of Vietnam,location_parent,ontology relation isFoundIn,true,exact expansion row for query_id SL_006
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Pacific white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_007
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Penaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_007
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Litopenaeus vannamei,taxon_alias,skos:altLabel; skos:prefLabel,true,exact expansion row for query_id SL_007
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,white shrimp,taxon_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Mỹ Latin,Latin America,location_alias,skos:altLabel; skos:prefLabel,false,term already present in query
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Ven biển Khánh Hòa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Khanh Hoa coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,coastal khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,khanh hoa,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Ven biển Ninh Thuận,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon
+SL_007,shrimp hatchery Latin America white shrimp,species-location,Tôm thẻ chân trắng,Ninh Thuan coastal waters,location_parent,ontology relation isFoundIn,false,bucket limit reached for taxon

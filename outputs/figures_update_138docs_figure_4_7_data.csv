@@ -1,0 +1,9 @@
+﻿category,metric,count,denominator,rate
+Document fact coverage,aboutTaxon,130,138,0.9420289855072463
+Document fact coverage,aboutDisease,78,138,0.5652173913043478
+Document fact coverage,aboutLocation,78,138,0.5652173913043478
+Document fact coverage,documentProductionMode,138,138,1.0
+Runtime KG participation,KG score > 0,,,0.6142857142857143
+Runtime KG participation,Direct fact evidence,,,0.6035714285714285
+Runtime KG participation,Relation/context evidence,,,0.3178571428571428
+Runtime KG participation,Explanation evidence,,,0.6142857142857143

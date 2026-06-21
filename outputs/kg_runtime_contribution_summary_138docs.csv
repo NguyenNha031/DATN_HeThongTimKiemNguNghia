@@ -1,0 +1,5 @@
+﻿component,rate
+KG score > 0,0.6142857142857143
+Direct fact evidence,0.6035714285714285
+Relation/context evidence,0.31785714285714284
+Explanation evidence,0.6142857142857143

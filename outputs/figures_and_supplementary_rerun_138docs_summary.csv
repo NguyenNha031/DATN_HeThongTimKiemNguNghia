@@ -1,0 +1,10 @@
+﻿metric,value,detail
+status,PARTIAL,Priority/main and diagnostic figures are current; optional experiment figures are stale unless rerun.
+figures_audited,17,
+figures_current_138,13,
+figures_optional_or_future_work,4,
+diagnostics_rerun,4,"corpus topic, KG score components/runtime contribution, explanation quality, KG ablation"
+diagnostics_not_rerun_optional,3,"candidate fusion, extended evaluation, query expansion"
+candidate_fusion_removed_docs_present,RIA3_002; RIA3_003,Do not use without rerun.
+can_proceed_to_report_editing,PARTIAL,Yes for current figures; exclude or rerun stale optional experiment figures.
+backup_folder,archive_pre_final/before_138docs_supplementary_rerun_20260531_135152,

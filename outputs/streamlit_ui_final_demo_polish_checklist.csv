@@ -1,0 +1,45 @@
+check_item,status,query,details
+py_compile,PASS,,python -m py_compile app_streamlit.py completed
+streamlit_server,PASS,,Streamlit running at http://localhost:8515; HTTP 200; PID 19688
+modified_scope,PASS,,Only app_streamlit.py plus output report/checklist were modified for this task
+runtime_scoring_data_unchanged,PASS,,No metadata/raw docs/vector store/ontology/KG runtime/scoring/final_score edits
+ui_sections_labeled,PASS,,Added clearer demo labels for query input/control panel/detected entities/top-k/result details/method comparison/export
+kg_subgraph_tab,PASS,,Result details now includes KG subgraph tab
+kg_subgraph_columns,PASS,,Subgraph table uses subject|predicate|object|evidence_type|source
+kg_subgraph_fallback_message,PASS,,Nonblank fallback message shown when explicit KG relation rows are unavailable
+export_kg_evidence_alias,PASS,,Excel export includes kg_evidence and keeps kg_evidence_summary
+method_comparison_realtime,PASS,,Hybrid/Vector/Vector + metadata run realtime
+method_comparison_offline_fallback,PASS,,Lexical/BM25 and Ontology/SPARQL use offline baseline CSV fallback only on saved query match
+offline_fallback_message,PASS,,No matching offline baseline query found. Please use a saved core/extended query or run Hybrid/Vector realtime.
+smoke_hybrid_top5,PASS,AHPND shrimp disease,Hybrid returned 5 displayed results
+smoke_detected_entities,PASS,AHPND shrimp disease,Detected entities present
+smoke_score_breakdown,PASS,AHPND shrimp disease,Score fields available
+smoke_kg_evidence,PASS,AHPND shrimp disease,KG evidence/subgraph rows=32
+smoke_source_evidence,PASS,AHPND shrimp disease,Source evidence available
+smoke_excel_export,PASS,AHPND shrimp disease,Excel bytes=6933; kg_evidence column present
+smoke_compare_methods,PASS,AHPND shrimp disease,Realtime methods pass; offline methods show clear no-match message
+smoke_hybrid_top5,PASS,lobster Khanh Hoa,Hybrid returned 5 displayed results
+smoke_detected_entities,PASS,lobster Khanh Hoa,Detected entities present
+smoke_score_breakdown,PASS,lobster Khanh Hoa,Score fields available
+smoke_kg_evidence,PASS,lobster Khanh Hoa,KG evidence/subgraph rows=23
+smoke_source_evidence,PASS,lobster Khanh Hoa,Source evidence available
+smoke_excel_export,PASS,lobster Khanh Hoa,Excel bytes=7158; kg_evidence column present
+smoke_compare_methods,PASS,lobster Khanh Hoa,Realtime methods pass; offline methods show clear no-match message
+smoke_hybrid_top5,PASS,shrimp farming Vietnam,Hybrid returned 5 displayed results
+smoke_detected_entities,PASS,shrimp farming Vietnam,Detected entities present
+smoke_score_breakdown,PASS,shrimp farming Vietnam,Score fields available
+smoke_kg_evidence,PASS,shrimp farming Vietnam,KG evidence/subgraph rows=19
+smoke_source_evidence,PASS,shrimp farming Vietnam,Source evidence available
+smoke_excel_export,PASS,shrimp farming Vietnam,Excel bytes=6939; kg_evidence column present
+smoke_compare_methods,PASS,shrimp farming Vietnam,Realtime methods pass; offline methods show clear no-match message
+smoke_hybrid_top5,PASS,biosecurity shrimp hatchery,Hybrid returned 5 displayed results
+smoke_detected_entities,PASS,biosecurity shrimp hatchery,Detected entities present
+smoke_score_breakdown,PASS,biosecurity shrimp hatchery,Score fields available
+smoke_kg_evidence,PASS,biosecurity shrimp hatchery,KG evidence/subgraph rows=32
+smoke_source_evidence,PASS,biosecurity shrimp hatchery,Source evidence available
+smoke_excel_export,PASS,biosecurity shrimp hatchery,Excel bytes=6846; kg_evidence column present
+smoke_compare_methods,PASS,biosecurity shrimp hatchery,Realtime methods pass; offline methods show clear no-match message
+offline_demo_query_match_info,INFO,AHPND shrimp disease,No exact saved offline baseline query match
+offline_demo_query_match_info,INFO,lobster Khanh Hoa,No exact saved offline baseline query match
+offline_demo_query_match_info,INFO,shrimp farming Vietnam,No exact saved offline baseline query match
+offline_demo_query_match_info,INFO,biosecurity shrimp hatchery,No exact saved offline baseline query match
